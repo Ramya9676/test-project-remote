@@ -17,5 +17,5 @@ public with sharing class AccountBalanceUpdater {
         if (!accounts.isEmpty()) {
             update accounts;
         }
-    }
+    }//this is changed by ramya
 }
