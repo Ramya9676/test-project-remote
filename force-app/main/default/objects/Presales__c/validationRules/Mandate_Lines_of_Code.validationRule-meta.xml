@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mandate_Lines_of_Code</fullName>
+    <active>true</active>
+    <description>Mandate Lines of Code when the Product is &quot;CodeScan&quot;</description>
+    <errorConditionFormula>AND(  ISBLANK( Lines_of_Code__c ),ISPICKVAL( Product__c , &apos;CodeScan&apos;) )</errorConditionFormula>
+    <errorDisplayField>Lines_of_Code__c</errorDisplayField>
+    <errorMessage>Lines of Code is required when the Product selected is &quot;CodeScan&quot;. Please enter a numeric value for Lines of Code.</errorMessage>
+</ValidationRule>

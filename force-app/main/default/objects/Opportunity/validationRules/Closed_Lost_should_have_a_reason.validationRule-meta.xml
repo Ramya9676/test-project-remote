@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_Lost_should_have_a_reason</fullName>
+    <active>false</active>
+    <description>Whenever Opp is marked is Closed Lost then Closed Lost Reason should be populated</description>
+    <errorConditionFormula>AND(ISPICKVAL( StageName ,&apos;Closed Lost&apos;) , LEN ( Closed_Lost_Reason__c ) = 0 ) &amp;&amp; ($User.LastName  &lt;&gt; &quot;Schaapveld&quot;)</errorConditionFormula>
+    <errorDisplayField>Closed_Lost_Reason__c</errorDisplayField>
+    <errorMessage>Opportunity cannot be Closed Lost without a Closed Lost Reason. Please make sure Closed Lost Reason is not empty</errorMessage>
+</ValidationRule>

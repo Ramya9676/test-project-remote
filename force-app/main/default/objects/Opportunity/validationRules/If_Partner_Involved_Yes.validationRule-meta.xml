@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>If_Partner_Involved_Yes</fullName>
+    <active>false</active>
+    <description>Rule to mandate &apos;Partner Name&apos;, Partner Contact, and &apos;Partner Influence&apos; fields if &apos;Partner Involved&apos; is selected as &apos;Yes&apos;.</description>
+    <errorConditionFormula>AND(
+ISPICKVAL(Partner__c , &apos;Yes&apos;), 
+OR( 
+ISBLANK(Partner_Account__c),
+ISBLANK( Partner_Contact__c ),
+ISBLANK( TEXT(Partner_Influence__c)) 
+)
+)  &amp;&amp;  ($User.LastName &lt;&gt; &quot;Schaapveld&quot;)
+&amp;&amp;( TEXT(Partner_Oppty_Type__c) &lt;&gt;  &quot;Reseller&quot;)</errorConditionFormula>
+    <errorMessage>&apos;Partner Account&apos;, &apos;Partner Contact&apos;, and &apos;Partner Influence&apos; are required when &apos;Partner Involved?&apos; is selected as &apos;Yes&apos; and Partner Oppty Type is not &apos;Reseller&apos;</errorMessage>
+</ValidationRule>

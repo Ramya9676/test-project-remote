@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>ACLT11</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ACLT11</shortDescription>
+        <value>1</value>
+    </labels>
+    <labels>
+        <fullName>AR_customlabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AR_customlabel</shortDescription>
+        <value>This is created for AutoRabit</value>
+    </labels>
+    <labels>
+        <fullName>Aclt111</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Aclt111</shortDescription>
+        <value>1</value>
+    </labels>
+    <labels>
+        <fullName>AssignBtn</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AssignBtn</shortDescription>
+        <value>Assign</value>
+    </labels>
+    <labels>
+        <fullName>AssignSuccessSummary</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AssignSuccessSummary</shortDescription>
+        <value>The opportunities you selected and their attached open activities have successfully been reassigned.</value>
+    </labels>
+    <labels>
+        <fullName>AssignSuccessTitle</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AssignSuccessTitle</shortDescription>
+        <value>Reassignment successfully completed!</value>
+    </labels>
+    <labels>
+        <fullName>AssignToBtn</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AssignToBtn</shortDescription>
+        <value>Assign to:</value>
+    </labels>
+    <labels>
+        <fullName>AssigningBtn</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AssigningBtn</shortDescription>
+        <value>In progress ...</value>
+    </labels>
+    <labels>
+        <fullName>Automatic_Opportunity_Owner_id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Automatic Opportunity Owner id</shortDescription>
+        <value>0050K00000AxJbG</value>
+    </labels>
+    <labels>
+        <fullName>CLabel1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CLabel1</shortDescription>
+        <value>Test</value>
+    </labels>
+    <labels>
+        <fullName>CloseDateCriteriaLabel</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CloseDateCriteriaLabel</shortDescription>
+        <value>Closed Date</value>
+    </labels>
+    <labels>
+        <fullName>CriteriaSearchSection</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CriteriaSearchSection</shortDescription>
+        <value>Search with a search criteria</value>
+    </labels>
+    <labels>
+        <fullName>DisplayViewLabel</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DisplayViewLabel</shortDescription>
+        <value>Display:</value>
+    </labels>
+    <labels>
+        <fullName>EmailID_For_GA_and_Jira</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EmailID For GA and Jira</shortDescription>
+        <value>divya.t@autorabit.com</value>
+    </labels>
+    <labels>
+        <fullName>Error_Message_Invalid_Input</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>phone number entry</shortDescription>
+        <value>&quot;Please enter a valid phone number.&quot;</value>
+    </labels>
+    <labels>
+        <fullName>Error_Message_Invalid_Mobile</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Message Invalid Mobile</shortDescription>
+        <value>Enter valid mobile number.</value>
+    </labels>
+    <labels>
+        <fullName>Expense_Notification</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Expense_Notification</shortDescription>
+        <value>The expense exceeds the permitted limit.</value>
+    </labels>
+    <labels>
+        <fullName>HeaderText</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HeaderText</shortDescription>
+        <value>Mass reassign opportunities</value>
+    </labels>
+    <labels>
+        <fullName>JiraCallout_Password</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>JiraCallout Password</shortDescription>
+        <value>M9AtPFzpNL7vHjWDepg92CA8</value>
+    </labels>
+    <labels>
+        <fullName>JiraCallout_UserName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>JiraCallout UserName</shortDescription>
+        <value>Sreekanth.u@autorabit.com</value>
+    </labels>
+    <labels>
+        <fullName>L51</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CL50</shortDescription>
+        <value>1</value>
+    </labels>
+    <labels>
+        <fullName>LT1</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>LT1</shortDescription>
+        <value>1</value>
+    </labels>
+    <labels>
+        <fullName>Label_Nikhil</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label Nikhil</shortDescription>
+        <value>Hello , I am testing this custom label</value>
+    </labels>
+    <labels>
+        <fullName>NewViewLinkLabel</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>NewViewLinkLabel</shortDescription>
+        <value>Create new view</value>
+    </labels>
+    <labels>
+        <fullName>NoResultSummary</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>NoResultSummary</shortDescription>
+        <value>Please modify your search criteria</value>
+    </labels>
+    <labels>
+        <fullName>NoResultTitle</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>NoResultTitle</shortDescription>
+        <value>No results</value>
+    </labels>
+    <labels>
+        <fullName>NoViewSelection</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>NoViewSelection</shortDescription>
+        <value>- None -</value>
+    </labels>
+    <labels>
+        <fullName>Prerequisites_and_Conditions_for_ARM</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Prerequisites and Conditions for ARM</shortDescription>
+        <value>1. Creation of 3 Salesforce test sandboxes from Production.  &lt;br/&gt; &lt;br/&gt; 
+
+2. Creation of test repository with 3 branches – each branch to be in complete sync with each of the boxes registered in the previous step. &lt;br/&gt;&lt;br/&gt;
+
+3. Repository size to be less than 500 MB. &lt;br/&gt;&lt;br/&gt;
+
+4. Test data to be created in the sandboxes if Dataloader is a use case in the evaluation.&lt;br/&gt;&lt;br/&gt;
+
+5. If ALM integration is a use case, create test work items in your Salesforce project, which can be deleted post PoC. &lt;br/&gt;&lt;br/&gt;</value>
+    </labels>
+    <labels>
+        <fullName>Prerequisites_and_conditions_for_Vault</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Prerequisites and conditions for Vault</shortDescription>
+        <value>1. Select an existing sandbox or create a test sandbox (max. Volume = 500 GB). &lt;br/&gt; &lt;br/&gt;
+2. Time frame of PoC = 2 weeks. &lt;br/&gt; &lt;br/&gt;
+3. Managed packages must be reviewed prior to PoC initiation. &lt;br/&gt; &lt;br/&gt;
+4. Records with inactive users to be handled prior to backup. &lt;br/&gt; &lt;br/&gt;
+5. Auto sharing settings will not be restored. &lt;br/&gt; &lt;br/&gt;</value>
+    </labels>
+    <labels>
+        <fullName>ResultBlockTitle</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ResultBlockTitle</shortDescription>
+        <value>Results</value>
+    </labels>
+    <labels>
+        <fullName>Sample</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sample</shortDescription>
+        <value>Welcome</value>
+    </labels>
+    <labels>
+        <fullName>SearchBlockTitle</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SearchBlockTitle</shortDescription>
+        <value>Search opportunities</value>
+    </labels>
+    <labels>
+        <fullName>SearchBtn</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SearchBtn</shortDescription>
+        <value>Search</value>
+    </labels>
+    <labels>
+        <fullName>SearchingBtn</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SearchingBtn</shortDescription>
+        <value>Searching ...</value>
+    </labels>
+    <labels>
+        <fullName>Sprint_Number</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sprint Number</shortDescription>
+        <value>75,76,77,79,80,81</value>
+    </labels>
+    <labels>
+        <fullName>Stipend_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Stipend Error</shortDescription>
+        <value>Error</value>
+    </labels>
+    <labels>
+        <fullName>TestByLeela</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TestByLeela</shortDescription>
+        <value>TestByLeela</value>
+    </labels>
+    <labels>
+        <fullName>TestPenfed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TestPenfed</shortDescription>
+        <value>900</value>
+    </labels>
+    <labels>
+        <fullName>Token_Endpoint_for_GoogleAnalytics</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Token Endpoint for GoogleAnalytics</shortDescription>
+        <value>https://accounts.google.com/o/oauth2/token</value>
+    </labels>
+    <labels>
+        <fullName>TooManyRowsError</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>TooManyRowsError</shortDescription>
+        <value>The total number of open activities on the opportunities you selected is greater than the system can handle. Please reduce the number of opportunities to reassign</value>
+    </labels>
+    <labels>
+        <fullName>TooManyRowsSummary</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>TooManyRowsSummary</shortDescription>
+        <value>The view you selected returned more than 1000 rows. Only the 1000 first ones will be displayed</value>
+    </labels>
+    <labels>
+        <fullName>TooManyRowsTitle</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>TooManyRowsTitle</shortDescription>
+        <value>Too many rows returned</value>
+    </labels>
+    <labels>
+        <fullName>TotalFooterLabel</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>TotalFooterLabel</shortDescription>
+        <value>Number</value>
+    </labels>
+    <labels>
+        <fullName>URL_to_get_the_GAData</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>URL to get the GAData</shortDescription>
+        <value>https://www.googleapis.com/analytics/v3/data/ga?ids=ga:89714215</value>
+    </labels>
+    <labels>
+        <fullName>Upsell_Recordtype_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Upsell Recordtype Id</shortDescription>
+        <value>0120K0000015X1z</value>
+    </labels>
+    <labels>
+        <fullName>ViewSearchSection</fullName>
+        <categories>Opty Reassign Page</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ViewSearchSection</shortDescription>
+        <value>Search with a view</value>
+    </labels>
+    <labels>
+        <fullName>Zoho_Tickets_Start_Date</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Zoho Tickets Start Date</shortDescription>
+        <value>2020-04-01T00:00:00.000Z</value>
+    </labels>
+    <labels>
+        <fullName>error_numbers</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>error_numbers</shortDescription>
+        <value>numbers must be positive</value>
+    </labels>
+</CustomLabels>

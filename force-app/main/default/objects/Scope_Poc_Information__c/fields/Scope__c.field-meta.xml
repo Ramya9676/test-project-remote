@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scope__c</fullName>
+    <label>In Scope</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Version Control -EZ Commits</fullName>
+                <default>false</default>
+                <label>Version Control -EZ Commits</label>
+            </value>
+            <value>
+                <fullName>Data Loader</fullName>
+                <default>false</default>
+                <label>Data Loader</label>
+            </value>
+            <value>
+                <fullName>Sync Orgs</fullName>
+                <default>false</default>
+                <label>Sync Orgs</label>
+            </value>
+            <value>
+                <fullName>Selective Deployment</fullName>
+                <default>false</default>
+                <label>Selective Deployment</label>
+            </value>
+            <value>
+                <fullName>Test Automation</fullName>
+                <default>false</default>
+                <label>Test Automation</label>
+            </value>
+            <value>
+                <fullName>Automated Deployment</fullName>
+                <default>false</default>
+                <label>Automated Deployment</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

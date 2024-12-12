@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Verison Control --></label>
+    <name>Verison_Control__c</name>
+    <picklistValues>
+        <masterLabel>Version Control Not Used</masterLabel>
+        <translation><!-- Version Control Not Used --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Version Control Used</masterLabel>
+        <translation><!-- Version Control Used --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>arintern</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>arinterns</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- men --></label>
+        <name>men</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- women --></label>
+        <name>women</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- phone number cannot be more than 10 digits --></errorMessage>
+        <name>phone_number_validation</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campaign_Sub_Type__c</fullName>
+    <label>Campaign Sub Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Survey &amp; NPS</fullName>
+                <default>false</default>
+                <label>Survey &amp; NPS</label>
+            </value>
+            <value>
+                <fullName>Referrals</fullName>
+                <default>false</default>
+                <label>Referrals</label>
+            </value>
+            <value>
+                <fullName>Company Communication</fullName>
+                <default>false</default>
+                <label>Company Communication</label>
+            </value>
+            <value>
+                <fullName>G2</fullName>
+                <default>false</default>
+                <label>G2</label>
+            </value>
+            <value>
+                <fullName>Capterra</fullName>
+                <default>false</default>
+                <label>Capterra</label>
+            </value>
+            <value>
+                <fullName>Reddit</fullName>
+                <default>false</default>
+                <label>Reddit</label>
+            </value>
+            <value>
+                <fullName>Discord</fullName>
+                <default>false</default>
+                <label>Discord</label>
+            </value>
+            <value>
+                <fullName>LinkedIn</fullName>
+                <default>false</default>
+                <label>LinkedIn</label>
+            </value>
+            <value>
+                <fullName>Facebook</fullName>
+                <default>false</default>
+                <label>Facebook</label>
+            </value>
+            <value>
+                <fullName>Twitter</fullName>
+                <default>false</default>
+                <label>Twitter</label>
+            </value>
+            <value>
+                <fullName>Display Ad (ABM)</fullName>
+                <default>false</default>
+                <label>Display Ad (ABM)</label>
+            </value>
+            <value>
+                <fullName>Display Retarget (ABM)</fullName>
+                <default>false</default>
+                <label>Display Retarget (ABM)</label>
+            </value>
+            <value>
+                <fullName>Linkedin Audiences (ABM)</fullName>
+                <default>false</default>
+                <label>Linkedin Audiences (ABM)</label>
+            </value>
+            <value>
+                <fullName>Global Targeting (ABM)</fullName>
+                <default>false</default>
+                <label>Global Targeting (ABM)</label>
+            </value>
+            <value>
+                <fullName>Contextual Targeting (ABM)</fullName>
+                <default>false</default>
+                <label>Contextual Targeting (ABM)</label>
+            </value>
+            <value>
+                <fullName>Customize Targeting (ABM)</fullName>
+                <default>false</default>
+                <label>Customize Targeting (ABM)</label>
+            </value>
+            <value>
+                <fullName>Small Conference (1-350)</fullName>
+                <default>false</default>
+                <label>Small Conference (1-350)</label>
+            </value>
+            <value>
+                <fullName>Medium Conference (351-550)</fullName>
+                <default>false</default>
+                <label>Medium Conference (351-550)</label>
+            </value>
+            <value>
+                <fullName>Large Conference (551+)</fullName>
+                <default>false</default>
+                <label>Large Conference (551+)</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Customer Email Marketing</controllingFieldValue>
+            <valueName>Survey &amp; NPS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Email Marketing</controllingFieldValue>
+            <valueName>Referrals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Email Marketing</controllingFieldValue>
+            <valueName>Company Communication</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Conference</controllingFieldValue>
+            <valueName>Small Conference (1-350)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Conference</controllingFieldValue>
+            <valueName>Medium Conference (351-550)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Conference</controllingFieldValue>
+            <valueName>Large Conference (551+)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Forums (ex. Reddit, Discord)</controllingFieldValue>
+            <valueName>G2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Forums (ex. Reddit, Discord)</controllingFieldValue>
+            <valueName>Capterra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Forums (ex. Reddit, Discord)</controllingFieldValue>
+            <controllingFieldValue>PPC</controllingFieldValue>
+            <valueName>Reddit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Forums (ex. Reddit, Discord)</controllingFieldValue>
+            <valueName>Discord</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PPC</controllingFieldValue>
+            <valueName>LinkedIn</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PPC</controllingFieldValue>
+            <valueName>Facebook</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PPC</controllingFieldValue>
+            <valueName>Twitter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Teminus Display Ads (ABM)</controllingFieldValue>
+            <valueName>Display Ad (ABM)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Teminus Display Ads (ABM)</controllingFieldValue>
+            <valueName>Display Retarget (ABM)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Teminus Display Ads (ABM)</controllingFieldValue>
+            <valueName>Linkedin Audiences (ABM)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Teminus Display Ads (ABM)</controllingFieldValue>
+            <valueName>Global Targeting (ABM)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Teminus Display Ads (ABM)</controllingFieldValue>
+            <valueName>Contextual Targeting (ABM)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Teminus Display Ads (ABM)</controllingFieldValue>
+            <valueName>Customize Targeting (ABM)</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

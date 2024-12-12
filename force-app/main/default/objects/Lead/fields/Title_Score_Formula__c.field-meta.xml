@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Title_Score_Formula__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(CONTAINS(&quot;Salesforce::SFDC::SF::CRM::DevOps::&apos;CI/CD&apos;::&apos;Enterprise Applications&apos;::Architect::Release::Backup::&apos;Business Systems&apos;::nCino&quot;,Title), &quot;Gold&quot;, 
+&quot;Tin&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Title Score_Formula</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

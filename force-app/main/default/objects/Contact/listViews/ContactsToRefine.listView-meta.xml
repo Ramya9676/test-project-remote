@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ContactsToRefine</fullName>
+    <booleanFilter>(1 AND 2 AND 3) OR (3 AND 4)</booleanFilter>
+    <columns>MA_Review_Date__c</columns>
+    <columns>MA_Notes__c</columns>
+    <columns>SDR_Notes__c</columns>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.PHONE3</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>Contact_Stage__c</columns>
+    <columns>Lost_Reason__c</columns>
+    <columns>Call_Disposition__c</columns>
+    <columns>CONTACT.ADDRESS2_COUNTRY_CODE</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Contact_Stage__c</field>
+        <operation>equals</operation>
+        <value>Lost</value>
+    </filters>
+    <filters>
+        <field>Lost_Reason__c</field>
+        <operation>equals</operation>
+        <value>Bad Email,Bad Email &amp; Bad Phone,Bad Phone,Changed Organization</value>
+    </filters>
+    <filters>
+        <field>Delete_From_CRM__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Call_Disposition__c</field>
+        <operation>contains</operation>
+        <value>Bad Phone,Bad Mobile,No Number Present</value>
+    </filters>
+    <label>#ContactsToRefine</label>
+    <sharedTo>
+        <group>Market_Analysts_Group</group>
+        <group>Queue_Manager</group>
+    </sharedTo>
+</ListView>

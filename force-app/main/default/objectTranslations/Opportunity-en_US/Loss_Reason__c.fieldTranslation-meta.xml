@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Loss Reason --></label>
+    <name>Loss_Reason__c</name>
+    <picklistValues>
+        <masterLabel>Built in-house</masterLabel>
+        <translation><!-- Built in-house --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Duplicate</masterLabel>
+        <translation><!-- Duplicate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lost to Competitor</masterLabel>
+        <translation><!-- Lost to Competitor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Budget / Lost Funding</masterLabel>
+        <translation><!-- No Budget / Lost Funding --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Decision</masterLabel>
+        <translation><!-- No Decision --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Fit</masterLabel>
+        <translation><!-- Product Fit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technical Concerns</masterLabel>
+        <translation><!-- Technical Concerns --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unresponsive</masterLabel>
+        <translation><!-- Unresponsive --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

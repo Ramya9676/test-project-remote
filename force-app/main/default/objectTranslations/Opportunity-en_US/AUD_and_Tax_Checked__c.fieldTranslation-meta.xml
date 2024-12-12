@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Australian Companies must pay tax. And must be given the opportunity to pay in AUD. Check this box to confirm that process has been done --></help>
+    <label><!-- AUD and Tax Checked --></label>
+    <name>AUD_and_Tax_Checked__c</name>
+</CustomFieldTranslation>

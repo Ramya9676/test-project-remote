@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>nCino</fullName>
+        <default>false</default>
+        <label>nCino</label>
+    </customValue>
+    <customValue>
+        <fullName>Vlocity</fullName>
+        <default>false</default>
+        <label>Vlocity</label>
+    </customValue>
+    <customValue>
+        <fullName>Veeva</fullName>
+        <default>false</default>
+        <label>Veeva</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Apptus/Conga</fullName>
+        <default>false</default>
+        <label>Apptus/Conga</label>
+    </customValue>
+    <customValue>
+        <fullName>Q2/Cloud Lending</fullName>
+        <default>false</default>
+        <label>Q2/Cloud Lending</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Applicable</fullName>
+        <default>false</default>
+        <label>Not Applicable</label>
+    </customValue>
+    <customValue>
+        <fullName>Conga CPQ</fullName>
+        <default>false</default>
+        <label>Conga CPQ</label>
+    </customValue>
+    <customValue>
+        <fullName>SF CPQ</fullName>
+        <default>false</default>
+        <label>SF CPQ</label>
+    </customValue>
+    <masterLabel>Integration</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

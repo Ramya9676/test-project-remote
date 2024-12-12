@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Person who will be the super user for the customer. There is a filter limiting the options to a contact on the account on this opportunity or the partner account on this opportunity. If you cannot find the contact, check if it is on a duplicate account. This filter can be overridden in Salesforce Classic. --></help>
+    <label><!-- Technical Contact --></label>
+    <name>Technical_Contact__c</name>
+    <relationshipLabel><!-- Opportunities (Technical Contact) --></relationshipLabel>
+</CustomFieldTranslation>

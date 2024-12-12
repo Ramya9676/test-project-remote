@@ -6,7 +6,6 @@ public class TemperatureConverter {
         Double celsius = (fahrenheit - 32) * 5 / 9;
         return celsius;
     }
-    //commit from local
      //i created this hehe
     // Optional: You can also create a method to convert Celsius to Fahrenheit if needed
     public static Double celsiusToFahrenheit(Double celsius) {

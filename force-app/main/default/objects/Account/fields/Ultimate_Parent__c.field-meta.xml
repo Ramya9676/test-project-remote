@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ultimate_Parent__c</fullName>
+    <description>Top level parent account. Formula only handles six levels because recursion isn&apos;t an option and six is acceptable.</description>
+    <externalId>false</externalId>
+    <formula>IF(NOT(ISBLANK(Parent.Parent.Parent.Parent.Parent.Name)), Parent.Parent.Parent.Parent.Parent.Name,
+IF(NOT(ISBLANK(Parent.Parent.Parent.Parent.Name)), Parent.Parent.Parent.Parent.Name,
+IF(NOT(ISBLANK(Parent.Parent.Parent.Name)), Parent.Parent.Parent.Name,
+IF(NOT(ISBLANK(Parent.Parent.Name)), Parent.Parent.Name,
+IF(NOT(ISBLANK(Parent.Name)),Parent.Name,
+Name)))))</formula>
+    <inlineHelpText>Top level parent account.</inlineHelpText>
+    <label>Ultimate Parent</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

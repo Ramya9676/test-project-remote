@@ -2,19 +2,9 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Call</fullName>
+        <fullName>Phone Call</fullName>
         <default>false</default>
-        <label>Call</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Email</fullName>
-        <default>false</default>
-        <label>Email</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Send Letter</fullName>
-        <default>false</default>
-        <label>Send Letter</label>
+        <label>Phone Call</label>
     </standardValue>
     <standardValue>
         <fullName>Send Quote</fullName>
@@ -25,5 +15,55 @@
         <fullName>Other</fullName>
         <default>false</default>
         <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Discovery Call Scheduled</fullName>
+        <default>false</default>
+        <label>Discovery Call Scheduled</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Demo Schedueld</fullName>
+        <default>false</default>
+        <label>Demo Schedueld</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Referral from Partner</fullName>
+        <default>false</default>
+        <label>Referral from Partner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Send Email</fullName>
+        <default>false</default>
+        <label>Send Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Intro Call Scheduled</fullName>
+        <default>false</default>
+        <label>Intro Call Scheduled</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting</fullName>
+        <default>false</default>
+        <label>Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>LinkedIn InMail</fullName>
+        <default>false</default>
+        <label>LinkedIn InMail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>LinkedIn Message</fullName>
+        <default>false</default>
+        <label>LinkedIn Message</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Intro Call Follow-up</fullName>
+        <default>false</default>
+        <label>Intro Call Follow-up</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Demo Call Follow-up</fullName>
+        <default>false</default>
+        <label>Demo Call Follow-up</label>
     </standardValue>
 </StandardValueSet>

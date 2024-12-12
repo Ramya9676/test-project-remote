@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Playground Set --></label>
+    <name>Playground_Set__c</name>
+    <picklistValues>
+        <masterLabel>Playground Set 01</masterLabel>
+        <translation><!-- Playground Set 01 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Playground Set 02</masterLabel>
+        <translation><!-- Playground Set 02 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Playground Set 03</masterLabel>
+        <translation><!-- Playground Set 03 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Playground Set 04</masterLabel>
+        <translation><!-- Playground Set 04 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Playground Set 05</masterLabel>
+        <translation><!-- Playground Set 05 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Playground Set 06</masterLabel>
+        <translation><!-- Playground Set 06 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Playground Set 07</masterLabel>
+        <translation><!-- Playground Set 07 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Playground Set 08</masterLabel>
+        <translation><!-- Playground Set 08 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Playground Set 09</masterLabel>
+        <translation><!-- Playground Set 09 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Playground Set 10</masterLabel>
+        <translation><!-- Playground Set 10 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Playground Set 11</masterLabel>
+        <translation><!-- Playground Set 11 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Playground Set 12</masterLabel>
+        <translation><!-- Playground Set 12 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Playground Set 13</masterLabel>
+        <translation><!-- Playground Set 13 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Playground Set 14</masterLabel>
+        <translation><!-- Playground Set 14 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Playground Set 15</masterLabel>
+        <translation><!-- Playground Set 15 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Playground Set 16</masterLabel>
+        <translation><!-- Playground Set 16 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Playground Set 17</masterLabel>
+        <translation><!-- Playground Set 17 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Playground Set 18</masterLabel>
+        <translation><!-- Playground Set 18 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Playground Set 19</masterLabel>
+        <translation><!-- Playground Set 19 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Playground Set 20</masterLabel>
+        <translation><!-- Playground Set 20 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Playground Set 21</masterLabel>
+        <translation><!-- Playground Set 21 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Playground Set 22</masterLabel>
+        <translation><!-- Playground Set 22 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Playground Set 23</masterLabel>
+        <translation><!-- Playground Set 23 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Playground Set 24</masterLabel>
+        <translation><!-- Playground Set 24 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Playground Set 25</masterLabel>
+        <translation><!-- Playground Set 25 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>One_Time_Discount_Accting_Bin_Duration__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If there are any One Time Discount line items, set the accounting bin to match the product being discounted. For example on an opp where only Vault licenses were sold, we would need to discount Vault. Also confirm the duration of the one time discount matches the duration of the opp or at least won&apos;t cause negative ARR for the opp in the months it is active.</description>
+    <inlineHelpText>If there are any One Time Discount line items, set the accounting bin to match the product being discounted. For example on an opp where only Vault licenses were sold, we would need to discount Vault. Also confirm the duration of the one time discount matches the duration of the opp or at least won&apos;t cause negative ARR for the opp in the months it is active.</inlineHelpText>
+    <label>One Time Discount Accting Bin &amp; Duration</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

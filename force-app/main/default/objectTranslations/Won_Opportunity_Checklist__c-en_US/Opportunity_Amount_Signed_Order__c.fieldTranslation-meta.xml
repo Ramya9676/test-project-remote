@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Confirm the Opportunity Amount matches that on the signed order, of if it&apos;s a multi-year opp billed annually, make sure the annual amount matches. --></help>
+    <label><!-- Opportunity Amount = Signed Order --></label>
+    <name>Opportunity_Amount_Signed_Order__c</name>
+</CustomFieldTranslation>

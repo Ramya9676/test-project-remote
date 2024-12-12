@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SDR__c</fullName>
+    <label>SDR</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Amrita Sen</fullName>
+                <default>false</default>
+                <label>Amrita Sen</label>
+            </value>
+            <value>
+                <fullName>Arvind</fullName>
+                <default>false</default>
+                <label>Arvind Tripathy</label>
+            </value>
+            <value>
+                <fullName>Belinda Trevor</fullName>
+                <default>false</default>
+                <label>Belinda Trevor</label>
+            </value>
+            <value>
+                <fullName>Christina Blanco</fullName>
+                <default>false</default>
+                <label>Christina Blanco</label>
+            </value>
+            <value>
+                <fullName>Kainaz Dara Patel</fullName>
+                <default>false</default>
+                <label>Kainaz Dara Patel</label>
+            </value>
+            <value>
+                <fullName>Krishna Chaitanya</fullName>
+                <default>false</default>
+                <label>Krishna Chaitanya</label>
+            </value>
+            <value>
+                <fullName>Matt P</fullName>
+                <default>false</default>
+                <label>Matt P</label>
+            </value>
+            <value>
+                <fullName>Nick_Garcia</fullName>
+                <default>false</default>
+                <label>Nick Garcia</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Sherdah_Moca</fullName>
+                <default>false</default>
+                <label>Sherdah Moca</label>
+            </value>
+            <value>
+                <fullName>Shiva_Kumar_Gatla</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Shiva Kumar Gatla</label>
+            </value>
+            <value>
+                <fullName>Venkatesh T</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Venkatesh T</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

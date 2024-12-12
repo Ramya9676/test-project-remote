@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Document as-is process and/or time taken for it. --></help>
+    <label><!-- Current Challenges/Processes --></label>
+    <name>Current_Challenges_Processes__c</name>
+</CustomFieldTranslation>

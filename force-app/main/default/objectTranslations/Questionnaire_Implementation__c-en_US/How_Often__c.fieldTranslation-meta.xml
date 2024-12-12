@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- How often do you encounter errors? --></label>
+    <name>How_Often__c</name>
+</CustomFieldTranslation>

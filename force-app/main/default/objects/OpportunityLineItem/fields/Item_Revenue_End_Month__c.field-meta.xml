@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Item_Revenue_End_Month__c</fullName>
+    <formula>ADDMONTHS( Item_Revenue_Start_Month__c , IF(of_Months__c-1&gt;0,of_Months__c-1,0) )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Item Revenue End Month</label>
+    <required>false</required>
+    <type>Date</type>
+</CustomField>

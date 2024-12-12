@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Current IDE --></label>
+    <name>Current_IDE__c</name>
+    <picklistValues>
+        <masterLabel>IntelliJ</masterLabel>
+        <translation><!-- IntelliJ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Applicable</masterLabel>
+        <translation><!-- Not Applicable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VS Code</masterLabel>
+        <translation><!-- VS Code --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Welkin Suite</masterLabel>
+        <translation><!-- Welkin Suite --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

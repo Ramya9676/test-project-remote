@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_No_Of_Students__c</fullName>
+    <description>Total No of Students in the Class</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Total No of Students in the Class</inlineHelpText>
+    <label>Total No. Of Students</label>
+    <precision>3</precision>
+    <required>true</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

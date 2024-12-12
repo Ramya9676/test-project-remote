@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Revenue_Start_Month__c</fullName>
+    <description>First day of month where we will start recognizing revenue for a subscription. Having a revenue start and end date will ensure 12 month contracts that start mid month are allocated over 12 months rather than 13.</description>
+    <formula>DATE(YEAR(Subscription_Start_Date__c),MONTH(Subscription_Start_Date__c),1)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Revenue Start Month</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

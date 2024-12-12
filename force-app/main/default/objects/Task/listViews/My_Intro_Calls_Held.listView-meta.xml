@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Intro_Calls_Held</fullName>
+    <columns>TYPE</columns>
+    <columns>SUBJECT</columns>
+    <columns>WHO_NAME</columns>
+    <columns>WHAT_NAME</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>DUE_DATE</columns>
+    <columns>STATUS</columns>
+    <columns>COMPLETED_DATE_TIME</columns>
+    <columns>Next_Step__c</columns>
+    <columns>Reason__c</columns>
+    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>TYPE</field>
+        <operation>equals</operation>
+        <value>Intro Call</value>
+    </filters>
+    <filters>
+        <field>STATUS</field>
+        <operation>equals</operation>
+        <value>Completed,Cancel,Complete</value>
+    </filters>
+    <label>My Intro Calls Held</label>
+</ListView>

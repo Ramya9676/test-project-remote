@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "022e92a3-3704-463d-b8b9-1ee53a27959d",
+  "appPageId" : "9b8c3cf0-9551-4132-a92a-ff59b6cc6dd1",
+  "configurationTags" : [ ],
+  "devName" : "Pavannewpage__c",
+  "id" : "1dc0a9c7-4025-4788-818e-2f17eac0d3f2",
+  "label" : "Pavannewpage",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-pavannewpage",
+  "type" : "route",
+  "urlPrefix" : "pavannewpage"
+}

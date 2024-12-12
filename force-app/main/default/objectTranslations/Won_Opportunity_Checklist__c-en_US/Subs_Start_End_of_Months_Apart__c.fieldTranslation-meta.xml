@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Subscription Start Date and Subscription End Date are the # of Months for Subs Activation Apart, and if it&apos;s a renewal they follow the end date pattern from the last ending subscription period. --></help>
+    <label><!-- Subs Start/End # of Months Apart --></label>
+    <name>Subs_Start_End_of_Months_Apart__c</name>
+</CustomFieldTranslation>

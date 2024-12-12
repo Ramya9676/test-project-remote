@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Invoiced From AutoRABIT QBO --></label>
+    <name>Invoiced_From_AutoRABIT_QBO__c</name>
+</CustomFieldTranslation>

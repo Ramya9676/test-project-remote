@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- IT/Implementation Stage --></label>
+    <name>IT_Implementation_Stage__c</name>
+    <picklistValues>
+        <masterLabel>Discovery Call</masterLabel>
+        <translation><!-- Discovery Call --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Go-Live Prep</masterLabel>
+        <translation><!-- Go-Live Prep --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Go-Live Support</masterLabel>
+        <translation><!-- Go-Live Support --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implementation Closure</masterLabel>
+        <translation><!-- Implementation Closure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Infrastructure Pre-requisite check</masterLabel>
+        <translation><!-- Infrastructure Pre-requisite check --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Installation</masterLabel>
+        <translation><!-- Installation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Integrations with AR</masterLabel>
+        <translation><!-- Integrations with AR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Production On-boarding</masterLabel>
+        <translation><!-- Production On-boarding --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sanity Checks</masterLabel>
+        <translation><!-- Sanity Checks --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Training</masterLabel>
+        <translation><!-- Training --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

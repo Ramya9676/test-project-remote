@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Populates from respective Account. Edit the account to change it. --></help>
+    <label><!-- Integration --></label>
+    <name>Integration__c</name>
+</CustomFieldTranslation>

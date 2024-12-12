@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_for_SFDC_Validated_Date</fullName>
+    <active>true</active>
+    <description>Require SFDC Validated Date for &quot;Valid&quot;/&quot;Invalid&quot; SFDC Status.</description>
+    <errorConditionFormula>AND ( 
+OR ( ( TEXT(SFDC_Validation_Status__c) = &quot;Invalid&quot; ), ( TEXT( SFDC_Validation_Status__c) = &quot;Valid&quot; ) ),
+OR ( ISBLANK( SFDC_Status_Validated_On_Date__c ), ( Today() - SFDC_Status_Validated_On_Date__c  &lt; 1 ) )
+)</errorConditionFormula>
+    <errorDisplayField>SFDC_Status_Validated_On_Date__c</errorDisplayField>
+    <errorMessage>SFDC Status Validation on Date is required when SFDC Validation Status is &quot;Valid&quot;/&quot;Invalid&quot;.</errorMessage>
+</ValidationRule>

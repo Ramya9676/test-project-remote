@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Created_Month_as_Date__c</fullName>
+    <description>Date of first day of month when opportunity was created</description>
+    <formula>DATEVALUE(CreatedDate)  - DAY(DATEVALUE(CreatedDate)) + 1</formula>
+    <label>Created Month as Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

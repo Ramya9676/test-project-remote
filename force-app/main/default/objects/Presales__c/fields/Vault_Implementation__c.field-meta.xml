@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vault_Implementation__c</fullName>
+    <label>Vault Implementation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Product__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cloud</fullName>
+                <default>false</default>
+                <label>Cloud</label>
+            </value>
+            <value>
+                <fullName>Self-Hosted</fullName>
+                <default>false</default>
+                <label>Self-Hosted</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Vault</controllingFieldValue>
+            <valueName>Cloud</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vault</controllingFieldValue>
+            <valueName>Self-Hosted</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Enter the number of PS hours assigned to this Project --></help>
+    <label><!-- Budget (in Hrs) --></label>
+    <name>Budget_in_Hrs__c</name>
+</CustomFieldTranslation>

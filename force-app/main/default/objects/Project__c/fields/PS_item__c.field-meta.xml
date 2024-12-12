@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PS_item__c</fullName>
+    <label>PS Item</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Turn Key Continuous Delivery Set up with AutoRABIT</fullName>
+                <default>false</default>
+                <label>Turn Key Continuous Delivery Set up with AutoRABIT</label>
+            </value>
+            <value>
+                <fullName>Standard Professional Services - Annual Packs</fullName>
+                <default>false</default>
+                <label>Standard Professional Services - Annual Packs</label>
+            </value>
+            <value>
+                <fullName>Onsite AutoRABIT Customer Success Engineer</fullName>
+                <default>false</default>
+                <label>Onsite AutoRABIT Customer Success Engineer</label>
+            </value>
+            <value>
+                <fullName>Onsite AutoRABIT Customer Success Architect</fullName>
+                <default>false</default>
+                <label>Onsite AutoRABIT Customer Success Architect</label>
+            </value>
+            <value>
+                <fullName>PreSales Activity</fullName>
+                <default>false</default>
+                <label>PreSales Activity</label>
+            </value>
+            <value>
+                <fullName>CS Core</fullName>
+                <default>false</default>
+                <label>CS Core</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

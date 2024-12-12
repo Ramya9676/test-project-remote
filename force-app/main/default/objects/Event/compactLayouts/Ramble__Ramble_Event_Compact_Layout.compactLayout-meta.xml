@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ramble__Ramble_Event_Compact_Layout</fullName>
+    <fields>Subject</fields>
+    <fields>StartDateTime</fields>
+    <fields>EndDateTime</fields>
+    <fields>Ramble__Ramble_Chat_Type__c</fields>
+    <fields>Ramble__Ramble_Chat_URL__c</fields>
+    <fields>DurationInMinutes</fields>
+    <label>Ramble Event Compact Layout</label>
+</CompactLayout>

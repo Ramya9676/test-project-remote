@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Month__c</fullName>
+    <label>Month</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Jan 2020</fullName>
+                <default>false</default>
+                <label>Jan 2020</label>
+            </value>
+            <value>
+                <fullName>Feb 2020</fullName>
+                <default>false</default>
+                <label>Feb 2020</label>
+            </value>
+            <value>
+                <fullName>Mar 2020</fullName>
+                <default>false</default>
+                <label>Mar 2020</label>
+            </value>
+            <value>
+                <fullName>Apr 2020</fullName>
+                <default>false</default>
+                <label>Apr 2020</label>
+            </value>
+            <value>
+                <fullName>May 2020</fullName>
+                <default>false</default>
+                <label>May 2020</label>
+            </value>
+            <value>
+                <fullName>Jun 2020</fullName>
+                <default>false</default>
+                <label>Jun 2020</label>
+            </value>
+            <value>
+                <fullName>Jul 2020</fullName>
+                <default>false</default>
+                <label>Jul 2020</label>
+            </value>
+            <value>
+                <fullName>Aug 2020</fullName>
+                <default>false</default>
+                <label>Aug 2020</label>
+            </value>
+            <value>
+                <fullName>Sep 2020</fullName>
+                <default>false</default>
+                <label>Sep 2020</label>
+            </value>
+            <value>
+                <fullName>Oct 2020</fullName>
+                <default>false</default>
+                <label>Oct 2020</label>
+            </value>
+            <value>
+                <fullName>Nov 2020</fullName>
+                <default>false</default>
+                <label>Nov 2020</label>
+            </value>
+            <value>
+                <fullName>Dec 2020</fullName>
+                <default>false</default>
+                <label>Dec 2020</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

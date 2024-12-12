@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email Template to notify SDR Managers when a new lead is created in Salesforce</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>AutoRABIT_Samll_Dark_Horizontal_Logo_2021</letterhead>
+    <name>Notify SDR Managers when a new lead is created in SF</name>
+    <style>freeForm</style>
+    <subject>New Lead, &apos;{!Lead.Full_Name__c}&apos; added to our CRM</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NewLogo_ARR_Amount__c</fullName>
+    <description>We are using this field to forecast opportunity ARR amount for newlogo opportunities.</description>
+    <inlineHelpText>ARR Opportunity amount for New Logo Opportunities.</inlineHelpText>
+    <label>NewLogo ARR Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

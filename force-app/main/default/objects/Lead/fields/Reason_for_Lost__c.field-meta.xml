@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_Lost__c</fullName>
+    <description>Lead Reason when the Lead Stage is set to &quot;Lost&quot; for Lost Reasons other than &apos;Bad Email&apos;, &apos;Bad Phone&apos;, &apos;Bad Email &amp; Bad Phone&apos;, and &apos;Changed Organization&apos;. Created this field for reporting purposes.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lead Reason when the Lead Stage is set to &quot;Lost&quot; for Lost Reasons other than &apos;Bad Email&apos;, &apos;Bad Phone&apos;, &apos;Bad Email &amp; Bad Phone&apos;, and &apos;Changed Organization&apos;. Created this field for reporting purposes.</inlineHelpText>
+    <label>Reason for Lost</label>
+    <length>30</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

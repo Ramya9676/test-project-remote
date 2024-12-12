@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Account_Source_Required_Fields</fullName>
+    <active>true</active>
+    <description>Rule to mandate Partner Name, Partner Contact Details, and Partner Influence when Account Source is selected as &apos;Partner&apos;</description>
+    <errorConditionFormula>AND(
+ISPICKVAL(AccountSource,&apos;Partner&apos;),  
+RecordType.Name = &apos;General Account&apos;, 
+
+OR(
+ ISBLANK(  Partner_Account__c  ),
+ ISBLANK( Partner_Contact__c ),
+ TEXT( Partner_Influence__c ) = &apos;&apos;
+)
+)</errorConditionFormula>
+    <errorMessage>You have chosen &apos;Account Source&apos; as &apos;Partner&apos;. Partner Name, and Partner Contact are required for a &apos;Partner&apos; Account Source.</errorMessage>
+</ValidationRule>

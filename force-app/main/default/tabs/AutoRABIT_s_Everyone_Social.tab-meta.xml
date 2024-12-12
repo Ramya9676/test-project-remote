@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>AutoRABIT&apos;s Everyone Social App</description>
+    <frameHeight>600</frameHeight>
+    <hasSidebar>false</hasSidebar>
+    <label>AutoRABIT&apos;s Everyone Social</label>
+    <motif>Custom3: Sun</motif>
+    <url>https://autorabit.everyonesocial.app</url>
+    <urlEncodingKey>UTF-8</urlEncodingKey>
+</CustomTab>

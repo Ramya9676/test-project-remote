@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ARTraining</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ARTrainings</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- AR_recordtype --></label>
+        <name>AR_recordtype</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Should not be empty --></errorMessage>
+        <name>AR_valid</name>
+    </validationRules>
+</CustomObjectTranslation>

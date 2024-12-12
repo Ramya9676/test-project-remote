@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Dedicated/ Shared/ On Premise/ SAAS ? --></help>
+    <label><!-- Hosting Type --></label>
+    <name>Hosting_Type__c</name>
+    <picklistValues>
+        <masterLabel>Dedicated</masterLabel>
+        <translation><!-- Dedicated --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Premise</masterLabel>
+        <translation><!-- On Premise --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SaaS</masterLabel>
+        <translation><!-- SaaS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shared</masterLabel>
+        <translation><!-- Shared --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

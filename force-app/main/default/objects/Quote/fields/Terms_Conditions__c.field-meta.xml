@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Terms_Conditions__c</fullName>
+    <externalId>false</externalId>
+    <formula>&quot;1. Any customizations and services that are not an out-of-the box solution of AutoRABIT shall require additional professional services.&quot;+BR()+&quot;2. ** This quote is based on a direct purchase from the named customer above. Any payment processing charges, both direct and indirect, would be borne by the customer. &quot;+BR()+&quot;3. All travel and accommodation will be billed at actuals.&quot;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Terms &amp; Conditions</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

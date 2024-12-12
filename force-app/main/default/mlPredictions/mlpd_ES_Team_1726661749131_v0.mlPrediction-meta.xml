@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MLPredictionDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aiApplicationDeveloperName>ES_Team</aiApplicationDeveloperName>
+    <description>This is created as part of Testing UAT 24.3.2</description>
+    <developerName>mlpd_ES_Team_1726661749131_v0</developerName>
+    <masterLabel>ES Team</masterLabel>
+    <negativeExpression>
+        <filterName>f489a954-d0aa-4369-99f4-bf8942c36293</filterName>
+        <lhPredictionField>Account.Total_of_AR_Subs_Closed_Won__c</lhPredictionField>
+        <operation>GreaterThanOrEqual</operation>
+        <rhType>Number</rhType>
+        <rhValue>5</rhValue>
+    </negativeExpression>
+    <positiveExpression>
+        <filterName>121e5ad1-dea9-4143-9229-b09d7e0dc75a</filterName>
+        <lhPredictionField>Account.Total_of_AR_Subs_Closed_Won__c</lhPredictionField>
+        <operation>GreaterThanOrEqual</operation>
+        <rhType>Number</rhType>
+        <rhValue>5</rhValue>
+    </positiveExpression>
+    <pushbackField>Account.ES_Team__c</pushbackField>
+    <status>Draft</status>
+    <type>BinaryClassification</type>
+</MLPredictionDefinition>

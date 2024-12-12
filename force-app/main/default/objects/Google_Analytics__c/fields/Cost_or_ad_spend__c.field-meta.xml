@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cost_or_ad_spend__c</fullName>
+    <inlineHelpText>How much did you spend on creating and promoting the marketing campaign? Here, you can factor in costs including ad spend, hourly wages of people who put time into the project, or costs related to producing content.</inlineHelpText>
+    <label>Cost or ad spend</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

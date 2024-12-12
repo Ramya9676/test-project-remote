@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Module Test --></label>
+    <name>Module_Test__c</name>
+    <picklistValues>
+        <masterLabel>Module 1`</masterLabel>
+        <translation><!-- Module 1` --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Module 2</masterLabel>
+        <translation><!-- Module 2 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

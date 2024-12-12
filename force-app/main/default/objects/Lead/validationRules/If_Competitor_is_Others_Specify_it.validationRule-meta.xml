@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>If_Competitor_is_Others_Specify_it</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(INCLUDES(Competitor__c,&quot;Others&quot;),Other_Competitors__c==null,false)</errorConditionFormula>
+    <errorDisplayField>Other_Competitors__c</errorDisplayField>
+    <errorMessage>Other_Competitors__c field cannot be left blank</errorMessage>
+</ValidationRule>

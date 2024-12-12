@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mandate_Comments</fullName>
+    <active>true</active>
+    <description>Mandate Comments for INtro Call/Discovery Call/Demo Call.</description>
+    <errorConditionFormula>AND ( Share_Meeting_Notes__c = True, LEN( Description ) = 0)</errorConditionFormula>
+    <errorDisplayField>Description</errorDisplayField>
+    <errorMessage>Please enter Comments to share meeting notes.</errorMessage>
+</ValidationRule>

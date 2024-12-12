@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Third_Party_Services</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(  Was_any_3rd_party_services_used__c   = TRUE,
+OR(
+ISBLANK( Who_will_AutoRABIT_pay_for_item__c  ),
+ISBLANK(  X3rd_Party_Billing_Contact_Name__c  ),
+ISBLANK( Hourly_cost__c  ),
+ISBLANK(  Address__c   ),
+ISBLANK(  Billing_methodology_details__c  )))</errorConditionFormula>
+    <errorDisplayField>Was_any_3rd_party_services_used__c</errorDisplayField>
+    <errorMessage>Please fill all the details in 3rd party information</errorMessage>
+</ValidationRule>

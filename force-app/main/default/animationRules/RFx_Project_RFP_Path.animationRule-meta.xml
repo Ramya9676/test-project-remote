@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <animationFrequency>always</animationFrequency>
+    <developerName>RFx_Project_RFP_Path</developerName>
+    <isActive>true</isActive>
+    <masterLabel>RFx Project RFP Path</masterLabel>
+    <recordTypeContext>Custom</recordTypeContext>
+    <recordTypeName>RFP</recordTypeName>
+    <sobjectType>avnio__Project__c</sobjectType>
+    <targetField>avnio__Status__c</targetField>
+    <targetFieldChangeToValues>Submitted</targetFieldChangeToValues>
+</AnimationRule>

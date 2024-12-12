@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>1</activeVersionNumber>
+    <description>If the contact opts back in or Pardot Score &gt;= 50 Points, remove the Delete From CRM checkbox so they go back into the marketing funnel.</description>
+    <masterLabel>Remove Contacts from Delete From CRM list</masterLabel>
+</FlowDefinition>

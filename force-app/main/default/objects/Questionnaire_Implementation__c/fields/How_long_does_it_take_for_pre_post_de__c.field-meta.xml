@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_long_does_it_take_for_pre_post_de__c</fullName>
+    <inlineHelpText>How long does it take for pre/post deployment steps?</inlineHelpText>
+    <label>Time for pre/post deployment steps ?</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

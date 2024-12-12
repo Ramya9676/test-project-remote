@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mandate_Next_Step</fullName>
+    <active>true</active>
+    <description>Next Step is required when the Status is Completed or Canceled.</description>
+    <errorConditionFormula>OR(
+AND(
+ISPICKVAL(Status, &apos;Cancel&apos;),    ISBLANK(TEXT(Next_Step__c ) )
+),
+AND(
+ISPICKVAL(Status, &apos;Complete&apos;),    ISBLANK(TEXT(Next_Step__c ) )
+)
+)</errorConditionFormula>
+    <errorMessage>Please enter &apos;Next Step&apos; to save the record.</errorMessage>
+</ValidationRule>

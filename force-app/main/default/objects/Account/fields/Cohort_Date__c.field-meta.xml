@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cohort_Date__c</fullName>
+    <description>Minimum close date of a won opportunity for the account.</description>
+    <inlineHelpText>Minimum close date of a won opportunity for the account.</inlineHelpText>
+    <label>Cohort Date</label>
+    <summarizedField>Opportunity.CloseDate</summarizedField>
+    <summaryFilterItems>
+        <field>Opportunity.StageName</field>
+        <operation>equals</operation>
+        <value>Closed Won</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Opportunity.ARR_Last_Full_Month_of_Opp__c</field>
+        <operation>greaterThan</operation>
+        <value>0</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+    <summaryOperation>min</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

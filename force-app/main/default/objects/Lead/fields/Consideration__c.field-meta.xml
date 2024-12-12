@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Consideration__c</fullName>
+    <formula>IF(OR( TEXT(Status) = &quot;1-Lead&quot;, TEXT(Status) = &quot;2-Subscriber&quot;, TEXT(Status) = &quot;Attempted&quot;), FALSE, TRUE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Consideration</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Competitors --></label>
+    <name>Competitors__c</name>
+    <picklistValues>
+        <masterLabel>Bamboo</masterLabel>
+        <translation><!-- Bamboo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Capstorm</masterLabel>
+        <translation><!-- Capstorm --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Checkmarx</masterLabel>
+        <translation><!-- Checkmarx --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clayton</masterLabel>
+        <translation><!-- Clayton --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Codacy</masterLabel>
+        <translation><!-- Codacy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Copado</masterLabel>
+        <translation><!-- Copado --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Flosum</masterLabel>
+        <translation><!-- Flosum --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GRAX</masterLabel>
+        <translation><!-- GRAX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gearset</masterLabel>
+        <translation><!-- Gearset --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Homegrown</masterLabel>
+        <translation><!-- Homegrown --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jenkins</masterLabel>
+        <translation><!-- Jenkins --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jitterbit</masterLabel>
+        <translation><!-- Jitterbit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>None</masterLabel>
+        <translation><!-- None --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Odaseva</masterLabel>
+        <translation><!-- Odaseva --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OwnBackup</masterLabel>
+        <translation><!-- OwnBackup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PMD</masterLabel>
+        <translation><!-- PMD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Provar</masterLabel>
+        <translation><!-- Provar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Snapshot</masterLabel>
+        <translation><!-- Snapshot --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SonarQube</masterLabel>
+        <translation><!-- SonarQube --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

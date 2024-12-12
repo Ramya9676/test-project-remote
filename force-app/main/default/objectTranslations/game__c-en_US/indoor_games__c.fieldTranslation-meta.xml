@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- indoor games --></label>
+    <name>indoor_games__c</name>
+    <picklistValues>
+        <masterLabel>badminton</masterLabel>
+        <translation><!-- badminton --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>carrom</masterLabel>
+        <translation><!-- carrom --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>chess</masterLabel>
+        <translation><!-- chess --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>table tennis</masterLabel>
+        <translation><!-- table tennis --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>New_Logo_AutorRABIT</letterhead>
+    <name>Auto Notification on Renewal Automation</name>
+    <style>freeForm</style>
+    <subject>Auto Notification of Upcoming Renewal Opportunity</subject>
+    <textOnly>Hi {!Opportunity.OwnerFullName},
+
+Your upcoming Renewal &apos;{!Opportunity.Name}&apos; has been auto created in CRM for your reference and further action.
+
+Oppty Type
+
+{!Opportunity.Opportunity_Type_New_Renewal_Upsell__c}
+
+Account ID
+
+{!Account.AccountID__c}
+
+Account Name
+
+{!Opportunity.Account}
+
+Opportunity Name
+
+{!Opportunity.Name}
+
+Opp ID
+
+{!Opportunity.ID__c}
+
+Opp Amount
+
+{!Opportunity.Opportunity_Amount__c}
+
+Stage Name
+
+{!Opportunity.StageName}
+
+Products
+
+{!Opportunity.Products__c}
+
+Opportunity Source
+
+{!Opportunity.Partner_Sourced__c}
+
+SDR
+
+{!Opportunity.SDR__c}
+
+Click here to open the renewal opportunity in Salesforce
+
+In case of any clarifications, please reach out to CRMhelpdesk@autorabit.com
+
+
+Kind regards,
+CRM helpdesk</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Title_Score_Needed</fullName>
+    <columns>Title_Category_Score__c</columns>
+    <columns>Title_Category__c</columns>
+    <columns>LEAD.TITLE</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>Lead_Stage__c</columns>
+    <columns>LEAD.INDUSTRY</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Title_Category_Score__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>Lead_Stage__c</field>
+        <operation>equals</operation>
+        <value>Nurture,Open</value>
+    </filters>
+    <filters>
+        <field>Delete_From_CRM__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>#Title Category Score Needed</label>
+</ListView>

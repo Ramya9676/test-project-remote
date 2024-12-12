@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Assign SDR Owner as Contact Owner for all Contacts associated with &quot;Inbound&quot; Account Type Accounts.</description>
+    <masterLabel>Inbound Accounts - Assign SDR Owner as Contact Owner</masterLabel>
+</FlowDefinition>

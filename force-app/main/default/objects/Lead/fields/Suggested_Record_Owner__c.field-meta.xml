@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Suggested_Record_Owner__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASESAFEID(IF(algnlta__Matched_Account__r.SDR_Owner__r.IsActive = true &amp;&amp; NOT(ISBLANK(algnlta__Matched_Account__r.SDR_Owner__c)), algnlta__Matched_Account__r.SDR_Owner__c,
+IF(algnlta__Matched_Account__r.Owner.IsActive = true &amp;&amp; NOT(ISBLANK(algnlta__Matched_Account__r.OwnerId)), algnlta__Matched_Account__r.OwnerId,
+&apos;0050K00000BQdcGQAT&apos;)))</formula>
+    <label>Suggested Record Owner</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

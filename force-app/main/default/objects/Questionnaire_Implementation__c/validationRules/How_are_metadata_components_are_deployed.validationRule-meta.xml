@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_are_metadata_components_are_deployed</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL(How_are_metadata_components_being_dep__c,&apos;&apos;)</errorConditionFormula>
+    <errorDisplayField>How_are_metadata_components_being_dep__c</errorDisplayField>
+    <errorMessage>Please select how metadata components being deployed currently</errorMessage>
+</ValidationRule>

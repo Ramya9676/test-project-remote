@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_of_Product_Subs_Vault__c</fullName>
+    <label>No. of Product Subs (Vault)</label>
+    <summarizedField>OpportunityLineItem.Quantity</summarizedField>
+    <summaryFilterItems>
+        <field>OpportunityLineItem.ProductFamily__c</field>
+        <operation>equals</operation>
+        <value>Vault</value>
+    </summaryFilterItems>
+    <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>If(Max_Won_Subscription_End_Date__c &gt;= TODAY(),&quot;Current&quot;,
+If(Min_Won_Subscription_Start_Date__c&lt;= TODAY() &amp;&amp; of_Open_Opportunities__c &gt;0 &amp;&amp;  Min_Open_Opp_Start_Date__c  &lt;=  ADDMONTHS(Max_Won_Subscription_End_Date__c,2) ,&quot;Late Renewal&quot;,
+If(Min_Won_Subscription_Start_Date__c&lt; TODAY(),&quot;Churned&quot;,
+IF(Parent_of_Customer__c = true || Parent.Parent_of_Customer__c = true || Parent.Parent.Parent_of_Customer__c = true || Parent.Max_Won_Subscription_End_Date__c &gt;= TODAY() || (Parent.Min_Won_Subscription_Start_Date__c&lt;= TODAY() &amp;&amp; Parent.Open_Opps_Count__c &gt;0 &amp;&amp;  Parent.Min_Open_Opp_Start_Date__c  &lt;=  ADDMONTHS(Parent.Max_Won_Subscription_End_Date__c,2)), &quot;Prospect Related to Customer&quot;,
+If(of_Open_Opportunities__c&gt;0, &quot;Prospect with Open Opp&quot;,
+&quot;Prospect&quot;)
+)
+)
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Customer Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

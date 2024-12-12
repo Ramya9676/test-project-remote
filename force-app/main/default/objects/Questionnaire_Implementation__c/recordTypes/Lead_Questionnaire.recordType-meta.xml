@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Questionnaire</fullName>
+    <active>true</active>
+    <label>Lead Questionnaire</label>
+    <picklistValues>
+        <picklist>How_are_metadata_components_being_dep__c</picklist>
+        <values>
+            <fullName>Ant Scripts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CI Server %28Jenkins%2C Bamboo%2C CircleCI etc%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Change Sets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Select_use_VC__c</picklist>
+        <values>
+            <fullName>Check-in Code%2FDeclarative Changes to Version Control</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integrate work streams for GIT %28Merge complete branches%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Set up Production Baseline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Select_use__c</picklist>
+        <values>
+            <fullName>Check-in Code%2FDeclarative Changes to Version Control</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integrate work streams for GIT %28Merge complete branches%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Setting up Production Baseline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Select_use_cases_for_Deployment__c</picklist>
+        <values>
+            <fullName>Automated Deployments into Target Orgs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Selectively deploy metadata into Orgs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Synchronize Orgs</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Select_use_cases_for__c</picklist>
+        <values>
+            <fullName>Automated Deployments into Target Orgs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Selectively deploy metadata into Orgs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Synchronize Orgs</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Select_use_cases_to_evaluate_Dataloader__c</picklist>
+        <values>
+            <fullName>Incremental migration and data masking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Migration of parent%2Fchild dependencies w%2F filters</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scheduling jobs and run as post-deployment activity</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Select_use_cases_to_evaluate__c</picklist>
+        <values>
+            <fullName>Incremental migration and data masking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Migration of parent%2Fchild dependencies w%2F filters</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scheduling jobs and run as post-deployment activity</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Verison_Control__c</picklist>
+        <values>
+            <fullName>Version Control Not Used</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Version Control Used</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Version_Control__c</picklist>
+        <values>
+            <fullName>Not Used</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Used</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>What_is_the_current_team_structure_w__c</picklist>
+        <values>
+            <fullName>%23Admins</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%23Developers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%23Release Managers%2FArchitects</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Who are your primary SI Partners %28if any%29%3F</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>What_kind_of_testing_do_you_perform__c</picklist>
+        <values>
+            <fullName>Apex only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Automation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manual</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X1_Which_Version_Control_System_is_used__c</picklist>
+        <values>
+            <fullName>GIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SVN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TFS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X2_Which_tool_is_used_for_Project_Manage__c</picklist>
+        <values>
+            <fullName>HP ALM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JIRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rally</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

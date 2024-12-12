@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Select_use_cases_to_evaluate_Dataloader__c</fullName>
+    <inlineHelpText>Select use cases that you wish to evaluate Dataloader</inlineHelpText>
+    <label>Select use cases to evaluate_Dataloader</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Migration of parent/child dependencies w/ filters</fullName>
+                <default>false</default>
+                <label>Migration of parent/child dependencies w/ filters</label>
+            </value>
+            <value>
+                <fullName>Incremental migration and data masking</fullName>
+                <default>false</default>
+                <label>Incremental migration and data masking</label>
+            </value>
+            <value>
+                <fullName>Scheduling jobs and run as post-deployment activity</fullName>
+                <default>false</default>
+                <label>Scheduling jobs and run as post-deployment activity</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

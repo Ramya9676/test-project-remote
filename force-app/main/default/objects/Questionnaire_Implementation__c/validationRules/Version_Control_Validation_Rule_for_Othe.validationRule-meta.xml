@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Version_Control_Validation_Rule_for_Othe</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+     ISPICKVAL( X1_Which_Version_Control_System_is_used__c , &quot;Other&quot;),
+     ISBLANK(  Name_of_other_System__c  )
+)</errorConditionFormula>
+    <errorDisplayField>Name_of_other_System__c</errorDisplayField>
+    <errorMessage>Others is mandatory if none is selected above</errorMessage>
+</ValidationRule>

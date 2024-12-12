@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_CSM_Notes_based_on_Health_Status</fullName>
+    <active>true</active>
+    <description>Required CSM Notes when Health Status is &apos;Red&apos; or &apos;Yellow&apos;.</description>
+    <errorConditionFormula>AND 
+(
+LEN(CSM_Notes__c) = 0, 
+OR( TEXT(Health_Status__c) = &apos;Red&apos;, TEXT(Health_Status__c) = &apos;Yellow&apos; )
+)</errorConditionFormula>
+    <errorDisplayField>CSM_Notes__c</errorDisplayField>
+    <errorMessage>Enter CSM Notes when the Health Status is &apos;Red&apos; or &apos;Yellow&apos;.</errorMessage>
+</ValidationRule>

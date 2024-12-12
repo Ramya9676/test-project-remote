@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opt_Out_Available_Until__c</fullName>
+    <description>If the quote/order has an opt out clause, put the date here by which it must be exercised.</description>
+    <inlineHelpText>If the quote/order has an opt out clause, put the date here by which it must be exercised.</inlineHelpText>
+    <label>Opt Out Available Until</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If the quote/order has an opt out clause, put the date here by which it must be exercised. --></help>
+    <label><!-- Opt Out Available Until --></label>
+    <name>Opt_Out_Available_Until__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Attendees__c</fullName>
+    <description>Requested by Bennett 5/16/2022. Field to hold attendees names who are not in the Name field.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the names of people who attended the meeting who are not in the Name field.</inlineHelpText>
+    <label>Attendees</label>
+    <length>255</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

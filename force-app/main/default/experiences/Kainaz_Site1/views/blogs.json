@@ -1,0 +1,72 @@
+{
+  "appPageId" : "4e785da9-6167-4d35-b5ba-2704344302b4",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "8bfecdd0-3af4-4eca-a4b1-143f845efd59",
+  "label" : "blogs",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "c5fe4ed0-40ef-45f5-a7db-683f1d18aed0",
+          "columns" : [ {
+            "UUID" : "6942a715-9303-4b10-a0b8-2ffd06a097ae",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "c5fe4ed0-40ef-45f5-a7db-683f1d18aed0",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "showCreateNewCalendar" : false,
+            "showOtherCalendars" : false,
+            "showSidebar" : true
+          },
+          "componentName" : "forceCommunity:calendar",
+          "id" : "71721374-6d85-4222-bae1-fca12455e04c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "6942a715-9303-4b10-a0b8-2ffd06a097ae",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "17d5ac13-b47f-4fc3-804a-19aee035a310",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "blogs"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "a8774b99-b100-4241-98bb-e5dd3abbec79",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d663ce9e-51c1-4058-bf33-92944b505939",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-blogs"
+}

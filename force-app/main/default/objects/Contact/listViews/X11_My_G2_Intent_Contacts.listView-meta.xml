@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X11_My_G2_Intent_Contacts</fullName>
+    <booleanFilter>1 AND ((2 AND 3) OR 4 ) AND 5</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>Account.G2_Title_by_Product__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_Type__c</columns>
+    <columns>ACCOUNT.ACCOUNT_SOURCE</columns>
+    <columns>CONTACT.LEAD_SOURCE</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>Contact_Rating__c</columns>
+    <columns>X2_Subscriber_Status_In__c</columns>
+    <columns>Current_Sequence_Name__c</columns>
+    <columns>Contact_Status__c</columns>
+    <columns>CONTACT.EMAIL_OPT_OUT</columns>
+    <columns>CONTACT.LAST_ACTIVITY</columns>
+    <columns>CONTACT.CREATED_DATE</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Contact_Stage__c</field>
+        <operation>equals</operation>
+        <value>Open</value>
+    </filters>
+    <filters>
+        <field>CONTACT.LEAD_SOURCE</field>
+        <operation>equals</operation>
+        <value>Forum</value>
+    </filters>
+    <filters>
+        <field>Lead_Source_Type__c</field>
+        <operation>equals</operation>
+        <value>G2 - Intent</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.ACCOUNT_SOURCE</field>
+        <operation>equals</operation>
+        <value>Forum</value>
+    </filters>
+    <filters>
+        <field>Current_Sequence_Name__c</field>
+        <operation>notContain</operation>
+        <value>2022 Terminus/G2/ZI</value>
+    </filters>
+    <label>13. My G2 - Intent Contacts</label>
+</ListView>

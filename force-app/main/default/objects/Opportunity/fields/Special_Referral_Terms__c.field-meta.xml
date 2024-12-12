@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Special_Referral_Terms__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check this box if the Opportunity Referral Percentage is different from the Partner Account Referral Percentage.</description>
+    <inlineHelpText>Check this box if the Opportunity Referral Percentage is different from the Partner Account Referral Percentage.</inlineHelpText>
+    <label>Special Referral Terms</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

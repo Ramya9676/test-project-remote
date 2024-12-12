@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Wiz_Time_Logs</fullName>
+    <columns>NAME</columns>
+    <columns>Account_Customer__c</columns>
+    <columns>Start_Time__c</columns>
+    <columns>End_Time__c</columns>
+    <columns>Related_Project__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Duration__c</columns>
+    <columns>PS_Item__c</columns>
+    <columns>PS_Main_Item__c</columns>
+    <columns>PS_Sub_Item__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account_Customer__c</field>
+        <operation>contains</operation>
+        <value>Wiz</value>
+    </filters>
+    <label>Wiz Time Logs</label>
+    <language>en_US</language>
+</ListView>

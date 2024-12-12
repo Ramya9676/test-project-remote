@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Months_Subs_Activation_at_Closed_Won</fullName>
+    <active>false</active>
+    <errorConditionFormula>IsWon &amp;&amp; 
+ ISBLANK( of_Months_for_Subs_Activation__c )</errorConditionFormula>
+    <errorDisplayField>of_Months_for_Subs_Activation__c</errorDisplayField>
+    <errorMessage># of Months (for Subs Activation) must be populated at Closed Won Stage.</errorMessage>
+</ValidationRule>

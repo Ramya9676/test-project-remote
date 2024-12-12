@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email Template for sharing Meeting Notes</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>AutoRABIT_Samll_Dark_Horizontal_Logo_2021</letterhead>
+    <name>Meeting Notes Template</name>
+    <style>formalLetter</style>
+    <subject>@meetingnotes - {!Account.Name}</subject>
+    <textOnly>Hi Team,
+Please find the meeting notes details below:
+
+Account Name: {!Account.Name}
+
+Industry: {!Account.Industry}
+
+Product Type: {!Task.Product_Type__c}
+
+Number of Users: {!Task.Number_of_Users__c}
+
+Contact Name: {!Contact.Name}
+
+Contact Title: {!Contact.Title}
+
+Lead Source: {!Contact.LeadSource}
+
+Meeting Recap: {!Task.Description}
+
+What we taught them: {!Task.What_We_Taught_Them__c}
+
+Prospect Questions / Objections: {!Task.Prospect_Questions_Objections__c}
+
+Next Step: {!Task.Next_Step__c}
+
+CRM link for the record
+
+Please let me know if you have any questions.
+Thanks,
+{!User.Name}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

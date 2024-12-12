@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plan_of_Action__c</fullName>
+    <inlineHelpText>Please select applicable options.</inlineHelpText>
+    <label>Plan of Action</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Communication sent to AutoRABIT Management</fullName>
+                <default>false</default>
+                <label>Communication sent to AutoRABIT Management</label>
+            </value>
+            <value>
+                <fullName>Internal Stakeholders Meeting Scheduled</fullName>
+                <default>false</default>
+                <label>Internal Stakeholders Meeting Scheduled</label>
+            </value>
+            <value>
+                <fullName>Red Account planning with CS Leadership</fullName>
+                <default>false</default>
+                <label>Red Account planning with CS Leadership</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

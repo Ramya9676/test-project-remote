@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Log_Support_Ticket</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND ( ISPICKVAL(Log_a_Ticket_with__c, &apos;Support&apos;), Bypass_Validation_Rule__c = False,
+OR(
+ISBLANK( TEXT(Issue_Enhancement_in__c )),
+ISBLANK( Product_Instance__c ),
+ISBLANK( Module__c ),
+LEN ( Issue_Description__c ) = 0 ,
+ISBLANK( TEXT( Priority__c ))
+)
+)</errorConditionFormula>
+    <errorMessage>Please make sure you have entered &apos;Issue/Enhancement in&apos;, &apos;Product Instance&apos;, &apos;Module&apos;, &apos;Issue Description&apos;, and &apos;Priority&apos; to submit a ticket to the support.</errorMessage>
+</ValidationRule>

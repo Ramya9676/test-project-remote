@@ -1,0 +1,201 @@
+{
+  "appPageId" : "fbbacb7a-bec9-484d-82ad-b6bf235c0276",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "a457e559-db0b-4994-98ee-b615b252fd89",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "             <h1 style=\"text-align: center;\">                 <b style=\"font-size: 28px; color: #1e2443;\">Welcome!</b>             </h1>             <p style=\"text-align: center;\">                 <span style=\"font-size: 20px;\">Work on leads, register deals, and track progress with analytics.</span>             </p>        "
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "a1475022-acf3-4e10-a046-87ad15e36572",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f9e9e107-d417-47f1-81b9-7fde510bf712",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "canChangeSorting" : true,
+        "defaultFilter" : "",
+        "defaultSortOrderHomeFeed" : "Relevance",
+        "defaultSortOrderTopicsFeed" : "Relevance",
+        "feedDesign" : "DEFAULT",
+        "hasFeedSearch" : true,
+        "subjectId" : "{!recordId}",
+        "type" : "Record"
+      },
+      "componentName" : "forceCommunity:forceCommunityFeed",
+      "id" : "3695352d-cde6-4e30-9959-b7f816752ceb",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<p><span style=\"font-size: 72px;\">﻿</span>﻿<span style=\"font-size: 28px;\">﻿</span><img class=\"sfdcCbImage\" src=\"{!contentAsset.AutoRABIT_Notification_Banner.1}\" style=\"width: 885.375px; height: 222.146px;\" /></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "5ab6e9f2-803a-45bb-8778-d5dee3aacbd2",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "d01f26bd-00d5-4ad5-a465-01a7b237c675",
+          "activeTab" : "tab1",
+          "tabs" : [ {
+            "UUID" : "bbdd64a1-f132-4e80-92a0-8957db32682f",
+            "allowGuestUser" : true,
+            "locked" : false,
+            "seedComponents" : [ {
+              "attributes" : {
+                "type" : "Home"
+              },
+              "fqn" : "forceCommunity:forceCommunityFeed"
+            } ],
+            "tabKey" : "tab2",
+            "tabName" : "News & Updates"
+          }, {
+            "UUID" : "db8ad488-2fe6-483d-b472-1b6d5e02ca3f",
+            "allowGuestUser" : true,
+            "locked" : false,
+            "seedComponents" : [ {
+              "attributes" : { },
+              "fqn" : "forceCommunity:dashboard"
+            } ],
+            "tabKey" : "tab1",
+            "tabName" : "Business Summary"
+          } ],
+          "useOverflowMenu" : false
+        }
+      },
+      "componentName" : "forceCommunity:tabset",
+      "id" : "d01f26bd-00d5-4ad5-a465-01a7b237c675",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "canChangeSorting" : true,
+            "defaultFilter" : "AllQuestions",
+            "defaultSortOrderHomeFeed" : "Relevance",
+            "defaultSortOrderTopicsFeed" : "Relevance",
+            "feedDesign" : "DEFAULT",
+            "hasFeedSearch" : true,
+            "subjectId" : "{!recordId}",
+            "type" : "News"
+          },
+          "componentName" : "forceCommunity:forceCommunityFeed",
+          "id" : "cf95229c-d746-4115-99c5-4830f0478ecd",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "bbdd64a1-f132-4e80-92a0-8957db32682f",
+        "regionLabel" : "News & Updates",
+        "regionName" : "tab2",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "cacheAge" : 1440,
+            "filterName" : "",
+            "reportId" : "00O0K00000AAGIe",
+            "showRefreshButton" : true,
+            "showTitle" : false
+          },
+          "componentName" : "forceCommunity:reportChart",
+          "id" : "d46634b8-a980-4f74-a32f-140cbed7b1b0",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "db8ad488-2fe6-483d-b472-1b6d5e02ca3f",
+        "regionLabel" : "Business Summary",
+        "regionName" : "tab1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4039b0df-a0ba-42a4-9a20-8896db1ca1cc",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "MyOpportunities",
+        "layout" : "COMPACT",
+        "pageSize" : 5,
+        "scope" : "Opportunity",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "aea6cfdd-e444-4f3e-a6c9-297a68ed8bc1",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "OPEN",
+        "layout" : "COMPACT",
+        "pageSize" : 5,
+        "scope" : "Task",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "d33f0043-ed3a-4570-939c-455524567084",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "436f5ec2-6f1c-4298-837a-5270d3fe9e26",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "8460ddd6-f938-471d-94f5-03c44c2a6479",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "cbdd02b9-4ce1-4034-8405-49fa5900fb09",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e38d471d-e17f-412d-a999-f77a53470a8b",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}

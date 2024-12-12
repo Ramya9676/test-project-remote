@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Time_for_pre_post_deployment_steps</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK( How_long_does_it_take_for_pre_post_de__c )</errorConditionFormula>
+    <errorMessage>Please enter Time for pre/post deployment steps</errorMessage>
+</ValidationRule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_SF_environments_to_be_scanned</fullName>
+    <active>true</active>
+    <description>Mandate &quot;# SF environments to be scanned&quot; field when the Product is &quot;CodeScan&quot;.</description>
+    <errorConditionFormula>CONTAINS(TEXT(Product__c), &quot;CodeScan&quot;) &amp;&amp;  
+ISBLANK( SF_environments_to_be_scanned__c )</errorConditionFormula>
+    <errorDisplayField>SF_environments_to_be_scanned__c</errorDisplayField>
+    <errorMessage>&quot;# SF environments to be scanned&quot; is required when the Product is &quot;CodeScan&quot;.</errorMessage>
+</ValidationRule>

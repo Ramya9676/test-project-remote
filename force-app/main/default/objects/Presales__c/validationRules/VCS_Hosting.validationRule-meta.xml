@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VCS_Hosting</fullName>
+    <active>true</active>
+    <description>Mandate &quot;VCS Hosting&quot; field when the Product is &quot;CodeScan&quot; and Source Control is not &quot;Not Applicable&quot;.</description>
+    <errorConditionFormula>CONTAINS(TEXT(Product__c) , &quot;CodeScan&quot;) &amp;&amp;  NOT( TEXT(Source_Control__c ) = &quot;Not Applicable&quot;) &amp;&amp;
+ISBLANK( TEXT(  VCS_Hosting__c  ) )</errorConditionFormula>
+    <errorDisplayField>VCS_Hosting__c</errorDisplayField>
+    <errorMessage>VCS Hosting is required when the Product is &quot;CodeScan&quot; and Souce Control is not &quot;Not Applicable&quot;.</errorMessage>
+</ValidationRule>

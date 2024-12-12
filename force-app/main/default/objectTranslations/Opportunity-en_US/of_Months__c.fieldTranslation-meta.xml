@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Is this an annual subscription? If not, please enter the number of months --></help>
+    <label><!-- # of Months --></label>
+    <name>of_Months__c</name>
+</CustomFieldTranslation>

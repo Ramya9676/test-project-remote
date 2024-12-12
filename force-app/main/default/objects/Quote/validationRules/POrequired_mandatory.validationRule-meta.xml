@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>POrequired_mandatory</fullName>
+    <active>false</active>
+    <description>Making the Porequired field mandatory</description>
+    <errorConditionFormula>ISPICKVAL(PO_Required__c, &apos;NO&apos;)</errorConditionFormula>
+    <errorDisplayField>PO_Required__c</errorDisplayField>
+    <errorMessage>Please indicate whether a PO is required for this quote</errorMessage>
+</ValidationRule>

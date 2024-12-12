@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- PS Item --></label>
+    <name>PS_item__c</name>
+    <picklistValues>
+        <masterLabel>CS Core</masterLabel>
+        <translation><!-- CS Core --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Onsite AutoRABIT Customer Success Architect</masterLabel>
+        <translation><!-- Onsite AutoRABIT Customer Success Architect --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Onsite AutoRABIT Customer Success Engineer</masterLabel>
+        <translation><!-- Onsite AutoRABIT Customer Success Engineer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PreSales Activity</masterLabel>
+        <translation><!-- PreSales Activity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Standard Professional Services - Annual Packs</masterLabel>
+        <translation><!-- Standard Professional Services - Annual Packs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Turn Key Continuous Delivery Set up with AutoRABIT</masterLabel>
+        <translation><!-- Turn Key Continuous Delivery Set up with AutoRABIT --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

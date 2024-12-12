@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_IDE</fullName>
+    <active>true</active>
+    <description>Mandate &quot;Other IDE&quot; field when IDE is selected as &quot;Other&quot;.</description>
+    <errorConditionFormula>ISPICKVAL(  Current_IDE__c  , &quot;Other&quot;) &amp;&amp;  
+ISBLANK(  Other_IDE__c   )</errorConditionFormula>
+    <errorDisplayField>Other_IDE__c</errorDisplayField>
+    <errorMessage>Please enter &quot;Other IDE&quot; since the Current IDE is selected as &quot;Other&quot;.</errorMessage>
+</ValidationRule>

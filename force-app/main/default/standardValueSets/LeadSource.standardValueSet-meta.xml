@@ -1,29 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
-    <sorted>false</sorted>
+    <sorted>true</sorted>
     <standardValue>
-        <fullName>Web</fullName>
+        <fullName>ABM</fullName>
         <default>false</default>
-        <label>Web</label>
+        <label>ABM</label>
     </standardValue>
     <standardValue>
-        <fullName>Phone Inquiry</fullName>
+        <fullName>CodeScan</fullName>
         <default>false</default>
-        <label>Phone Inquiry</label>
+        <label>CodeScan</label>
     </standardValue>
     <standardValue>
-        <fullName>Partner Referral</fullName>
+        <fullName>Email</fullName>
         <default>false</default>
-        <label>Partner Referral</label>
+        <label>Email</label>
     </standardValue>
     <standardValue>
-        <fullName>Purchased List</fullName>
+        <fullName>Event</fullName>
         <default>false</default>
-        <label>Purchased List</label>
+        <label>Event</label>
     </standardValue>
     <standardValue>
-        <fullName>Other</fullName>
+        <fullName>Forum</fullName>
         <default>false</default>
-        <label>Other</label>
+        <label>Forum</label>
+    </standardValue>
+    <standardValue>
+        <fullName>General Marketing</fullName>
+        <default>false</default>
+        <label>General Marketing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Market Analysts</fullName>
+        <default>false</default>
+        <label>Market Analysts</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Outbound</fullName>
+        <default>false</default>
+        <label>Outbound</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Paid Sponsorship</fullName>
+        <default>false</default>
+        <label>Paid Sponsorship</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partner</fullName>
+        <default>false</default>
+        <label>Partner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PPC</fullName>
+        <default>false</default>
+        <label>PPC</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Referral</fullName>
+        <default>false</default>
+        <label>Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SEM</fullName>
+        <default>false</default>
+        <label>SEM</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SEO</fullName>
+        <default>false</default>
+        <label>SEO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Social Media</fullName>
+        <default>false</default>
+        <label>Social Media</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Syndication</fullName>
+        <default>false</default>
+        <label>Syndication</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Terminus</fullName>
+        <default>false</default>
+        <label>Terminus</label>
+    </standardValue>
+    <standardValue>
+        <fullName>To Be Determined</fullName>
+        <default>true</default>
+        <label>To Be Determined</label>
     </standardValue>
 </StandardValueSet>

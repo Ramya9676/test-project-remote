@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Which_tool_is_used_for_ALM</fullName>
+    <active>true</active>
+    <description>Validate Which tool is used for ALM ?  is not NULL</description>
+    <errorConditionFormula>ISPICKVAL( X2_Which_tool_is_used_for_Project_Manage__c , &apos;&apos;)</errorConditionFormula>
+    <errorDisplayField>X2_Which_tool_is_used_for_Project_Manage__c</errorDisplayField>
+    <errorMessage>Please select which tool is used for Project Management (ALM)</errorMessage>
+</ValidationRule>

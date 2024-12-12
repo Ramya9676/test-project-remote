@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AUD_and_Tax_Checked__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Australian Companies must pay tax. And must be given the opportunity to pay in AUD. Check this box to confirm that process has been done</inlineHelpText>
+    <label>AUD and Tax Checked</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

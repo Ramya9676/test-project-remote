@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>specify_other_Metadata_components</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL(  How_are_metadata_components_being_dep__c , &quot;Other&quot;),
+ISBLANK(Plz_specify_other_Metadata_components__c)
+)</errorConditionFormula>
+    <errorDisplayField>Plz_specify_other_Metadata_components__c</errorDisplayField>
+    <errorMessage>Please enter other Deployment type</errorMessage>
+</ValidationRule>

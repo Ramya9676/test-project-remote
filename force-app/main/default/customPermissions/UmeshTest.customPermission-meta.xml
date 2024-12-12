@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPermission xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Description of the Following is nothing</description>
+    <isLicensed>false</isLicensed>
+    <label>UmeshTest</label>
+    <requiredPermission>
+        <customPermission>Edit_Closed_Opps</customPermission>
+        <dependency>true</dependency>
+    </requiredPermission>
+</CustomPermission>

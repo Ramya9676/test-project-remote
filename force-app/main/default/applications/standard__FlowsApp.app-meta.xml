@@ -9,7 +9,30 @@
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
     <tabs>standard-FlowRecord</tabs>
-    <tabs>standard-FlowOrchestration</tabs>
+    <tabs>RL_Object__c</tabs>
+    <tabs>QObject1__c</tabs>
+    <tabs>Val_Dep_Test__c</tabs>
+    <tabs>AppDev__c</tabs>
+    <tabs>ARTraining__c</tabs>
+    <tabs>arintern__c</tabs>
+    <tabs>Expense__c</tabs>
+    <tabs>Instructor__c</tabs>
+    <tabs>game__c</tabs>
+    <tabs>vindyaobj__c</tabs>
+    <tabs>Export__c</tabs>
+    <tabs>Intern__c</tabs>
+    <tabs>Home__c</tabs>
+    <tabs>wire__c</tabs>
+    <tabs>DataloadJOb01__c</tabs>
+    <tabs>Ramya_ARM_Objects__c</tabs>
+    <tabs>Ganga_1__c</tabs>
+    <tabs>Fun__c</tabs>
+    <tabs>CI_Job_Baseline__c</tabs>
+    <tabs>school__c</tabs>
+    <tabs>trends__c</tabs>
+    <tabs>Institute__c</tabs>
+    <tabs>Sreekar_CI_Job_Test__c</tabs>
+    <tabs>Object01__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>FlowsApp_UtilityBar</utilityBar>
 </CustomApplication>

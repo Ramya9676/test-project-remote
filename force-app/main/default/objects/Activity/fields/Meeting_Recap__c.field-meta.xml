@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Meeting_Recap__c</fullName>
+    <inlineHelpText>Limited to 255 characters only.</inlineHelpText>
+    <label>Meeting Recap (limited to 255 char)</label>
+    <required>false</required>
+    <type>TextArea</type>
+</CustomField>

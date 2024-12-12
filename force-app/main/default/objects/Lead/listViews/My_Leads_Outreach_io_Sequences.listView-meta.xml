@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Leads_Outreach_io_Sequences</fullName>
+    <columns>Current_Sequence_Name__c</columns>
+    <columns>Current_Sequence_Status__c</columns>
+    <columns>Current_Sequence_User_Name__c</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>Lead_Stage__c</columns>
+    <columns>LEAD.RATING</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>LEAD.LAST_ACTIVITY</columns>
+    <columns>LEAD.LAST_UPDATE</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Current_Sequence_Name__c</field>
+        <operation>notEqual</operation>
+        <value>,None</value>
+    </filters>
+    <label>My Leads in Outreach Sequences</label>
+</ListView>

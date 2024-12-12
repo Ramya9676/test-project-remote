@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Duration_of_Services__c</fullName>
+    <defaultValue>12</defaultValue>
+    <description>Duration of services in months</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Duration of services in months</inlineHelpText>
+    <label>Duration of Services (in Months)</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

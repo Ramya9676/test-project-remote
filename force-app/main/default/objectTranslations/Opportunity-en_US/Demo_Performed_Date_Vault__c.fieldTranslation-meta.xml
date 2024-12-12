@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Demo Performed Date (Vault) --></label>
+    <name>Demo_Performed_Date_Vault__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AR_recordtype</fullName>
+    <active>true</active>
+    <label>AR_recordtype</label>
+    <picklistValues>
+        <picklist>ARTool__c</picklist>
+        <values>
+            <fullName>ARM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Codescan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vault</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Duration__c</picklist>
+        <values>
+            <fullName>1month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3months</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6months</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

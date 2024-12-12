@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>High_Expense_list</fullName>
+    <columns>NAME</columns>
+    <columns>Amount__c</columns>
+    <columns>Category__c</columns>
+    <columns>Date__c</columns>
+    <columns>Description__c</columns>
+    <columns>RECORDTYPE</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Amount__c</field>
+        <operation>greaterThan</operation>
+        <value>USD 1000</value>
+    </filters>
+    <label>High Expense list</label>
+</ListView>

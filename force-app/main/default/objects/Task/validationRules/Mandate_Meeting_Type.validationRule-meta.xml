@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mandate_Meeting_Type</fullName>
+    <active>true</active>
+    <errorConditionFormula>TEXT(Type) = &quot;Meeting&quot; &amp;&amp;   ISBLANK(TEXT( Meeting_Type__c))</errorConditionFormula>
+    <errorDisplayField>Meeting_Type__c</errorDisplayField>
+    <errorMessage>Meeting Type is required when Type is &quot;Meeting&quot;.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Test_Automation</fullName>
+    <active>true</active>
+    <description>Mandate &quot;Test Automation&quot; field when the Product is &quot;ARM&quot;.</description>
+    <errorConditionFormula>CONTAINS(TEXT(Product__c) , &quot;ARM&quot;) &amp;&amp;  
+ISBLANK( TEXT(  Test_Automation__c ) )</errorConditionFormula>
+    <errorDisplayField>Test_Automation__c</errorDisplayField>
+    <errorMessage>&quot;Test Automation&quot; is required when the Product is &quot;ARM&quot;.</errorMessage>
+</ValidationRule>

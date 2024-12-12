@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- ALM --></label>
+    <name>ALM__c</name>
+    <picklistValues>
+        <masterLabel>Azure Boards (VSTS)</masterLabel>
+        <translation><!-- Azure Boards (VSTS) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CA Agile (Rally)</masterLabel>
+        <translation><!-- CA Agile (Rally) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IBMRTC</masterLabel>
+        <translation><!-- IBMRTC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jira</masterLabel>
+        <translation><!-- Jira --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VersionOne</masterLabel>
+        <translation><!-- VersionOne --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

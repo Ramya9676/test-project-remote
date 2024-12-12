@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- How are metadata components being deployed currently? --></help>
+    <label><!-- How are metadata components are deployed --></label>
+    <name>How_are_metadata_components_being_dep__c</name>
+    <picklistValues>
+        <masterLabel>Ant Scripts</masterLabel>
+        <translation><!-- Ant Scripts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CI Server (Jenkins, Bamboo, CircleCI etc.)</masterLabel>
+        <translation><!-- CI Server (Jenkins, Bamboo, CircleCI etc.) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Change Sets</masterLabel>
+        <translation><!-- Change Sets --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

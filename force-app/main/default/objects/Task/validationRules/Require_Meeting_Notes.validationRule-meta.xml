@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Meeting_Notes</fullName>
+    <active>true</active>
+    <errorConditionFormula>TEXT(Type) = &quot;Meeting&quot;   &amp;&amp;   (LEN( Meeting_Recap__c ) &lt;= 0) &amp;&amp;  ((TEXT( Status ) = &quot;Complete&quot; )  ||   (TEXT( Status ) = &quot;Completed&quot; ))</errorConditionFormula>
+    <errorDisplayField>Meeting_Recap__c</errorDisplayField>
+    <errorMessage>Please enter &quot;Meeting Recap&quot; in order to complete the Task.</errorMessage>
+</ValidationRule>

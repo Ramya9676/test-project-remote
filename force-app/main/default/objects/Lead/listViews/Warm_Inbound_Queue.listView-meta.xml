@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Warm_Inbound_Queue</fullName>
+    <booleanFilter>1 AND 2</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.RATING</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>Lead_Source_Type__c</columns>
+    <columns>LEAD.STATE_CODE</columns>
+    <columns>LEAD.COUNTRY_CODE</columns>
+    <columns>pi__campaign__c</columns>
+    <columns>pi__conversion_object_name__c</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>startsWith</operation>
+        <value>Inactive,Inbound</value>
+    </filters>
+    <filters>
+        <field>LEAD.RATING</field>
+        <operation>equals</operation>
+        <value>Warm</value>
+    </filters>
+    <label>#Warm Inbound Queue</label>
+    <sharedTo>
+        <group>Queue_Manager</group>
+    </sharedTo>
+</ListView>

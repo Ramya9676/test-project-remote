@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Terminus_Domain__c</fullName>
+    <inlineHelpText>Field created for Terminus Chat Integration.</inlineHelpText>
+    <label>Terminus_Domain</label>
+    <required>false</required>
+    <type>Url</type>
+</CustomField>

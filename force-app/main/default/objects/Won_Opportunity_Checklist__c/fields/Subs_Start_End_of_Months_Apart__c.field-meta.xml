@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subs_Start_End_of_Months_Apart__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Subscription Start Date and Subscription End Date are the # of Months for Subs Activation Apart, and if it&apos;s a renewal they follow the end date pattern from the last ending subscription period.</description>
+    <inlineHelpText>Subscription Start Date and Subscription End Date are the # of Months for Subs Activation Apart, and if it&apos;s a renewal they follow the end date pattern from the last ending subscription period.</inlineHelpText>
+    <label>Subs Start/End # of Months Apart</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

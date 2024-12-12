@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Short Term Goals with current RLM --></label>
+    <name>Short_Term_Goals_with_current_RLM__c</name>
+</CustomFieldTranslation>

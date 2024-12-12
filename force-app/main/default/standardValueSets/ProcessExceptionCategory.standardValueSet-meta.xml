@@ -27,8 +27,8 @@
         <label>Invoicing</label>
     </standardValue>
     <standardValue>
-        <fullName>Place Order</fullName>
+        <fullName>注文実行</fullName>
         <default>false</default>
-        <label>Place Order</label>
+        <label>注文実行</label>
     </standardValue>
 </StandardValueSet>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Any ETL tool currently being used? --></help>
+    <label><!-- Any ETL tool currently being used? --></label>
+    <name>X1_Any_ETL_tool_currently_being_used__c</name>
+</CustomFieldTranslation>

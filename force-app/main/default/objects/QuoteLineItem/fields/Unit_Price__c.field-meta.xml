@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unit_Price__c</fullName>
+    <description>Created this field to show on the Quote Template. Becasue field name could not be renamed from &apos;Sales price&apos; to Unit Price on the quote template.</description>
+    <formula>UnitPrice</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Sales price</inlineHelpText>
+    <label>Unit Price</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ALM_Tool_Other_Validation_Rule</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+     ISPICKVAL( X2_Which_tool_is_used_for_Project_Manage__c , &quot;Other&quot;),
+     ISBLANK( Plz_specify_other_ALM__c  )
+)</errorConditionFormula>
+    <errorDisplayField>Plz_specify_other_ALM__c</errorDisplayField>
+    <errorMessage>Please specify other (ALM)</errorMessage>
+</ValidationRule>

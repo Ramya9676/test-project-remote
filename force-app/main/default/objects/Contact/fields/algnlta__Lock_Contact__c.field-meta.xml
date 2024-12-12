@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>algnlta__Lock_Contact__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, the contact will be &quot;locked&quot; and it&apos;s email domain will not be summarized on the account.</description>
+    <inlineHelpText>If checked, the contact will be &quot;locked&quot; and it&apos;s email domain will not be summarized on the account.</inlineHelpText>
+    <label>Lock Contact</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

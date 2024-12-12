@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Engagement_Stage__c</fullName>
+    <description>Previously &quot;ABM Stage&quot; that we changed in in order to filter the &quot;AE Account Engagement Performance Dashboard:</description>
+    <externalId>false</externalId>
+    <formula>IF(OR(ISPICKVAL(Account_Type__c, &quot;ABM&quot;), ISPICKVAL(Account_Type__c, &quot;Outbound&quot;), ISPICKVAL(Account_Type__c, &quot;Inbound&quot;)),
+	IF(OR( Customer_Status__c = &quot;Current&quot;, Customer_Status__c = &quot;Late Renewal&quot; ), &quot;5-Expand&quot;,
+	IF(of_Open_Opportunities__c &gt;= 1, &quot;4-Landed&quot;,
+	IF(!ISBLANK(Pause_Marketing_Until_Date__c) &amp;&amp; (TODAY()-Pause_Marketing_Until_Date__c &lt;180), &quot;6-Pause&quot;,
+	IF(AND(!ISBLANK(terminus_mktg__LastAdClickDate__c), (TODAY()-terminus_mktg__LastAdClickDate__c&lt;=90),  terminus_mktg__AdClicks90DaySnapshot__c &gt; 2) || AND(!ISBLANK(terminus_mktg__LastVisitDate__c), TODAY()-terminus_mktg__LastVisitDate__c&lt;=90,  terminus_mktg__WebVisits30DaySnapshot__c &gt; 2), &quot;3-Engaged&quot;,
+	IF(AND(terminus_mktg__AdImpressions30DaySnapshot__c&gt;0,  (TODAY()-terminus_mktg__LastAdImpressionDate__c &lt;= 90)) ,&quot;2-Targeted&quot;,
+	&quot;0-None&quot;)
+)	
+)
+)
+),
+&quot;1-Not Targeted&quot;)</formula>
+    <inlineHelpText>Only for &quot;ABM&quot;, &quot;Outbound&quot;, or &quot;Inbound&quot; Account Type Accounts.</inlineHelpText>
+    <label>Engagement Stage</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

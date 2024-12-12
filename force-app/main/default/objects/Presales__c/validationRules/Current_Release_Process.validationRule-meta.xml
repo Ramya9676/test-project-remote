@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Release_Process</fullName>
+    <active>true</active>
+    <description>Mandate &quot;Current Release Process&quot; field when the Product is &quot;ARM&quot; or  &quot;RBM&quot; or &quot;Mulesoft&quot;.</description>
+    <errorConditionFormula>( CONTAINS(TEXT(Product__c) , &quot;ARM&quot;) || CONTAINS(TEXT(Product__c) , &quot;RBM&quot;) || CONTAINS(TEXT(Product__c) , &quot;Mulesoft&quot;)) &amp;&amp;  
+LEN( Current_Release_Process__c  ) &lt;= 0</errorConditionFormula>
+    <errorDisplayField>Current_Release_Process__c</errorDisplayField>
+    <errorMessage>Current Release Process is required when the Product is &quot;ARM&quot; or &quot;RBM&quot; or &quot;Mulesoft&quot;.</errorMessage>
+</ValidationRule>

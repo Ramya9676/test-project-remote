@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Bennett HC</fullName>
+        <default>false</default>
+        <label>Bennett HC</label>
+    </customValue>
+    <customValue>
+        <fullName>EBA Webinar Prospect</fullName>
+        <default>false</default>
+        <label>EBA Webinar Prospect</label>
+    </customValue>
+    <customValue>
+        <fullName>Trailblazer Vishnu</fullName>
+        <default>false</default>
+        <label>Trailblazer Vishnu</label>
+    </customValue>
+    <customValue>
+        <fullName>Strategic Partner</fullName>
+        <default>false</default>
+        <label>Strategic Partner</label>
+    </customValue>
+    <customValue>
+        <fullName>AppExchange Partner</fullName>
+        <default>false</default>
+        <label>AppExchange Partner</label>
+    </customValue>
+    <customValue>
+        <fullName>General</fullName>
+        <default>false</default>
+        <label>General</label>
+    </customValue>
+    <customValue>
+        <fullName>Blue list - Denmark</fullName>
+        <default>false</default>
+        <label>Blue list - Denmark</label>
+    </customValue>
+    <customValue>
+        <fullName>CodeScan EMEA</fullName>
+        <default>false</default>
+        <label>CodeScan EMEA</label>
+    </customValue>
+    <customValue>
+        <fullName>Trailblazer</fullName>
+        <default>false</default>
+        <label>Trailblazer</label>
+    </customValue>
+    <customValue>
+        <fullName>CodeScan EMEA - A</fullName>
+        <default>false</default>
+        <label>CodeScan EMEA - A</label>
+    </customValue>
+    <customValue>
+        <fullName>Unwanted</fullName>
+        <default>false</default>
+        <label>Unwanted</label>
+    </customValue>
+    <customValue>
+        <fullName>Mini list D1</fullName>
+        <default>false</default>
+        <label>Mini list D1</label>
+    </customValue>
+    <customValue>
+        <fullName>Revalidated Q4 2021</fullName>
+        <default>false</default>
+        <label>Revalidated Q4 2021</label>
+    </customValue>
+    <customValue>
+        <fullName>CS Q4- Mini List 1</fullName>
+        <default>false</default>
+        <label>CS Q4- Mini List 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Focus 1 Belinda</fullName>
+        <default>false</default>
+        <label>Focus 1 Belinda</label>
+    </customValue>
+    <customValue>
+        <fullName>Focus 2 Belinda</fullName>
+        <default>false</default>
+        <label>Focus 2 Belinda</label>
+    </customValue>
+    <customValue>
+        <fullName>ABM to Outbound</fullName>
+        <default>false</default>
+        <label>ABM to Outbound</label>
+    </customValue>
+    <customValue>
+        <fullName>Outbound to Inbound</fullName>
+        <default>false</default>
+        <label>Outbound to Inbound</label>
+    </customValue>
+    <customValue>
+        <fullName>ABM to Inbound</fullName>
+        <default>false</default>
+        <label>ABM to Inbound</label>
+    </customValue>
+    <customValue>
+        <fullName>Surging Sequence</fullName>
+        <default>false</default>
+        <label>Surging Sequence</label>
+    </customValue>
+    <customValue>
+        <fullName>DF22 tues hh</fullName>
+        <default>false</default>
+        <label>DF22 tues hh</label>
+    </customValue>
+    <customValue>
+        <fullName>DF22 wed hh</fullName>
+        <default>false</default>
+        <label>DF22 wed hh</label>
+    </customValue>
+    <customValue>
+        <fullName>DF22 both hh</fullName>
+        <default>false</default>
+        <label>DF22 both hh</label>
+    </customValue>
+    <customValue>
+        <fullName>DF22 breakfast</fullName>
+        <default>false</default>
+        <label>DF22 breakfast</label>
+    </customValue>
+    <customValue>
+        <fullName>2-subscriber</fullName>
+        <default>false</default>
+        <label>2-subscriber</label>
+    </customValue>
+    <customValue>
+        <fullName>4-mql</fullName>
+        <default>false</default>
+        <label>4-mql</label>
+    </customValue>
+    <customValue>
+        <fullName>Chat</fullName>
+        <default>false</default>
+        <label>Chat</label>
+    </customValue>
+    <masterLabel>Tags</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

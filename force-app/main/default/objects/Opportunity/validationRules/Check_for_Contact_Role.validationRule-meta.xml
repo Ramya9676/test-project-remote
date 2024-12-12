@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_for_Contact_Role</fullName>
+    <active>false</active>
+    <description>Ensure the primary contact role is added to the opportunity record.</description>
+    <errorConditionFormula>ISBLANK(ContactId) &amp;&amp; ( NOT( ISPICKVAL(StageName, &quot;Qualify&quot;)) )</errorConditionFormula>
+    <errorMessage>No Primary Contact Exists for this opportunity. Please go to the Contact Roles and select a primary contact. If this is a new Opportunity, use stage Qualify. You will be required to add a Contact Role before moving the opportunity to another stage.</errorMessage>
+</ValidationRule>

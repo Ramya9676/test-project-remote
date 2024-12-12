@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mandate_Reason</fullName>
+    <active>true</active>
+    <description>Reason is required when the &apos;Next Step&apos; is &apos;Back to the Marketing&apos;.</description>
+    <errorConditionFormula>AND(ISPICKVAL(  Next_Step__c , &apos;Back to the Marketing&apos;) ,  ISBLANK(TEXT( Reason__c ))
+)</errorConditionFormula>
+    <errorMessage>Please enter &apos;Reason&apos; to save the record.</errorMessage>
+</ValidationRule>

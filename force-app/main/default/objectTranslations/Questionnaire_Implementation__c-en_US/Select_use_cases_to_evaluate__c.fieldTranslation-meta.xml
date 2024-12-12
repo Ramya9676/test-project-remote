@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select use cases that you wish to evaluate: --></help>
+    <label><!-- Select use cases to evaluate ? --></label>
+    <name>Select_use_cases_to_evaluate__c</name>
+    <picklistValues>
+        <masterLabel>Incremental migration and data masking</masterLabel>
+        <translation><!-- Incremental migration and data masking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Migration of parent/child dependencies w/ filters</masterLabel>
+        <translation><!-- Migration of parent/child dependencies w/ filters --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scheduling jobs and run as post-deployment activity</masterLabel>
+        <translation><!-- Scheduling jobs and run as post-deployment activity --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

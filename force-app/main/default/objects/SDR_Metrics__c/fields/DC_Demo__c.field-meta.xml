@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DC_Demo__c</fullName>
+    <label>DC &amp; Demo</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>DC Completed</fullName>
+                <default>false</default>
+                <label>DC Completed</label>
+            </value>
+            <value>
+                <fullName>DC Completed Date (Vault)</fullName>
+                <default>false</default>
+                <label>DC Completed Date (Vault)</label>
+            </value>
+            <value>
+                <fullName>DC Scheduled</fullName>
+                <default>false</default>
+                <label>DC Scheduled</label>
+            </value>
+            <value>
+                <fullName>DC Scheduled (Vault)</fullName>
+                <default>false</default>
+                <label>DC Scheduled (Vault)</label>
+            </value>
+            <value>
+                <fullName>DC Scheduled For</fullName>
+                <default>false</default>
+                <label>DC Scheduled For</label>
+            </value>
+            <value>
+                <fullName>DC Scheduled For (Vault)</fullName>
+                <default>false</default>
+                <label>DC Scheduled For (Vault)</label>
+            </value>
+            <value>
+                <fullName>Demo Performed</fullName>
+                <default>false</default>
+                <label>Demo Performed</label>
+            </value>
+            <value>
+                <fullName>Demo_Performed(Vault)</fullName>
+                <default>false</default>
+                <label>Demo Performed(Vault)</label>
+            </value>
+            <value>
+                <fullName>Demo Scheduled</fullName>
+                <default>false</default>
+                <label>Demo Scheduled</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -86,16 +86,20 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>New</actionName>
-        <type>Default</type>
+        <content>avnio__responseDetailsAuraCmp</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>LightningComponent</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>New</actionName>
-        <formFactor>Large</formFactor>
-        <type>Default</type>
+        <content>avnio__responseDetailsAuraCmp</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>LightningComponent</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>New</actionName>
-        <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -128,11 +132,14 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <type>Default</type>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Opportunity_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -140,26 +147,65 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>New_Awesome_Companct_Layout</compactLayoutAssignment>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
     <enableFeeds>true</enableFeeds>
-    <enableHistory>false</enableHistory>
-    <externalSharingModel>Private</externalSharingModel>
+    <enableHistory>true</enableHistory>
+    <externalSharingModel>ReadWrite</externalSharingModel>
     <searchLayouts>
         <customTabListAdditionalFields>OPPORTUNITY.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Opportunity_Amount__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Opportunity_Type_New_Renewal_Upsell__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OPPORTUNITY.STAGE_NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OPPORTUNITY.CREATED_DATE</customTabListAdditionalFields>
         <customTabListAdditionalFields>OPPORTUNITY.CLOSE_DATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OPPORTUNITY.NEXT_STEP</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CORE.USERS.FULL_NAME</customTabListAdditionalFields>
+        <excludedStandardButtons>NewFromDocument</excludedStandardButtons>
+        <listViewButtons>MassManager__Mass_Update</listViewButtons>
+        <listViewButtons>MassManager__Mass_Edit_Standard_Fields</listViewButtons>
+        <listViewButtons>activities__Create_Tasks_Opp</listViewButtons>
+        <listViewButtons>pi__Send_Pardot_Emails</listViewButtons>
         <lookupDialogsAdditionalFields>OPPORTUNITY.NAME</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>ACCOUNT.SITE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>OPPORTUNITY.STAGE_NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Opportunity_Type_New_Renewal_Upsell__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Opportunity_Amount__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CORE.USERS.FULL_NAME</lookupDialogsAdditionalFields>
+        <lookupFilterFields>ACCOUNT.NAME</lookupFilterFields>
+        <lookupFilterFields>OPPORTUNITY.NAME</lookupFilterFields>
+        <lookupFilterFields>Opportunity_Amount__c</lookupFilterFields>
+        <lookupFilterFields>Opportunity_Type_New_Renewal_Upsell__c</lookupFilterFields>
+        <lookupFilterFields>OPPORTUNITY.STAGE_NAME</lookupFilterFields>
+        <lookupFilterFields>CORE.USERS.FULL_NAME</lookupFilterFields>
         <lookupPhoneDialogsAdditionalFields>OPPORTUNITY.NAME</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ACCOUNT.SITE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>OPPORTUNITY.STAGE_NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Opportunity_Type_New_Renewal_Upsell__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Opportunity_Amount__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>OPPORTUNITY.CLOSE_DATE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CORE.USERS.FULL_NAME</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>ACCOUNT.NAME</searchFilterFields>
+        <searchFilterFields>OPPORTUNITY.NAME</searchFilterFields>
+        <searchFilterFields>CORE.USERS.FULL_NAME</searchFilterFields>
+        <searchFilterFields>Opportunity_Amount__c</searchFilterFields>
+        <searchFilterFields>OPPORTUNITY.STAGE_NAME</searchFilterFields>
+        <searchFilterFields>Opportunity_Type_New_Renewal_Upsell__c</searchFilterFields>
+        <searchFilterFields>OPPORTUNITY.CREATED_DATE</searchFilterFields>
+        <searchFilterFields>OPPORTUNITY.CLOSE_DATE</searchFilterFields>
         <searchResultsAdditionalFields>OPPORTUNITY.NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ACCOUNT.SITE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.FULL_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Opportunity_Type_New_Renewal_Upsell__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>OPPORTUNITY.STAGE_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Opportunity_Amount__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OPPORTUNITY.CREATED_DATE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>OPPORTUNITY.CLOSE_DATE</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+        <searchResultsCustomButtons>MassManager__Mass_Edit_Standard_Fields</searchResultsCustomButtons>
+        <searchResultsCustomButtons>MassManager__Mass_Update</searchResultsCustomButtons>
+        <searchResultsCustomButtons>pi__Send_Pardot_Emails</searchResultsCustomButtons>
+        <searchResultsCustomButtons>activities__Create_Tasks_Opp</searchResultsCustomButtons>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

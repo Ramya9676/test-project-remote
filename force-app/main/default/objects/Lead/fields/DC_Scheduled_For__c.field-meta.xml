@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DC_Scheduled_For__c</fullName>
+    <description>The date the call will take place (as this may change as customer reschedules) for CI/CD Lead.</description>
+    <inlineHelpText>The date the call will take place (as this may change as customer reschedules) for CI/CD Lead.</inlineHelpText>
+    <label>DC Scheduled For (CI/CD)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

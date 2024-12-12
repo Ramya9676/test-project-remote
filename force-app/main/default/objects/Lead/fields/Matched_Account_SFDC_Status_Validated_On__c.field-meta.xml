@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Matched_Account_SFDC_Status_Validated_On__c</fullName>
+    <formula>algnlta__Matched_Account__r.SFDC_Status_Validated_On_Date__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Matched Account SFDC Status Validated On Date.</inlineHelpText>
+    <label>Matched Account SFDC Status Validated On</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

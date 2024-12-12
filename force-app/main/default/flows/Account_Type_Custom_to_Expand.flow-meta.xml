@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <assignments>
+        <name>Account_Type_Custom_Expand</name>
+        <label>Account Type Custom Expand</label>
+        <locationX>50</locationX>
+        <locationY>455</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Account_Type__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Expand</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Account_Type_Custom_to_Churn</name>
+        <label>Account Type Custom to Churn</label>
+        <locationX>314</locationX>
+        <locationY>455</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Account_Type__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Churned</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <decisions>
+        <name>Check_for_Customer_Status</name>
+        <label>Check for Customer Status</label>
+        <locationX>314</locationX>
+        <locationY>335</locationY>
+        <defaultConnectorLabel>Not Applicable</defaultConnectorLabel>
+        <rules>
+            <name>Current_Late_Renewal</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Customer_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Current</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Customer_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Late Renewal</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Account_Type_Custom_Expand</targetReference>
+            </connector>
+            <label>Current/Late Renewal</label>
+        </rules>
+        <rules>
+            <name>Churn</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Customer_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Churned</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Account_Type_Custom_to_Churn</targetReference>
+            </connector>
+            <label>Churn</label>
+        </rules>
+    </decisions>
+    <description>Update Account Type Custom to &quot;Expand&quot; for accounts with Customer Status &quot;Current&quot;/&quot;Late Renewal&quot;.</description>
+    <environments>Default</environments>
+    <interviewLabel>Account Type Custom to Expand {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Account Type Custom to Expand</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>188</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Check_for_Customer_Status</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Account_Type__c</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue>Expand</stringValue>
+            </value>
+        </filters>
+        <object>Account</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Draft</status>
+</Flow>

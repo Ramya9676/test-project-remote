@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fields_Needing_Update_Before_Closed_Won__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK( of_Months_for_Subs_Activation__c ),&quot;# of Months (for Subs Activation), &quot;,&quot;&quot;) &amp;
+IF(HasOpportunityLineItem = FALSE,&quot;Add Opportunity Product(s), &quot;,&quot;&quot;) &amp;
+IF(ISBLANK( TEXT(Primary_Time_Zone__c) ),&quot;Primary Time Zone, &quot;,&quot;&quot;) &amp;
+IF(ISBLANK( Subscription_Start_Date__c ),&quot;Subscription Start Date, &quot;,&quot;&quot;) &amp;
+IF(ISBLANK( Subscription_End_Date__c ),&quot;Subscription End Date, &quot;,&quot;&quot;) &amp;
+IF(!ISBLANK( of_Months_for_Subs_Activation__c ) &amp;&amp; !ISBLANK( Subscription_Start_Date__c ) &amp;&amp; !ISBLANK( Subscription_End_Date__c ) &amp;&amp; ADDMONTHS(Subscription_Start_Date__c,VALUE(of_Months_for_Subs_Activation__c))-1 &lt;&gt; Subscription_End_Date__c,&quot;Subscription End Date needs to be &quot; &amp; TEXT(ADDMONTHS(Subscription_Start_Date__c,VALUE(of_Months_for_Subs_Activation__c))-1) &amp; &quot; based on the start date and # of Months. Change the start date, end date, or # of Months. &quot;,&quot;&quot;) &amp;
+IF(Order_Attached__c != true &amp;&amp; ISBLANK(Account.Auto_Renew_Term_Notice_Period_In_Days__c),&quot;Upload a signed order to the opp with po, order, signed, or docusign in the filename.&quot;,&quot;&quot;)</formula>
+    <inlineHelpText>If this field is blank, the fields required for Closed Won stage have been populated.</inlineHelpText>
+    <label>Fields to Update Before Closed Won</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

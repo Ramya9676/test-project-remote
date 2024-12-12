@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Owner__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This field was requested by Rich Flati 5/4/2022. It will be populated with the last owner of the account and kept up to date by AccountTrigger2 calling AccountTriggerHandler.BeforeUpdate. The reason is to easily be able to identify all of former employee X&apos;s accounts even if they are currently unassigned because we now want to assign them to new employee Y.</description>
+    <label>Last Owner</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Accounts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

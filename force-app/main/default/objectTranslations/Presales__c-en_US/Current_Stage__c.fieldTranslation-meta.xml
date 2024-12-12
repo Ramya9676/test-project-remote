@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Current Stage --></label>
+    <name>Current_Stage__c</name>
+    <picklistValues>
+        <masterLabel>Custom POC</masterLabel>
+        <translation><!-- Custom POC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Demo</masterLabel>
+        <translation><!-- Demo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Discovery Call</masterLabel>
+        <translation><!-- Discovery Call --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pilot/Implementation</masterLabel>
+        <translation><!-- Pilot/Implementation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Staged POC</masterLabel>
+        <translation><!-- Staged POC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TAM</masterLabel>
+        <translation><!-- TAM --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

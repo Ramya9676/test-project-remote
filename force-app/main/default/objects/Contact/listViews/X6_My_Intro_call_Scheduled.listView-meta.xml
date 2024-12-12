@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X6_My_Intro_call_Scheduled</fullName>
+    <columns>Contact_Status__c</columns>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>Contact_Stage__c</columns>
+    <columns>Contact_Rating__c</columns>
+    <columns>Contact_Type__c</columns>
+    <columns>CONTACT.ADDRESS2_STATE_CODE</columns>
+    <columns>CONTACT.ADDRESS2_COUNTRY_CODE</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Contact_Status__c</field>
+        <operation>equals</operation>
+        <value>5-Intro Call Scheduled</value>
+    </filters>
+    <label>6. My Intro call Scheduled</label>
+</ListView>

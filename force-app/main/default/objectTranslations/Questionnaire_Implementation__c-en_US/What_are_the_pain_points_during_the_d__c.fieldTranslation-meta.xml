@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- What are the pain points during the deployment process? --></help>
+    <label><!-- Pain point during Deployment process ? --></label>
+    <name>What_are_the_pain_points_during_the_d__c</name>
+</CustomFieldTranslation>

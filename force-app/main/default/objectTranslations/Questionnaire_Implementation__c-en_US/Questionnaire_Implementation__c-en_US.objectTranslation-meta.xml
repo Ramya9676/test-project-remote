@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Demo Questionnaire</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Demo Questionnaires</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- Lead Questionnaire --></label>
+        <name>Lead_Questionnaire</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Opportunity Questionnaire --></label>
+        <name>Opportunity_Questionnaire</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please specify other (ALM) --></errorMessage>
+        <name>ALM_Tool_Other_Validation_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter Any ETL Tool currently being used --></errorMessage>
+        <name>Any_ETL_tool_currently_being_used</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Enter Company Name --></errorMessage>
+        <name>Company_Name</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Enter Email --></errorMessage>
+        <name>Email</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select how metadata components being deployed currently --></errorMessage>
+        <name>How_are_metadata_components_are_deployed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter how often do you do data loading --></errorMessage>
+        <name>How_often_do_you_do_data_loading</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Enter encounter errors? --></errorMessage>
+        <name>How_often_do_you_encounter_errors</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter No.of records do you migrate per data load --></errorMessage>
+        <name>No_records_do_you_migrate_per_data_load</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Enter Pain point during Deployment process --></errorMessage>
+        <name>Pain_point_during_Deployment_process</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select use cases that you’d like to evaluate --></errorMessage>
+        <name>Select_use_cases_evaluate_VC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select use cases to evaluate Deployment --></errorMessage>
+        <name>Select_use_cases_to_evaluate_Deployment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter Time for pre/post deployment steps --></errorMessage>
+        <name>Time_for_pre_post_deployment_steps</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter Time taken for production deployment --></errorMessage>
+        <name>Time_taken_for_production_deployment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Others is mandatory if none is selected above --></errorMessage>
+        <name>Version_Control_Validation_Rule_for_Othe</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter what does your current release process --></errorMessage>
+        <name>What_does_your_current_release_process</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter what kind of testing do you perform --></errorMessage>
+        <name>What_kind_of_testing_do_you_perform</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select which tool is used for Project Management (ALM) --></errorMessage>
+        <name>Which_tool_is_used_for_ALM</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter other Deployment type --></errorMessage>
+        <name>specify_other_Metadata_components</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select which Version Control System is used --></errorMessage>
+        <name>which_Version_Control_System_is_used</name>
+    </validationRules>
+</CustomObjectTranslation>

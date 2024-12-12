@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>algnlta__Lock_Account__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, the &quot;Email Domain(s)&quot; field on account will be &quot;locked&quot; and the field will not be updated. If email domains are present in the &quot;Email Domain(s)&quot; field, leads will still match to the account and leads will still auto-convert to the account.</description>
+    <inlineHelpText>If checked, the &quot;Email Domain(s)&quot; field on account will be &quot;locked&quot; and the field will not be updated. If email domains are present in the &quot;Email Domain(s)&quot; field, leads will still match to the account and leads will still auto-convert to the account.</inlineHelpText>
+    <label>Lock Account</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

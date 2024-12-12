@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_Test_Automation</fullName>
+    <active>true</active>
+    <description>Mandate &quot;Other Test Automation&quot; field when Test Automation is selected as &quot;Other&quot;.</description>
+    <errorConditionFormula>ISPICKVAL(  Test_Automation__c  , &quot;Other&quot;) &amp;&amp;  
+ISBLANK(  Other_Test_Automation__c  )</errorConditionFormula>
+    <errorDisplayField>Other_Test_Automation__c</errorDisplayField>
+    <errorMessage>Please enter &quot;Other Test Automation&quot; since the Test Automation is selected as &quot;Other&quot;.</errorMessage>
+</ValidationRule>

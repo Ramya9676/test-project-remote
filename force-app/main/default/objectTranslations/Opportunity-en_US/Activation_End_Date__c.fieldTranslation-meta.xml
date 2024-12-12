@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Tentative Activation Date + Number of Months for Subs Activation. This is the end date of the invoice period accounting will use. --></help>
+    <label><!-- Activation End Date --></label>
+    <name>Activation_End_Date__c</name>
+</CustomFieldTranslation>

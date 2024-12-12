@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Review_Vault_Pre_requisites__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>These pre-requisites are to be communicated to users:
+• Active triggers, process builders, workflows, etc. may lead to replicate failures
+• Max uncompressed metadata size per job is 400 MB. It is recommended to set an appropriate batch size for any metadata exceeding the limit
+• Inactive owners in SF leads to replicate failures
+• Include all dependencies in the Replicate job as missing some might lead to failures
+• For a PoC, we will request access to the customer environment</inlineHelpText>
+    <label>Review Vault Pre-requisites</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

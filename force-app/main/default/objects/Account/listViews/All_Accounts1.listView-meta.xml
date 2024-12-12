@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Accounts1</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_Type__c</columns>
+    <columns>ACCOUNT.INDUSTRY</columns>
+    <columns>ACCOUNT_SOURCE</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>SDR_Owner__c</columns>
+    <columns>ACCOUNT.ADDRESS1_COUNTRY_CODE</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>4. All Accounts</label>
+</ListView>

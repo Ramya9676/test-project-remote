@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Data_Storage__c</fullName>
+    <label>Data Storage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Shared</fullName>
+                <default>false</default>
+                <label>Shared</label>
+            </value>
+            <value>
+                <fullName>Exclusive</fullName>
+                <default>false</default>
+                <label>Exclusive</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

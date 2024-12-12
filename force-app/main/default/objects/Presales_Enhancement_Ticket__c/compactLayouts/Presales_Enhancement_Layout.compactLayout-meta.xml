@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Presales_Enhancement_Layout</fullName>
+    <fields>Enhancement_Logged__c</fields>
+    <fields>Enhancement_In__c</fields>
+    <fields>Module__c</fields>
+    <label>Presales Enhancement Layout</label>
+</CompactLayout>

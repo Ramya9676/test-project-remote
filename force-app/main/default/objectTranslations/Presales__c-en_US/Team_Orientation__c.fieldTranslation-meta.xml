@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Team Orientation --></label>
+    <name>Team_Orientation__c</name>
+    <picklistValues>
+        <masterLabel>Admin</masterLabel>
+        <translation><!-- Admin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Architects</masterLabel>
+        <translation><!-- Architects --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Compliance Officer</masterLabel>
+        <translation><!-- Compliance Officer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Developers</masterLabel>
+        <translation><!-- Developers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Release Manager</masterLabel>
+        <translation><!-- Release Manager --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

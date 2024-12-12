@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>algnlta__Lock_Lead__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, lead will be &quot;locked&quot; which prevents the lead from being matched to an account and auto-converting.</description>
+    <inlineHelpText>If checked, lead will be &quot;locked&quot; which prevents the lead from being matched to an account and auto-converting.</inlineHelpText>
+    <label>Lock Lead</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

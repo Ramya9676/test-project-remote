@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PS_Sub_Item__c</fullName>
+    <inlineHelpText>Choose the PS sub item related to the PS Item</inlineHelpText>
+    <label>PS Sub Item</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>PS_Main_Item__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Release Automation Discovery</fullName>
+                <default>false</default>
+                <label>Release Automation Discovery</label>
+            </value>
+            <value>
+                <fullName>AutoRABIT Administration Set Up</fullName>
+                <default>false</default>
+                <label>AutoRABIT Administration Set Up</label>
+            </value>
+            <value>
+                <fullName>AutoRABIT User Training</fullName>
+                <default>false</default>
+                <label>AutoRABIT User Training</label>
+            </value>
+            <value>
+                <fullName>Release Automation Modelling with AutoRABIT</fullName>
+                <default>false</default>
+                <label>Release Automation Modelling with AutoRABIT</label>
+            </value>
+            <value>
+                <fullName>Annual - AutoRABIT Training Pack</fullName>
+                <default>false</default>
+                <label>Annual - AutoRABIT Training Pack</label>
+            </value>
+            <value>
+                <fullName>Annual - Pre-CI Sandbox Alignment</fullName>
+                <default>false</default>
+                <label>Annual - Pre-CI Sandbox Alignment</label>
+            </value>
+            <value>
+                <fullName>Annual - Complex Sandbox Metadata Deployment [ Upto 4 Sandboxes ]</fullName>
+                <default>false</default>
+                <label>Annual - Complex Sandbox Metadata Deployment [ Upto 4 Sandboxes ]</label>
+            </value>
+            <value>
+                <fullName>Annual - Production Deployment Hotline 	[ Upto 6 client releases]</fullName>
+                <default>false</default>
+                <label>Annual - Production Deployment Hotline 	[ Upto 6 client releases]</label>
+            </value>
+            <value>
+                <fullName>Annual - Salesforce Production Org Split/ setup</fullName>
+                <default>false</default>
+                <label>Annual - Salesforce Production Org Split/ setup</label>
+            </value>
+            <value>
+                <fullName>Playground Infrastructure Prep</fullName>
+                <default>false</default>
+                <label>Playground Infrastructure Prep</label>
+            </value>
+            <value>
+                <fullName>Playground Task Review and sign-off</fullName>
+                <default>false</default>
+                <label>Playground Task Review and sign-off</label>
+            </value>
+            <value>
+                <fullName>Playground session running through the scenarios</fullName>
+                <default>false</default>
+                <label>Playground session running through the scenarios</label>
+            </value>
+            <value>
+                <fullName>Playground Review sessions, touch points</fullName>
+                <default>false</default>
+                <label>Playground Review sessions, touch points</label>
+            </value>
+            <value>
+                <fullName>Discussion and Follow-ups with Product team for any issues</fullName>
+                <default>false</default>
+                <label>Discussion and Follow-ups with Product team for any issues</label>
+            </value>
+            <value>
+                <fullName>Playground wrap-up and transition to Sales Team</fullName>
+                <default>false</default>
+                <label>Playground wrap-up and transition to Sales Team</label>
+            </value>
+            <value>
+                <fullName>Overview Demo</fullName>
+                <default>false</default>
+                <label>Overview Demo</label>
+            </value>
+            <value>
+                <fullName>CS Core - Working with Salesforce Architect Community</fullName>
+                <default>false</default>
+                <label>CS Core - Working with Salesforce Architect Community</label>
+            </value>
+            <value>
+                <fullName>CS Core - Working with Salesforce Product Management Team</fullName>
+                <default>false</default>
+                <label>CS Core - Working with Salesforce Product Management Team</label>
+            </value>
+            <value>
+                <fullName>CS Core - Working with Marketing Team</fullName>
+                <default>false</default>
+                <label>CS Core - Working with Marketing Team</label>
+            </value>
+            <value>
+                <fullName>CS Core - Work with Account Management Team</fullName>
+                <default>false</default>
+                <label>CS Core - Work with Account Management Team</label>
+            </value>
+            <value>
+                <fullName>CS Core - AutoRABIT CRM</fullName>
+                <default>false</default>
+                <label>CS Core - AutoRABIT CRM</label>
+            </value>
+            <value>
+                <fullName>CS Core - AutoRABIT Academy</fullName>
+                <default>false</default>
+                <label>CS Core - AutoRABIT Academy</label>
+            </value>
+            <value>
+                <fullName>CI Job Setup</fullName>
+                <default>false</default>
+                <label>CI Job Setup</label>
+            </value>
+            <value>
+                <fullName>EZ-Commits Setup</fullName>
+                <default>false</default>
+                <label>EZ-Commits Setup</label>
+            </value>
+            <value>
+                <fullName>Org Synchronization setup</fullName>
+                <default>false</default>
+                <label>Org Synchronization setup</label>
+            </value>
+            <value>
+                <fullName>TAF Setup</fullName>
+                <default>false</default>
+                <label>TAF Setup</label>
+            </value>
+            <value>
+                <fullName>Data Loader Pro setup</fullName>
+                <default>false</default>
+                <label>Data Loader Pro setup</label>
+            </value>
+            <value>
+                <fullName>Customization</fullName>
+                <default>false</default>
+                <label>Customization</label>
+            </value>
+            <value>
+                <fullName>Playground Planning Session</fullName>
+                <default>false</default>
+                <label>Playground Planning Session</label>
+            </value>
+            <value>
+                <fullName>Initial Discovery Call w/ Sales</fullName>
+                <default>false</default>
+                <label>Initial Discovery Call w/ Sales</label>
+            </value>
+            <value>
+                <fullName>Internal Calls</fullName>
+                <default>false</default>
+                <label>Internal Calls</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>AutoRABIT Training</fullName>
+                <default>false</default>
+                <label>AutoRABIT Training</label>
+            </value>
+            <value>
+                <fullName>Salesforce Training</fullName>
+                <default>false</default>
+                <label>Salesforce Training</label>
+            </value>
+            <value>
+                <fullName>Follow up/Technical calls with client</fullName>
+                <default>false</default>
+                <label>Follow up/Technical calls with client</label>
+            </value>
+            <value>
+                <fullName>Implementation Touch Point Calls</fullName>
+                <default>false</default>
+                <label>Implementation Touch Point Calls</label>
+            </value>
+            <value>
+                <fullName>Live Demo</fullName>
+                <default>false</default>
+                <label>Live Demo</label>
+            </value>
+            <value>
+                <fullName>TAF Demo</fullName>
+                <default>false</default>
+                <label>TAF Demo</label>
+            </value>
+            <value>
+                <fullName>Fremont SFDUG Meetup</fullName>
+                <default>false</default>
+                <label>Fremont SFDUG Meetup</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>AutoRABIT Implementation</controllingFieldValue>
+            <valueName>Release Automation Discovery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AutoRABIT Implementation</controllingFieldValue>
+            <valueName>AutoRABIT Administration Set Up</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AutoRABIT Implementation</controllingFieldValue>
+            <valueName>AutoRABIT User Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AutoRABIT Implementation</controllingFieldValue>
+            <valueName>CI Job Setup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AutoRABIT Implementation</controllingFieldValue>
+            <valueName>EZ-Commits Setup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AutoRABIT Implementation</controllingFieldValue>
+            <valueName>Org Synchronization setup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AutoRABIT Implementation</controllingFieldValue>
+            <valueName>TAF Setup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AutoRABIT Implementation</controllingFieldValue>
+            <valueName>Data Loader Pro setup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AutoRABIT Implementation</controllingFieldValue>
+            <valueName>Customization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AutoRABIT Implementation</controllingFieldValue>
+            <valueName>Implementation Touch Point Calls</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Annual Activities</controllingFieldValue>
+            <valueName>Annual - AutoRABIT Training Pack</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Annual Activities</controllingFieldValue>
+            <valueName>Annual - Pre-CI Sandbox Alignment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Annual Activities</controllingFieldValue>
+            <valueName>Annual - Complex Sandbox Metadata Deployment [ Upto 4 Sandboxes ]</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Annual Activities</controllingFieldValue>
+            <valueName>Annual - Production Deployment Hotline 	[ Upto 6 client releases]</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Annual Activities</controllingFieldValue>
+            <valueName>Annual - Salesforce Production Org Split/ setup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Playground</controllingFieldValue>
+            <valueName>Playground Infrastructure Prep</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Playground</controllingFieldValue>
+            <valueName>Playground Task Review and sign-off</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Playground</controllingFieldValue>
+            <valueName>Playground session running through the scenarios</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Playground</controllingFieldValue>
+            <valueName>Playground Review sessions, touch points</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Playground</controllingFieldValue>
+            <valueName>Playground wrap-up and transition to Sales Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Playground</controllingFieldValue>
+            <valueName>Playground Planning Session</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CS Core</controllingFieldValue>
+            <valueName>CS Core - Working with Salesforce Architect Community</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CS Core</controllingFieldValue>
+            <valueName>CS Core - Working with Salesforce Product Management Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CS Core</controllingFieldValue>
+            <valueName>CS Core - Working with Marketing Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CS Core</controllingFieldValue>
+            <valueName>CS Core - Work with Account Management Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CS Core</controllingFieldValue>
+            <valueName>CS Core - AutoRABIT CRM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CS Core</controllingFieldValue>
+            <valueName>CS Core - AutoRABIT Academy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other activities</controllingFieldValue>
+            <valueName>Discussion and Follow-ups with Product team for any issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other activities</controllingFieldValue>
+            <valueName>Initial Discovery Call w/ Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other activities</controllingFieldValue>
+            <valueName>Internal Calls</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other activities</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other activities</controllingFieldValue>
+            <valueName>Follow up/Technical calls with client</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other activities</controllingFieldValue>
+            <valueName>Fremont SFDUG Meetup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demo</controllingFieldValue>
+            <valueName>Overview Demo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demo</controllingFieldValue>
+            <valueName>Live Demo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demo</controllingFieldValue>
+            <valueName>TAF Demo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal Training</controllingFieldValue>
+            <valueName>AutoRABIT Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal Training</controllingFieldValue>
+            <valueName>Salesforce Training</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

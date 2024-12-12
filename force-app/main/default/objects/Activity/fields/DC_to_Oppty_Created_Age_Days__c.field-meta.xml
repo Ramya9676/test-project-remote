@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DC_to_Oppty_Created_Age_Days__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISBLANK(Related_Opportunity__c), &apos;No Oppty Created&apos; , TEXT(DATEVALUE( Related_Opportunity__r.CreatedDate) - Date_DC_Held__c ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Age in Days from DC held to Oppty created.</inlineHelpText>
+    <label>DC to Oppty Created Age (Days)</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

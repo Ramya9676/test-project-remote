@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Playground_Set__c</fullName>
+    <label>Playground Set</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>StageName</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Playground Set 01</fullName>
+                <default>false</default>
+                <label>Playground Set 01</label>
+            </value>
+            <value>
+                <fullName>Playground Set 02</fullName>
+                <default>false</default>
+                <label>Playground Set 02</label>
+            </value>
+            <value>
+                <fullName>Playground Set 03</fullName>
+                <default>false</default>
+                <label>Playground Set 03</label>
+            </value>
+            <value>
+                <fullName>Playground Set 04</fullName>
+                <default>false</default>
+                <label>Playground Set 04</label>
+            </value>
+            <value>
+                <fullName>Playground Set 05</fullName>
+                <default>false</default>
+                <label>Playground Set 05</label>
+            </value>
+            <value>
+                <fullName>Playground Set 06</fullName>
+                <default>false</default>
+                <label>Playground Set 06</label>
+            </value>
+            <value>
+                <fullName>Playground Set 07</fullName>
+                <default>false</default>
+                <label>Playground Set 07</label>
+            </value>
+            <value>
+                <fullName>Playground Set 08</fullName>
+                <default>false</default>
+                <label>Playground Set 08</label>
+            </value>
+            <value>
+                <fullName>Playground Set 09</fullName>
+                <default>false</default>
+                <label>Playground Set 09</label>
+            </value>
+            <value>
+                <fullName>Playground Set 10</fullName>
+                <default>false</default>
+                <label>Playground Set 10</label>
+            </value>
+            <value>
+                <fullName>Playground Set 11</fullName>
+                <default>false</default>
+                <label>Playground Set 11</label>
+            </value>
+            <value>
+                <fullName>Playground Set 12</fullName>
+                <default>false</default>
+                <label>Playground Set 12</label>
+            </value>
+            <value>
+                <fullName>Playground Set 13</fullName>
+                <default>false</default>
+                <label>Playground Set 13</label>
+            </value>
+            <value>
+                <fullName>Playground Set 14</fullName>
+                <default>false</default>
+                <label>Playground Set 14</label>
+            </value>
+            <value>
+                <fullName>Playground Set 15</fullName>
+                <default>false</default>
+                <label>Playground Set 15</label>
+            </value>
+            <value>
+                <fullName>Playground Set 16</fullName>
+                <default>false</default>
+                <label>Playground Set 16</label>
+            </value>
+            <value>
+                <fullName>Playground Set 17</fullName>
+                <default>false</default>
+                <label>Playground Set 17</label>
+            </value>
+            <value>
+                <fullName>Playground Set 18</fullName>
+                <default>false</default>
+                <label>Playground Set 18</label>
+            </value>
+            <value>
+                <fullName>Playground Set 19</fullName>
+                <default>false</default>
+                <label>Playground Set 19</label>
+            </value>
+            <value>
+                <fullName>Playground Set 20</fullName>
+                <default>false</default>
+                <label>Playground Set 20</label>
+            </value>
+            <value>
+                <fullName>Playground Set 21</fullName>
+                <default>false</default>
+                <label>Playground Set 21</label>
+            </value>
+            <value>
+                <fullName>Playground Set 22</fullName>
+                <default>false</default>
+                <label>Playground Set 22</label>
+            </value>
+            <value>
+                <fullName>Playground Set 23</fullName>
+                <default>false</default>
+                <label>Playground Set 23</label>
+            </value>
+            <value>
+                <fullName>Playground Set 24</fullName>
+                <default>false</default>
+                <label>Playground Set 24</label>
+            </value>
+            <value>
+                <fullName>Playground Set 25</fullName>
+                <default>false</default>
+                <label>Playground Set 25</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

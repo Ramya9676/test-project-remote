@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ARR_Last_Full_Month_of_Opp__c</fullName>
+    <description>ARR Last Full Month of Opp</description>
+    <inlineHelpText>ARR Last Full Month of Opp</inlineHelpText>
+    <label>ARR Renewable</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

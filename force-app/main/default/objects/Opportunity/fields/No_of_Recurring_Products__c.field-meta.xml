@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_of_Recurring_Products__c</fullName>
+    <inlineHelpText>Count of Recurring Revenue products.</inlineHelpText>
+    <label>No. of Recurring Products</label>
+    <summarizedField>OpportunityLineItem.Quantity</summarizedField>
+    <summaryFilterItems>
+        <field>OpportunityLineItem.Recurring_Revenue__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Duration --></label>
+    <name>Duration__c</name>
+    <picklistValues>
+        <masterLabel>1month</masterLabel>
+        <translation><!-- 1month --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3months</masterLabel>
+        <translation><!-- 3months --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>6months</masterLabel>
+        <translation><!-- 6months --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

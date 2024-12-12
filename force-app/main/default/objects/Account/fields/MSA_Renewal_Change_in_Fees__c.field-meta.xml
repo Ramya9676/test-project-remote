@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MSA_Renewal_Change_in_Fees__c</fullName>
+    <description>autorabit.com/agreement section 4.3 Change in Fees allows for a 5% annual increase. However, some customers negotiate a different rate. Whatever rate is applicable for this customer must be populated here.</description>
+    <inlineHelpText>autorabit.com/agreement section 4.3 Change in Fees allows for a 5% annual increase. However, some customers negotiate a different rate. Whatever rate is applicable for this customer must be populated here.</inlineHelpText>
+    <label>MSA Renewal Change in Fees %</label>
+    <precision>8</precision>
+    <required>false</required>
+    <scale>5</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

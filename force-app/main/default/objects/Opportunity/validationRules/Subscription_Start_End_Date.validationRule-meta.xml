@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subscription_Start_End_Date</fullName>
+    <active>false</active>
+    <errorConditionFormula>(ISBLANK( Subscription_Start_Date__c ) || ISBLANK( Subscription_End_Date__c ) ||
+(Subscription_End_Date__c &lt;= Subscription_Start_Date__c) )
+&amp;&amp; (TEXT(StageName) != &quot;Qualify&quot; ) &amp;&amp; (TEXT(StageName) != &quot;Closed Lost&quot; )</errorConditionFormula>
+    <errorDisplayField>Subscription_End_Date__c</errorDisplayField>
+    <errorMessage>Subscription Start Date and Subscription End Date must be populated at all stages after Qualify. Fill in the subscription start and end date, or if it isn&apos;t on the form, use stage Qualify. Also, make sure the end date is after the start date.</errorMessage>
+</ValidationRule>

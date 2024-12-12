@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Select_use_cases_for__c</fullName>
+    <inlineHelpText>Select use cases that you wish to evaluate</inlineHelpText>
+    <label>Select use cases to evaluate ?</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Automated Deployments into Target Orgs</fullName>
+                <default>false</default>
+                <label>Automated Deployments into Target Orgs</label>
+            </value>
+            <value>
+                <fullName>Selectively deploy metadata into Orgs</fullName>
+                <default>false</default>
+                <label>Selectively deploy metadata into Orgs</label>
+            </value>
+            <value>
+                <fullName>Synchronize Orgs</fullName>
+                <default>false</default>
+                <label>Synchronize Orgs</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Please specify how metadata components being deployed currently if not mentioned above ? --></help>
+    <label><!-- Plz specify other (Metadata components) --></label>
+    <name>Plz_specify_other_Metadata_components__c</name>
+</CustomFieldTranslation>

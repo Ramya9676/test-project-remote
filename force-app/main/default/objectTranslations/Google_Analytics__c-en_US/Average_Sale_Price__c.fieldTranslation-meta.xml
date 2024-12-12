@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The average price of your product. An average can be helpful if you occasionally apply discounts or alter pricing in other ways --></help>
+    <label><!-- Average Sale Price --></label>
+    <name>Average_Sale_Price__c</name>
+</CustomFieldTranslation>

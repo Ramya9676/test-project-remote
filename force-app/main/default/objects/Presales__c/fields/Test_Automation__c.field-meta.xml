@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Test_Automation__c</fullName>
+    <label>Test Automation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Product__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Selenium</fullName>
+                <default>false</default>
+                <label>Selenium</label>
+            </value>
+            <value>
+                <fullName>Provar</fullName>
+                <default>false</default>
+                <label>Provar</label>
+            </value>
+            <value>
+                <fullName>AccelQ</fullName>
+                <default>false</default>
+                <label>AccelQ</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+                <label>Not Applicable</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>ARM</controllingFieldValue>
+            <valueName>Selenium</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ARM</controllingFieldValue>
+            <valueName>Provar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ARM</controllingFieldValue>
+            <valueName>AccelQ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ARM</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ARM</controllingFieldValue>
+            <valueName>Not Applicable</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

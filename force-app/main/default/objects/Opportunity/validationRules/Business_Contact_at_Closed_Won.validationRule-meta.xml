@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Contact_at_Closed_Won</fullName>
+    <active>false</active>
+    <errorConditionFormula>IsWon &amp;&amp; 
+ ISBLANK(Contact_Name__c)  &amp;&amp; ($User.LastName &lt;&gt; &quot;Schaapveld&quot;)</errorConditionFormula>
+    <errorDisplayField>Contact_Name__c</errorDisplayField>
+    <errorMessage>Business Contact must be populated at Closed Won Stage.</errorMessage>
+</ValidationRule>

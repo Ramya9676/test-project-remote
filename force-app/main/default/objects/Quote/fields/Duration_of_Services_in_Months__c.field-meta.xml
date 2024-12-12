@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Duration_of_Services_in_Months__c</fullName>
+    <externalId>false</externalId>
+    <formula>VALUE(Opportunity.of_Months_for_Subs_Activation__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>This is # of Months for Subs Activation from the opportunity. Edit it on the opportunity.</inlineHelpText>
+    <label>Duration of Services (in Months)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

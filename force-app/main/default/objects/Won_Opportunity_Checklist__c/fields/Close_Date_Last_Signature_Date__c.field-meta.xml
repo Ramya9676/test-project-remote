@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_Date_Last_Signature_Date__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Confirm the close date matches the last signature date from the attached order.</description>
+    <inlineHelpText>Confirm the close date matches the last signature date from the attached order.</inlineHelpText>
+    <label>Close Date = Last Signature Date</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

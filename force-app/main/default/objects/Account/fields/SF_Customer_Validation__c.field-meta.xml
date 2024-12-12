@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SF_Customer_Validation__c</fullName>
+    <description>Field to store date of last time the sales team validated that this account is a Salesforce customer.</description>
+    <inlineHelpText>Date of last time the sales team validated that this account is a Salesforce customer.</inlineHelpText>
+    <label>SF Customer Validation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

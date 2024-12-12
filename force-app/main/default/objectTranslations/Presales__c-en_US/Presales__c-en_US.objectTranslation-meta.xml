@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Presales</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Presales</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- ALM is required when the Product is &quot;ARM&quot;. --></errorMessage>
+        <name>ALM</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CI Tool currently used is required when the Product is &quot;CodeScan&quot;. --></errorMessage>
+        <name>CI_Tool_currently_used</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Current Data Migration Solution is required when the Product is &quot;RBM&quot;. --></errorMessage>
+        <name>Current_Data_Migration_Solution</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Current IDE is required when the Product is &quot;CodeScan&quot;. --></errorMessage>
+        <name>Current_IDE</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Current Release Process is required when the Product is &quot;ARM&quot; or &quot;RBM&quot; or &quot;Mulesoft&quot;. --></errorMessage>
+        <name>Current_Release_Process</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- End Date is mandatory. Please enter &apos;End Date&apos; in order to save. --></errorMessage>
+        <name>End_Date_Not_Required_for_TAM_Stage_Only</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Environments brought in for PoC is required when the Product is &quot;Vault&quot;. --></errorMessage>
+        <name>Environments_brought_in_for_PoC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Existing data backup solution is required when the Product is &quot;Vault&quot;. --></errorMessage>
+        <name>Existing_data_backup_solution</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Is Customer Data Protected is required when the Product is &quot;Vault&quot;. --></errorMessage>
+        <name>Is_Customer_Data_Protected</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Is DX Used? is required when the Product is &quot;ARM&quot;. --></errorMessage>
+        <name>Is_DX_Used</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please make sure you have entered &apos;Issue/Enhancement in&apos;, &apos;Issue Description&apos;, &apos;Product Instance&apos;, &apos;Product Version&apos;, &apos;Module&apos;, and &apos;Priority&apos; to submit a ticket to ARM support. --></errorMessage>
+        <name>Log_ARM_Ticket</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please make sure you have entered &apos;Issue/Enhancement in&apos;, &apos;Issue Description&apos;, &apos;Product Instance&apos;, &apos;Product Version&apos;, and &apos;Priority&apos; to submit a ticket to the IT Help Desk. --></errorMessage>
+        <name>Log_IT_Help_Desk_Ticket</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please make sure you have entered &quot;Issue/Enhancement in&apos;, &apos;Product Instance&apos;,  &apos;Module&apos;&apos;, &apos;Feature Request Description&apos;, Deal Size&apos;, and &apos;Priority of the Request&apos; to send an email to PMT. --></errorMessage>
+        <name>Log_PMT_Ticket</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please make sure you have entered &apos;Issue/Enhancement in&apos;, &apos;Product Instance&apos;, &apos;Module&apos;, &apos;Issue Description&apos;, and &apos;Priority&apos; to submit a ticket to the support. --></errorMessage>
+        <name>Log_Support_Ticket</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please make sure you have entered &apos;Issue/Enhancement in&apos;, &apos;Issue Description&apos;, &apos;Product Instance&apos;, &apos;Module&apos; and &apos;Priority&apos; to submit a ticket to Vault support. --></errorMessage>
+        <name>Log_Vault_Ticket</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Managed Packages is required when the Product is &quot;Vault&quot; or &quot;RBM&quot;. --></errorMessage>
+        <name>Managed_Packages</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Lines of Code is required when the Product selected is &quot;CodeScan&quot;. Please enter a numeric value for Lines of Code. --></errorMessage>
+        <name>Mandate_Lines_of_Code</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please make sure you have entered &apos;Product Version&apos; when &apos;Issue/Enhancement in&apos; selected is ARM&apos; or &apos;CodeScan&apos; or &apos;RBM&apos; to submit a ticket to the support. --></errorMessage>
+        <name>Mandate_Product_Version</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please review pre-requisites for Vault (available in help text) if the customer is opting for PoC. --></errorMessage>
+        <name>Mandate_Review_for_Vault_Prerequisites</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Mule Hosting is required when Product is &quot;Mulesoft&quot; --></errorMessage>
+        <name>Mule_Hosting</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;# of Orgs&quot; is required when the Product is &quot;ARM&quot; or &quot;Vault&quot; or &quot;RBM&quot; or &quot;Mulesoft&quot;. --></errorMessage>
+        <name>Number_of_Orgs</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;# of Repositories&quot; is required when the Product is &quot;ARM&quot; or &quot;Mulesoft&quot;. --></errorMessage>
+        <name>Number_of_Repositories</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;# SF Developers&quot; is required when the Product is &quot;CodeScan&quot;. --></errorMessage>
+        <name>Number_of_SF_Developers</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;# SF environments to be scanned&quot; is required when the Product is &quot;CodeScan&quot;. --></errorMessage>
+        <name>Number_of_SF_environments_to_be_scanned</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;# of Sandboxes&quot; is required when the Product is &quot;ARM&quot; or &quot;Vault&quot; or &quot;RBM&quot; or &quot;Mulesoft&quot;. --></errorMessage>
+        <name>Number_of_Sandboxes</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;# of Users&quot; is required when the Product is &quot;ARM&quot;. --></errorMessage>
+        <name>Number_of_Users</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter &quot;Other ALM Authentication&quot; since the ALM Authentication is selected as &quot;Other&quot;. --></errorMessage>
+        <name>Other_ALM_Authentication</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter &quot;Other IDE&quot; since the Current IDE is selected as &quot;Other&quot;. --></errorMessage>
+        <name>Other_IDE</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter &quot;Other SCA&quot; since the SCA is selected as &quot;Other&quot;. --></errorMessage>
+        <name>Other_SCA</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter &quot;Other SSO&quot; since the SSO is selected as &quot;Other&quot;. --></errorMessage>
+        <name>Other_SSO</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter &quot;Other Storage Environment&quot; since the VCS Authentication is selected as &quot;Other&quot;. --></errorMessage>
+        <name>Other_Storage_Environment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter &quot;Other Test Automation&quot; since the Test Automation is selected as &quot;Other&quot;. --></errorMessage>
+        <name>Other_Test_Automation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter &quot;Other VCS Authentication&quot; since the VCS Authentication is selected as &quot;Other&quot;. --></errorMessage>
+        <name>Other_VCS_Authentication</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;Release Frequency&quot; is required when the Product is &quot;ARM&quot; or &quot;RBM&quot; or &quot;Mulesoft&quot;. --></errorMessage>
+        <name>Release_Frequency</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;# SF Licensed Users&quot; is required when the Product is &quot;Vault&quot;. --></errorMessage>
+        <name>SF_Licensed_Users</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;Salesforce API Call Limit&quot; is required when the Product is &quot;Vault&quot;. --></errorMessage>
+        <name>Salesforce_API_Call_Limit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;Salesforce clouds used&quot; is required when the Product is &quot;Vault&quot;. --></errorMessage>
+        <name>Salesforce_clouds_used</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;Size of Largest Org&quot; is required when the Product is &quot;Vault&quot;. --></errorMessage>
+        <name>Size_of_Largest_Org</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Source Control is required when the Product is &quot;ARM&quot; or &quot;CodeScan&quot; or &quot;Mulesoft&quot;. --></errorMessage>
+        <name>Source_Control</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;Storage Environment&quot; is required when the Product is &quot;Vault&quot;. --></errorMessage>
+        <name>Storage_Environment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;Storage Environment Hosting&quot; is required when the Product is &quot;Vault&quot;. --></errorMessage>
+        <name>Storage_Environment_Hosting</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;Test Automation&quot; is required when the Product is &quot;ARM&quot;. --></errorMessage>
+        <name>Test_Automation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- VCS Authentication is required when the Product is &quot;CodeScan&quot;  and Source Control is not &quot;Not Applicable&quot;. --></errorMessage>
+        <name>VCS_Authentication</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- VCS Hosting is required when the Product is &quot;CodeScan&quot; and Souce Control is not &quot;Not Applicable&quot;. --></errorMessage>
+        <name>VCS_Hosting</name>
+    </validationRules>
+</CustomObjectTranslation>

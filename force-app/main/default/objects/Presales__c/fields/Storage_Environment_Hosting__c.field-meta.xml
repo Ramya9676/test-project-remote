@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Storage_Environment_Hosting__c</fullName>
+    <label>Storage Environment Hosting</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Product__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Our Cloud</fullName>
+                <default>false</default>
+                <label>Our Cloud</label>
+            </value>
+            <value>
+                <fullName>Their network</fullName>
+                <default>false</default>
+                <label>Their network</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Vault</controllingFieldValue>
+            <valueName>Our Cloud</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vault</controllingFieldValue>
+            <valueName>Their network</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

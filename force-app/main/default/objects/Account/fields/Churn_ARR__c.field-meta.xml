@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Churn_ARR__c</fullName>
+    <description>ARR account had in last full month of a subscription before churning. Currently, this field needs to be populated manually after churn.</description>
+    <inlineHelpText>ARR account had in last full month of a subscription before churning. Currently, this field needs to be populated manually after churn.</inlineHelpText>
+    <label>Churn ARR</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

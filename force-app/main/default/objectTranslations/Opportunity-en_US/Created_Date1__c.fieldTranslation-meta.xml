@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Created Date as Fiscal Quarter (Q1, Q2, Q3, Q4) --></help>
+    <label><!-- Created Date as FQ --></label>
+    <name>Created_Date1__c</name>
+</CustomFieldTranslation>

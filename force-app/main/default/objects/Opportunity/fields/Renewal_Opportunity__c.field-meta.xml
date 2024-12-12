@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Renewal_Opportunity__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Opportunity where this opportunity will be or has been renewed. This field is necessary to track when a series of opportunities moves from one account to another due to a partnership or purchase.</description>
+    <inlineHelpText>Opportunity where this opportunity will be or has been renewed. This field is necessary to track when a series of opportunities moves from one account to another due to a partnership or purchase.</inlineHelpText>
+    <label>Renewal Opportunity</label>
+    <referenceTo>Opportunity</referenceTo>
+    <relationshipLabel>Opportunities (Renewal Opportunity)</relationshipLabel>
+    <relationshipName>Opportunities4</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

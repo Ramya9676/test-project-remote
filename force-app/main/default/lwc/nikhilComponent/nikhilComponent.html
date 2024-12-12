@@ -1,0 +1,11 @@
+<template>
+    <div class="slds-box slds-theme_default">
+        <h1 class="slds-text-heading_medium">Nik Counter</h1>
+        <p class="slds-text-heading_large">{count}</p>
+        <div class="button-group">
+            <lightning-button label="Increase" onclick={increaseCount}></lightning-button>
+            <lightning-button label="Decrease" onclick={decreaseCount}></lightning-button>
+            <lightning-button label="Reset" onclick={resetCount}></lightning-button>
+        </div>
+    </div>
+</template>

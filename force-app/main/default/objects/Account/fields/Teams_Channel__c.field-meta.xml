@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Teams_Channel__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Teams_Channel_URL__c &lt;&gt; &quot;&quot;,HYPERLINK( Teams_Channel_URL__c , &quot;Teams&quot; ),&quot;&quot;)</formula>
+    <label>Teams Channel</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,9 @@
+<apex:page standardController="Opportunity" >
+
+
+<h1> Process Change </h1>
+
+<p> Please create new Opportunity from the 'Opportunity' Related List on the Contact record. </p>
+
+
+</apex:page>

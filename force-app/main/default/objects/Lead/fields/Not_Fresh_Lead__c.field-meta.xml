@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Not_Fresh_Lead__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check if lead is from a current customer, SPAM, other not lead source</description>
+    <inlineHelpText>Check if lead is from a current customer, SPAM, other not lead source</inlineHelpText>
+    <label>Not Fresh Lead</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_Product_Subscriptions__c</fullName>
+    <inlineHelpText>ARM Product</inlineHelpText>
+    <label>No. of Product Subs (ARM)</label>
+    <summarizedField>OpportunityLineItem.Quantity</summarizedField>
+    <summaryFilterItems>
+        <field>OpportunityLineItem.ProductFamily__c</field>
+        <operation>equals</operation>
+        <value>ARM, DevSecOps</value>
+    </summaryFilterItems>
+    <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

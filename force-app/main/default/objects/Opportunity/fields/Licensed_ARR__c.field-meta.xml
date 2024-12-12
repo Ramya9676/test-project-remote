@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Licensed_ARR__c</fullName>
+    <description>Annual Recurring Revenue (ARR) from ARM and Vault product subscriptions.</description>
+    <inlineHelpText>Annual Recurring Revenue (ARR) from ARM and Vault product subscriptions.</inlineHelpText>
+    <label>Licensed ARR</label>
+    <summarizedField>OpportunityLineItem.Annual_Revenue__c</summarizedField>
+    <summaryFilterItems>
+        <field>OpportunityLineItem.Recurring_Revenue__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>OpportunityLineItem.ProductFamily__c</field>
+        <operation>equals</operation>
+        <value>ARM, Vault, CodeScan</value>
+    </summaryFilterItems>
+    <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

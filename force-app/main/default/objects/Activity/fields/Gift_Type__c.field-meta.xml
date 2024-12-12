@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gift_Type__c</fullName>
+    <label>Gift Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Physical Gift</fullName>
+                <default>false</default>
+                <label>Physical Gift</label>
+            </value>
+            <value>
+                <fullName>eGift</fullName>
+                <default>false</default>
+                <label>eGift</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

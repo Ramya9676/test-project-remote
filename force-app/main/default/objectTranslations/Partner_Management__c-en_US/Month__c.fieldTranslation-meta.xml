@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Month --></label>
+    <name>Month__c</name>
+    <picklistValues>
+        <masterLabel>Apr 2020</masterLabel>
+        <translation><!-- Apr 2020 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aug 2020</masterLabel>
+        <translation><!-- Aug 2020 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dec 2020</masterLabel>
+        <translation><!-- Dec 2020 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Feb 2020</masterLabel>
+        <translation><!-- Feb 2020 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jan 2020</masterLabel>
+        <translation><!-- Jan 2020 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jul 2020</masterLabel>
+        <translation><!-- Jul 2020 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jun 2020</masterLabel>
+        <translation><!-- Jun 2020 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mar 2020</masterLabel>
+        <translation><!-- Mar 2020 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>May 2020</masterLabel>
+        <translation><!-- May 2020 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nov 2020</masterLabel>
+        <translation><!-- Nov 2020 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oct 2020</masterLabel>
+        <translation><!-- Oct 2020 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sep 2020</masterLabel>
+        <translation><!-- Sep 2020 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

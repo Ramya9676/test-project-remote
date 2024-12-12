@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Edit_Closed_Opp_Unless_Perm</fullName>
+    <active>false</active>
+    <errorConditionFormula>PRIORVALUE(IsClosed)=True &amp;&amp; NOT($Permission.Edit_Closed_Opps)</errorConditionFormula>
+    <errorMessage>Editing closed opportunities is prohibited for users other than Admins, Accounting, Bennett, Jacob, Joshua, Mike, and Eric.Please ask one of them about making the change or changing who has access.</errorMessage>
+</ValidationRule>

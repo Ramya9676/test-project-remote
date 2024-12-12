@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent_of_Customer__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checked if account is the parent of an account who has Customer Status Current or Late Renewal. This field is important for identifying accounts that are Prospect Related to Customer in Customer_Status__c. This field is updated daily by schedAccountParentOfCustomerUpdate.</description>
+    <label>Parent of Customer</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

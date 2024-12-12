@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Next_Step__c</fullName>
+    <label>Next Step</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>AE_to_Reschedule</fullName>
+                <default>false</default>
+                <label>AE to Reschedule</label>
+            </value>
+            <value>
+                <fullName>Back to the Marketing</fullName>
+                <default>false</default>
+                <label>Back to the Marketing</label>
+            </value>
+            <value>
+                <fullName>Create Opportunity</fullName>
+                <default>false</default>
+                <label>Create Opportunity</label>
+            </value>
+            <value>
+                <fullName>Demo</fullName>
+                <default>false</default>
+                <label>Demo</label>
+            </value>
+            <value>
+                <fullName>Discovery Call</fullName>
+                <default>false</default>
+                <label>Discovery Call</label>
+            </value>
+            <value>
+                <fullName>Internal Review</fullName>
+                <default>false</default>
+                <label>Internal Review</label>
+            </value>
+            <value>
+                <fullName>Legal</fullName>
+                <default>false</default>
+                <label>Legal</label>
+            </value>
+            <value>
+                <fullName>Opportunity Created</fullName>
+                <default>false</default>
+                <label>Opportunity Created</label>
+            </value>
+            <value>
+                <fullName>Partnership In Progress</fullName>
+                <default>false</default>
+                <label>Partnership In Progress</label>
+            </value>
+            <value>
+                <fullName>Playground</fullName>
+                <default>false</default>
+                <label>Playground</label>
+            </value>
+            <value>
+                <fullName>POC</fullName>
+                <default>false</default>
+                <label>POC</label>
+            </value>
+            <value>
+                <fullName>Pricing</fullName>
+                <default>false</default>
+                <label>Pricing</label>
+            </value>
+            <value>
+                <fullName>Self Gen Prospect - Rep to Nurture</fullName>
+                <default>false</default>
+                <label>Self Gen Prospect - Rep to Nurture</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Complete</controllingFieldValue>
+            <controllingFieldValue>Cancel</controllingFieldValue>
+            <valueName>Back to the Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complete</controllingFieldValue>
+            <valueName>Create Opportunity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complete</controllingFieldValue>
+            <valueName>Demo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complete</controllingFieldValue>
+            <valueName>Discovery Call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complete</controllingFieldValue>
+            <valueName>Legal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complete</controllingFieldValue>
+            <valueName>Opportunity Created</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complete</controllingFieldValue>
+            <valueName>Partnership In Progress</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complete</controllingFieldValue>
+            <controllingFieldValue>Completed</controllingFieldValue>
+            <valueName>POC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complete</controllingFieldValue>
+            <valueName>Self Gen Prospect - Rep to Nurture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Completed</controllingFieldValue>
+            <valueName>Internal Review</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Completed</controllingFieldValue>
+            <valueName>Playground</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Completed</controllingFieldValue>
+            <valueName>Pricing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cancel</controllingFieldValue>
+            <valueName>AE_to_Reschedule</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

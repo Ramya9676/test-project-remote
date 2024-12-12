@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Partner</fullName>
+        <default>false</default>
+        <label>Partner</label>
+    </customValue>
+    <customValue>
+        <fullName>ABM</fullName>
+        <default>false</default>
+        <label>ABM</label>
+    </customValue>
+    <customValue>
+        <fullName>Outbound</fullName>
+        <default>false</default>
+        <label>Outbound</label>
+    </customValue>
+    <customValue>
+        <fullName>Inbound</fullName>
+        <default>false</default>
+        <label>Inbound</label>
+    </customValue>
+    <customValue>
+        <fullName>Legacy</fullName>
+        <default>false</default>
+        <label>Legacy</label>
+    </customValue>
+    <customValue>
+        <fullName>Expand</fullName>
+        <default>false</default>
+        <label>Expand</label>
+    </customValue>
+    <customValue>
+        <fullName>Churned</fullName>
+        <default>false</default>
+        <label>Churned</label>
+    </customValue>
+    <customValue>
+        <fullName>Prior Customer</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Prior Customer</label>
+    </customValue>
+    <customValue>
+        <fullName>Corporate Sales</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Corporate Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>Prospect</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Prospect</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Customer</label>
+    </customValue>
+    <customValue>
+        <fullName>CodeScan: AR Compete</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CodeScan: AR Compete</label>
+    </customValue>
+    <customValue>
+        <fullName>Mid-market</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Mid-market</label>
+    </customValue>
+    <customValue>
+        <fullName>Non-profit</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Non-profit</label>
+    </customValue>
+    <customValue>
+        <fullName>Enterprise</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Enterprise</label>
+    </customValue>
+    <customValue>
+        <fullName>Emerging Market</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Emerging Market</label>
+    </customValue>
+    <customValue>
+        <fullName>Government</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Government</label>
+    </customValue>
+    <masterLabel>Account Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
