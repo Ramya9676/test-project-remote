@@ -19,25 +19,3 @@ public class AccountHelper {
             throw new CustomException('Account name cannot be null or blank');
         }
     }
-
-    public static void updateAccountIndustry(String accId, String industry) {
-        if (String.isNotBlank(accId) && String.isNotBlank(industry)) {
-            try {
-                Account acc = [SELECT Id, Name, Industry FROM Account WHERE Id = :accId LIMIT 1];
-                acc.Industry = industry;
-                update acc;
-            } catch (QueryException e) {
-                System.debug('Account not found: ' + e.getMessage());
-                throw new CustomException('Account not found with Id: ' + accId);
-            } catch (DmlException e) {
-                System.debug('Error updating account: ' + e.getMessage());
-                throw new CustomException('Failed to update account industry: ' + e.getMessage());
-            }
-        } else {
-            throw new CustomException('Account Id and industry cannot be null or blank');
-        }
-    }
-
-    // Custom exception for more informative error handling
-    public class CustomException extends Exception {}
-}
