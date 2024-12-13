@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CI_Job_Type__c</fullName>
+    <label>CI Job Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>backup to VCS</fullName>
+                <default>false</default>
+                <label>backup to VCS</label>
+            </value>
+            <value>
+                <fullName>Deploy From SF Org</fullName>
+                <default>false</default>
+                <label>Deploy From SF Org</label>
+            </value>
+            <value>
+                <fullName>Deploy SFDX Source from VCS</fullName>
+                <default>false</default>
+                <label>Deploy SFDX Source from VCS</label>
+            </value>
+            <value>
+                <fullName>pkg from sf</fullName>
+                <default>false</default>
+                <label>pkg from sf</label>
+            </value>
+            <value>
+                <fullName>pkg from VCS</fullName>
+                <default>false</default>
+                <label>pkg from VCS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

@@ -65,7 +65,6 @@
     <tabs>QObject1__c</tabs>
     <tabs>Val_Dep_Test__c</tabs>
     <tabs>AppDev__c</tabs>
-    <tabs>ARTraining__c</tabs>
     <tabs>arintern__c</tabs>
     <tabs>Expense__c</tabs>
     <tabs>Instructor__c</tabs>
@@ -85,4 +84,8 @@
     <tabs>Institute__c</tabs>
     <tabs>Sreekar_CI_Job_Test__c</tabs>
     <tabs>Object01__c</tabs>
+    <tabs>Search_ASB_Yash__c</tabs>
+    <tabs>AR1__c</tabs>
+    <tabs>Custom_by_ramya__c</tabs>
+    <tabs>Tutorial__c</tabs>
 </CustomApplication>

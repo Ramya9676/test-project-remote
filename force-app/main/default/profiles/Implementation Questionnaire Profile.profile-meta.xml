@@ -528,6 +528,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>CustomExceptionExample</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>CustomObjectHandler_Lekhya</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -702,6 +706,10 @@
     <classAccesses>
         <apexClass>Implementation_Questionnaire_Test</apexClass>
         <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>InstituteEmailSender</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>InstituteManager</apexClass>
@@ -881,6 +889,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>NotificationService</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>NumberToStringConverter</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -1132,11 +1144,19 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>StringUtils</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>StudentManager</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>SurveyFeedback</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Task</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -1208,10 +1228,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>TestMergeConflict1</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>TestMergeRequest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -1245,6 +1261,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>Test_ScheduleCLS_CalloutToJira</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Topper</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>TopperTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -1285,6 +1309,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>WFJiraDemo</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>XYZ</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -1520,17 +1548,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>ARTraining__c.ARCompany__c</field>
+        <field>AR1__c.AR_Tools__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>ARTraining__c.ARTool__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>ARTraining__c.Duration__c</field>
+        <field>AR1__c.AR_phone__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -5539,6 +5562,16 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Custom_by_ramya__c.Custom_Text__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Custom_by_ramya__c.Custom_phone__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Customer.CustomerStatusType</field>
         <readable>true</readable>
@@ -6886,11 +6919,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Institute__c.Student_ID__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Institute__c.ins_fun__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -12890,6 +12918,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Sreekar_CI_Job_Test__c.CI_Job_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Sreekar_CI_Job_Test__c.CI_Test_Job_Name__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -14330,6 +14363,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>gift__c.content__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>school__c.School_address__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -14387,11 +14425,7 @@
         <layout>AA_Parts__c-AA Parts Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ARTraining__c-ARTraining Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ARTraining__c-ARTraining Layout</layout>
-        <recordType>ARTraining__c.AR_recordtype</recordType>
+        <layout>AR1__c-AR1 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>AR_Client__c-AR_Client Layout</layout>
@@ -14660,6 +14694,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Custom_Object__c-Custom_Object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Custom_by_ramya__c-Custom by ramya Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Customer-Customer Layout</layout>
@@ -15039,6 +15076,9 @@
         <layout>ScorecardMetric-Scorecard Metric Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Search_ASB_Yash__c-Search ASB Yash Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Self_Hosted_License__c-Self Hosted License Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -15117,6 +15157,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Training__c-Training Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Tutorial__c-Tutorial Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>UAT_24_3_1__c-UAT 24%2E3%2C1 Layout</layout>
@@ -15238,6 +15281,12 @@
     <layoutAssignments>
         <layout>game__c-game Layout</layout>
         <recordType>game__c.women</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>gift__c-gift Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>laptop__c-laptop Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>school__c-school Layout</layout>
@@ -15438,11 +15487,6 @@
         <apexPage>componentController</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>ARTraining__c.AR_recordtype</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Account.General_Account</recordType>
@@ -15679,7 +15723,7 @@
         <visible>false</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
-        <tab>ARTraining__c</tab>
+        <tab>AR1__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -15736,6 +15780,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Country__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Custom_by_ramya__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -15943,6 +15991,10 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Search_ASB_Yash__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Self_Hosted_License__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -15995,6 +16047,10 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Tutorial__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>User_Commission_Plan__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -16040,6 +16096,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>game__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>gift__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>

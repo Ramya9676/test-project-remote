@@ -159,7 +159,6 @@
     <tabs>QObject1__c</tabs>
     <tabs>Val_Dep_Test__c</tabs>
     <tabs>AppDev__c</tabs>
-    <tabs>ARTraining__c</tabs>
     <tabs>arintern__c</tabs>
     <tabs>Expense__c</tabs>
     <tabs>Instructor__c</tabs>
@@ -179,11 +178,15 @@
     <tabs>Institute__c</tabs>
     <tabs>Sreekar_CI_Job_Test__c</tabs>
     <tabs>Object01__c</tabs>
+    <tabs>Search_ASB_Yash__c</tabs>
+    <tabs>AR1__c</tabs>
+    <tabs>Custom_by_ramya__c</tabs>
+    <tabs>Tutorial__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningService_UtilityBar</utilityBar>
     <workspaceConfig>
         <mappings>
-            <tab>ARTraining__c</tab>
+            <tab>AR1__c</tab>
         </mappings>
         <mappings>
             <tab>AppDev__c</tab>
@@ -217,6 +220,9 @@
         </mappings>
         <mappings>
             <tab>Company__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Custom_by_ramya__c</tab>
         </mappings>
         <mappings>
             <tab>DataloadJOb01__c</tab>
@@ -327,6 +333,9 @@
             <tab>SDR_Metrics__c</tab>
         </mappings>
         <mappings>
+            <tab>Search_ASB_Yash__c</tab>
+        </mappings>
+        <mappings>
             <tab>Self_Hosted_License__c</tab>
         </mappings>
         <mappings>
@@ -358,6 +367,9 @@
         </mappings>
         <mappings>
             <tab>Toys__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Tutorial__c</tab>
         </mappings>
         <mappings>
             <tab>Val_Dep_Test__c</tab>

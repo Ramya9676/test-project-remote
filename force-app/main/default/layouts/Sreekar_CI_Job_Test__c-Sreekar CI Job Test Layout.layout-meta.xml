@@ -18,6 +18,10 @@
                 <behavior>Edit</behavior>
                 <field>CI_Test_Job_Name__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CI_Job_Type__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

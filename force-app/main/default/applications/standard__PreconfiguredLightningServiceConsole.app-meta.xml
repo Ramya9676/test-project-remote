@@ -44,7 +44,6 @@
     <tabs>standard-Macro</tabs>
     <tabs>standard-LightningQuickText</tabs>
     <tabs>standard-Survey</tabs>
-    <tabs>ARTraining__c</tabs>
     <tabs>arintern__c</tabs>
     <tabs>Expense__c</tabs>
     <tabs>Instructor__c</tabs>
@@ -64,14 +63,21 @@
     <tabs>Institute__c</tabs>
     <tabs>Sreekar_CI_Job_Test__c</tabs>
     <tabs>Object01__c</tabs>
+    <tabs>Search_ASB_Yash__c</tabs>
+    <tabs>AR1__c</tabs>
+    <tabs>Custom_by_ramya__c</tabs>
+    <tabs>Tutorial__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>PreconfiguredLightningServiceConsole_UtilityBar</utilityBar>
     <workspaceConfig>
         <mappings>
-            <tab>ARTraining__c</tab>
+            <tab>AR1__c</tab>
         </mappings>
         <mappings>
             <tab>CI_Job_Baseline__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Custom_by_ramya__c</tab>
         </mappings>
         <mappings>
             <tab>DataloadJOb01__c</tab>
@@ -107,7 +113,13 @@
             <tab>Ramya_ARM_Objects__c</tab>
         </mappings>
         <mappings>
+            <tab>Search_ASB_Yash__c</tab>
+        </mappings>
+        <mappings>
             <tab>Sreekar_CI_Job_Test__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Tutorial__c</tab>
         </mappings>
         <mappings>
             <tab>arintern__c</tab>
