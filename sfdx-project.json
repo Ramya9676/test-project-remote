@@ -1,12 +1,17 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
-    }
-  ],
-  "name": "test-project",
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "62.0"
+  "packageDirectories" : [ {
+    "path" : "force-app",
+    "default" : true,
+    "package" : "Ramya",
+    "scopeProfiles" : "false",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT"
+  } ],
+  "namespace" : "",
+  "sfdcLoginUrl" : "https://login.salesforce.com",
+  "sourceApiVersion" : "62.0",
+  "packageAliases" : {
+    "Ramya" : "0HoIS000000fxTs0AI"
+  },
+  "name" : "test-project"
 }
