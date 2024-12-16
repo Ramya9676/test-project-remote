@@ -5307,6 +5307,7 @@
         <members>TimeSlot.WorkTypeGroupId</members>
         <members>Toys__c.Brand__c</members>
         <members>Toys__c.Price__c</members>
+        <members>Training__c.VC_tools__c</members>
         <members>User.AboutMe</members>
         <members>User.Address</members>
         <members>User.Alias</members>
@@ -8019,6 +8020,7 @@
         <members>TimeLog__c.All</members>
         <members>TimeLog__c.Wiz_Time_Logs</members>
         <members>Toys__c.All</members>
+        <members>Training__c.All</members>
         <members>Tutorial__c.All</members>
         <members>User.ActiveUsers</members>
         <members>User.Activetrue</members>
@@ -8653,6 +8655,7 @@
         <members>Task.LID__PointDrive_Presentation_Created</members>
         <members>Task.LID__PointDrive_Presentation_Viewed</members>
         <members>Task.Task</members>
+        <members>Training__c.Training_record_type</members>
         <members>arintern__c.men</members>
         <members>arintern__c.women</members>
         <members>game__c.men</members>

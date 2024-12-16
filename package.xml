@@ -118,6 +118,7 @@
         <members>CreateAccountTest</members>
         <members>CricketPlayer</members>
         <members>CustomAccount</members>
+        <members>CustomExceptionExample</members>
         <members>CustomLogger</members>
         <members>CustomLoggerTest</members>
         <members>CustomObjectHandler_Lekhya</members>
@@ -168,6 +169,7 @@
         <members>Implementation_Questionnaire_1</members>
         <members>Implementation_Questionnaire_1_Test</members>
         <members>Implementation_Questionnaire_Test</members>
+        <members>InstituteEmailSender</members>
         <members>InstituteManager</members>
         <members>InternController</members>
         <members>InternControllerTest</members>
@@ -215,6 +217,7 @@
         <members>MySampleApexClass1</members>
         <members>MySampleApexClassmoni</members>
         <members>NotificationService</members>
+        <members>NumberToStringConverter</members>
         <members>OppLineItemTriggerHandler</members>
         <members>OppLineItemTriggerHandlerTest</members>
         <members>OpportunityCalculator</members>
@@ -283,8 +286,10 @@
         <members>StringReverser</members>
         <members>StringReverserTest</members>
         <members>StringUtil</members>
+        <members>StringUtils</members>
         <members>StudentManager</members>
         <members>SurveyFeedback</members>
+        <members>Task</members>
         <members>TaskHelper</members>
         <members>TaskManager</members>
         <members>TaskManagerTest</members>
@@ -312,6 +317,8 @@
         <members>Test_OpplineItem</members>
         <members>Test_Renewal_Page</members>
         <members>Test_ScheduleCLS_CalloutToJira</members>
+        <members>Topper</members>
+        <members>TopperTest</members>
         <members>TriggerRecursionHandler</members>
         <members>UKMAccountContacts</members>
         <members>Umesh1</members>
@@ -322,6 +329,7 @@
         <members>VindhyaObjHandlerTest</members>
         <members>VulnerableAccountManager</members>
         <members>WFJiraDemo</members>
+        <members>XYZ</members>
         <members>ZohoAccountJSON2Apex</members>
         <members>ZohoAccountJSON2Apex_Test</members>
         <members>ZohoDepartmentJSON2Apex</members>
@@ -652,6 +660,8 @@
     <types>
         <members>AA_Parts__c.AA_Contact_Number__c</members>
         <members>AA_Parts__c.Source_of_the_Lead__c</members>
+        <members>AR1__c.AR_Tools__c</members>
+        <members>AR1__c.AR_phone__c</members>
         <members>ARTraining__c.ARCompany__c</members>
         <members>ARTraining__c.ARTool__c</members>
         <members>ARTraining__c.Duration__c</members>
@@ -2335,6 +2345,8 @@
         <members>Custom_Object_Setting__c.Phone__c</members>
         <members>Custom_Object_Setting__c.Text_Label__c</members>
         <members>Custom_Object_Setting__c.URL__c</members>
+        <members>Custom_by_ramya__c.Custom_Text__c</members>
+        <members>Custom_by_ramya__c.Custom_phone__c</members>
         <members>Customer.CustomerStatusType</members>
         <members>Customer.Name</members>
         <members>Customer.OwnerId</members>
@@ -5182,6 +5194,7 @@
         <members>Solution.SolutionNote</members>
         <members>Solution.Status</members>
         <members>Sreekar_CI_Job_Test__c.CI_Job_Test_No__c</members>
+        <members>Sreekar_CI_Job_Test__c.CI_Job_Type__c</members>
         <members>Sreekar_CI_Job_Test__c.CI_Test_Job_Name__c</members>
         <members>Store__c.Items__c</members>
         <members>Store__c.Store_Contact__c</members>
@@ -5294,6 +5307,7 @@
         <members>TimeSlot.WorkTypeGroupId</members>
         <members>Toys__c.Brand__c</members>
         <members>Toys__c.Price__c</members>
+        <members>Training__c.VC_tools__c</members>
         <members>User.AboutMe</members>
         <members>User.Address</members>
         <members>User.Alias</members>
@@ -5789,6 +5803,7 @@
         <members>game__c.basketball__c</members>
         <members>game__c.indoor_games__c</members>
         <members>game__c.players__c</members>
+        <members>gift__c.content__c</members>
         <members>school__c.School_address__c</members>
         <members>school__c.School_email__c</members>
         <members>school__c.School_phone__c</members>
@@ -5859,6 +5874,7 @@
     </types>
     <types>
         <members>AA_Parts__c</members>
+        <members>AR1__c</members>
         <members>ARTraining__c</members>
         <members>AR_Client__c</members>
         <members>AR_Release_24_2__c</members>
@@ -5983,6 +5999,7 @@
         <members>Custom_Employee__c</members>
         <members>Custom_Object_Setting__c</members>
         <members>Custom_Object__c</members>
+        <members>Custom_by_ramya__c</members>
         <members>Customer</members>
         <members>Customer__c</members>
         <members>DTRecordsetReplica</members>
@@ -6202,6 +6219,7 @@
         <members>Scorecard</members>
         <members>ScorecardAssociation</members>
         <members>ScorecardMetric</members>
+        <members>Search_ASB_Yash__c</members>
         <members>Self_Hosted_License__c</members>
         <members>Seller</members>
         <members>ServiceAppointment</members>
@@ -6258,6 +6276,7 @@
         <members>TopicAssignment</members>
         <members>Toys__c</members>
         <members>Training__c</members>
+        <members>Tutorial__c</members>
         <members>UAT_24_3_1__c</members>
         <members>UAT_24_3_3__c</members>
         <members>UAT_object__c</members>
@@ -6317,6 +6336,8 @@
         <members>clothingbrand__c</members>
         <members>extra_curricular_activity__c</members>
         <members>game__c</members>
+        <members>gift__c</members>
+        <members>laptop__c</members>
         <members>school__c</members>
         <members>test__c</members>
         <members>trends__c</members>
@@ -6326,6 +6347,7 @@
     </types>
     <types>
         <members>AA_Parts__c-en_US</members>
+        <members>AR1__c-en_US</members>
         <members>ARTraining__c-en_US</members>
         <members>AR_Client__c-en_US</members>
         <members>AR_Release_24_2__c-en_US</members>
@@ -6358,6 +6380,7 @@
         <members>Custom_Employee__c-en_US</members>
         <members>Custom_Object_Setting__c-en_US</members>
         <members>Custom_Object__c-en_US</members>
+        <members>Custom_by_ramya__c-en_US</members>
         <members>Customer__c-en_US</members>
         <members>DataloadJOb01__c-en_US</members>
         <members>DemoIntern__c-en_US</members>
@@ -6425,6 +6448,7 @@
         <members>Sales_Order_Form__c-en_US</members>
         <members>School_Name__c-en_US</members>
         <members>Scope_Poc_Information__c-en_US</members>
+        <members>Search_ASB_Yash__c-en_US</members>
         <members>Self_Hosted_License__c-en_US</members>
         <members>Sreekar_CI_Job_Test__c-en_US</members>
         <members>Store__c-en_US</members>
@@ -6440,6 +6464,7 @@
         <members>TimeLog__c-en_US</members>
         <members>Toys__c-en_US</members>
         <members>Training__c-en_US</members>
+        <members>Tutorial__c-en_US</members>
         <members>UAT_24_3_1__c-en_US</members>
         <members>UAT_24_3_3__c-en_US</members>
         <members>UAT_object__c-en_US</members>
@@ -6463,6 +6488,8 @@
         <members>clothingbrand__c-en_US</members>
         <members>extra_curricular_activity__c-en_US</members>
         <members>game__c-en_US</members>
+        <members>gift__c-en_US</members>
+        <members>laptop__c-en_US</members>
         <members>school__c-en_US</members>
         <members>test__c-en_US</members>
         <members>trends__c-en_US</members>
@@ -6498,6 +6525,7 @@
         <name>CustomSite</name>
     </types>
     <types>
+        <members>AR1__c</members>
         <members>ARTraining__c</members>
         <members>AppDev__c</members>
         <members>AutoRABIT_s_Everyone_Social</members>
@@ -6513,6 +6541,7 @@
         <members>CompProfTest__c</members>
         <members>Company__c</members>
         <members>Country__c</members>
+        <members>Custom_by_ramya__c</members>
         <members>DataloadJOb01__c</members>
         <members>Dependency_Analyzer_Test__c</members>
         <members>ES_Project_Intake__c</members>
@@ -6564,6 +6593,7 @@
         <members>Sales_Order_Form__c</members>
         <members>School_Name__c</members>
         <members>Scope_Poc_Information__c</members>
+        <members>Search_ASB_Yash__c</members>
         <members>Self_Hosted_License__c</members>
         <members>Sreekar_CI_Job_Test__c</members>
         <members>Store__c</members>
@@ -6577,6 +6607,7 @@
         <members>Testing__c</members>
         <members>TimeLog__c</members>
         <members>Toys__c</members>
+        <members>Tutorial__c</members>
         <members>User_Commission_Plan__c</members>
         <members>Val_Dep_Test__c</members>
         <members>ValidationTest__c</members>
@@ -6589,6 +6620,7 @@
         <members>clothingbrand__c</members>
         <members>extra_curricular_activity__c</members>
         <members>game__c</members>
+        <members>gift__c</members>
         <members>school__c</members>
         <members>test__c</members>
         <members>trends__c</members>
@@ -7193,6 +7225,7 @@
     </types>
     <types>
         <members>AA_Parts__c-AA Parts Layout</members>
+        <members>AR1__c-AR1 Layout</members>
         <members>ARTraining__c-ARTraining Layout</members>
         <members>AR_Client__c-AR_Client Layout</members>
         <members>AR_Release_24_2__c-AR Release 24%2E2 Layout</members>
@@ -7322,6 +7355,7 @@
         <members>CspTrustedSite-Trusted URL Layout</members>
         <members>Custom_Employee__c-Custom Employee Layout</members>
         <members>Custom_Object__c-Custom_Object Layout</members>
+        <members>Custom_by_ramya__c-Custom by ramya Layout</members>
         <members>Customer-Customer Layout</members>
         <members>Customer__c-Customer Layout</members>
         <members>DandBCompany-D%26B Company Layout</members>
@@ -7484,6 +7518,7 @@
         <members>Scorecard-Scorecard Layout</members>
         <members>ScorecardAssociation-Scorecard Association Layout</members>
         <members>ScorecardMetric-Scorecard Metric Layout</members>
+        <members>Search_ASB_Yash__c-Search ASB Yash Layout</members>
         <members>Self_Hosted_License__c-Self Hosted License Layout</members>
         <members>Seller-Seller Layout</members>
         <members>ServiceAppointment-Service Appointment Layout</members>
@@ -7522,6 +7557,7 @@
         <members>TimeSlot-Time Slot Layout</members>
         <members>Toys__c-Toys Layout</members>
         <members>Training__c-Training Layout</members>
+        <members>Tutorial__c-Tutorial Layout</members>
         <members>UAT_24_3_1__c-UAT 24%2E3%2C1 Layout</members>
         <members>UAT_24_3_3__c-UAT 24%2E3%2E3 Layout</members>
         <members>UAT_object__c-UAT object Layout</members>
@@ -7575,6 +7611,8 @@
         <members>extra_curricular_activity__c-extra curricular activity Layout</members>
         <members>game__c-game 2</members>
         <members>game__c-game Layout</members>
+        <members>gift__c-gift Layout</members>
+        <members>laptop__c-laptop Layout</members>
         <members>school__c-school Layout</members>
         <members>test__c-test Layout</members>
         <members>trends__c-men Layout</members>
@@ -7612,6 +7650,7 @@
         <name>LightningExperienceTheme</name>
     </types>
     <types>
+        <members>AR1__c.All</members>
         <members>ARTraining__c.AR_listview</members>
         <members>ARTraining__c.All</members>
         <members>Account.ABM_Accounts_to_Assign_Campaign</members>
@@ -7758,6 +7797,7 @@
         <members>Country__c.All</members>
         <members>Coupon.ALL_Coupons</members>
         <members>CreditMemo.mine</members>
+        <members>Custom_by_ramya__c.All</members>
         <members>Customer.All_Customers</members>
         <members>DataMaskCustomValueLibrary.All_DataMaskCustomValueLibraries</members>
         <members>DataUseLegalBasis.All_DataUseLegalBases</members>
@@ -7933,6 +7973,7 @@
         <members>Scope_Poc_Information__c.All</members>
         <members>Scorecard.AllScorecards</members>
         <members>Scorecard.MyScorecards</members>
+        <members>Search_ASB_Yash__c.All</members>
         <members>Self_Hosted_License__c.All</members>
         <members>Self_Hosted_License__c.Self_Hosted_Licenses_to_Filter</members>
         <members>Seller.All_Sellers</members>
@@ -7979,6 +8020,8 @@
         <members>TimeLog__c.All</members>
         <members>TimeLog__c.Wiz_Time_Logs</members>
         <members>Toys__c.All</members>
+        <members>Training__c.All</members>
+        <members>Tutorial__c.All</members>
         <members>User.ActiveUsers</members>
         <members>User.Activetrue</members>
         <members>User.AdminUsers</members>
@@ -8009,6 +8052,7 @@
         <members>extra_curricular_activity__c.All</members>
         <members>game__c.All</members>
         <members>game__c.my_list_view</members>
+        <members>gift__c.All</members>
         <members>school__c.All</members>
         <members>test__c.All</members>
         <members>trends__c.All</members>
@@ -8195,6 +8239,7 @@
         <members>PermissionUmesh</members>
         <members>Permission_to_update_records_with_inactive_owners</members>
         <members>Ramya_set</members>
+        <members>Ramya_set2</members>
         <members>Set_Audit_Fields</members>
         <members>Subscribe_to_Reports</members>
         <members>Task_Read_Only_Access</members>
@@ -8213,6 +8258,7 @@
         <members>sfdcInternalInt__sfdc_predictionbuilder</members>
         <members>sfdcInternalInt__sfdc_scrt2</members>
         <members>v1</members>
+        <members>xxx</members>
         <name>PermissionSet</name>
     </types>
     <types>
@@ -8314,7 +8360,9 @@
         <members>Pavantestexperiencesite Profile</members>
         <members>PlatformPortal</members>
         <members>PoCEvaluations Profile</members>
+        <members>RAmya1</members>
         <members>Ramya%27s Site Profile</members>
+        <members>Ramya2</members>
         <members>Ramya_custom</members>
         <members>Read Only</members>
         <members>Replicate69222</members>
@@ -8352,6 +8400,7 @@
         <members>moni-profile2</members>
         <members>v1</members>
         <members>vindhya%27s site Profile</members>
+        <members>vvvv</members>
         <name>Profile</name>
     </types>
     <types>
@@ -8606,6 +8655,7 @@
         <members>Task.LID__PointDrive_Presentation_Created</members>
         <members>Task.LID__PointDrive_Presentation_Viewed</members>
         <members>Task.Task</members>
+        <members>Training__c.Training_record_type</members>
         <members>arintern__c.men</members>
         <members>arintern__c.women</members>
         <members>game__c.men</members>
@@ -8853,6 +8903,7 @@
     </types>
     <types>
         <members>AA_Parts__c</members>
+        <members>AR1__c</members>
         <members>ARTraining__c</members>
         <members>AR_Client__c</members>
         <members>AR_Release_24_2__c</members>
@@ -8925,6 +8976,7 @@
         <members>CreditMemo</members>
         <members>Custom_Employee__c</members>
         <members>Custom_Object__c</members>
+        <members>Custom_by_ramya__c</members>
         <members>Customer</members>
         <members>Customer__c</members>
         <members>DTRecordsetReplica</members>
@@ -9058,6 +9110,7 @@
         <members>Sales_Order_Form__c</members>
         <members>School_Name__c</members>
         <members>Scorecard</members>
+        <members>Search_ASB_Yash__c</members>
         <members>Self_Hosted_License__c</members>
         <members>Seller</members>
         <members>ServiceAppointment</members>
@@ -9092,6 +9145,7 @@
         <members>TodayGoal</members>
         <members>Toys__c</members>
         <members>Training__c</members>
+        <members>Tutorial__c</members>
         <members>UAT_24_3_1__c</members>
         <members>UAT_24_3_3__c</members>
         <members>UAT_object__c</members>
@@ -9140,6 +9194,8 @@
         <members>clothingbrand__c</members>
         <members>extra_curricular_activity__c</members>
         <members>game__c</members>
+        <members>gift__c</members>
+        <members>laptop__c</members>
         <members>school__c</members>
         <members>test__c</members>
         <members>trends__c</members>
@@ -9252,6 +9308,7 @@
     </types>
     <types>
         <members>AA_Parts__c</members>
+        <members>AR1__c</members>
         <members>ARTraining__c</members>
         <members>AR_Client__c</members>
         <members>AR_Release_24_2__c</members>
@@ -9294,6 +9351,7 @@
         <members>Country__c</members>
         <members>Custom_Employee__c</members>
         <members>Custom_Object__c</members>
+        <members>Custom_by_ramya__c</members>
         <members>Customer__c</members>
         <members>DOZISF__ZoomInfo_Intent__c</members>
         <members>DOZISF__ZoomInfo_Scoop__c</members>
@@ -9402,6 +9460,7 @@
         <members>Sales_Order_Form__c</members>
         <members>School_Name__c</members>
         <members>Scope_Poc_Information__c</members>
+        <members>Search_ASB_Yash__c</members>
         <members>Self_Hosted_License__c</members>
         <members>ServiceAppointment</members>
         <members>ServiceResource</members>
@@ -9429,6 +9488,7 @@
         <members>TimeLog__c</members>
         <members>Toys__c</members>
         <members>Training__c</members>
+        <members>Tutorial__c</members>
         <members>UAT_24_3_1__c</members>
         <members>UAT_24_3_3__c</members>
         <members>UAT_object__c</members>
@@ -9496,6 +9556,8 @@
         <members>clothingbrand__c</members>
         <members>extra_curricular_activity__c</members>
         <members>game__c</members>
+        <members>gift__c</members>
+        <members>laptop__c</members>
         <members>pi__AsyncRequest__c</members>
         <members>pi__Category_Contact_Score__c</members>
         <members>pi__Category_Lead_Score__c</members>
