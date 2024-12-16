@@ -1532,10 +1532,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>vindhyaobj</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>zoho_Json2Apex</apexClass>
         <enabled>true</enabled>
     </classAccesses>

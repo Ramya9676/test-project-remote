@@ -384,7 +384,6 @@
         <members>test_Schedule_ZohoCalloutForTickets</members>
         <members>umeshIncome</members>
         <members>umeshIncomeTest</members>
-        <members>vindhyaobj</members>
         <members>zoho_Json2Apex</members>
         <name>ApexClass</name>
     </types>
