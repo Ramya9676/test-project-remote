@@ -6,4 +6,11 @@
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <tabs>standard-Chatter</tabs>
+    <tabs>Ramya_cus__c</tabs>
+    <tabs>Real_Estate_Management__c</tabs>
+    <tabs>Training__c</tabs>
+    <tabs>Healthcare__c</tabs>
+    <tabs>Event_Management__c</tabs>
+    <tabs>Manufacturing__c</tabs>
+    <tabs>Customer_Support__c</tabs>
 </CustomApplication>

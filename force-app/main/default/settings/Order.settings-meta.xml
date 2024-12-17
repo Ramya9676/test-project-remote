@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OrderSettings xmlns="http://soap.sforce.com/2006/04/metadata">
-    <enableNegativeQuantity>true</enableNegativeQuantity>
-    <enableOrderEvents>true</enableOrderEvents>
+    <enableEnhancedCommerceOrders>false</enableEnhancedCommerceOrders>
+    <enableNegativeQuantity>false</enableNegativeQuantity>
+    <enableOptionalPricebook>false</enableOptionalPricebook>
+    <enableOrderEvents>false</enableOrderEvents>
     <enableOrders>true</enableOrders>
-    <enableReductionOrders>true</enableReductionOrders>
-    <enableZeroQuantity>true</enableZeroQuantity>
+    <enableReductionOrders>false</enableReductionOrders>
+    <enableZeroQuantity>false</enableZeroQuantity>
 </OrderSettings>

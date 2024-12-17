@@ -9,33 +9,14 @@
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
     <tabs>standard-FlowRecord</tabs>
-    <tabs>RL_Object__c</tabs>
-    <tabs>QObject1__c</tabs>
-    <tabs>Val_Dep_Test__c</tabs>
-    <tabs>AppDev__c</tabs>
-    <tabs>arintern__c</tabs>
-    <tabs>Expense__c</tabs>
-    <tabs>Instructor__c</tabs>
-    <tabs>game__c</tabs>
-    <tabs>vindyaobj__c</tabs>
-    <tabs>Export__c</tabs>
-    <tabs>Intern__c</tabs>
-    <tabs>Home__c</tabs>
-    <tabs>wire__c</tabs>
-    <tabs>DataloadJOb01__c</tabs>
-    <tabs>Ramya_ARM_Objects__c</tabs>
-    <tabs>Ganga_1__c</tabs>
-    <tabs>Fun__c</tabs>
-    <tabs>CI_Job_Baseline__c</tabs>
-    <tabs>school__c</tabs>
-    <tabs>trends__c</tabs>
-    <tabs>Institute__c</tabs>
-    <tabs>Sreekar_CI_Job_Test__c</tabs>
-    <tabs>Object01__c</tabs>
-    <tabs>Search_ASB_Yash__c</tabs>
-    <tabs>AR1__c</tabs>
-    <tabs>Custom_by_ramya__c</tabs>
-    <tabs>Tutorial__c</tabs>
+    <tabs>standard-FlowOrchestration</tabs>
+    <tabs>Ramya_cus__c</tabs>
+    <tabs>Real_Estate_Management__c</tabs>
+    <tabs>Training__c</tabs>
+    <tabs>Healthcare__c</tabs>
+    <tabs>Event_Management__c</tabs>
+    <tabs>Manufacturing__c</tabs>
+    <tabs>Customer_Support__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>FlowsApp_UtilityBar</utilityBar>
 </CustomApplication>

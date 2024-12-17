@@ -2,39 +2,27 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>1-Lead</fullName>
+        <fullName>Open - Not Contacted</fullName>
         <default>true</default>
-        <label>1-Lead</label>
+        <label>Open - Not Contacted</label>
         <converted>false</converted>
     </standardValue>
     <standardValue>
-        <fullName>2-Subscriber</fullName>
+        <fullName>Working - Contacted</fullName>
         <default>false</default>
-        <label>2-Subscriber</label>
+        <label>Working - Contacted</label>
         <converted>false</converted>
     </standardValue>
     <standardValue>
-        <fullName>4-MQL</fullName>
+        <fullName>Closed - Converted</fullName>
         <default>false</default>
-        <label>4-MQL</label>
-        <converted>false</converted>
-    </standardValue>
-    <standardValue>
-        <fullName>5-Intro Call Scheduled</fullName>
-        <default>false</default>
-        <label>5-Intro Call Scheduled</label>
-        <converted>false</converted>
-    </standardValue>
-    <standardValue>
-        <fullName>6-Intro Call Held</fullName>
-        <default>false</default>
-        <label>6-Intro Call Held</label>
-        <converted>false</converted>
-    </standardValue>
-    <standardValue>
-        <fullName>7-SAL</fullName>
-        <default>false</default>
-        <label>7-SAL</label>
+        <label>Closed - Converted</label>
         <converted>true</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Not Converted</fullName>
+        <default>false</default>
+        <label>Closed - Not Converted</label>
+        <converted>false</converted>
     </standardValue>
 </StandardValueSet>

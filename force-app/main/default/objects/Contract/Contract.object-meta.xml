@@ -185,40 +185,22 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <searchLayouts>
-        <customTabListAdditionalFields>SALES.ACCOUNT.NAME</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Opportunity__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Contract_Start_date_Custom_Field__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Contract_End_Date__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>CONTRACT_TERM</customTabListAdditionalFields>
-        <customTabListAdditionalFields>of_Seats_CI_CD__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Number_of_Seats_Vault__c</customTabListAdditionalFields>
         <customTabListAdditionalFields>CONTRACT.CONTRACT_NUMBER</customTabListAdditionalFields>
         <customTabListAdditionalFields>CONTRACT.NAME</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Total_AR_Subs_Closed_Won__c</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>Contract_Start_date_Custom_Field__c</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>SALES.ACCOUNT.NAME</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Opportunity__c</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>SALES.ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Opportunity__c</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Contract_Start_date_Custom_Field__c</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Contract_End_Date__c</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>CONTRACT_TERM</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>of_Seats_CI_CD__c</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Number_of_Seats_Vault__c</lookupPhoneDialogsAdditionalFields>
-        <searchFilterFields>SALES.ACCOUNT.NAME</searchFilterFields>
-        <searchFilterFields>Opportunity__c</searchFilterFields>
-        <searchFilterFields>Contract_Start_date_Custom_Field__c</searchFilterFields>
-        <searchFilterFields>Contract_End_Date__c</searchFilterFields>
-        <searchFilterFields>CONTRACT_TERM</searchFilterFields>
-        <searchFilterFields>of_Seats_CI_CD__c</searchFilterFields>
-        <searchFilterFields>Number_of_Seats_Vault__c</searchFilterFields>
-        <searchFilterFields>Total_AR_Subs_Closed_Won__c</searchFilterFields>
+        <customTabListAdditionalFields>SALES.ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTRACT.STATUS</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>CONTRACT.CONTRACT_NUMBER</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CONTRACT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CORE.USERS.ALIAS</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTRACT.CONTRACT_NUMBER</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTRACT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CORE.USERS.ALIAS</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>CONTRACT.CONTRACT_NUMBER</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CONTRACT.NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>SALES.ACCOUNT.NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CONTRACT.STATUS</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Contract_Start_date_Custom_Field__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Contract_End_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTRACT.START_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTRACT.END_DATE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CONTRACT_TERM</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>

@@ -9,9 +9,37 @@
     <navType>Console</navType>
     <tabs>standard-Product2</tabs>
     <tabs>standard-Pricebook2</tabs>
+    <tabs>Ramya_cus__c</tabs>
+    <tabs>Real_Estate_Management__c</tabs>
+    <tabs>Training__c</tabs>
+    <tabs>Healthcare__c</tabs>
+    <tabs>Event_Management__c</tabs>
+    <tabs>Manufacturing__c</tabs>
+    <tabs>Customer_Support__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>RevenueCloudConsole_UtilityBar</utilityBar>
     <workspaceConfig>
+        <mappings>
+            <tab>Customer_Support__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Event_Management__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Healthcare__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Manufacturing__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Ramya_cus__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Real_Estate_Management__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Training__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Pricebook2</tab>
         </mappings>

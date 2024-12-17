@@ -4,16 +4,16 @@
     <doesGmailStayConnectedToSalesforce>true</doesGmailStayConnectedToSalesforce>
     <enableContactAndEventSync>false</enableContactAndEventSync>
     <enableContextualEverywhere>true</enableContextualEverywhere>
-    <enableEmailTrackingInMobile>false</enableEmailTrackingInMobile>
-    <enableEngageForOutlook>true</enableEngageForOutlook>
+    <enableEmailTrackingInMobile>true</enableEmailTrackingInMobile>
+    <enableEngageForOutlook>false</enableEngageForOutlook>
     <enableExtensionHostUnrestricted>true</enableExtensionHostUnrestricted>
     <enableGmailIntegration>true</enableGmailIntegration>
     <enableInboxInternalEmailTracking>false</enableInboxInternalEmailTracking>
     <enableInboxMobileIntune>false</enableInboxMobileIntune>
-    <enableOutlookIntegration>true</enableOutlookIntegration>
+    <enableOutlookIntegration>false</enableOutlookIntegration>
     <enableProductivityFeatures>false</enableProductivityFeatures>
     <enableSupplementalContactInfoInMobile>false</enableSupplementalContactInfoInMobile>
-    <isLayoutCustomizationAllowed>true</isLayoutCustomizationAllowed>
-    <orgIsSyncingEventsOutbound>true</orgIsSyncingEventsOutbound>
+    <isLayoutCustomizationAllowed>false</isLayoutCustomizationAllowed>
+    <orgIsSyncingEventsOutbound>false</orgIsSyncingEventsOutbound>
     <shouldUseTrustedDomainsList>true</shouldUseTrustedDomainsList>
 </EmailIntegrationSettings>

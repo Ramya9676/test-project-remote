@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- VC tools --></label>
+    <name>VC_tools__c</name>
+    <picklistValues>
+        <masterLabel>Azure</masterLabel>
+        <translation><!-- Azure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bitbucket</masterLabel>
+        <translation><!-- Bitbucket --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Git</masterLabel>
+        <translation><!-- Git --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Github</masterLabel>
+        <translation><!-- Github --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

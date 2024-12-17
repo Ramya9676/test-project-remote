@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LightningExperienceSettings xmlns="http://soap.sforce.com/2006/04/metadata">
-    <activeThemeName>AutoRABITTheme</activeThemeName>
     <enableAccessCheckCrucPref>false</enableAccessCheckCrucPref>
     <enableApiUserLtngOutAccessPref>false</enableApiUserLtngOutAccessPref>
     <enableAuraCDNPref>true</enableAuraCDNPref>
@@ -22,7 +21,7 @@
     <enableLexEndUsersNoSwitching>false</enableLexEndUsersNoSwitching>
     <enableLightningPreviewPref>false</enableLightningPreviewPref>
     <enableNavPersonalizationOptOut>false</enableNavPersonalizationOptOut>
-    <enableNoBackgroundNavigations>true</enableNoBackgroundNavigations>
+    <enableNoBackgroundNavigations>false</enableNoBackgroundNavigations>
     <enableQuip>false</enableQuip>
     <enableRemoveThemeBrandBanner>false</enableRemoveThemeBrandBanner>
     <enableS1BannerPref>true</enableS1BannerPref>
@@ -33,7 +32,7 @@
     <enableStackedModalManagerEnabled>true</enableStackedModalManagerEnabled>
     <enableTryLightningOptOut>false</enableTryLightningOptOut>
     <enableUseS1AlohaDesktop>false</enableUseS1AlohaDesktop>
-    <enableUsersAreLightningOnly>true</enableUsersAreLightningOnly>
+    <enableUsersAreLightningOnly>false</enableUsersAreLightningOnly>
     <isLEXExtensionComponentCustomizationOff>false</isLEXExtensionComponentCustomizationOff>
     <isLEXExtensionDarkModeOff>false</isLEXExtensionDarkModeOff>
     <isLEXExtensionLinkGrabberOff>false</isLEXExtensionLinkGrabberOff>

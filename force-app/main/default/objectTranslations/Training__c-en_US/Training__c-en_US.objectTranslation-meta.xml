@@ -8,5 +8,9 @@
         <plural>true</plural>
         <value>Trainings</value>
     </caseValues>
+    <recordTypes>
+        <label><!-- Training record type --></label>
+        <name>Training_record_type</name>
+    </recordTypes>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

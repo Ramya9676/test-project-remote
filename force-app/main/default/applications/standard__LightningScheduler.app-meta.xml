@@ -14,5 +14,12 @@
     <tabs>standard-WorkType</tabs>
     <tabs>standard-OperatingHours</tabs>
     <tabs>standard-ServiceAppointment</tabs>
+    <tabs>Ramya_cus__c</tabs>
+    <tabs>Real_Estate_Management__c</tabs>
+    <tabs>Training__c</tabs>
+    <tabs>Healthcare__c</tabs>
+    <tabs>Event_Management__c</tabs>
+    <tabs>Manufacturing__c</tabs>
+    <tabs>Customer_Support__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

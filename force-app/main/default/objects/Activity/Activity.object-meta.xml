@@ -114,20 +114,11 @@
     </actionOverrides>
     <enableFeeds>false</enableFeeds>
     <searchLayouts>
-        <listViewButtons>activities__CloseTasks</listViewButtons>
-        <listViewButtons>activities__Mass_Update</listViewButtons>
-        <searchFilterFields>TASK.TYPE</searchFilterFields>
-        <searchFilterFields>TASK.SUBJECT</searchFilterFields>
-        <searchFilterFields>TASK.WHAT_NAME</searchFilterFields>
-        <searchFilterFields>CORE.USERS.FULL_NAME</searchFilterFields>
         <searchResultsAdditionalFields>TASK.SUBJECT</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>TASK.TYPE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>TASK.WHO_NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>TASK.WHAT_NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>TASK.DUE_DATE</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CORE.USERS.FULL_NAME</searchResultsAdditionalFields>
-        <searchResultsCustomButtons>activities__CloseTasks</searchResultsCustomButtons>
-        <searchResultsCustomButtons>activities__Mass_Update</searchResultsCustomButtons>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ControlledByParent</sharingModel>
+    <sharingModel>Private</sharingModel>
 </CustomObject>

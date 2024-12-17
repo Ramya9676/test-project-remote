@@ -1,70 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
-    <sorted>true</sorted>
+    <sorted>false</sorted>
     <standardValue>
         <fullName>Call</fullName>
         <default>false</default>
         <label>Call</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Chat</fullName>
-        <default>false</default>
-        <label>Chat</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Demo</fullName>
-        <default>false</default>
-        <label>Demo</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Discovery Call</fullName>
-        <default>false</default>
-        <label>Discovery Call</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Email</fullName>
-        <default>false</default>
-        <label>Email</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Follow-up</fullName>
-        <default>false</default>
-        <label>Follow-up</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Gift</fullName>
-        <default>false</default>
-        <label>Gift</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Intro Call</fullName>
-        <default>false</default>
-        <label>Intro Call</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Legal</fullName>
-        <default>false</default>
-        <label>Legal</label>
-    </standardValue>
-    <standardValue>
-        <fullName>LinkedIn Connection Request</fullName>
-        <default>false</default>
-        <label>LinkedIn Connection Request</label>
-    </standardValue>
-    <standardValue>
-        <fullName>LinkedIn InMail Sent</fullName>
-        <default>false</default>
-        <label>LinkedIn InMail Sent</label>
-    </standardValue>
-    <standardValue>
-        <fullName>LinkedIn Message</fullName>
-        <default>false</default>
-        <label>LinkedIn Message</label>
-    </standardValue>
-    <standardValue>
-        <fullName>LinkedIn Response</fullName>
-        <default>false</default>
-        <label>LinkedIn Response</label>
     </standardValue>
     <standardValue>
         <fullName>Meeting</fullName>
@@ -77,23 +17,8 @@
         <label>Other</label>
     </standardValue>
     <standardValue>
-        <fullName>Procurement</fullName>
+        <fullName>Email</fullName>
         <default>false</default>
-        <label>Procurement</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Re-engagement</fullName>
-        <default>false</default>
-        <label>Re-engagement</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Referral from Partner</fullName>
-        <default>false</default>
-        <label>Referral from Partner</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Security</fullName>
-        <default>false</default>
-        <label>Security</label>
+        <label>Email</label>
     </standardValue>
 </StandardValueSet>

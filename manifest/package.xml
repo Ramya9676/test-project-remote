@@ -251,6 +251,7 @@
         <members>RandomStringGeneratorTest</members>
         <members>Recruitment</members>
         <members>Rectangle</members>
+        <members>RectangleCalculator</members>
         <members>RecursiveTests</members>
         <members>RenewalOpportunityFactory</members>
         <members>RenewalOpportunityFactoryTest</members>
@@ -482,7 +483,8 @@
         <name>ApprovalProcess</name>
     </types>
     <types>
-        <members>Lead.Lead Assignment</members>
+        <members>Case.Standard</members>
+        <members>Lead.Standard</members>
         <name>AssignmentRule</name>
     </types>
     <types>
@@ -523,11 +525,6 @@
         <members>Sandbox_Asset_Flow_Auth</members>
         <members>ZohoDesk</members>
         <name>AuthProvider</name>
-    </types>
-    <types>
-        <members>Case.Sample Case Auto-Response Rule</members>
-        <members>Lead.W2L Response</members>
-        <name>AutoResponseRule</name>
     </types>
     <types>
         <members>Case</members>
@@ -2351,6 +2348,9 @@
         <members>Customer.OwnerId</members>
         <members>Customer.PartyId</members>
         <members>Customer.TotalLifeTimeValue</members>
+        <members>Customer_Support__c.Article_ID__c</members>
+        <members>Customer_Support__c.Assigned_Agent__c</members>
+        <members>Customer_Support__c.Assigned_Team__c</members>
         <members>Customer__c.E_Mail__c</members>
         <members>Customer__c.On_Boarding_Date__c</members>
         <members>Customer__c.Phone_Number__c</members>
@@ -2703,6 +2703,10 @@
         <members>Event.Type</members>
         <members>Event.WhatId</members>
         <members>Event.WhoId</members>
+        <members>Event_Management__c.Budget__c</members>
+        <members>Event_Management__c.Event_ID__c</members>
+        <members>Event_Management__c.Event_Name__c</members>
+        <members>Event_Management__c.Venue__c</members>
         <members>Expense__c.Amount__c</members>
         <members>Expense__c.Category__c</members>
         <members>Expense__c.Date__c</members>
@@ -2963,6 +2967,9 @@
         <members>GuestUserAnomalyEventStore.UserAgent</members>
         <members>GuestUserAnomalyEventStore.UserId</members>
         <members>GuestUserAnomalyEventStore.UserType</members>
+        <members>Healthcare__c.Dosage__c</members>
+        <members>Healthcare__c.Medical_History__c</members>
+        <members>Healthcare__c.Patient_ID__c</members>
         <members>Home__c.Home_Address__c</members>
         <members>Idea.AutorabitExtId__c</members>
         <members>Idea.Categories</members>
@@ -3476,6 +3483,8 @@
         <members>Macro.Name</members>
         <members>Macro.OwnerId</members>
         <members>Macro.StartingContext</members>
+        <members>Manufacturing__c.Model_Number__c</members>
+        <members>Manufacturing__c.Restock_Threshold__c</members>
         <members>MessagingEndUser.AccountId</members>
         <members>MessagingEndUser.ContactId</members>
         <members>MessagingEndUser.HasInitialResponseSent</members>
@@ -4620,6 +4629,9 @@
         <members>Ramya_ARM_Objects__c.AR__c</members>
         <members>Ramya_ARM_Objects__c.Currency__c</members>
         <members>Ramya_ARM_Objects__c.Phone__c</members>
+        <members>Real_Estate_Management__c.Lease_Agreement__c</members>
+        <members>Real_Estate_Management__c.Maintenance__c</members>
+        <members>Real_Estate_Management__c.Property__c</members>
         <members>Reassign_Helper__c.Assign_to__c</members>
         <members>Reassign_Helper__c.ClosedDate_From__c</members>
         <members>Reassign_Helper__c.ClosedDate_To__c</members>
@@ -6000,6 +6012,7 @@
         <members>Custom_Object__c</members>
         <members>Custom_by_ramya__c</members>
         <members>Customer</members>
+        <members>Customer_Support__c</members>
         <members>Customer__c</members>
         <members>DTRecordsetReplica</members>
         <members>DandBCompany</members>
@@ -6028,6 +6041,7 @@
         <members>EntitlementContact</members>
         <members>EntityMilestone</members>
         <members>Event</members>
+        <members>Event_Management__c</members>
         <members>ExchangeUserMapping</members>
         <members>Expense__c</members>
         <members>Export__c</members>
@@ -6063,6 +6077,7 @@
         <members>Google_Analytics__c</members>
         <members>Green_Latern__c</members>
         <members>GuestUserAnomalyEventStore</members>
+        <members>Healthcare__c</members>
         <members>Home__c</members>
         <members>Idea</members>
         <members>Image</members>
@@ -6105,6 +6120,7 @@
         <members>MacroAction</members>
         <members>MacroInstruction</members>
         <members>MacroUsage</members>
+        <members>Manufacturing__c</members>
         <members>Mergetest__c</members>
         <members>MessagingEndUser</members>
         <members>MessagingSession</members>
@@ -6195,6 +6211,7 @@
         <members>RL_Object__c</members>
         <members>Ramya_ARM_Objects__c</members>
         <members>Ramya_cus__c</members>
+        <members>Real_Estate_Management__c</members>
         <members>Reassign_Helper__c</members>
         <members>Recommendation</members>
         <members>RecordAction</members>
@@ -6380,6 +6397,7 @@
         <members>Custom_Object_Setting__c-en_US</members>
         <members>Custom_Object__c-en_US</members>
         <members>Custom_by_ramya__c-en_US</members>
+        <members>Customer_Support__c-en_US</members>
         <members>Customer__c-en_US</members>
         <members>DataloadJOb01__c-en_US</members>
         <members>DemoIntern__c-en_US</members>
@@ -6390,6 +6408,7 @@
         <members>ES_Project_Intake__c-en_US</members>
         <members>Employee__c-en_US</members>
         <members>Engineering__c-en_US</members>
+        <members>Event_Management__c-en_US</members>
         <members>Expense__c-en_US</members>
         <members>Export__c-en_US</members>
         <members>Food_Products__c-en_US</members>
@@ -6400,6 +6419,7 @@
         <members>GoalOrigGoalId__c-en_US</members>
         <members>Google_Analytics__c-en_US</members>
         <members>Green_Latern__c-en_US</members>
+        <members>Healthcare__c-en_US</members>
         <members>Home__c-en_US</members>
         <members>Incident__c-en_US</members>
         <members>IncomingEmail__c-en_US</members>
@@ -6417,6 +6437,7 @@
         <members>Lead_Transition__c-en_US</members>
         <members>Loan_Amount__c-en_US</members>
         <members>Loan__c-en_US</members>
+        <members>Manufacturing__c-en_US</members>
         <members>Mergetest__c-en_US</members>
         <members>ModularizationDemo__c-en_US</members>
         <members>NB_Object__c-en_US</members>
@@ -6442,6 +6463,8 @@
         <members>Questionnaire_Implementation__c-en_US</members>
         <members>RL_Object__c-en_US</members>
         <members>Ramya_ARM_Objects__c-en_US</members>
+        <members>Ramya_cus__c-en_US</members>
+        <members>Real_Estate_Management__c-en_US</members>
         <members>Reassign_Helper__c-en_US</members>
         <members>SDR_Metrics__c-en_US</members>
         <members>Sales_Order_Form__c-en_US</members>
@@ -6541,11 +6564,13 @@
         <members>Company__c</members>
         <members>Country__c</members>
         <members>Custom_by_ramya__c</members>
+        <members>Customer_Support__c</members>
         <members>DataloadJOb01__c</members>
         <members>Dependency_Analyzer_Test__c</members>
         <members>ES_Project_Intake__c</members>
         <members>Employee__c</members>
         <members>Engineering__c</members>
+        <members>Event_Management__c</members>
         <members>Expense__c</members>
         <members>Export__c</members>
         <members>Food_Products__c</members>
@@ -6555,6 +6580,7 @@
         <members>Ganga_1__c</members>
         <members>Google_Analytics__c</members>
         <members>Green_Latern__c</members>
+        <members>Healthcare__c</members>
         <members>Home__c</members>
         <members>Incident__c</members>
         <members>IncomingEmail__c</members>
@@ -6571,6 +6597,7 @@
         <members>Lead_Transition__c</members>
         <members>Loan_Amount__c</members>
         <members>Loan__c</members>
+        <members>Manufacturing__c</members>
         <members>Mergetest__c</members>
         <members>ModularizationDemo__c</members>
         <members>NB__c</members>
@@ -6587,6 +6614,8 @@
         <members>Questionnaire_Implementation__c</members>
         <members>RL_Object__c</members>
         <members>Ramya_ARM_Objects__c</members>
+        <members>Ramya_cus__c</members>
+        <members>Real_Estate_Management__c</members>
         <members>SDR_Metrics__c</members>
         <members>SP</members>
         <members>Sales_Order_Form__c</members>
@@ -6606,6 +6635,7 @@
         <members>Testing__c</members>
         <members>TimeLog__c</members>
         <members>Toys__c</members>
+        <members>Training__c</members>
         <members>Tutorial__c</members>
         <members>User_Commission_Plan__c</members>
         <members>Val_Dep_Test__c</members>
@@ -6891,7 +6921,7 @@
         <name>EntitlementProcess</name>
     </types>
     <types>
-        <members>Case.Escalation to Vijay %26 Niranjan</members>
+        <members>Case.Standard</members>
         <name>EscalationRule</name>
     </types>
     <types>
@@ -7356,6 +7386,7 @@
         <members>Custom_Object__c-Custom_Object Layout</members>
         <members>Custom_by_ramya__c-Custom by ramya Layout</members>
         <members>Customer-Customer Layout</members>
+        <members>Customer_Support__c-Customer Support Layout</members>
         <members>Customer__c-Customer Layout</members>
         <members>DandBCompany-D%26B Company Layout</members>
         <members>DataUseLegalBasis-Data Use Legal Basis Layout</members>
@@ -7379,6 +7410,7 @@
         <members>Entitlement-Entitlement Layout</members>
         <members>EntityMilestone-Object Milestone Layout</members>
         <members>Event-Event Layout</members>
+        <members>Event_Management__c-Event Management Layout</members>
         <members>Expense__c-Expense Layout</members>
         <members>Export__c-Export Layout</members>
         <members>Export__c-Export Layout custom</members>
@@ -7403,6 +7435,7 @@
         <members>Google_Analytics__c-Google Analytic Layout</members>
         <members>Green_Latern__c-Green Latern Layout</members>
         <members>GuestUserAnomalyEventStore-Guest User Anomaly Event Store Layout</members>
+        <members>Healthcare__c-Healthcare Layout</members>
         <members>Home__c-Home Layout</members>
         <members>Idea-Idea Layout</members>
         <members>IframeWhiteListUrl-Trusted Domain for Inline Frames Layout</members>
@@ -7439,6 +7472,7 @@
         <members>LocationGroup-Location Group Layout</members>
         <members>LocationGroupAssignment-Location Group Assignment Layout</members>
         <members>Macro-Macro Layout</members>
+        <members>Manufacturing__c-Manufacturing Layout</members>
         <members>Mergetest__c-Mergetest Layout</members>
         <members>ModularizationDemo__c-ModularizationDemo Layout</members>
         <members>NB_Object__c-NB Object Layout</members>
@@ -7497,6 +7531,8 @@
         <members>QuoteLineItem-Quote Line Item Layout</members>
         <members>RL_Object__c-RL Object Layout</members>
         <members>Ramya_ARM_Objects__c-Ramya ARM Obj Layout</members>
+        <members>Ramya_cus__c-Ramya_cus Layout</members>
+        <members>Real_Estate_Management__c-Real Estate Management Layout</members>
         <members>Reassign_Helper__c-Mass Reassign Opportunity Helper Layout</members>
         <members>Reassign_Helper__c-Présentation de Mass Reassign Opportunity Helper</members>
         <members>Refund-Refund Layout</members>
@@ -7798,6 +7834,7 @@
         <members>CreditMemo.mine</members>
         <members>Custom_by_ramya__c.All</members>
         <members>Customer.All_Customers</members>
+        <members>Customer_Support__c.All</members>
         <members>DataMaskCustomValueLibrary.All_DataMaskCustomValueLibraries</members>
         <members>DataUseLegalBasis.All_DataUseLegalBases</members>
         <members>DataUsePurpose.All_DataUsePurposes</members>
@@ -7820,6 +7857,7 @@
         <members>Event.MyTeamsUpcomingEvents</members>
         <members>Event.MyUpcomingEvents</members>
         <members>Event.TodaysAgenda</members>
+        <members>Event_Management__c.All</members>
         <members>Expense__c.All</members>
         <members>Expense__c.High_Expense_list</members>
         <members>Export__c.All</members>
@@ -7839,6 +7877,7 @@
         <members>Ganga_1__c.All</members>
         <members>Google_Analytics__c.All_Google_Analytics</members>
         <members>Green_Latern__c.All</members>
+        <members>Healthcare__c.All</members>
         <members>Home__c.All</members>
         <members>Idea.Ideas_Last_7_Days</members>
         <members>Incident.AllIncidentsDefault</members>
@@ -7893,6 +7932,7 @@
         <members>Location.all_locations</members>
         <members>LocationGroup.LocationGroup</members>
         <members>LocationTrustMeasure.AllLocationTrustMeasures</members>
+        <members>Manufacturing__c.All</members>
         <members>Mergetest__c.All</members>
         <members>MessagingEndUser.BulkMessageMessagingEndUsers</members>
         <members>ModularizationDemo__c.All</members>
@@ -7961,6 +8001,7 @@
         <members>RL_Object__c.All</members>
         <members>Ramya_ARM_Objects__c.All</members>
         <members>Ramya_cus__c.All</members>
+        <members>Real_Estate_Management__c.All</members>
         <members>Recommendation.All_Recommendations</members>
         <members>Refund.Refund</members>
         <members>RefundLinePayment.RefundLinePayment</members>
@@ -8087,13 +8128,6 @@
         <members>Ramya's Site</members>
         <members>vindhya's site</members>
         <name>ManagedTopics</name>
-    </types>
-    <types>
-        <members>Account.Duplicate_Account</members>
-        <members>Account.Duplicate_Accounts</members>
-        <members>Account.Identify_Duplicate_Accounts</members>
-        <members>Account.Identify_Duplicate_Accounts_Region</members>
-        <name>MatchingRule</name>
     </types>
     <types>
         <members>Account</members>
@@ -8361,6 +8395,7 @@
         <members>PoCEvaluations Profile</members>
         <members>RAmya1</members>
         <members>Ramya%27s Site Profile</members>
+        <members>Ramya-cus</members>
         <members>Ramya2</members>
         <members>Ramya_custom</members>
         <members>Read Only</members>
@@ -8897,10 +8932,6 @@
         <name>Settings</name>
     </types>
     <types>
-        <members>Account.test</members>
-        <name>SharingOwnerRule</name>
-    </types>
-    <types>
         <members>AA_Parts__c</members>
         <members>AR1__c</members>
         <members>ARTraining__c</members>
@@ -8977,6 +9008,7 @@
         <members>Custom_Object__c</members>
         <members>Custom_by_ramya__c</members>
         <members>Customer</members>
+        <members>Customer_Support__c</members>
         <members>Customer__c</members>
         <members>DTRecordsetReplica</members>
         <members>DataMaskCustomValueLibrary</members>
@@ -8994,6 +9026,7 @@
         <members>Employee__c</members>
         <members>EngagementChannelType</members>
         <members>Engineering__c</members>
+        <members>Event_Management__c</members>
         <members>ExchangeUserMapping</members>
         <members>Expense__c</members>
         <members>Export__c</members>
@@ -9018,6 +9051,7 @@
         <members>GoalOrigGoalId__c</members>
         <members>Google_Analytics__c</members>
         <members>Green_Latern__c</members>
+        <members>Healthcare__c</members>
         <members>Home__c</members>
         <members>Image</members>
         <members>Incident</members>
@@ -9047,6 +9081,7 @@
         <members>LocationTrustMeasure</members>
         <members>Macro</members>
         <members>MacroUsage</members>
+        <members>Manufacturing__c</members>
         <members>Mergetest__c</members>
         <members>MessagingEndUser</members>
         <members>MessagingSession</members>
@@ -9100,6 +9135,8 @@
         <members>QuickTextUsage</members>
         <members>RL_Object__c</members>
         <members>Ramya_ARM_Objects__c</members>
+        <members>Ramya_cus__c</members>
+        <members>Real_Estate_Management__c</members>
         <members>Reassign_Helper__c</members>
         <members>RecordMergeHistory</members>
         <members>ReportResultBlob</members>
@@ -9351,6 +9388,7 @@
         <members>Custom_Employee__c</members>
         <members>Custom_Object__c</members>
         <members>Custom_by_ramya__c</members>
+        <members>Customer_Support__c</members>
         <members>Customer__c</members>
         <members>DOZISF__ZoomInfo_Intent__c</members>
         <members>DOZISF__ZoomInfo_Scoop__c</members>
@@ -9365,6 +9403,7 @@
         <members>Employee__c</members>
         <members>Engineering__c</members>
         <members>Event</members>
+        <members>Event_Management__c</members>
         <members>Expense__c</members>
         <members>Export__c</members>
         <members>Field_Trip__Field_Analysis__c</members>
@@ -9392,6 +9431,7 @@
         <members>GoalOrigGoalId__c</members>
         <members>Google_Analytics__c</members>
         <members>Green_Latern__c</members>
+        <members>Healthcare__c</members>
         <members>Home__c</members>
         <members>Incident</members>
         <members>Incident__c</members>
@@ -9419,6 +9459,7 @@
         <members>LinkedArticle</members>
         <members>Loan_Amount__c</members>
         <members>Loan__c</members>
+        <members>Manufacturing__c</members>
         <members>Mergetest__c</members>
         <members>ModularizationDemo__c</members>
         <members>NB_Object__c</members>
@@ -9450,6 +9491,8 @@
         <members>Questionnaire_Implementation__c</members>
         <members>RL_Object__c</members>
         <members>Ramya_ARM_Objects__c</members>
+        <members>Ramya_cus__c</members>
+        <members>Real_Estate_Management__c</members>
         <members>Reassign_Helper__c</members>
         <members>ResourceAbsence</members>
         <members>ResourcePreference</members>

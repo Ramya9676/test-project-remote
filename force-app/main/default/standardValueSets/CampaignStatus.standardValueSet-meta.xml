@@ -16,4 +16,9 @@
         <default>false</default>
         <label>Completed</label>
     </standardValue>
+    <standardValue>
+        <fullName>Aborted</fullName>
+        <default>false</default>
+        <label>Aborted</label>
+    </standardValue>
 </StandardValueSet>

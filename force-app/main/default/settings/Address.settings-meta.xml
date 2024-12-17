@@ -17,62 +17,6 @@
             <label>United Arab Emirates</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
-            <states>
-                <active>true</active>
-                <integrationValue>Ajman</integrationValue>
-                <isoCode>AJ</isoCode>
-                <label>Ajman</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Abu Dhabi</integrationValue>
-                <isoCode>AZ</isoCode>
-                <label>Abu Dhabi</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Dubai</integrationValue>
-                <isoCode>DU</isoCode>
-                <label>Dubai</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Fujairah</integrationValue>
-                <isoCode>FU</isoCode>
-                <label>Fujairah</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Ras Al-Khaimah</integrationValue>
-                <isoCode>RK</isoCode>
-                <label>Ras Al-Khaimah</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Sharjah</integrationValue>
-                <isoCode>SH</isoCode>
-                <label>Sharjah</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Umm Al-Quwain</integrationValue>
-                <isoCode>UQ</isoCode>
-                <label>Umm Al-Quwain</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
             <visible>true</visible>
         </countries>
         <countries>
@@ -145,14 +89,6 @@
             <label>Argentina</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
-            <states>
-                <active>true</active>
-                <integrationValue>Buenos Aires</integrationValue>
-                <isoCode>B</isoCode>
-                <label>Buenos Aires</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
             <visible>true</visible>
         </countries>
         <countries>
@@ -298,30 +234,6 @@
             <label>Belgium</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
-            <states>
-                <active>true</active>
-                <integrationValue>Brussels-Capital Region</integrationValue>
-                <isoCode>BRU</isoCode>
-                <label>Brussels-Capital Region</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Flemish Region</integrationValue>
-                <isoCode>VLG</isoCode>
-                <label>Flemish Region</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Walloon Region</integrationValue>
-                <isoCode>WAL</isoCode>
-                <label>Walloon Region</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
             <visible>true</visible>
         </countries>
         <countries>
@@ -447,7 +359,7 @@
             </states>
             <states>
                 <active>true</active>
-                <integrationValue>Amapa</integrationValue>
+                <integrationValue>Amapá</integrationValue>
                 <isoCode>AP</isoCode>
                 <label>Amapá</label>
                 <standard>true</standard>
@@ -487,7 +399,7 @@
             </states>
             <states>
                 <active>true</active>
-                <integrationValue>Goias</integrationValue>
+                <integrationValue>Goiás</integrationValue>
                 <isoCode>GO</isoCode>
                 <label>Goiás</label>
                 <standard>true</standard>
@@ -527,7 +439,7 @@
             </states>
             <states>
                 <active>true</active>
-                <integrationValue>Para</integrationValue>
+                <integrationValue>Pará</integrationValue>
                 <isoCode>PA</isoCode>
                 <label>Pará</label>
                 <standard>true</standard>
@@ -849,102 +761,6 @@
             <label>Switzerland</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
-            <states>
-                <active>true</active>
-                <integrationValue>Bern</integrationValue>
-                <isoCode>BE</isoCode>
-                <label>Bern</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Basel-Landschaft</integrationValue>
-                <isoCode>BL</isoCode>
-                <label>Basel-Landschaft</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Basel-Stadt</integrationValue>
-                <isoCode>BS</isoCode>
-                <label>Basel-Stadt</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Geneva</integrationValue>
-                <isoCode>GE</isoCode>
-                <label>Geneva</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Jura</integrationValue>
-                <isoCode>JU</isoCode>
-                <label>Jura</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>St. Gallen</integrationValue>
-                <isoCode>SG</isoCode>
-                <label>St. Gallen</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Schaffhausen</integrationValue>
-                <isoCode>SH</isoCode>
-                <label>Schaffhausen</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Solothurn</integrationValue>
-                <isoCode>SO</isoCode>
-                <label>Solothurn</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Ticino</integrationValue>
-                <isoCode>TI</isoCode>
-                <label>Ticino</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Vaud</integrationValue>
-                <isoCode>VD</isoCode>
-                <label>Vaud</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Zug</integrationValue>
-                <isoCode>ZG</isoCode>
-                <label>Zug</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Zürich</integrationValue>
-                <isoCode>ZH</isoCode>
-                <label>Zürich</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
             <visible>true</visible>
         </countries>
         <countries>
@@ -1240,9 +1056,9 @@
             </states>
             <states>
                 <active>true</active>
-                <integrationValue>Chinese Taipei</integrationValue>
+                <integrationValue>Taiwan</integrationValue>
                 <isoCode>71</isoCode>
-                <label>Chinese Taipei</label>
+                <label>Taiwan</label>
                 <standard>true</standard>
                 <visible>true</visible>
             </states>
@@ -1278,15 +1094,6 @@
             <integrationValue>Costa Rica</integrationValue>
             <isoCode>CR</isoCode>
             <label>Costa Rica</label>
-            <orgDefault>false</orgDefault>
-            <standard>true</standard>
-            <visible>true</visible>
-        </countries>
-        <countries>
-            <active>true</active>
-            <integrationValue>Cuba</integrationValue>
-            <isoCode>CU</isoCode>
-            <label>Cuba</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
             <visible>true</visible>
@@ -1329,9 +1136,9 @@
         </countries>
         <countries>
             <active>true</active>
-            <integrationValue>Czech Republic</integrationValue>
+            <integrationValue>Czechia</integrationValue>
             <isoCode>CZ</isoCode>
-            <label>Czech Republic</label>
+            <label>Czechia</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
             <visible>true</visible>
@@ -1343,134 +1150,6 @@
             <label>Germany</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
-            <states>
-                <active>true</active>
-                <integrationValue>Brandenburg</integrationValue>
-                <isoCode>BB</isoCode>
-                <label>Brandenburg</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Berlin</integrationValue>
-                <isoCode>BE</isoCode>
-                <label>Berlin</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Baden-Württemberg</integrationValue>
-                <isoCode>BW</isoCode>
-                <label>Baden-Württemberg</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Bavaria</integrationValue>
-                <isoCode>BY</isoCode>
-                <label>Bavaria</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Bremen</integrationValue>
-                <isoCode>HB</isoCode>
-                <label>Bremen</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Hesse</integrationValue>
-                <isoCode>HE</isoCode>
-                <label>Hesse</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Hamburg</integrationValue>
-                <isoCode>HH</isoCode>
-                <label>Hamburg</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Mecklenburg-Western Pomerania</integrationValue>
-                <isoCode>MV</isoCode>
-                <label>Mecklenburg-Western Pomerania</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Lower Saxony</integrationValue>
-                <isoCode>NI</isoCode>
-                <label>Lower Saxony</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>North Rhine-Westphalia</integrationValue>
-                <isoCode>NW</isoCode>
-                <label>North Rhine-Westphalia</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Rhineland-Palatinate</integrationValue>
-                <isoCode>RP</isoCode>
-                <label>Rhineland-Palatinate</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Schleswig-Holstein</integrationValue>
-                <isoCode>SH</isoCode>
-                <label>Schleswig-Holstein</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Saarland</integrationValue>
-                <isoCode>SL</isoCode>
-                <label>Saarland</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Saxony</integrationValue>
-                <isoCode>SN</isoCode>
-                <label>Saxony</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Saxony-Anhalt</integrationValue>
-                <isoCode>ST</isoCode>
-                <label>Saxony-Anhalt</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Thuringia</integrationValue>
-                <isoCode>TH</isoCode>
-                <label>Thuringia</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
             <visible>true</visible>
         </countries>
         <countries>
@@ -1489,46 +1168,6 @@
             <label>Denmark</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
-            <states>
-                <active>true</active>
-                <integrationValue>North Denmark Region</integrationValue>
-                <isoCode>DK81</isoCode>
-                <label>North Denmark Region</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Central Denmark Region</integrationValue>
-                <isoCode>DK82</isoCode>
-                <label>Central Denmark Region</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Region of Southern Denmark</integrationValue>
-                <isoCode>DK83</isoCode>
-                <label>Region of Southern Denmark</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Capital Region of Denmark</integrationValue>
-                <isoCode>DK84</isoCode>
-                <label>Capital Region of Denmark</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Region Zealand</integrationValue>
-                <isoCode>DK85</isoCode>
-                <label>Region Zealand</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
             <visible>true</visible>
         </countries>
         <countries>
@@ -1610,158 +1249,6 @@
             <label>Spain</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
-            <states>
-                <active>true</active>
-                <integrationValue>Andalusia</integrationValue>
-                <isoCode>AN</isoCode>
-                <label>Andalusia</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Aragon</integrationValue>
-                <isoCode>AR</isoCode>
-                <label>Aragon</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Principality of Asturias</integrationValue>
-                <isoCode>AS</isoCode>
-                <label>Principality of Asturias</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Cantabria</integrationValue>
-                <isoCode>CB</isoCode>
-                <label>Cantabria</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Ceuta</integrationValue>
-                <isoCode>CE</isoCode>
-                <label>Ceuta</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Castile and León</integrationValue>
-                <isoCode>CL</isoCode>
-                <label>Castile and León</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Castile-La Mancha</integrationValue>
-                <isoCode>CM</isoCode>
-                <label>Castile-La Mancha</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Canary Islands</integrationValue>
-                <isoCode>CN</isoCode>
-                <label>Canary Islands</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Catalonia</integrationValue>
-                <isoCode>CT</isoCode>
-                <label>Catalonia</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Extremadura</integrationValue>
-                <isoCode>EX</isoCode>
-                <label>Extremadura</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Galicia</integrationValue>
-                <isoCode>GA</isoCode>
-                <label>Galicia</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Balearic Islands</integrationValue>
-                <isoCode>IB</isoCode>
-                <label>Balearic Islands</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Region of Murcia</integrationValue>
-                <isoCode>MC</isoCode>
-                <label>Region of Murcia</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Community of Madrid</integrationValue>
-                <isoCode>MD</isoCode>
-                <label>Community of Madrid</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Melilla</integrationValue>
-                <isoCode>ML</isoCode>
-                <label>Melilla</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Chartered Community of Navarre</integrationValue>
-                <isoCode>NC</isoCode>
-                <label>Chartered Community of Navarre</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Basque Country</integrationValue>
-                <isoCode>PV</isoCode>
-                <label>Basque Country</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>La Rioja</integrationValue>
-                <isoCode>RI</isoCode>
-                <label>La Rioja</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Valencian Community</integrationValue>
-                <isoCode>VC</isoCode>
-                <label>Valencian Community</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
             <visible>true</visible>
         </countries>
         <countries>
@@ -1780,14 +1267,6 @@
             <label>Finland</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
-            <states>
-                <active>true</active>
-                <integrationValue>Aland Islands</integrationValue>
-                <isoCode>01</isoCode>
-                <label>Aland Islands</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
             <visible>true</visible>
         </countries>
         <countries>
@@ -1824,134 +1303,6 @@
             <label>France</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
-            <states>
-                <active>true</active>
-                <integrationValue>Auvergne-Rhône-Alpes</integrationValue>
-                <isoCode>ARA</isoCode>
-                <label>Auvergne-Rhône-Alpes</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Bourgogne-Franche-Comté</integrationValue>
-                <isoCode>BFC</isoCode>
-                <label>Bourgogne-Franche-Comté</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Bretagne</integrationValue>
-                <isoCode>BRE</isoCode>
-                <label>Bretagne</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Corse</integrationValue>
-                <isoCode>COR</isoCode>
-                <label>Corse</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Centre-Val de Loire</integrationValue>
-                <isoCode>CVL</isoCode>
-                <label>Centre-Val de Loire</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Grand-Est</integrationValue>
-                <isoCode>GES</isoCode>
-                <label>Grand-Est</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Guadeloupe</integrationValue>
-                <isoCode>GUA</isoCode>
-                <label>Guadeloupe</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Hauts-de-France</integrationValue>
-                <isoCode>HDF</isoCode>
-                <label>Hauts-de-France</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Ile-de-France</integrationValue>
-                <isoCode>IDF</isoCode>
-                <label>Île-de-France</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>La Réunion</integrationValue>
-                <isoCode>LRE</isoCode>
-                <label>La Réunion</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Mayotte</integrationValue>
-                <isoCode>MAY</isoCode>
-                <label>Mayotte</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Nouvelle-Aquitaine</integrationValue>
-                <isoCode>NAQ</isoCode>
-                <label>Nouvelle-Aquitaine</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Normandie</integrationValue>
-                <isoCode>NOR</isoCode>
-                <label>Normandie</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Occitanie</integrationValue>
-                <isoCode>OCC</isoCode>
-                <label>Occitanie</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Provence-Alpes-Côte-d’Azur</integrationValue>
-                <isoCode>PAC</isoCode>
-                <label>Provence-Alpes-Côte-d’Azur</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Pays-de-la-Loire</integrationValue>
-                <isoCode>PDL</isoCode>
-                <label>Pays-de-la-Loire</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
             <visible>true</visible>
         </countries>
         <countries>
@@ -1970,38 +1321,6 @@
             <label>United Kingdom</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
-            <states>
-                <active>true</active>
-                <integrationValue>England</integrationValue>
-                <isoCode>ENG</isoCode>
-                <label>England</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Northern Ireland</integrationValue>
-                <isoCode>NIR</isoCode>
-                <label>Northern Ireland</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Scotland</integrationValue>
-                <isoCode>SCT</isoCode>
-                <label>Scotland</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Wales</integrationValue>
-                <isoCode>WLS</isoCode>
-                <label>Wales</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
             <visible>true</visible>
         </countries>
         <countries>
@@ -2435,14 +1754,6 @@
             <label>Isle of Man</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
-            <states>
-                <active>true</active>
-                <integrationValue>Douglas</integrationValue>
-                <isoCode>IM1</isoCode>
-                <label>Douglas</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
             <visible>true</visible>
         </countries>
         <countries>
@@ -2510,9 +1821,9 @@
             </states>
             <states>
                 <active>true</active>
-                <integrationValue>Dadra and Nagar Haveli and Daman and Diu</integrationValue>
+                <integrationValue>Daman and Diu</integrationValue>
                 <isoCode>DD</isoCode>
-                <label>Dadra and Nagar Haveli and Daman and Diu</label>
+                <label>Daman and Diu</label>
                 <standard>true</standard>
                 <visible>true</visible>
             </states>
@@ -2530,7 +1841,7 @@
                 <isoCode>DN</isoCode>
                 <label>Dadra and Nagar Haveli</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
                 <active>true</active>
@@ -2594,14 +1905,6 @@
                 <isoCode>KL</isoCode>
                 <label>Kerala</label>
                 <standard>true</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Ladakh</integrationValue>
-                <isoCode>LA</isoCode>
-                <label>Ladakh</label>
-                <standard>false</standard>
                 <visible>true</visible>
             </states>
             <states>
@@ -2702,6 +2005,14 @@
             </states>
             <states>
                 <active>true</active>
+                <integrationValue>Telangana</integrationValue>
+                <isoCode>TG</isoCode>
+                <label>Telangana</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
                 <integrationValue>Tamil Nadu</integrationValue>
                 <isoCode>TN</isoCode>
                 <label>Tamil Nadu</label>
@@ -2714,14 +2025,6 @@
                 <isoCode>TR</isoCode>
                 <label>Tripura</label>
                 <standard>true</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Telangana</integrationValue>
-                <isoCode>TS</isoCode>
-                <label>Telangana</label>
-                <standard>false</standard>
                 <visible>true</visible>
             </states>
             <states>
@@ -2770,15 +2073,6 @@
         </countries>
         <countries>
             <active>true</active>
-            <integrationValue>Iran, Islamic Republic of</integrationValue>
-            <isoCode>IR</isoCode>
-            <label>Iran, Islamic Republic of</label>
-            <orgDefault>false</orgDefault>
-            <standard>true</standard>
-            <visible>true</visible>
-        </countries>
-        <countries>
-            <active>true</active>
             <integrationValue>Iceland</integrationValue>
             <isoCode>IS</isoCode>
             <label>Iceland</label>
@@ -2795,1043 +2089,883 @@
             <standard>true</standard>
             <states>
                 <active>true</active>
-                <integrationValue>Abruzzo</integrationValue>
-                <isoCode>ABR</isoCode>
-                <label>Abruzzo</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>false</active>
                 <integrationValue>Agrigento</integrationValue>
                 <isoCode>AG</isoCode>
                 <label>Agrigento</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Alessandria</integrationValue>
                 <isoCode>AL</isoCode>
                 <label>Alessandria</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Ancona</integrationValue>
                 <isoCode>AN</isoCode>
                 <label>Ancona</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
                 <active>true</active>
-                <integrationValue>Aosta Valley</integrationValue>
+                <integrationValue>Aosta</integrationValue>
                 <isoCode>AO</isoCode>
-                <label>Aosta Valley</label>
+                <label>Aosta</label>
                 <standard>true</standard>
                 <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Ascoli Piceno</integrationValue>
                 <isoCode>AP</isoCode>
                 <label>Ascoli Piceno</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>L&apos;Aquila</integrationValue>
                 <isoCode>AQ</isoCode>
                 <label>L&apos;Aquila</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Arezzo</integrationValue>
                 <isoCode>AR</isoCode>
                 <label>Arezzo</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Asti</integrationValue>
                 <isoCode>AT</isoCode>
                 <label>Asti</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Avellino</integrationValue>
                 <isoCode>AV</isoCode>
                 <label>Avellino</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Bari</integrationValue>
                 <isoCode>BA</isoCode>
                 <label>Bari</label>
                 <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Basilicata</integrationValue>
-                <isoCode>BAS</isoCode>
-                <label>Basilicata</label>
-                <standard>false</standard>
                 <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Bergamo</integrationValue>
                 <isoCode>BG</isoCode>
                 <label>Bergamo</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Biella</integrationValue>
                 <isoCode>BI</isoCode>
                 <label>Biella</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Belluno</integrationValue>
                 <isoCode>BL</isoCode>
                 <label>Belluno</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Benevento</integrationValue>
                 <isoCode>BN</isoCode>
                 <label>Benevento</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Bologna</integrationValue>
                 <isoCode>BO</isoCode>
                 <label>Bologna</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Brindisi</integrationValue>
                 <isoCode>BR</isoCode>
                 <label>Brindisi</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Brescia</integrationValue>
                 <isoCode>BS</isoCode>
                 <label>Brescia</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Barletta-Andria-Trani</integrationValue>
                 <isoCode>BT</isoCode>
                 <label>Barletta-Andria-Trani</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Bolzano</integrationValue>
                 <isoCode>BZ</isoCode>
                 <label>Bolzano</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Cagliari</integrationValue>
                 <isoCode>CA</isoCode>
                 <label>Cagliari</label>
                 <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Calabria</integrationValue>
-                <isoCode>CAL</isoCode>
-                <label>Calabria</label>
-                <standard>false</standard>
                 <visible>true</visible>
             </states>
             <states>
                 <active>true</active>
-                <integrationValue>Campania</integrationValue>
-                <isoCode>CAM</isoCode>
-                <label>Campania</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>false</active>
                 <integrationValue>Campobasso</integrationValue>
                 <isoCode>CB</isoCode>
                 <label>Campobasso</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Caserta</integrationValue>
                 <isoCode>CE</isoCode>
                 <label>Caserta</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Chieti</integrationValue>
                 <isoCode>CH</isoCode>
                 <label>Chieti</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Carbonia-Iglesias</integrationValue>
                 <isoCode>CI</isoCode>
                 <label>Carbonia-Iglesias</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Caltanissetta</integrationValue>
                 <isoCode>CL</isoCode>
                 <label>Caltanissetta</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Cuneo</integrationValue>
                 <isoCode>CN</isoCode>
                 <label>Cuneo</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Como</integrationValue>
                 <isoCode>CO</isoCode>
                 <label>Como</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Cremona</integrationValue>
                 <isoCode>CR</isoCode>
                 <label>Cremona</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Cosenza</integrationValue>
                 <isoCode>CS</isoCode>
                 <label>Cosenza</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Catania</integrationValue>
                 <isoCode>CT</isoCode>
                 <label>Catania</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Catanzaro</integrationValue>
                 <isoCode>CZ</isoCode>
                 <label>Catanzaro</label>
                 <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Emilia-Romagna</integrationValue>
-                <isoCode>EMI</isoCode>
-                <label>Emilia-Romagna</label>
-                <standard>false</standard>
                 <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Enna</integrationValue>
                 <isoCode>EN</isoCode>
                 <label>Enna</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Forlì-Cesena</integrationValue>
                 <isoCode>FC</isoCode>
                 <label>Forlì-Cesena</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Ferrara</integrationValue>
                 <isoCode>FE</isoCode>
                 <label>Ferrara</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Foggia</integrationValue>
                 <isoCode>FG</isoCode>
                 <label>Foggia</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Florence</integrationValue>
                 <isoCode>FI</isoCode>
                 <label>Florence</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Fermo</integrationValue>
                 <isoCode>FM</isoCode>
                 <label>Fermo</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Frosinone</integrationValue>
                 <isoCode>FR</isoCode>
                 <label>Frosinone</label>
                 <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Friuli-Venezia Giulia</integrationValue>
-                <isoCode>FRI</isoCode>
-                <label>Friuli-Venezia Giulia</label>
-                <standard>false</standard>
                 <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Genoa</integrationValue>
                 <isoCode>GE</isoCode>
                 <label>Genoa</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Gorizia</integrationValue>
                 <isoCode>GO</isoCode>
                 <label>Gorizia</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Grosseto</integrationValue>
                 <isoCode>GR</isoCode>
                 <label>Grosseto</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Imperia</integrationValue>
                 <isoCode>IM</isoCode>
                 <label>Imperia</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Isernia</integrationValue>
                 <isoCode>IS</isoCode>
                 <label>Isernia</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Crotone</integrationValue>
                 <isoCode>KR</isoCode>
                 <label>Crotone</label>
                 <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Lazio</integrationValue>
-                <isoCode>LAZ</isoCode>
-                <label>Lazio</label>
-                <standard>false</standard>
                 <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Lecco</integrationValue>
                 <isoCode>LC</isoCode>
                 <label>Lecco</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Lecce</integrationValue>
                 <isoCode>LE</isoCode>
                 <label>Lecce</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Livorno</integrationValue>
                 <isoCode>LI</isoCode>
                 <label>Livorno</label>
                 <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Liguria</integrationValue>
-                <isoCode>LIG</isoCode>
-                <label>Liguria</label>
-                <standard>false</standard>
                 <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Lodi</integrationValue>
                 <isoCode>LO</isoCode>
                 <label>Lodi</label>
                 <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Lombardy</integrationValue>
-                <isoCode>LOM</isoCode>
-                <label>Lombardy</label>
-                <standard>false</standard>
                 <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Latina</integrationValue>
                 <isoCode>LT</isoCode>
                 <label>Latina</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Lucca</integrationValue>
                 <isoCode>LU</isoCode>
                 <label>Lucca</label>
                 <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Marche</integrationValue>
-                <isoCode>MAR</isoCode>
-                <label>Marche</label>
-                <standard>false</standard>
                 <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Monza and Brianza</integrationValue>
                 <isoCode>MB</isoCode>
                 <label>Monza and Brianza</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Macerata</integrationValue>
                 <isoCode>MC</isoCode>
                 <label>Macerata</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Messina</integrationValue>
                 <isoCode>ME</isoCode>
                 <label>Messina</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Milan</integrationValue>
                 <isoCode>MI</isoCode>
                 <label>Milan</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Mantua</integrationValue>
                 <isoCode>MN</isoCode>
                 <label>Mantua</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Modena</integrationValue>
                 <isoCode>MO</isoCode>
                 <label>Modena</label>
                 <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Molise</integrationValue>
-                <isoCode>MOL</isoCode>
-                <label>Molise</label>
-                <standard>false</standard>
                 <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Massa and Carrara</integrationValue>
                 <isoCode>MS</isoCode>
                 <label>Massa and Carrara</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Matera</integrationValue>
                 <isoCode>MT</isoCode>
                 <label>Matera</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Naples</integrationValue>
                 <isoCode>NA</isoCode>
                 <label>Naples</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Novara</integrationValue>
                 <isoCode>NO</isoCode>
                 <label>Novara</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Nuoro</integrationValue>
                 <isoCode>NU</isoCode>
                 <label>Nuoro</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Ogliastra</integrationValue>
                 <isoCode>OG</isoCode>
                 <label>Ogliastra</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Oristano</integrationValue>
                 <isoCode>OR</isoCode>
                 <label>Oristano</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Olbia-Tempio</integrationValue>
                 <isoCode>OT</isoCode>
                 <label>Olbia-Tempio</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Palermo</integrationValue>
                 <isoCode>PA</isoCode>
                 <label>Palermo</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Piacenza</integrationValue>
                 <isoCode>PC</isoCode>
                 <label>Piacenza</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Padua</integrationValue>
                 <isoCode>PD</isoCode>
                 <label>Padua</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Pescara</integrationValue>
                 <isoCode>PE</isoCode>
                 <label>Pescara</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Perugia</integrationValue>
                 <isoCode>PG</isoCode>
                 <label>Perugia</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Pisa</integrationValue>
                 <isoCode>PI</isoCode>
                 <label>Pisa</label>
                 <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Piedmont</integrationValue>
-                <isoCode>PIE</isoCode>
-                <label>Piedmont</label>
-                <standard>false</standard>
                 <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Pordenone</integrationValue>
                 <isoCode>PN</isoCode>
                 <label>Pordenone</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Prato</integrationValue>
                 <isoCode>PO</isoCode>
                 <label>Prato</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Parma</integrationValue>
                 <isoCode>PR</isoCode>
                 <label>Parma</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Pistoia</integrationValue>
                 <isoCode>PT</isoCode>
                 <label>Pistoia</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Pesaro and Urbino</integrationValue>
                 <isoCode>PU</isoCode>
                 <label>Pesaro and Urbino</label>
                 <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Apulia</integrationValue>
-                <isoCode>PUG</isoCode>
-                <label>Apulia</label>
-                <standard>false</standard>
                 <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Pavia</integrationValue>
                 <isoCode>PV</isoCode>
                 <label>Pavia</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Potenza</integrationValue>
                 <isoCode>PZ</isoCode>
                 <label>Potenza</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Ravenna</integrationValue>
                 <isoCode>RA</isoCode>
                 <label>Ravenna</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Reggio Calabria</integrationValue>
                 <isoCode>RC</isoCode>
                 <label>Reggio Calabria</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Reggio Emilia</integrationValue>
                 <isoCode>RE</isoCode>
                 <label>Reggio Emilia</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Ragusa</integrationValue>
                 <isoCode>RG</isoCode>
                 <label>Ragusa</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Rieti</integrationValue>
                 <isoCode>RI</isoCode>
                 <label>Rieti</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Rome</integrationValue>
                 <isoCode>RM</isoCode>
                 <label>Rome</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Rimini</integrationValue>
                 <isoCode>RN</isoCode>
                 <label>Rimini</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Rovigo</integrationValue>
                 <isoCode>RO</isoCode>
                 <label>Rovigo</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Salerno</integrationValue>
                 <isoCode>SA</isoCode>
                 <label>Salerno</label>
                 <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Sardegna</integrationValue>
-                <isoCode>SAR</isoCode>
-                <label>Sardegna</label>
-                <standard>false</standard>
                 <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Siena</integrationValue>
                 <isoCode>SI</isoCode>
                 <label>Siena</label>
                 <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Sicilia</integrationValue>
-                <isoCode>SIC</isoCode>
-                <label>Sicilia</label>
-                <standard>false</standard>
                 <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Sondrio</integrationValue>
                 <isoCode>SO</isoCode>
                 <label>Sondrio</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>La Spezia</integrationValue>
                 <isoCode>SP</isoCode>
                 <label>La Spezia</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Syracuse</integrationValue>
                 <isoCode>SR</isoCode>
                 <label>Syracuse</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Sassari</integrationValue>
                 <isoCode>SS</isoCode>
                 <label>Sassari</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Savona</integrationValue>
                 <isoCode>SV</isoCode>
                 <label>Savona</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Taranto</integrationValue>
                 <isoCode>TA</isoCode>
                 <label>Taranto</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Teramo</integrationValue>
                 <isoCode>TE</isoCode>
                 <label>Teramo</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Trento</integrationValue>
                 <isoCode>TN</isoCode>
                 <label>Trento</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Turin</integrationValue>
                 <isoCode>TO</isoCode>
                 <label>Turin</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Trapani</integrationValue>
                 <isoCode>TP</isoCode>
                 <label>Trapani</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Terni</integrationValue>
                 <isoCode>TR</isoCode>
                 <label>Terni</label>
                 <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Trentino-Alto Adige</integrationValue>
-                <isoCode>TRE</isoCode>
-                <label>Trentino-Alto Adige</label>
-                <standard>false</standard>
                 <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Trieste</integrationValue>
                 <isoCode>TS</isoCode>
                 <label>Trieste</label>
                 <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Tuscany</integrationValue>
-                <isoCode>TUS</isoCode>
-                <label>Tuscany</label>
-                <standard>false</standard>
                 <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Treviso</integrationValue>
                 <isoCode>TV</isoCode>
                 <label>Treviso</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Udine</integrationValue>
                 <isoCode>UD</isoCode>
                 <label>Udine</label>
                 <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Umbria</integrationValue>
-                <isoCode>UMB</isoCode>
-                <label>Umbria</label>
-                <standard>false</standard>
                 <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Varese</integrationValue>
                 <isoCode>VA</isoCode>
                 <label>Varese</label>
                 <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Valle D&apos;Aosta</integrationValue>
-                <isoCode>VAL</isoCode>
-                <label>Valle D&apos;Aosta</label>
-                <standard>false</standard>
                 <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Verbano-Cusio-Ossola</integrationValue>
                 <isoCode>VB</isoCode>
                 <label>Verbano-Cusio-Ossola</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Vercelli</integrationValue>
                 <isoCode>VC</isoCode>
                 <label>Vercelli</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Venice</integrationValue>
                 <isoCode>VE</isoCode>
                 <label>Venice</label>
                 <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Veneto</integrationValue>
-                <isoCode>VEN</isoCode>
-                <label>Veneto</label>
-                <standard>false</standard>
                 <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Vicenza</integrationValue>
                 <isoCode>VI</isoCode>
                 <label>Vicenza</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Verona</integrationValue>
                 <isoCode>VR</isoCode>
                 <label>Verona</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Medio Campidano</integrationValue>
                 <isoCode>VS</isoCode>
                 <label>Medio Campidano</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Viterbo</integrationValue>
                 <isoCode>VT</isoCode>
                 <label>Viterbo</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <states>
-                <active>false</active>
+                <active>true</active>
                 <integrationValue>Vibo Valentia</integrationValue>
                 <isoCode>VV</isoCode>
                 <label>Vibo Valentia</label>
                 <standard>true</standard>
-                <visible>false</visible>
+                <visible>true</visible>
             </states>
             <visible>true</visible>
         </countries>
@@ -3869,6 +3003,382 @@
             <label>Japan</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
+            <states>
+                <active>true</active>
+                <integrationValue>Hokkaido</integrationValue>
+                <isoCode>01</isoCode>
+                <label>Hokkaido</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Akita</integrationValue>
+                <isoCode>02</isoCode>
+                <label>Akita</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Iwate</integrationValue>
+                <isoCode>03</isoCode>
+                <label>Iwate</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Miyagi</integrationValue>
+                <isoCode>04</isoCode>
+                <label>Miyagi</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Aichi</integrationValue>
+                <isoCode>05</isoCode>
+                <label>Aichi</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Yamagata</integrationValue>
+                <isoCode>06</isoCode>
+                <label>Yamagata</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Fukushima</integrationValue>
+                <isoCode>07</isoCode>
+                <label>Fukushima</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Ibaraki</integrationValue>
+                <isoCode>08</isoCode>
+                <label>Ibaraki</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Tochigi</integrationValue>
+                <isoCode>09</isoCode>
+                <label>Tochigi</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Gunma</integrationValue>
+                <isoCode>10</isoCode>
+                <label>Gunma</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Saitama</integrationValue>
+                <isoCode>11</isoCode>
+                <label>Saitama</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Chiba</integrationValue>
+                <isoCode>12</isoCode>
+                <label>Chiba</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Tokyo</integrationValue>
+                <isoCode>13</isoCode>
+                <label>Tokyo</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Kanagawa</integrationValue>
+                <isoCode>14</isoCode>
+                <label>Kanagawa</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Niigata</integrationValue>
+                <isoCode>15</isoCode>
+                <label>Niigata</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Toyama</integrationValue>
+                <isoCode>16</isoCode>
+                <label>Toyama</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Ishikawa</integrationValue>
+                <isoCode>17</isoCode>
+                <label>Ishikawa</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Fukui</integrationValue>
+                <isoCode>18</isoCode>
+                <label>Fukui</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Yamanashi</integrationValue>
+                <isoCode>19</isoCode>
+                <label>Yamanashi</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Nagano</integrationValue>
+                <isoCode>20</isoCode>
+                <label>Nagano</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Gifu</integrationValue>
+                <isoCode>21</isoCode>
+                <label>Gifu</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Shizuoka</integrationValue>
+                <isoCode>22</isoCode>
+                <label>Shizuoka</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Aomori</integrationValue>
+                <isoCode>23</isoCode>
+                <label>Aomori</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Mie</integrationValue>
+                <isoCode>24</isoCode>
+                <label>Mie</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Shiga</integrationValue>
+                <isoCode>25</isoCode>
+                <label>Shiga</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Kyoto</integrationValue>
+                <isoCode>26</isoCode>
+                <label>Kyoto</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Osaka</integrationValue>
+                <isoCode>27</isoCode>
+                <label>Osaka</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Hyogo</integrationValue>
+                <isoCode>28</isoCode>
+                <label>Hyogo</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Nara</integrationValue>
+                <isoCode>29</isoCode>
+                <label>Nara</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Wakayama</integrationValue>
+                <isoCode>30</isoCode>
+                <label>Wakayama</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Tottori</integrationValue>
+                <isoCode>31</isoCode>
+                <label>Tottori</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Shimane</integrationValue>
+                <isoCode>32</isoCode>
+                <label>Shimane</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Okayama</integrationValue>
+                <isoCode>33</isoCode>
+                <label>Okayama</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Hiroshima</integrationValue>
+                <isoCode>34</isoCode>
+                <label>Hiroshima</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Yamaguchi</integrationValue>
+                <isoCode>35</isoCode>
+                <label>Yamaguchi</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Tokushima</integrationValue>
+                <isoCode>36</isoCode>
+                <label>Tokushima</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Kagawa</integrationValue>
+                <isoCode>37</isoCode>
+                <label>Kagawa</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Ehime</integrationValue>
+                <isoCode>38</isoCode>
+                <label>Ehime</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Kochi</integrationValue>
+                <isoCode>39</isoCode>
+                <label>Kochi</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Fukuoka</integrationValue>
+                <isoCode>40</isoCode>
+                <label>Fukuoka</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Saga</integrationValue>
+                <isoCode>41</isoCode>
+                <label>Saga</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Nagasaki</integrationValue>
+                <isoCode>42</isoCode>
+                <label>Nagasaki</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Kumamoto</integrationValue>
+                <isoCode>43</isoCode>
+                <label>Kumamoto</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Oita</integrationValue>
+                <isoCode>44</isoCode>
+                <label>Oita</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Miyazaki</integrationValue>
+                <isoCode>45</isoCode>
+                <label>Miyazaki</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Kagoshima</integrationValue>
+                <isoCode>46</isoCode>
+                <label>Kagoshima</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
+            <states>
+                <active>true</active>
+                <integrationValue>Okinawa</integrationValue>
+                <isoCode>47</isoCode>
+                <label>Okinawa</label>
+                <standard>true</standard>
+                <visible>true</visible>
+            </states>
             <visible>true</visible>
         </countries>
         <countries>
@@ -3921,15 +3431,6 @@
             <integrationValue>Saint Kitts and Nevis</integrationValue>
             <isoCode>KN</isoCode>
             <label>Saint Kitts and Nevis</label>
-            <orgDefault>false</orgDefault>
-            <standard>true</standard>
-            <visible>true</visible>
-        </countries>
-        <countries>
-            <active>true</active>
-            <integrationValue>Korea, Democratic People&apos;s Republic of</integrationValue>
-            <isoCode>KP</isoCode>
-            <label>Korea, Democratic People&apos;s Republic of</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
             <visible>true</visible>
@@ -4062,9 +3563,9 @@
         </countries>
         <countries>
             <active>true</active>
-            <integrationValue>Libyan Arab Jamahiriya</integrationValue>
+            <integrationValue>Libya</integrationValue>
             <isoCode>LY</isoCode>
-            <label>Libyan Arab Jamahiriya</label>
+            <label>Libya</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
             <visible>true</visible>
@@ -4125,9 +3626,9 @@
         </countries>
         <countries>
             <active>true</active>
-            <integrationValue>Macedonia, the former Yugoslav Republic of</integrationValue>
+            <integrationValue>North Macedonia</integrationValue>
             <isoCode>MK</isoCode>
-            <label>Macedonia, the former Yugoslav Republic of</label>
+            <label>North Macedonia</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
             <visible>true</visible>
@@ -4575,102 +4076,6 @@
             <label>Netherlands</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
-            <states>
-                <active>true</active>
-                <integrationValue>Drenthe</integrationValue>
-                <isoCode>DR</isoCode>
-                <label>Drenthe</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Flevoland</integrationValue>
-                <isoCode>FL</isoCode>
-                <label>Flevoland</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Friesland</integrationValue>
-                <isoCode>FR</isoCode>
-                <label>Friesland</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Gelderland</integrationValue>
-                <isoCode>GE</isoCode>
-                <label>Gelderland</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Groningen</integrationValue>
-                <isoCode>GR</isoCode>
-                <label>Groningen</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Limburg</integrationValue>
-                <isoCode>LI</isoCode>
-                <label>Limburg</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>North Brabant</integrationValue>
-                <isoCode>NB</isoCode>
-                <label>North Brabant</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>North Holland</integrationValue>
-                <isoCode>NH</isoCode>
-                <label>North Holland</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Overijssel</integrationValue>
-                <isoCode>OV</isoCode>
-                <label>Overijssel</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Utrecht</integrationValue>
-                <isoCode>UT</isoCode>
-                <label>Utrecht</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Zeeland</integrationValue>
-                <isoCode>ZE</isoCode>
-                <label>Zeeland</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>South Holland</integrationValue>
-                <isoCode>ZH</isoCode>
-                <label>South Holland</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
             <visible>true</visible>
         </countries>
         <countries>
@@ -4716,30 +4121,6 @@
             <label>New Zealand</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
-            <states>
-                <active>true</active>
-                <integrationValue>Auckland</integrationValue>
-                <isoCode>AUK</isoCode>
-                <label>Auckland</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Canterbury</integrationValue>
-                <isoCode>CAN</isoCode>
-                <label>Canterbury</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Wellington</integrationValue>
-                <isoCode>WGN</isoCode>
-                <label>Wellington</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
             <visible>true</visible>
         </countries>
         <countries>
@@ -4812,134 +4193,6 @@
             <label>Poland</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
-            <states>
-                <active>true</active>
-                <integrationValue>Lower Silesian</integrationValue>
-                <isoCode>DS</isoCode>
-                <label>Lower Silesian</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Kuyavian-Pomeranian</integrationValue>
-                <isoCode>KP</isoCode>
-                <label>Kuyavian-Pomeranian</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Lubusz</integrationValue>
-                <isoCode>LB</isoCode>
-                <label>Lubusz</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Lodz</integrationValue>
-                <isoCode>LD</isoCode>
-                <label>Łódź</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Lublin</integrationValue>
-                <isoCode>LU</isoCode>
-                <label>Lublin</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Lesser Poland</integrationValue>
-                <isoCode>MA</isoCode>
-                <label>Lesser Poland</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Masovian</integrationValue>
-                <isoCode>MZ</isoCode>
-                <label>Masovian</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Opole</integrationValue>
-                <isoCode>OP</isoCode>
-                <label>Opole</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Podlaskie</integrationValue>
-                <isoCode>PD</isoCode>
-                <label>Podlaskie</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Subcarpathian</integrationValue>
-                <isoCode>PK</isoCode>
-                <label>Subcarpathian</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Pomeranian</integrationValue>
-                <isoCode>PM</isoCode>
-                <label>Pomeranian</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Holy Cross</integrationValue>
-                <isoCode>SK</isoCode>
-                <label>Holy Cross</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Silesian</integrationValue>
-                <isoCode>SL</isoCode>
-                <label>Silesian</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Warmian-Masurian</integrationValue>
-                <isoCode>WN</isoCode>
-                <label>Warmian-Masurian</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Greater Poland</integrationValue>
-                <isoCode>WP</isoCode>
-                <label>Greater Poland</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>West Pomeranian</integrationValue>
-                <isoCode>ZP</isoCode>
-                <label>West Pomeranian</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
             <visible>true</visible>
         </countries>
         <countries>
@@ -4962,9 +4215,9 @@
         </countries>
         <countries>
             <active>true</active>
-            <integrationValue>Palestinian Territory, Occupied</integrationValue>
+            <integrationValue>Palestine</integrationValue>
             <isoCode>PS</isoCode>
-            <label>Palestinian Territory, Occupied</label>
+            <label>Palestine</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
             <visible>true</visible>
@@ -5070,84 +4323,11 @@
         </countries>
         <countries>
             <active>true</active>
-            <integrationValue>Sudan</integrationValue>
-            <isoCode>SD</isoCode>
-            <label>Sudan</label>
-            <orgDefault>false</orgDefault>
-            <standard>true</standard>
-            <visible>true</visible>
-        </countries>
-        <countries>
-            <active>true</active>
             <integrationValue>Sweden</integrationValue>
             <isoCode>SE</isoCode>
             <label>Sweden</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
-            <states>
-                <active>true</active>
-                <integrationValue>Stockholm</integrationValue>
-                <isoCode>SE01</isoCode>
-                <label>Stockholm</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>East Middle Sweden</integrationValue>
-                <isoCode>SE02</isoCode>
-                <label>East Middle Sweden</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>South Sweden</integrationValue>
-                <isoCode>SE04</isoCode>
-                <label>South Sweden</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>North Middle Sweden</integrationValue>
-                <isoCode>SE06</isoCode>
-                <label>North Middle Sweden</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Middle Norrland</integrationValue>
-                <isoCode>SE07</isoCode>
-                <label>Middle Norrland</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Upper Norrland</integrationValue>
-                <isoCode>SE08</isoCode>
-                <label>Upper Norrland</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>Smaland and the islands</integrationValue>
-                <isoCode>SE09</isoCode>
-                <label>Småland and the islands</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
-                <integrationValue>West Sweden</integrationValue>
-                <isoCode>SE0A</isoCode>
-                <label>West Sweden</label>
-                <standard>false</standard>
-                <visible>true</visible>
-            </states>
             <visible>true</visible>
         </countries>
         <countries>
@@ -5278,18 +4458,9 @@
         </countries>
         <countries>
             <active>true</active>
-            <integrationValue>Syrian Arab Republic</integrationValue>
-            <isoCode>SY</isoCode>
-            <label>Syrian Arab Republic</label>
-            <orgDefault>false</orgDefault>
-            <standard>true</standard>
-            <visible>true</visible>
-        </countries>
-        <countries>
-            <active>true</active>
-            <integrationValue>Swaziland</integrationValue>
+            <integrationValue>Eswatini</integrationValue>
             <isoCode>SZ</isoCode>
-            <label>Swaziland</label>
+            <label>Eswatini</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
             <visible>true</visible>
@@ -5395,9 +4566,9 @@
         </countries>
         <countries>
             <active>true</active>
-            <integrationValue>Turkey</integrationValue>
+            <integrationValue>Türkiye</integrationValue>
             <isoCode>TR</isoCode>
-            <label>Turkey</label>
+            <label>Türkiye</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
             <visible>true</visible>
@@ -5422,9 +4593,9 @@
         </countries>
         <countries>
             <active>true</active>
-            <integrationValue>Chinese Taipei</integrationValue>
+            <integrationValue>Taiwan</integrationValue>
             <isoCode>TW</isoCode>
-            <label>Chinese Taipei</label>
+            <label>Taiwan</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
             <visible>true</visible>
@@ -5464,7 +4635,7 @@
             <orgDefault>false</orgDefault>
             <standard>true</standard>
             <states>
-                <active>true</active>
+                <active>false</active>
                 <integrationValue>Armed Forces Americas</integrationValue>
                 <isoCode>AA</isoCode>
                 <label>Armed Forces Americas</label>
@@ -5472,7 +4643,7 @@
                 <visible>false</visible>
             </states>
             <states>
-                <active>true</active>
+                <active>false</active>
                 <integrationValue>Armed Forces Europe</integrationValue>
                 <isoCode>AE</isoCode>
                 <label>Armed Forces Europe</label>
@@ -5496,7 +4667,7 @@
                 <visible>true</visible>
             </states>
             <states>
-                <active>true</active>
+                <active>false</active>
                 <integrationValue>Armed Forces Pacific</integrationValue>
                 <isoCode>AP</isoCode>
                 <label>Armed Forces Pacific</label>
@@ -5512,12 +4683,12 @@
                 <visible>true</visible>
             </states>
             <states>
-                <active>true</active>
+                <active>false</active>
                 <integrationValue>American Samoa</integrationValue>
                 <isoCode>AS</isoCode>
                 <label>American Samoa</label>
                 <standard>true</standard>
-                <visible>true</visible>
+                <visible>false</visible>
             </states>
             <states>
                 <active>true</active>
@@ -5576,7 +4747,7 @@
                 <visible>true</visible>
             </states>
             <states>
-                <active>true</active>
+                <active>false</active>
                 <integrationValue>Federated Micronesia</integrationValue>
                 <isoCode>FM</isoCode>
                 <label>Federated Micronesia</label>
@@ -5592,12 +4763,12 @@
                 <visible>true</visible>
             </states>
             <states>
-                <active>true</active>
+                <active>false</active>
                 <integrationValue>Guam</integrationValue>
                 <isoCode>GU</isoCode>
                 <label>Guam</label>
                 <standard>true</standard>
-                <visible>true</visible>
+                <visible>false</visible>
             </states>
             <states>
                 <active>true</active>
@@ -5688,7 +4859,7 @@
                 <visible>true</visible>
             </states>
             <states>
-                <active>true</active>
+                <active>false</active>
                 <integrationValue>Marshall Islands</integrationValue>
                 <isoCode>MH</isoCode>
                 <label>Marshall Islands</label>
@@ -5720,12 +4891,12 @@
                 <visible>true</visible>
             </states>
             <states>
-                <active>true</active>
+                <active>false</active>
                 <integrationValue>Northern Mariana Islands</integrationValue>
                 <isoCode>MP</isoCode>
                 <label>Northern Mariana Islands</label>
                 <standard>true</standard>
-                <visible>true</visible>
+                <visible>false</visible>
             </states>
             <states>
                 <active>true</active>
@@ -5840,15 +5011,15 @@
                 <visible>true</visible>
             </states>
             <states>
-                <active>true</active>
+                <active>false</active>
                 <integrationValue>Puerto Rico</integrationValue>
                 <isoCode>PR</isoCode>
                 <label>Puerto Rico</label>
                 <standard>true</standard>
-                <visible>true</visible>
+                <visible>false</visible>
             </states>
             <states>
-                <active>true</active>
+                <active>false</active>
                 <integrationValue>Palau</integrationValue>
                 <isoCode>PW</isoCode>
                 <label>Palau</label>
@@ -5896,7 +5067,7 @@
                 <visible>true</visible>
             </states>
             <states>
-                <active>true</active>
+                <active>false</active>
                 <integrationValue>United States Minor Outlying Islands</integrationValue>
                 <isoCode>UM</isoCode>
                 <label>United States Minor Outlying Islands</label>
@@ -5920,12 +5091,12 @@
                 <visible>true</visible>
             </states>
             <states>
-                <active>true</active>
+                <active>false</active>
                 <integrationValue>US Virgin Islands</integrationValue>
                 <isoCode>VI</isoCode>
                 <label>US Virgin Islands</label>
                 <standard>true</standard>
-                <visible>true</visible>
+                <visible>false</visible>
             </states>
             <states>
                 <active>true</active>
@@ -6025,9 +5196,9 @@
         </countries>
         <countries>
             <active>true</active>
-            <integrationValue>Viet Nam</integrationValue>
+            <integrationValue>Vietnam</integrationValue>
             <isoCode>VN</isoCode>
-            <label>Viet Nam</label>
+            <label>Vietnam</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
             <visible>true</visible>
@@ -6055,6 +5226,15 @@
             <integrationValue>Samoa</integrationValue>
             <isoCode>WS</isoCode>
             <label>Samoa</label>
+            <orgDefault>false</orgDefault>
+            <standard>true</standard>
+            <visible>true</visible>
+        </countries>
+        <countries>
+            <active>true</active>
+            <integrationValue>Kosovo</integrationValue>
+            <isoCode>XK</isoCode>
+            <label>Kosovo</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
             <visible>true</visible>

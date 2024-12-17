@@ -240,14 +240,11 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Lead_Record_Page</content>
-        <formFactor>Large</formFactor>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Flexipage</type>
+        <type>Default</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
+        <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -255,59 +252,28 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
-    <compactLayoutAssignment>Leads_Custom_Compact_Layout</compactLayoutAssignment>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
-    <enableHistory>true</enableHistory>
-    <externalSharingModel>Read</externalSharingModel>
+    <enableHistory>false</enableHistory>
+    <externalSharingModel>Private</externalSharingModel>
     <searchLayouts>
         <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Lead_Type__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LEAD.TITLE</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LEAD.PHONE</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LEAD.EMAIL</customTabListAdditionalFields>
         <customTabListAdditionalFields>LEAD.COMPANY</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LEAD.COUNTRY_CODE</customTabListAdditionalFields>
-        <listViewButtons>MassManager__Mass_Update</listViewButtons>
-        <listViewButtons>MassManager__Mass_Edit_Standard_Fields</listViewButtons>
-        <listViewButtons>activities__Create_Tasks_Lead</listViewButtons>
-        <listViewButtons>pi__Send_Pardot_Emails</listViewButtons>
+        <customTabListAdditionalFields>LEAD.PHONE</customTabListAdditionalFields>
         <lookupDialogsAdditionalFields>FULL_NAME</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>LEAD.COMPANY</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>LEAD.TITLE</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Lead_Type__c</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>LEAD.EMAIL</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>LEAD.PHONE</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>LEAD.COUNTRY_CODE</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>CORE.USERS.FIRST_NAME</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>CORE.USERS.LAST_NAME</lookupDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>FULL_NAME</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>LEAD.COMPANY</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>LEAD.PHONE</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>LEAD.MOBILE_PHONE</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ZoomInfo_Phone__c</lookupPhoneDialogsAdditionalFields>
-        <searchFilterFields>LEAD.LAST_NAME</searchFilterFields>
-        <searchFilterFields>LEAD.FIRST_NAME</searchFilterFields>
-        <searchFilterFields>LEAD.COMPANY</searchFilterFields>
-        <searchFilterFields>LEAD.COUNTRY_CODE</searchFilterFields>
-        <searchFilterFields>LEAD.TITLE</searchFilterFields>
-        <searchFilterFields>LEAD.STATUS</searchFilterFields>
-        <searchFilterFields>LEAD.INDUSTRY</searchFilterFields>
-        <searchFilterFields>algnlta__Matched_Account__c</searchFilterFields>
         <searchResultsAdditionalFields>FULL_NAME</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LEAD.COMPANY</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LEAD.INDUSTRY</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>algnlta__Matched_Account__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>LEAD.TITLE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LEAD.COMPANY</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LEAD.PHONE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LEAD.MOBILE_PHONE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>LEAD.EMAIL</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Lead_Type__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>LEAD.STATUS</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LEAD.COUNTRY_CODE</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CORE.USERS.LAST_NAME</searchResultsAdditionalFields>
-        <searchResultsCustomButtons>MassManager__Mass_Update</searchResultsCustomButtons>
-        <searchResultsCustomButtons>MassManager__Mass_Edit_Standard_Fields</searchResultsCustomButtons>
-        <searchResultsCustomButtons>activities__Create_Tasks_Lead</searchResultsCustomButtons>
-        <searchResultsCustomButtons>pi__Send_Pardot_Emails</searchResultsCustomButtons>
-        <searchResultsCustomButtons>MassManager__Mass_Delete</searchResultsCustomButtons>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>Read</sharingModel>
+    <sharingModel>ReadWriteTransfer</sharingModel>
 </CustomObject>
