@@ -233,10 +233,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>MathUtility</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>MathUtilityTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
