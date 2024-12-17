@@ -8644,6 +8644,7 @@
         <name>RecordActionDeployment</name>
     </types>
     <types>
+        <members>AR1__c.AR_record_type</members>
         <members>ARTraining__c.AR_recordtype</members>
         <members>Account.General_Account</members>
         <members>Account.Partner_Account</members>
