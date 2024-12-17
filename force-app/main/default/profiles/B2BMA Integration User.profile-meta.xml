@@ -824,10 +824,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>MathUtilityTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>MergeRequest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
