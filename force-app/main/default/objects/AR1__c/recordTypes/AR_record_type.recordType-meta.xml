@@ -3,15 +3,4 @@
     <fullName>AR_record_type</fullName>
     <active>true</active>
     <label>AR record type</label>
-    <picklistValues>
-        <picklist>AR_Tools__c</picklist>
-        <values>
-            <fullName>ARM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Codescan</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
 </RecordType>
