@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DC_Completed_Date__c</fullName>
+    <description>Field used to specify the date a Discovery call was completed for CI/CD Lead.</description>
+    <label>DC Completed Date (CI/CD)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Add_Or_Edit_Restrcited_Access_Products</fullName>
+    <active>true</active>
+    <description>Only Bob K and Jessica N are allowed to add/edit the products listed under the &apos;Professional Services - Restricted&apos; Product Family.</description>
+    <errorConditionFormula>AND
+(
+NOT($Permission.Permission_to_add_update_restricted_access_products),  ISPICKVAL( Product2.Family , &apos;Professional Services - Restricted&apos;)
+)</errorConditionFormula>
+    <errorMessage>You are not authorized to add/edit this product, please reach ServicesRequests@autorabit.com for assistance.</errorMessage>
+</ValidationRule>

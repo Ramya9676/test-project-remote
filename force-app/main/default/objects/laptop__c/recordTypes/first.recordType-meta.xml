@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>first</fullName>
+    <active>true</active>
+    <label>first</label>
+    <picklistValues>
+        <picklist>Operating_system__c</picklist>
+        <values>
+            <fullName>linux reloaded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>mac</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>windows</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>RAM__c</picklist>
+        <values>
+            <fullName>12GB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>16GB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4GB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8GB</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

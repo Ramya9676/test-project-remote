@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Self_Hosted_without_License_Connection__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Should be checked if customer is being given a license that does not connect to the server.</description>
+    <label>Self Hosted without License Connection</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

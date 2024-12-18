@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <assignments>
+        <name>Assign_First_Contact_Lead_Source</name>
+        <label>Assign First Contact Lead Source</label>
+        <locationX>50</locationX>
+        <locationY>551</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.LeadSource</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_First_Contact.Lead_Source__c</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <decisions>
+        <description>Check for Opportunity Lead Source is the same as Opportunity First Contact Role Lead Source or not.</description>
+        <name>Opportunity_Lead_Source_First_Contact_Lead_Source</name>
+        <label>Opportunity Lead Source &amp; First Contact Lead Source</label>
+        <locationX>182</locationX>
+        <locationY>431</locationY>
+        <defaultConnectorLabel>Same</defaultConnectorLabel>
+        <rules>
+            <name>Not_Same</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.LeadSource</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>Get_First_Contact.Lead_Source__c</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_First_Contact_Lead_Source</targetReference>
+            </connector>
+            <label>Not Same</label>
+        </rules>
+    </decisions>
+    <description>Sometimes Contact&apos;s Lead Source is audited for corrections and when the Lead Source is corrected on a Contact, the Lead Source on the Opportunity record has the old value. Since we are stamping the Leads Source from First Contact when an opportunity is created, we will need to update the Opportunity Lead Source to First Contact Lead Source whenever the Opportunity Lead Source is not the same as the First Contact Role Lead Source.</description>
+    <environments>Default</environments>
+    <interviewLabel>Update Opportunity Lead Source to First Contact Lead Source {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Update Opportunity Lead Source to First Contact Lead Source</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_First_Contact</name>
+        <label>Get First Contact</label>
+        <locationX>182</locationX>
+        <locationY>311</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Opportunity_Lead_Source_First_Contact_Lead_Source</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Role</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>First Contact</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>OpportunityId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>OpportunityContactRole</object>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>Lead_Source__c</queriedFields>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_First_Contact</targetReference>
+        </connector>
+        <object>Opportunity</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

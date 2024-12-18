@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SDR__c</fullName>
+    <label>SDR</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Partner_Sourced__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Amrita Sen</fullName>
+                <default>false</default>
+                <label>Amrita Sen</label>
+            </value>
+            <value>
+                <fullName>Andrew Boyles</fullName>
+                <default>false</default>
+                <label>Andrew Boyles</label>
+            </value>
+            <value>
+                <fullName>Anilreddy Chada</fullName>
+                <default>false</default>
+                <label>Anilreddy Chada</label>
+            </value>
+            <value>
+                <fullName>Arvind Tripathy</fullName>
+                <default>false</default>
+                <label>Arvind Tripathy</label>
+            </value>
+            <value>
+                <fullName>Belinda Trevor</fullName>
+                <default>false</default>
+                <label>Belinda Trevor</label>
+            </value>
+            <value>
+                <fullName>Breanne Mullen</fullName>
+                <default>false</default>
+                <label>Breanne Mullen</label>
+            </value>
+            <value>
+                <fullName>Daniel Cioffari</fullName>
+                <default>false</default>
+                <label>Daniel Cioffari</label>
+            </value>
+            <value>
+                <fullName>Denchaline Ecaillat</fullName>
+                <default>false</default>
+                <label>Denchaline Ecaillat</label>
+            </value>
+            <value>
+                <fullName>Drew McMillan</fullName>
+                <default>false</default>
+                <label>Drew McMillan</label>
+            </value>
+            <value>
+                <fullName>Hunter Traffica</fullName>
+                <default>false</default>
+                <label>Hunter Traffica</label>
+            </value>
+            <value>
+                <fullName>Kainaz Dara Patel</fullName>
+                <default>false</default>
+                <label>Kainaz Dara Patel</label>
+            </value>
+            <value>
+                <fullName>Krishna Chaitanya</fullName>
+                <default>false</default>
+                <label>Krishna Chaitanya</label>
+            </value>
+            <value>
+                <fullName>Luke Cartwright</fullName>
+                <default>false</default>
+                <label>Luke Cartwright</label>
+            </value>
+            <value>
+                <fullName>No SDR Involved</fullName>
+                <default>false</default>
+                <label>No SDR Involved</label>
+            </value>
+            <value>
+                <fullName>Raynold Paul</fullName>
+                <default>false</default>
+                <label>Raynold Paul</label>
+            </value>
+            <value>
+                <fullName>Ryan Watson</fullName>
+                <default>false</default>
+                <label>Ryan Watson</label>
+            </value>
+            <value>
+                <fullName>Susan Michael</fullName>
+                <default>false</default>
+                <label>Susan Michael</label>
+            </value>
+            <value>
+                <fullName>Swati Gupta</fullName>
+                <default>false</default>
+                <label>Swati Gupta</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Marketing Attributed</controllingFieldValue>
+            <controllingFieldValue>Partner Team Attributed</controllingFieldValue>
+            <valueName>Amrita Sen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Attributed</controllingFieldValue>
+            <controllingFieldValue>Partner Team Attributed</controllingFieldValue>
+            <valueName>Andrew Boyles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Attributed</controllingFieldValue>
+            <controllingFieldValue>Partner Team Attributed</controllingFieldValue>
+            <valueName>Anilreddy Chada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Attributed</controllingFieldValue>
+            <controllingFieldValue>Partner Team Attributed</controllingFieldValue>
+            <valueName>Arvind Tripathy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Attributed</controllingFieldValue>
+            <controllingFieldValue>Partner Team Attributed</controllingFieldValue>
+            <valueName>Belinda Trevor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Attributed</controllingFieldValue>
+            <controllingFieldValue>Partner Team Attributed</controllingFieldValue>
+            <valueName>Breanne Mullen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Attributed</controllingFieldValue>
+            <controllingFieldValue>Partner Team Attributed</controllingFieldValue>
+            <valueName>Daniel Cioffari</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Attributed</controllingFieldValue>
+            <controllingFieldValue>Partner Team Attributed</controllingFieldValue>
+            <valueName>Denchaline Ecaillat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Attributed</controllingFieldValue>
+            <controllingFieldValue>Partner Team Attributed</controllingFieldValue>
+            <valueName>Drew McMillan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Attributed</controllingFieldValue>
+            <controllingFieldValue>Partner Team Attributed</controllingFieldValue>
+            <valueName>Hunter Traffica</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Attributed</controllingFieldValue>
+            <controllingFieldValue>Partner Team Attributed</controllingFieldValue>
+            <valueName>Kainaz Dara Patel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Attributed</controllingFieldValue>
+            <controllingFieldValue>Partner Team Attributed</controllingFieldValue>
+            <valueName>Krishna Chaitanya</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Attributed</controllingFieldValue>
+            <controllingFieldValue>Partner Team Attributed</controllingFieldValue>
+            <valueName>Luke Cartwright</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Attributed</controllingFieldValue>
+            <controllingFieldValue>Partner Team Attributed</controllingFieldValue>
+            <controllingFieldValue>Rep Attributed</controllingFieldValue>
+            <valueName>No SDR Involved</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Attributed</controllingFieldValue>
+            <controllingFieldValue>Partner Team Attributed</controllingFieldValue>
+            <valueName>Raynold Paul</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Attributed</controllingFieldValue>
+            <controllingFieldValue>Partner Team Attributed</controllingFieldValue>
+            <valueName>Ryan Watson</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Attributed</controllingFieldValue>
+            <controllingFieldValue>Partner Team Attributed</controllingFieldValue>
+            <valueName>Susan Michael</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Attributed</controllingFieldValue>
+            <controllingFieldValue>Partner Team Attributed</controllingFieldValue>
+            <valueName>Swati Gupta</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Salesforce_clouds_used</fullName>
+    <active>true</active>
+    <description>Mandate &quot;Salesforce clouds&quot; used field when the Product is &quot;Vault&quot;.</description>
+    <errorConditionFormula>CONTAINS(TEXT(Product__c), &quot;Vault&quot;) &amp;&amp;  
+LEN(    Salesforce_clouds_used__c    ) &lt;= 0</errorConditionFormula>
+    <errorDisplayField>Salesforce_clouds_used__c</errorDisplayField>
+    <errorMessage>&quot;Salesforce clouds used&quot; is required when the Product is &quot;Vault&quot;.</errorMessage>
+</ValidationRule>

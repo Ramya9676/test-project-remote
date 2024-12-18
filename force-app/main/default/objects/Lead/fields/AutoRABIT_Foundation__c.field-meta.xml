@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AutoRABIT_Foundation__c</fullName>
+    <inlineHelpText>This field is used in the Website - Plans - Request a Quote Form.</inlineHelpText>
+    <label>AutoRABIT Foundation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>AutoRABIT_Foundation</valueSetName>
+    </valueSet>
+</CustomField>

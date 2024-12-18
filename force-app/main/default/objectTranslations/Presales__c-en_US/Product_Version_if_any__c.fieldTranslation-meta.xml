@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Product Version if any --></label>
+    <name>Product_Version_if_any__c</name>
+</CustomFieldTranslation>

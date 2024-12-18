@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- What is the average turnaround time for successful deployment? --></help>
+    <label><!-- Average TAT for Successful Deployment --></label>
+    <name>Average_turnaround_time_for__c</name>
+</CustomFieldTranslation>

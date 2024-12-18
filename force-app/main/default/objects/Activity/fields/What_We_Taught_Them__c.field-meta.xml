@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>What_We_Taught_Them__c</fullName>
+    <description>What we taught them section of meeting report</description>
+    <label>What We Taught Them</label>
+    <required>false</required>
+    <type>TextArea</type>
+</CustomField>

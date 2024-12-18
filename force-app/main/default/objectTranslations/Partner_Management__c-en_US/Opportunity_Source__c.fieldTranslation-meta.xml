@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Opportunity Source --></label>
+    <name>Opportunity_Source__c</name>
+    <picklistValues>
+        <masterLabel>Marketing Attributed</masterLabel>
+        <translation><!-- Marketing Attributed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partner Resell</masterLabel>
+        <translation><!-- Partner Resell --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partner Team Attributed</masterLabel>
+        <translation><!-- Partner Team Attributed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rep Attributed</masterLabel>
+        <translation><!-- Rep Attributed --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

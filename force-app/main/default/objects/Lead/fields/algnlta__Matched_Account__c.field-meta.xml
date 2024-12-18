@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>algnlta__Matched_Account__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Lookup relationship to account used in Align.ly Lead-to-Account Matching.</description>
+    <inlineHelpText>The account matched to the lead. Updated by Align.ly and/or manually.</inlineHelpText>
+    <label>Matched Account</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Matched Leads</relationshipLabel>
+    <relationshipName>Leads</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

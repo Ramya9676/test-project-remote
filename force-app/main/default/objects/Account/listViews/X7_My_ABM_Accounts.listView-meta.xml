@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X7_My_ABM_Accounts</fullName>
+    <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+    <columns>ABM_Key_Account_Current_Date__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_Type__c</columns>
+    <columns>ABM_Key_Account_Current__c</columns>
+    <columns>ABM_Tier__c</columns>
+    <columns>ACCOUNT_SOURCE</columns>
+    <columns>ACCOUNT.INDUSTRY</columns>
+    <columns>ACCOUNT.ADDRESS1_COUNTRY_CODE</columns>
+    <columns>Customer_Status__c</columns>
+    <columns>of_Opportunities__c</columns>
+    <columns>of_Open_Opportunities__c</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>SDR_Owner__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account_Type__c</field>
+        <operation>equals</operation>
+        <value>ABM</value>
+    </filters>
+    <filters>
+        <field>Account_Owner_is_Logged_In_User__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </filters>
+    <filters>
+        <field>SDR_Owner_is_Logged_In_User__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </filters>
+    <label>7. My ABM Accounts</label>
+</ListView>

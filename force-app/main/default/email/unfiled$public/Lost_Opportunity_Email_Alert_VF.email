@@ -1,0 +1,84 @@
+<messaging:emailTemplate subject="{!relatedTo.Name} opportunity has been moved to Closed Lost" recipientType="User" relatedToType="Opportunity" replyTo="PMT1@autorabit.com">
+        <messaging:htmlEmailBody >
+<img border="0" src="https://autorabit--c.documentforce.com/servlet/servlet.FileDownload?file=0150K000009mueZ" width="700" height="100"> </img>
+<br/>
+<p> Hi Team,</p>
+<p> An opportunity has been moved to Closed Lost by {!relatedTo.Owner.Name}. Please find the details below. </p>
+ 
+       <p> Account Name            : {!relatedTo.Account.Name} </p>
+       <p> Opportunity Name        : {!relatedTo.Name} </p>
+       <p> Opportunity Amount      : <apex:outputText value="{0, number, Currency}"> <apex:param value="{!RelatedTo.Opportunity_Amount__c}" /> </apex:outputText> </p>
+       <p> Loss Reason             : {!relatedTo.Loss_Reason__c} </p>
+       <p> Closed Lost Reason      : {!relatedTo.Closed_Lost_Reason__c} </p>
+       <p> Competitors             : {!relatedTo.Competitors__c} </p>
+     
+<p> <b> <u> Product Line Item Details: </u> </b> </p>
+ <style>
+            table, th, td {
+               border: 1px solid black;
+               border-collapse: collapse;
+               text-align: left;
+                           }
+</style>
+              <table> 
+          <tr>
+            <th align="left">
+              Product
+            </th>
+            <th align="left">
+              Product Family
+            </th>
+            <th align="left">
+              List Price
+            </th>
+            <th align="left">
+              Sale Price
+            </th>
+            <th align="left">
+              Quantity
+            </th>
+            <th align="left">
+              # of Months
+            </th>
+            <th align="left">
+              Amount
+            </th>
+          </tr>
+          <apex:repeat value="{!RelatedTo.OpportunityLineItems}" var="lineItem">
+            <tr>
+              <td>
+                {!lineItem.Product2.Name}
+              </td>
+              <td>
+                {!lineItem.Product2.Family}
+              </td>
+              <td>
+                {!lineItem.ListPrice}
+              </td>
+              <td>
+                {!lineItem.UnitPrice}
+              </td>
+              <td>
+              <apex:outputText value="{0, number, 0}">
+                <apex:param value="{!lineItem.Quantity}" />
+              </apex:outputText>
+              </td>
+              <td>
+              <apex:outputText value="{0, number, 0}">
+                <apex:param value="{!lineItem.of_Months__c}" />
+              </apex:outputText>
+              </td>
+              <td>
+              <apex:outputText value="{0, number, Currency}">
+                <apex:param value="{!lineItem.Total_Price__c}" />
+              </apex:outputText>
+              </td>
+    </tr>                  
+ </apex:repeat>
+     </table>
+  <p> To view the opportunity record in CRM, <a href="https://autorabit.lightning.force.com/lightning/r/Opportunity/{!RelatedTo.id}/view">click here</a>. </p>      
+       <p> Thanks,</p>
+       <p> AutoRABIT </p>
+
+        </messaging:htmlEmailBody>
+</messaging:emailTemplate>

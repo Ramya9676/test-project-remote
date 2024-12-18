@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_IDE</fullName>
+    <active>true</active>
+    <description>Mandate &quot;Current IDE&quot; field when the Product is &quot;CodeScan&quot;.</description>
+    <errorConditionFormula>CONTAINS(TEXT(Product__c) , &quot;CodeScan&quot;) &amp;&amp;  
+LEN(TEXT(  Current_IDE__c  )) &lt;= 0</errorConditionFormula>
+    <errorDisplayField>Current_IDE__c</errorDisplayField>
+    <errorMessage>Current IDE is required when the Product is &quot;CodeScan&quot;.</errorMessage>
+</ValidationRule>

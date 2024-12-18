@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- What percentage of leads became a customer? If 12 out of 100 leads become a customer, your lead to customer rate would be 12% or 0.12. --></help>
+    <label><!-- Lead-to-customer rate --></label>
+    <name>Lead_to_customer_rate__c</name>
+</CustomFieldTranslation>

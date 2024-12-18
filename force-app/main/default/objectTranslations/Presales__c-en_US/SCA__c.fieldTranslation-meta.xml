@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- SCA --></label>
+    <name>SCA__c</name>
+    <picklistValues>
+        <masterLabel>Checkmarx</masterLabel>
+        <translation><!-- Checkmarx --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CodeScan</masterLabel>
+        <translation><!-- CodeScan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Applicable</masterLabel>
+        <translation><!-- Not Applicable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PMD</masterLabel>
+        <translation><!-- PMD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SonarQube</masterLabel>
+        <translation><!-- SonarQube --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

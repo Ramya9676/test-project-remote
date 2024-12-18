@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Accountone</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Accountones</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- UmeshTest --></label>
+        <name>UmeshTest</name>
+    </fieldSets>
+    <recordTypes>
+        <label><!-- Recordone_Accountone --></label>
+        <name>Recordone_Accountone</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Sample rule --></errorMessage>
+        <name>Sample_rule</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Umesh_B_L --></label>
+        <name>Umesh_B_L</name>
+    </webLinks>
+</CustomObjectTranslation>

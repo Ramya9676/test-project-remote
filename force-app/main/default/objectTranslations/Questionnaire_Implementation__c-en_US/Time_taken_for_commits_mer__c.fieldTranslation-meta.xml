@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- How long does it take for commits/merges? --></help>
+    <label><!-- Time taken for commits/merges ? --></label>
+    <name>Time_taken_for_commits_mer__c</name>
+</CustomFieldTranslation>

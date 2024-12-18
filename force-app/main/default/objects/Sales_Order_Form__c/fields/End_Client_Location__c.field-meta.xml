@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>End_Client_Location__c</fullName>
+    <externalId>false</externalId>
+    <formula>Opportunity__r.Account.BillingStreet  &amp; BR()&amp;
+ Opportunity__r.Account.BillingCity  &amp; BR()&amp;
+ Opportunity__r.Account.BillingState  &amp; BR()&amp;
+ Opportunity__r.Account.BillingPostalCode  &amp; BR()&amp;
+ Opportunity__r.Account.BillingCountry</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>End Client Location</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

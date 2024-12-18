@@ -1,0 +1,14 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[Hello&nbsp;{!Presales_Status_Tracker__c.Presales_Engineer__c},]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[This is to notify that the 'End Date' for Presales Status Tracker record is in the past and the 'Status' is still not complete. Please either update the 'End Date' to future date or the 'Status' to complete whichever is applicable.<div><br></div><div><a href="{!Presales_Status_Tracker__c.Link}">Click here to access the Presales Status Tracker record</a></div><div><br></div><div>Thanks,</div><div><br></div><div><br></div>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[]]></td>
+</tr>
+</table>

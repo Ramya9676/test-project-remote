@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ageing__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF((TODAY() -   DATEVALUE(Created_Time_D_Format__c) ) &lt;= 7, 1,
+IF(AND((TODAY() -  DATEVALUE(Created_Time_D_Format__c) )&gt;7,(TODAY() -  DATEVALUE(Created_Time_D_Format__c))&lt;=15), 2,  IF(AND((TODAY() -  DATEVALUE(Created_Time_D_Format__c) )&gt;15,(TODAY() -  DATEVALUE(Created_Time_D_Format__c) )&lt;=30), 3,  IF(AND((TODAY() -  DATEVALUE(Created_Time_D_Format__c) )&gt;30,(TODAY() -  DATEVALUE(Created_Time_D_Format__c) )&lt;=45), 4,  IF((TODAY() -  DATEVALUE(Created_Time_D_Format__c) )&gt;45, 5, 0) ) ) ) )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Ageing</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

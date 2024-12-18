@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Charge__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates weather a customer should be charged for his TimeLog entry</description>
+    <inlineHelpText>Check the box to avoid billing the client for this TimeLog entry</inlineHelpText>
+    <label>No Charge</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

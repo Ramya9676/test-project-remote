@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Contacts_Outreach_io_Sequences</fullName>
+    <columns>Current_Sequence_Name__c</columns>
+    <columns>Current_Sequence_User_Name__c</columns>
+    <columns>Current_Sequence_Status__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_Type__c</columns>
+    <columns>FULL_NAME</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>Contact_Status__c</columns>
+    <columns>Contact_Rating__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Current_Sequence_Name__c</field>
+        <operation>notEqual</operation>
+        <value>,None</value>
+    </filters>
+    <label>15. My Contacts in Outreach Sequences</label>
+</ListView>

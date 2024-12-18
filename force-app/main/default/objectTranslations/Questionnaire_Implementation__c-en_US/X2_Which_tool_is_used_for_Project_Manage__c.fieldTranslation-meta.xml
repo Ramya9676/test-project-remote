@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Which tool is used for Project Management (ALM)? --></help>
+    <label><!-- Which tool is used for ALM ? --></label>
+    <name>X2_Which_tool_is_used_for_Project_Manage__c</name>
+    <picklistValues>
+        <masterLabel>HP ALM</masterLabel>
+        <translation><!-- HP ALM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>JIRA</masterLabel>
+        <translation><!-- JIRA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rally</masterLabel>
+        <translation><!-- Rally --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

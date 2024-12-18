@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Technical_Contact__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Person who will be the super user for the customer.</description>
+    <inlineHelpText>Person who will be the super user for the customer. There is a filter limiting the options to a contact on the account on this opportunity or the partner account on this opportunity. If you cannot find the contact, check if it is on a duplicate account. This filter can be overridden in Salesforce Classic.</inlineHelpText>
+    <label>Technical Contact</label>
+    <lookupFilter>
+        <active>false</active>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <filterItems>
+            <field>Contact.AccountId</field>
+            <operation>equals</operation>
+            <valueField>$Source.AccountId</valueField>
+        </filterItems>
+        <filterItems>
+            <field>Contact.Id</field>
+            <operation>equals</operation>
+            <valueField>$Source.Partner_Contact__c</valueField>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Opportunities (Technical Contact)</relationshipLabel>
+    <relationshipName>Opportunities2</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

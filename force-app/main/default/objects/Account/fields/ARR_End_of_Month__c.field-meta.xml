@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ARR_End_of_Month__c</fullName>
+    <description>ARR for the account on last day of current month. Field requested by Ranjini February 2022 and Meredith in 2021. Updated daily by schedAccountCurrentMetricsDaily.</description>
+    <inlineHelpText>ARR for the account on last day of current month</inlineHelpText>
+    <label>ARR End of Month</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

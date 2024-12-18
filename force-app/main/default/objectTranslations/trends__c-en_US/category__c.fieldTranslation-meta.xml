@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- category --></label>
+    <name>category__c</name>
+    <picklistValues>
+        <masterLabel>Jeans</masterLabel>
+        <translation><!-- Jeans --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kurta</masterLabel>
+        <translation><!-- Kurta --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saree</masterLabel>
+        <translation><!-- Saree --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>bangles</masterLabel>
+        <translation><!-- bangles --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ear rings</masterLabel>
+        <translation><!-- ear rings --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>frock</masterLabel>
+        <translation><!-- frock --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>perfumes</masterLabel>
+        <translation><!-- perfumes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>tshirt</masterLabel>
+        <translation><!-- tshirt --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>vest</masterLabel>
+        <translation><!-- vest --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>watches</masterLabel>
+        <translation><!-- watches --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

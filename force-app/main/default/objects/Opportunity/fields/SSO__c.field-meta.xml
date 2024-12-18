@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SSO__c</fullName>
+    <label>SSO</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Okta</fullName>
+                <default>false</default>
+                <label>Okta</label>
+            </value>
+            <value>
+                <fullName>PingFederate</fullName>
+                <default>false</default>
+                <label>PingFederate</label>
+            </value>
+            <value>
+                <fullName>Active Directory (ADFS)</fullName>
+                <default>false</default>
+                <label>Active Directory (ADFS)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

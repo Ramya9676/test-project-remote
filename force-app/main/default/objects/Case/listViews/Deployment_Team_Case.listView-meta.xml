@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deployment_Team_Case</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.REASON</columns>
+    <columns>CASES.TYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.REASON</field>
+        <operation>equals</operation>
+        <value>Builds/Project Failures,Deployments,Sync Orgs</value>
+    </filters>
+    <label>Deployment Team</label>
+    <language>en_US</language>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

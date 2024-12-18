@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- OpportunitiesMassEditFieldSet --></label>
+        <name>MassManager__OpportunitiesMassEditFieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Tsest --></label>
+        <name>Tsest</name>
+    </fieldSets>
+    <validationRules>
+        <errorMessage><!-- Need to upload a signed order to the opportunity to move it to Closed Won. The filename must contain po, order, signed, or Docusign. --></errorMessage>
+        <name>Attached_Signed_Order_at_Closed_Won</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Business Contact must be populated at Closed Won Stage. --></errorMessage>
+        <name>Business_Contact_at_Closed_Won</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No Primary Contact Exists for this opportunity. Please go to the Contact Roles and select a primary contact. If this is a new Opportunity, use stage Qualify. You will be required to add a Contact Role before moving the opportunity to another stage. --></errorMessage>
+        <name>Check_for_Contact_Role</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Close Date is mandate during this sales stage --></errorMessage>
+        <name>Close_Date_Updation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Closed Lost Reason should be empty for all stages except for Closed Lost --></errorMessage>
+        <name>Closed_Lost_Reason_should_be_empty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Opportunity cannot be Closed Lost without a Closed Lost Reason. Please make sure Closed Lost Reason is not empty --></errorMessage>
+        <name>Closed_Lost_should_have_a_reason</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select &apos;Partner Involved?&apos; as &apos;Yes&apos; to enter data in &apos;Partner Account&apos;, &apos;Partner Contact&apos;,  and &apos;Partner Influence&apos; fields. --></errorMessage>
+        <name>If_Partner_Involved_No</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Partner Account&apos;, &apos;Partner Contact&apos;, and &apos;Partner Influence&apos; are required when &apos;Partner Involved?&apos; is selected as &apos;Yes&apos; and Partner Oppty Type is not &apos;Reseller&apos; --></errorMessage>
+        <name>If_Partner_Involved_Yes</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Implementation start date can&apos;t be modified after Implementation close date entered --></errorMessage>
+        <name>Implementation_Start_Date_Locked</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CompanyId should be a numeric value --></errorMessage>
+        <name>LID__Check_CompanyId_Value</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CompanyId should be a numeric value --></errorMessage>
+        <name>LID__Check_Company_Id_Value</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- # of Months (for Subs Activation) must be populated at Closed Won Stage. --></errorMessage>
+        <name>Months_Subs_Activation_at_Closed_Won</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Opportunity cannot be closed without Product line items --></errorMessage>
+        <name>Opportunity_Line_Items_not_Equal_to_Null</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please change the Stage before adding Products. --></errorMessage>
+        <name>Please_Change_the_Stage</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editing closed opportunities is prohibited for users other than Admins, Accounting, Bennett, Jacob, Joshua, Mike, and Eric.Please ask one of them about making the change or changing who has access. --></errorMessage>
+        <name>Prevent_Edit_Closed_Opp_Unless_Perm</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Primary Time Zone must be populated at Closed Won Stage. --></errorMessage>
+        <name>Primary_Time_Zone_at_Closed_Won</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Subscription Start Date and Subscription End Date must be populated at all stages after Qualify. Fill in the subscription start and end date, or if it isn&apos;t on the form, use stage Qualify. Also, make sure the end date is after the start date. --></errorMessage>
+        <name>Subscription_Start_End_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Technical Contact must be populated at Closed Won Stage. --></errorMessage>
+        <name>Technical_Contact_at_Closed_Won</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Implementation Start Date is mandatory if it is in Training Stage --></errorMessage>
+        <name>Validation_rule</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Mass_Delete --></label>
+        <name>MassManager__Mass_Delete</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Edit_Standard_Fields --></label>
+        <name>MassManager__Mass_Edit_Standard_Fields</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Update --></label>
+        <name>MassManager__Mass_Update</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Scope_Information_Document --></label>
+        <name>Scope_Information_Document</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Tasks_Opp --></label>
+        <name>activities__Create_Tasks_Opp</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Pardot_Emails --></label>
+        <name>pi__Send_Pardot_Emails</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Single_Pardot_Email --></label>
+        <name>pi__Send_Single_Pardot_Email</name>
+    </webLinks>
+</CustomObjectTranslation>

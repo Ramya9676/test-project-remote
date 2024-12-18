@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Quality Profiles --></label>
+    <name>Quality_Profiles__c</name>
+    <picklistValues>
+        <masterLabel>Apex</masterLabel>
+        <translation><!-- Apex --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>C#</masterLabel>
+        <translation><!-- C# --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HTML</masterLabel>
+        <translation><!-- HTML --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Java</masterLabel>
+        <translation><!-- Java --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LWC</masterLabel>
+        <translation><!-- LWC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SF Metadata</masterLabel>
+        <translation><!-- SF Metadata --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

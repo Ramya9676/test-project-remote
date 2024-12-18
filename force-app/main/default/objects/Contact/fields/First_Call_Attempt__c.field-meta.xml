@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>First_Call_Attempt__c</fullName>
+    <inlineHelpText>Date/Time first Outreach.io activity made for Task Type &quot;Call&quot;.</inlineHelpText>
+    <label>First Call Attempt</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

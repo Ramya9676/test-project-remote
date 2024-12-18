@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Implementation Engineer --></label>
+    <name>AR_Implementation_Engineer__c</name>
+    <picklistValues>
+        <masterLabel>Abhilash</masterLabel>
+        <translation><!-- Abhilash --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Abhinav</masterLabel>
+        <translation><!-- Abhinav --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ashwin</masterLabel>
+        <translation><!-- Ashwin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chris</masterLabel>
+        <translation><!-- Chris --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lavanya</masterLabel>
+        <translation><!-- Lavanya --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Naveen</masterLabel>
+        <translation><!-- Naveen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Niranjan</masterLabel>
+        <translation><!-- Niranjan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prashanth</masterLabel>
+        <translation><!-- Prashanth --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Salma</masterLabel>
+        <translation><!-- Salma --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Simon</masterLabel>
+        <translation><!-- Simon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Teja</masterLabel>
+        <translation><!-- Teja --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vignesh</masterLabel>
+        <translation><!-- Vignesh --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

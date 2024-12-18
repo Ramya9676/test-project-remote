@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team_Orientation__c</fullName>
+    <label>Team Orientation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Product__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Admin</fullName>
+                <default>false</default>
+                <label>Admin</label>
+            </value>
+            <value>
+                <fullName>Developers</fullName>
+                <default>false</default>
+                <label>Developers</label>
+            </value>
+            <value>
+                <fullName>Architects</fullName>
+                <default>false</default>
+                <label>Architects</label>
+            </value>
+            <value>
+                <fullName>Release Manager</fullName>
+                <default>false</default>
+                <label>Release Manager</label>
+            </value>
+            <value>
+                <fullName>Compliance Officer</fullName>
+                <default>false</default>
+                <label>Compliance Officer</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>ARM</controllingFieldValue>
+            <controllingFieldValue>Vault</controllingFieldValue>
+            <controllingFieldValue>RBM</controllingFieldValue>
+            <valueName>Admin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ARM</controllingFieldValue>
+            <controllingFieldValue>Vault</controllingFieldValue>
+            <controllingFieldValue>CodeScan</controllingFieldValue>
+            <controllingFieldValue>Mulesoft</controllingFieldValue>
+            <valueName>Developers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ARM</controllingFieldValue>
+            <controllingFieldValue>CodeScan</controllingFieldValue>
+            <controllingFieldValue>Mulesoft</controllingFieldValue>
+            <valueName>Architects</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vault</controllingFieldValue>
+            <valueName>Compliance Officer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CodeScan</controllingFieldValue>
+            <controllingFieldValue>RBM</controllingFieldValue>
+            <valueName>Release Manager</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

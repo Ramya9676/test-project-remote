@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Delete_From_CRM__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check if the lead is no longer needed in the CRM.</description>
+    <inlineHelpText>Check if the lead is no longer needed in the CRM.</inlineHelpText>
+    <label>Delete From CRM</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

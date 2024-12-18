@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Check this box if the Opportunity Referral Percentage is different from the Partner Account Referral Percentage. --></help>
+    <label><!-- Special Referral Terms --></label>
+    <name>Special_Referral_Terms__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Referenceble__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Automatically sets to true if at least one contact is checked as referenceable.</description>
+    <inlineHelpText>Is true if at least one contact is checked as referenceable.</inlineHelpText>
+    <label>Referenceable</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

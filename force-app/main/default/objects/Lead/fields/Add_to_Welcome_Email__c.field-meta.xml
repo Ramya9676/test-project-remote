@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Add_to_Welcome_Email__c</fullName>
+    <inlineHelpText>Whether to add this user to the welcome email. &quot;general&quot; will send a generic email, &quot;salesforce&quot; will send a salesforce focused email.</inlineHelpText>
+    <label>Add to Welcome Email</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>no</fullName>
+                <default>false</default>
+                <label>no</label>
+            </value>
+            <value>
+                <fullName>salesforce</fullName>
+                <default>false</default>
+                <label>salesforce</label>
+            </value>
+            <value>
+                <fullName>general</fullName>
+                <default>false</default>
+                <label>general</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

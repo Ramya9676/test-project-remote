@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Stage &quot;Proposal&quot; Set Date --></label>
+    <name>Stage_Proposal_Set_Date__c</name>
+</CustomFieldTranslation>

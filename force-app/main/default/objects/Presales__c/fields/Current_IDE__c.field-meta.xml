@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_IDE__c</fullName>
+    <label>Current IDE</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Product__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Welkin Suite</fullName>
+                <default>false</default>
+                <label>Welkin Suite</label>
+            </value>
+            <value>
+                <fullName>IntelliJ</fullName>
+                <default>false</default>
+                <label>IntelliJ</label>
+            </value>
+            <value>
+                <fullName>VS Code</fullName>
+                <default>false</default>
+                <label>VS Code</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+                <label>Not Applicable</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>ARM</controllingFieldValue>
+            <controllingFieldValue>Vault</controllingFieldValue>
+            <controllingFieldValue>CodeScan</controllingFieldValue>
+            <valueName>Not Applicable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CodeScan</controllingFieldValue>
+            <valueName>Welkin Suite</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CodeScan</controllingFieldValue>
+            <valueName>IntelliJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CodeScan</controllingFieldValue>
+            <valueName>VS Code</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CodeScan</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

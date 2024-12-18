@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Use Cases --></label>
+    <name>Use_Cases__c</name>
+    <picklistValues>
+        <masterLabel>Account Management</masterLabel>
+        <translation><!-- Account Management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Archival</masterLabel>
+        <translation><!-- Archival --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Auto-Deploy Properties</masterLabel>
+        <translation><!-- Auto-Deploy Properties --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Backup</masterLabel>
+        <translation><!-- Backup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Build Maven Jobs</masterLabel>
+        <translation><!-- Build Maven Jobs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CI Jobs</masterLabel>
+        <translation><!-- CI Jobs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Compare</masterLabel>
+        <translation><!-- Compare --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dataloader</masterLabel>
+        <translation><!-- Dataloader --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Environment Provisioning</masterLabel>
+        <translation><!-- Environment Provisioning --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Environment Registrations</masterLabel>
+        <translation><!-- Environment Registrations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GDPR</masterLabel>
+        <translation><!-- GDPR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Identify Issues</masterLabel>
+        <translation><!-- Identify Issues --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manage Environment Properties</masterLabel>
+        <translation><!-- Manage Environment Properties --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Monitoring</masterLabel>
+        <translation><!-- Monitoring --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Org Synchronization</masterLabel>
+        <translation><!-- Org Synchronization --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Profile Manager</masterLabel>
+        <translation><!-- Profile Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Replicate</masterLabel>
+        <translation><!-- Replicate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reporting</masterLabel>
+        <translation><!-- Reporting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Restore</masterLabel>
+        <translation><!-- Restore --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SalesforceDX</masterLabel>
+        <translation><!-- SalesforceDX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Security Compliance</masterLabel>
+        <translation><!-- Security Compliance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Selective Deployment</masterLabel>
+        <translation><!-- Selective Deployment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Template Configuration</masterLabel>
+        <translation><!-- Template Configuration --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Template Deployment</masterLabel>
+        <translation><!-- Template Deployment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Test Execution</masterLabel>
+        <translation><!-- Test Execution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Testing</masterLabel>
+        <translation><!-- Testing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Version Control</masterLabel>
+        <translation><!-- Version Control --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vlocity</masterLabel>
+        <translation><!-- Vlocity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>nCino</masterLabel>
+        <translation><!-- nCino --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

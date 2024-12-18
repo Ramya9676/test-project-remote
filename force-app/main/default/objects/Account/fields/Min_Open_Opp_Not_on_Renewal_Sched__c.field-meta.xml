@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Min_Open_Opp_Not_on_Renewal_Sched__c</fullName>
+    <description>True if the open opp start date is a day after the last won opp close date. Otherwise the opp is set to start out of cycle and is likely an upsell rather than a renewal.</description>
+    <formula>if(Max_Won_Subscription_End_Date__c +1 &lt;&gt;   Min_Open_Opp_Start_Date__c, true, false)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Min Open Opp Not on Renewal Sched</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

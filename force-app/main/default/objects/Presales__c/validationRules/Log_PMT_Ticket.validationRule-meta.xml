@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Log_PMT_Ticket</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND ( ISPICKVAL(Log_a_Ticket_with__c, &apos;PMT&apos;), Bypass_Validation_Rule__c = False,
+OR(
+ISBLANK(TEXT( Issue_Enhancement_in__c )),
+ISBLANK(  Product_Instance__c ),
+ISBLANK( Module__c ),
+LEN( Feature_Request_Description__c ) = 0 ,
+ISBLANK( Deal_Size__c ) ,
+ISBLANK( TEXT(Priority__c ))
+)
+)</errorConditionFormula>
+    <errorMessage>Please make sure you have entered &quot;Issue/Enhancement in&apos;, &apos;Product Instance&apos;,  &apos;Module&apos;&apos;, &apos;Feature Request Description&apos;, Deal Size&apos;, and &apos;Priority of the Request&apos; to send an email to PMT.</errorMessage>
+</ValidationRule>

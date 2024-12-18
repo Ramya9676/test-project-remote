@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Line_Items_not_Equal_to_Null</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(
+OR(ISPICKVAL(StageName, &quot;Closed Won&quot;),
+ISPICKVAL(StageName, &quot;Closed Won-Implementation Incomplete&quot;)),
+HasOpportunityLineItem = FALSE
+ &amp;&amp; $User.LastName &lt;&gt; &apos;Schaapveld&apos;
+)</errorConditionFormula>
+    <errorMessage>Opportunity cannot be closed without Product line items</errorMessage>
+</ValidationRule>

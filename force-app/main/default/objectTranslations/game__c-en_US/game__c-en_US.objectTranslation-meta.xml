@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>game</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>games</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- men --></label>
+        <name>men</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- women --></label>
+        <name>women</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- numbers of players should be greater than 1 --></errorMessage>
+        <name>game_point</name>
+    </validationRules>
+</CustomObjectTranslation>

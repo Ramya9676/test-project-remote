@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Sum of  Renewal Subs on Recurring Revenue --></help>
+    <label><!-- Total Subs After Renewal --></label>
+    <name>Total_Subs_After_Renewal__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,151 @@
+<aura:component   implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+	
+   <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_striped slds-table_col-bordered slds-border_top">
+  <thead>
+    <tr class="slds-line-height_reset">
+      <th class="" scope="col">
+        <div class="slds-truncate slds-text-color_destructive" title="Problem Statement">Problem Statement</div>
+      </th>
+      <th class="" scope="col">
+        <div class="slds-truncate slds-text-color_destructive" title="Use Cases in Vault">Use Cases in Vault</div>
+      </th>
+     
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="slds-hint-parent">
+      
+      <td data-label="Problem Statement">
+        <div class="slds-truncate" title="Problem Statement">Enable backup for both Salesforce metadata and data
+</div>
+      </td>
+      <td data-label="Use Cases in AutoRABIT">
+        <div class="slds-truncate" title="Use Cases in Vault">
+            1. Create templates that can backup metadata and data with dependencies<br/>
+            2. Apply Retention Periods on Backup/Archival<br/>
+            3. Set up Incremental/Full Backup on Data/Metadata<br/>
+            4. Schedule backups that can be run more than once a day
+          </div>
+      </td>
+     
+    </tr>
+      
+       <tr class="slds-hint-parent">
+      
+      <td data-label="Problem Statement">
+        <div class="slds-truncate" title="Problem Statement">Frequent your "change-only" backups by using an Optimized API approach
+</div>
+      </td>
+      <td data-label="Use Cases in Vault">
+        <div class="slds-truncate" title="Use Cases in Vault">
+            1. Backup only specific records important to your organization<br/>
+            2. Run an incremental/full backup of your Salesforce Org<br/>
+            3. Optimize API calls during every backup<br/>
+			4. Exclude Deleted Data in Salesforce from being backed up
+
+          </div>
+      </td>
+     
+    </tr>
+	
+	
+	<tr class="slds-hint-parent">
+      
+      <td data-label="Problem Statement">
+        <div class="slds-truncate" title="Problem Statement">Compare either 2 backup snapshots or 1 backup with the live org</div>
+      </td>
+      <td data-label="Use Cases in Vault">
+        <div class="slds-truncate" title="Use Cases in Vault">
+            1. Compare Metadata/Data between two backup snapshots<br/>
+			2. Compare Metadata/Data between a backup snapshot and live environment
+
+          </div>
+      </td>
+     
+    </tr>
+	
+	<tr class="slds-hint-parent">
+      
+      <td data-label="Problem Statement">
+        <div class="slds-truncate" title="Problem Statement">Improve your RTO/RPO by using Vault's multi-depth hierarchical restore</div>
+      </td>
+      <td data-label="Use Cases in Vault">
+        <div class="slds-truncate" title="Use Cases in Vault">
+			1. Recover metadata/data selectively from a backup snapshot<br/>
+			2. Recover the entire metadata/data from a backup snapshot<br/>
+			3. Include unlimited hierarchical dependencies of data to be restored
+
+          </div>
+      </td>
+     
+    </tr>
+	
+	
+	<tr class="slds-hint-parent">
+      
+      <td data-label="Problem Statement">
+        <div class="slds-truncate" title="Problem Statement">Ready your sandboxes for functional testing with data and metadata</div>
+      </td>
+      <td data-label="Use Cases in Vault">
+        <div class="slds-truncate" title="Use Cases in Vault">
+           1. Seed metadata and data at once from a backup snapshot to a Salesforce environment<br/>
+            2. Mask sensitive information prior to your data deployment<br/>
+		   3. Migrate data and metadata with dependencies across multiple levels
+
+          </div>
+      </td>
+     
+    </tr>
+	
+	
+	<tr class="slds-hint-parent">
+      
+      <td data-label="Problem Statement">
+        <div class="slds-truncate" title="Problem Statement">Have your Salesforce environment within data limits with Vault's archiving capability</div>
+      </td>
+      <td data-label="Use Cases in Vault">
+        <div class="slds-truncate" title="Use Cases in Vault">
+            1. Backup records into a storage service and also, delete it from Salesforce upon user confirmation<br/>
+		   2. Restore records from archives with dependencies
+
+          </div>
+      </td>
+     
+    </tr>
+	
+	
+	<tr class="slds-hint-parent">
+      
+      <td data-label="Problem Statement">
+        <div class="slds-truncate" title="Problem Statement">Ensure information in Salesforce is constantly monitored to avoid data integrity issues</div>
+      </td>
+      <td data-label="Use Cases in Vault">
+        <div class="slds-truncate" title="Use Cases in Vault">
+           1. Set up Alert Rules in Vault to intelligently capture any real-time changes in metadata/data
+
+          </div>
+      </td>
+     
+    </tr>
+	
+	<tr class="slds-hint-parent">
+      
+      <td data-label="Problem Statement">
+        <div class="slds-truncate" title="Problem Statement">Anonymize records from a backup snapshot by exercising Vault's GDPR feature</div>
+      </td>
+      <td data-label="Use Cases in Vault">
+        <div class="slds-truncate" title="Use Cases in Vault">
+           1. Input a CSV or collection of record IDs to anonymize records from backup snapshot(s)
+
+          </div>
+      </td>
+     
+    </tr>
+	
+   
+  </tbody>
+</table>
+ 
+
+ 
+</aura:component>

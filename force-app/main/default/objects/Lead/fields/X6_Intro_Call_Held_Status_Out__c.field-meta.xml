@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X6_Intro_Call_Held_Status_Out__c</fullName>
+    <description>Created for reporting purposes. Date Lead, Lead Status moved out of &quot;6-Intro Call Held&quot;.</description>
+    <inlineHelpText>Date Lead, Lead Status moved out of &quot;6-Intro Call Held&quot;.</inlineHelpText>
+    <label>6-Intro Call Held Status Out</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

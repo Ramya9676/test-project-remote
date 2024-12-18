@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Enter the ARR upsell or downsell amount expected when this opportunity is won. --></help>
+    <label><!-- Pipeline ARR Value --></label>
+    <name>Pipeline_ARR_Value__c</name>
+</CustomFieldTranslation>

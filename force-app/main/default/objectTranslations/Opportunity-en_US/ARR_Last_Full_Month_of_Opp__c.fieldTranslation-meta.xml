@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- ARR Last Full Month of Opp --></help>
+    <label><!-- ARR Renewable --></label>
+    <name>ARR_Last_Full_Month_of_Opp__c</name>
+</CustomFieldTranslation>

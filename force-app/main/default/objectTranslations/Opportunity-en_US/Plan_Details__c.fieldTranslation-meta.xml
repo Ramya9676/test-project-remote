@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is to understand whether its (Enterprise, Standard, Professional) --></help>
+    <label><!-- Plan Details --></label>
+    <name>Plan_Details__c</name>
+    <picklistValues>
+        <masterLabel>Enterprise</masterLabel>
+        <translation><!-- Enterprise --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Professional</masterLabel>
+        <translation><!-- Professional --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Standard</masterLabel>
+        <translation><!-- Standard --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

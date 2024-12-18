@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competitors__c</fullName>
+    <label>Competitors</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Copado</fullName>
+                <default>false</default>
+                <label>Copado</label>
+            </value>
+            <value>
+                <fullName>Flosum</fullName>
+                <default>false</default>
+                <label>Flosum</label>
+            </value>
+            <value>
+                <fullName>Jitterbit</fullName>
+                <default>false</default>
+                <label>Jitterbit</label>
+            </value>
+            <value>
+                <fullName>Odaseva</fullName>
+                <default>false</default>
+                <label>Odaseva</label>
+            </value>
+            <value>
+                <fullName>Gearset</fullName>
+                <default>false</default>
+                <label>Gearset</label>
+            </value>
+            <value>
+                <fullName>AssureClick</fullName>
+                <default>false</default>
+                <label>AssureClick</label>
+            </value>
+            <value>
+                <fullName>Provar</fullName>
+                <default>false</default>
+                <label>Provar</label>
+            </value>
+            <value>
+                <fullName>Dream factory – Snapshot</fullName>
+                <default>false</default>
+                <label>Dream factory – Snapshot</label>
+            </value>
+            <value>
+                <fullName>Dream factory – Cascade &amp; others</fullName>
+                <default>false</default>
+                <label>Dream factory – Cascade &amp; others</label>
+            </value>
+            <value>
+                <fullName>Atlassian - Bamboo</fullName>
+                <default>false</default>
+                <label>Atlassian - Bamboo</label>
+            </value>
+            <value>
+                <fullName>Atlassian - Others</fullName>
+                <default>false</default>
+                <label>Atlassian - Others</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

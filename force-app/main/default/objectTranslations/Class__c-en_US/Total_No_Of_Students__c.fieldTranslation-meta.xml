@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Total No of Students in the Class --></help>
+    <label><!-- Total No. Of Students --></label>
+    <name>Total_No_Of_Students__c</name>
+</CustomFieldTranslation>

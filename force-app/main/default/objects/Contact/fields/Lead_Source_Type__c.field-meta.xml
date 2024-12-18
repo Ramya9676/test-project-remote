@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Source_Type__c</fullName>
+    <label>Lead Source Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>LeadSource</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Accenture</fullName>
+                <default>false</default>
+                <label>Accenture</label>
+            </value>
+            <value>
+                <fullName>app.codescan.io</fullName>
+                <default>false</default>
+                <label>app.codescan.io</label>
+            </value>
+            <value>
+                <fullName>App Exchange</fullName>
+                <default>false</default>
+                <label>App Exchange</label>
+            </value>
+            <value>
+                <fullName>AutoRABIT</fullName>
+                <default>false</default>
+                <label>AutoRABIT</label>
+            </value>
+            <value>
+                <fullName>Bing Ads</fullName>
+                <default>false</default>
+                <label>Bing Ads</label>
+            </value>
+            <value>
+                <fullName>Bing Search</fullName>
+                <default>false</default>
+                <label>Bing Search</label>
+            </value>
+            <value>
+                <fullName>Blog</fullName>
+                <default>false</default>
+                <label>Blog</label>
+            </value>
+            <value>
+                <fullName>Calendly</fullName>
+                <default>false</default>
+                <label>Calendly</label>
+            </value>
+            <value>
+                <fullName>Call Campaign</fullName>
+                <default>false</default>
+                <label>Call Campaign</label>
+            </value>
+            <value>
+                <fullName>Capterra</fullName>
+                <default>false</default>
+                <label>Capterra</label>
+            </value>
+            <value>
+                <fullName>Case Studies</fullName>
+                <default>false</default>
+                <label>Case Studies</label>
+            </value>
+            <value>
+                <fullName>Chat</fullName>
+                <default>false</default>
+                <label>Chat</label>
+            </value>
+            <value>
+                <fullName>Conference</fullName>
+                <default>false</default>
+                <label>Conference</label>
+            </value>
+            <value>
+                <fullName>Contact Us Form</fullName>
+                <default>false</default>
+                <label>Contact Us Form</label>
+            </value>
+            <value>
+                <fullName>Contextual Targeting (ABM)</fullName>
+                <default>false</default>
+                <label>Contextual Targeting (ABM)</label>
+            </value>
+            <value>
+                <fullName>Customer</fullName>
+                <default>false</default>
+                <label>Customer</label>
+            </value>
+            <value>
+                <fullName>Customize Targeting (ABM)</fullName>
+                <default>false</default>
+                <label>Customize Targeting (ABM)</label>
+            </value>
+            <value>
+                <fullName>Data.com</fullName>
+                <default>false</default>
+                <label>Data.com</label>
+            </value>
+            <value>
+                <fullName>Deloitte</fullName>
+                <default>false</default>
+                <label>Deloitte</label>
+            </value>
+            <value>
+                <fullName>Demo Request</fullName>
+                <default>false</default>
+                <label>Demo Request</label>
+            </value>
+            <value>
+                <fullName>Digital Marketing Reference</fullName>
+                <default>false</default>
+                <label>Digital Marketing Reference</label>
+            </value>
+            <value>
+                <fullName>Direct</fullName>
+                <default>false</default>
+                <label>Direct</label>
+            </value>
+            <value>
+                <fullName>Direct Mail</fullName>
+                <default>false</default>
+                <label>Direct Mail</label>
+            </value>
+            <value>
+                <fullName>Discord</fullName>
+                <default>false</default>
+                <label>Discord</label>
+            </value>
+            <value>
+                <fullName>Discovery.org</fullName>
+                <default>false</default>
+                <label>Discovery.org</label>
+            </value>
+            <value>
+                <fullName>Display Ad (ABM)</fullName>
+                <default>false</default>
+                <label>Display Ad (ABM)</label>
+            </value>
+            <value>
+                <fullName>Display Retarget (ABM)</fullName>
+                <default>false</default>
+                <label>Display Retarget (ABM)</label>
+            </value>
+            <value>
+                <fullName>Dreamforce</fullName>
+                <default>false</default>
+                <label>Dreamforce</label>
+            </value>
+            <value>
+                <fullName>Dreaming</fullName>
+                <default>false</default>
+                <label>Dreaming</label>
+            </value>
+            <value>
+                <fullName>Ebook</fullName>
+                <default>false</default>
+                <label>Ebook</label>
+            </value>
+            <value>
+                <fullName>Email Campaign</fullName>
+                <default>false</default>
+                <label>Email Campaign</label>
+            </value>
+            <value>
+                <fullName>Email Forwarded</fullName>
+                <default>false</default>
+                <label>Email Forwarded</label>
+            </value>
+            <value>
+                <fullName>Employee</fullName>
+                <default>false</default>
+                <label>Employee</label>
+            </value>
+            <value>
+                <fullName>End User</fullName>
+                <default>false</default>
+                <label>End User</label>
+            </value>
+            <value>
+                <fullName>Engagement Email</fullName>
+                <default>false</default>
+                <label>Engagement Email</label>
+            </value>
+            <value>
+                <fullName>Event Registration</fullName>
+                <default>false</default>
+                <label>Event Registration</label>
+            </value>
+            <value>
+                <fullName>Facebook</fullName>
+                <default>false</default>
+                <label>Facebook</label>
+            </value>
+            <value>
+                <fullName>G2</fullName>
+                <default>false</default>
+                <label>G2</label>
+            </value>
+            <value>
+                <fullName>G2 - Form</fullName>
+                <default>false</default>
+                <label>G2 - Form</label>
+            </value>
+            <value>
+                <fullName>G2 - Intent</fullName>
+                <default>false</default>
+                <label>G2 - Intent</label>
+            </value>
+            <value>
+                <fullName>Global Targeting (ABM)</fullName>
+                <default>false</default>
+                <label>Global Targeting (ABM)</label>
+            </value>
+            <value>
+                <fullName>Google Ads</fullName>
+                <default>false</default>
+                <label>Google Ads</label>
+            </value>
+            <value>
+                <fullName>Google Search</fullName>
+                <default>false</default>
+                <label>Google Search</label>
+            </value>
+            <value>
+                <fullName>Inbound</fullName>
+                <default>false</default>
+                <label>Inbound</label>
+            </value>
+            <value>
+                <fullName>Infographic</fullName>
+                <default>false</default>
+                <label>Infographic</label>
+            </value>
+            <value>
+                <fullName>Lake B2B</fullName>
+                <default>false</default>
+                <label>Lake B2B</label>
+            </value>
+            <value>
+                <fullName>license.code-scan.com</fullName>
+                <default>false</default>
+                <label>license.code-scan.com</label>
+            </value>
+            <value>
+                <fullName>LinkedIn</fullName>
+                <default>false</default>
+                <label>LinkedIn</label>
+            </value>
+            <value>
+                <fullName>LinkedIn &amp; Seamless AI</fullName>
+                <default>false</default>
+                <label>LinkedIn &amp; Seamless AI</label>
+            </value>
+            <value>
+                <fullName>Linkedin Audiences (ABM)</fullName>
+                <default>false</default>
+                <label>Linkedin Audiences (ABM)</label>
+            </value>
+            <value>
+                <fullName>LinkedIn Sales Nav</fullName>
+                <default>false</default>
+                <label>LinkedIn Sales Nav</label>
+            </value>
+            <value>
+                <fullName>nCino</fullName>
+                <default>false</default>
+                <label>nCino</label>
+            </value>
+            <value>
+                <fullName>Netline</fullName>
+                <default>false</default>
+                <label>Netline</label>
+            </value>
+            <value>
+                <fullName>Newsletter</fullName>
+                <default>false</default>
+                <label>Newsletter</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Package Installation</fullName>
+                <default>false</default>
+                <label>Package Installation</label>
+            </value>
+            <value>
+                <fullName>Pardot Demo Form</fullName>
+                <default>false</default>
+                <label>Pardot Demo Form</label>
+            </value>
+            <value>
+                <fullName>Partner</fullName>
+                <default>false</default>
+                <label>Partner</label>
+            </value>
+            <value>
+                <fullName>Partner Page</fullName>
+                <default>false</default>
+                <label>Partner Page</label>
+            </value>
+            <value>
+                <fullName>Prospect Cloud</fullName>
+                <default>false</default>
+                <label>Prospect Cloud</label>
+            </value>
+            <value>
+                <fullName>Quick Report</fullName>
+                <default>false</default>
+                <label>Quick Report</label>
+            </value>
+            <value>
+                <fullName>Reddit</fullName>
+                <default>false</default>
+                <label>Reddit</label>
+            </value>
+            <value>
+                <fullName>Salesforce</fullName>
+                <default>false</default>
+                <label>Salesforce</label>
+            </value>
+            <value>
+                <fullName>Salesforce Ben</fullName>
+                <default>false</default>
+                <label>Salesforce Ben</label>
+            </value>
+            <value>
+                <fullName>Sellhack</fullName>
+                <default>false</default>
+                <label>Sellhack</label>
+            </value>
+            <value>
+                <fullName>Seminar</fullName>
+                <default>false</default>
+                <label>Seminar</label>
+            </value>
+            <value>
+                <fullName>Stack Overflow</fullName>
+                <default>false</default>
+                <label>Stack Overflow</label>
+            </value>
+            <value>
+                <fullName>Support</fullName>
+                <default>false</default>
+                <label>Support</label>
+            </value>
+            <value>
+                <fullName>Tradeshow</fullName>
+                <default>false</default>
+                <label>Tradeshow</label>
+            </value>
+            <value>
+                <fullName>Twitter</fullName>
+                <default>false</default>
+                <label>Twitter</label>
+            </value>
+            <value>
+                <fullName>Webinar</fullName>
+                <default>false</default>
+                <label>Webinar</label>
+            </value>
+            <value>
+                <fullName>Website</fullName>
+                <default>false</default>
+                <label>Website</label>
+            </value>
+            <value>
+                <fullName>Website Form</fullName>
+                <default>false</default>
+                <label>Website Form</label>
+            </value>
+            <value>
+                <fullName>World Tour</fullName>
+                <default>false</default>
+                <label>World Tour</label>
+            </value>
+            <value>
+                <fullName>Zoom Info</fullName>
+                <default>false</default>
+                <label>Zoom Info</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Outbound</controllingFieldValue>
+            <valueName>Call Campaign</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outbound</controllingFieldValue>
+            <controllingFieldValue>Market Analysts</controllingFieldValue>
+            <valueName>Data.com</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outbound</controllingFieldValue>
+            <valueName>Email Campaign</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outbound</controllingFieldValue>
+            <controllingFieldValue>Market Analysts</controllingFieldValue>
+            <valueName>LinkedIn Sales Nav</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outbound</controllingFieldValue>
+            <valueName>Sellhack</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outbound</controllingFieldValue>
+            <controllingFieldValue>Market Analysts</controllingFieldValue>
+            <valueName>Zoom Info</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminus</controllingFieldValue>
+            <controllingFieldValue>SEO</controllingFieldValue>
+            <valueName>Chat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminus</controllingFieldValue>
+            <valueName>Contextual Targeting (ABM)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminus</controllingFieldValue>
+            <valueName>Customize Targeting (ABM)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminus</controllingFieldValue>
+            <valueName>Display Ad (ABM)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminus</controllingFieldValue>
+            <valueName>Display Retarget (ABM)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminus</controllingFieldValue>
+            <valueName>Global Targeting (ABM)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminus</controllingFieldValue>
+            <valueName>Linkedin Audiences (ABM)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Forum</controllingFieldValue>
+            <valueName>Capterra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Forum</controllingFieldValue>
+            <valueName>Discord</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Forum</controllingFieldValue>
+            <valueName>G2 - Form</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Forum</controllingFieldValue>
+            <valueName>G2 - Intent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Forum</controllingFieldValue>
+            <controllingFieldValue>PPC</controllingFieldValue>
+            <valueName>Reddit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PPC</controllingFieldValue>
+            <controllingFieldValue>Social Media</controllingFieldValue>
+            <valueName>Facebook</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PPC</controllingFieldValue>
+            <controllingFieldValue>Social Media</controllingFieldValue>
+            <valueName>LinkedIn</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Social Media</controllingFieldValue>
+            <valueName>Twitter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partner</controllingFieldValue>
+            <valueName>Accenture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partner</controllingFieldValue>
+            <valueName>Deloitte</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partner</controllingFieldValue>
+            <valueName>nCino</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partner</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid Sponsorship</controllingFieldValue>
+            <valueName>Salesforce Ben</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid Sponsorship</controllingFieldValue>
+            <valueName>Stack Overflow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Syndication</controllingFieldValue>
+            <valueName>Netline</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CodeScan</controllingFieldValue>
+            <valueName>app.codescan.io</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CodeScan</controllingFieldValue>
+            <valueName>App Exchange</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CodeScan</controllingFieldValue>
+            <valueName>Calendly</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CodeScan</controllingFieldValue>
+            <valueName>End User</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CodeScan</controllingFieldValue>
+            <valueName>license.code-scan.com</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CodeScan</controllingFieldValue>
+            <valueName>Pardot Demo Form</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CodeScan</controllingFieldValue>
+            <controllingFieldValue>SEO</controllingFieldValue>
+            <valueName>Quick Report</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CodeScan</controllingFieldValue>
+            <controllingFieldValue>SEO</controllingFieldValue>
+            <valueName>Website</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CodeScan</controllingFieldValue>
+            <valueName>Website Form</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Event</controllingFieldValue>
+            <valueName>Conference</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Event</controllingFieldValue>
+            <valueName>Dreamforce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Event</controllingFieldValue>
+            <valueName>Dreaming</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Event</controllingFieldValue>
+            <valueName>Seminar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Event</controllingFieldValue>
+            <valueName>Tradeshow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Event</controllingFieldValue>
+            <valueName>Webinar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Event</controllingFieldValue>
+            <valueName>World Tour</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Market Analysts</controllingFieldValue>
+            <valueName>Digital Marketing Reference</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Market Analysts</controllingFieldValue>
+            <valueName>Discovery.org</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Market Analysts</controllingFieldValue>
+            <valueName>Lake B2B</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Market Analysts</controllingFieldValue>
+            <valueName>LinkedIn &amp; Seamless AI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Market Analysts</controllingFieldValue>
+            <valueName>Prospect Cloud</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEM</controllingFieldValue>
+            <valueName>Bing Ads</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEM</controllingFieldValue>
+            <valueName>Google Ads</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEO</controllingFieldValue>
+            <valueName>Bing Search</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEO</controllingFieldValue>
+            <valueName>Blog</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEO</controllingFieldValue>
+            <valueName>Case Studies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEO</controllingFieldValue>
+            <valueName>Contact Us Form</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEO</controllingFieldValue>
+            <valueName>Demo Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEO</controllingFieldValue>
+            <valueName>Direct</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEO</controllingFieldValue>
+            <controllingFieldValue>Email</controllingFieldValue>
+            <valueName>Ebook</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEO</controllingFieldValue>
+            <valueName>Google Search</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEO</controllingFieldValue>
+            <valueName>Infographic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEO</controllingFieldValue>
+            <valueName>Package Installation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEO</controllingFieldValue>
+            <valueName>Partner Page</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Marketing</controllingFieldValue>
+            <valueName>AutoRABIT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Marketing</controllingFieldValue>
+            <valueName>Direct Mail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Email</controllingFieldValue>
+            <valueName>Engagement Email</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Email</controllingFieldValue>
+            <valueName>Event Registration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Email</controllingFieldValue>
+            <valueName>Inbound</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Email</controllingFieldValue>
+            <valueName>Newsletter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Email</controllingFieldValue>
+            <valueName>Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Referral</controllingFieldValue>
+            <valueName>Customer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Referral</controllingFieldValue>
+            <valueName>Email Forwarded</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Referral</controllingFieldValue>
+            <valueName>Employee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Referral</controllingFieldValue>
+            <valueName>Partner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Referral</controllingFieldValue>
+            <valueName>Salesforce</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

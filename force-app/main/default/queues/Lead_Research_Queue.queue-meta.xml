@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Lead Research Queue</name>
+    <queueMembers>
+        <users>
+            <user>andrew.schaapveld@autorabit.com</user>
+            <user>divya.t@autorabit.com</user>
+            <user>jacob.scheff@autorabit.com</user>
+            <user>shashankashok.d@autorabit.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+</Queue>

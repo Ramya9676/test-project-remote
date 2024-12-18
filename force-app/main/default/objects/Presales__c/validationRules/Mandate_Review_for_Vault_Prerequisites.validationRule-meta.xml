@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mandate_Review_for_Vault_Prerequisites</fullName>
+    <active>true</active>
+    <errorConditionFormula>CONTAINS(TEXT(Product__c), &quot;Vault&quot;) &amp;&amp; Review_Vault_Pre_requisites__c = False</errorConditionFormula>
+    <errorDisplayField>Review_Vault_Pre_requisites__c</errorDisplayField>
+    <errorMessage>Please review pre-requisites for Vault (available in help text) if the customer is opting for PoC.</errorMessage>
+</ValidationRule>

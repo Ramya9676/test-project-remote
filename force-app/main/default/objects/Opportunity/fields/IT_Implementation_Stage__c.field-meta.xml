@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IT_Implementation_Stage__c</fullName>
+    <label>IT/Implementation Stage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Customer_Onboarding__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Discovery Call</fullName>
+                <default>false</default>
+                <label>Discovery Call</label>
+            </value>
+            <value>
+                <fullName>Go-Live Prep</fullName>
+                <default>false</default>
+                <label>Go-Live Prep</label>
+            </value>
+            <value>
+                <fullName>Go-Live Support</fullName>
+                <default>false</default>
+                <label>Go-Live Support</label>
+            </value>
+            <value>
+                <fullName>Implementation Closure</fullName>
+                <default>false</default>
+                <label>Implementation Closure</label>
+            </value>
+            <value>
+                <fullName>Infrastructure Pre-requisite check</fullName>
+                <default>false</default>
+                <label>Infrastructure Pre-requisite check</label>
+            </value>
+            <value>
+                <fullName>Installation</fullName>
+                <default>false</default>
+                <label>Installation</label>
+            </value>
+            <value>
+                <fullName>Integrations with AR</fullName>
+                <default>false</default>
+                <label>Integrations with AR</label>
+            </value>
+            <value>
+                <fullName>Production On-boarding</fullName>
+                <default>false</default>
+                <label>Production On-boarding</label>
+            </value>
+            <value>
+                <fullName>Sanity Checks</fullName>
+                <default>false</default>
+                <label>Sanity Checks</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>IT Infrastructure Readiness</controllingFieldValue>
+            <valueName>Infrastructure Pre-requisite check</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT Infrastructure Readiness</controllingFieldValue>
+            <valueName>Installation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT Infrastructure Readiness</controllingFieldValue>
+            <valueName>Integrations with AR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT Infrastructure Readiness</controllingFieldValue>
+            <valueName>Sanity Checks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Implementation</controllingFieldValue>
+            <valueName>Discovery Call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Implementation</controllingFieldValue>
+            <valueName>Go-Live Prep</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Implementation</controllingFieldValue>
+            <valueName>Go-Live Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Implementation</controllingFieldValue>
+            <valueName>Implementation Closure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Implementation</controllingFieldValue>
+            <valueName>Production On-boarding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Implementation</controllingFieldValue>
+            <valueName>Training</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

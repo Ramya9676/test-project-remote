@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- It&apos;s a formulae field which picks up only Churn Subs as its Churn --></help>
+    <label><!-- Total Subs after Churn --></label>
+    <name>Total_Subs_after_Churn__c</name>
+</CustomFieldTranslation>

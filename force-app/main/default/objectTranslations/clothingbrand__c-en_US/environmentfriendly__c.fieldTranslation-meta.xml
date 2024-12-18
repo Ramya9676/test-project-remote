@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- environmentfriendly --></label>
+    <name>environmentfriendly__c</name>
+    <picklistValues>
+        <masterLabel>Adidas</masterLabel>
+        <translation><!-- Adidas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Levis</masterLabel>
+        <translation><!-- Levis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nike</masterLabel>
+        <translation><!-- Nike --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Puma</masterLabel>
+        <translation><!-- Puma --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

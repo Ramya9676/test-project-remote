@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>indoor_games__c</fullName>
+    <label>indoor games</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>chess</fullName>
+                <default>false</default>
+                <label>chess</label>
+            </value>
+            <value>
+                <fullName>badminton</fullName>
+                <default>false</default>
+                <label>badminton</label>
+            </value>
+            <value>
+                <fullName>table tennis</fullName>
+                <default>false</default>
+                <label>table tennis</label>
+            </value>
+            <value>
+                <fullName>carrom</fullName>
+                <default>false</default>
+                <label>carrom</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

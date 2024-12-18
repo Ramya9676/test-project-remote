@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Accounting</fullName>
+        <default>false</default>
+        <label>Accounting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Agriculture</fullName>
+        <default>false</default>
+        <label>Agriculture</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Automotive</fullName>
+        <default>false</default>
+        <label>Automotive</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Banking</fullName>
+        <default>false</default>
+        <label>Banking</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Biotechnology</fullName>
+        <default>false</default>
+        <label>Biotechnology</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Brokerage</fullName>
+        <default>false</default>
+        <label>Brokerage</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Chemicals</fullName>
+        <default>false</default>
+        <label>Chemicals</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Communications</fullName>
+        <default>false</default>
+        <label>Communications</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Construction</fullName>
+        <default>false</default>
+        <label>Construction</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Consulting</fullName>
+        <default>false</default>
+        <label>Consulting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Consumer Goods</fullName>
+        <default>false</default>
+        <label>Consumer Goods</label>
+    </standardValue>
+    <standardValue>
+        <fullName>eCommerce</fullName>
+        <default>false</default>
+        <label>eCommerce</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Education</fullName>
+        <default>false</default>
+        <label>Education</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Engineering</fullName>
+        <default>false</default>
+        <label>Engineering</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Entertainment</fullName>
+        <default>false</default>
+        <label>Entertainment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Environmental</fullName>
+        <default>false</default>
+        <label>Environmental</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Financial Services</fullName>
+        <default>false</default>
+        <label>Financial Services</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Food &amp; Beverage</fullName>
+        <default>false</default>
+        <label>Food &amp; Beverage</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Food Distribution</fullName>
+        <default>false</default>
+        <label>Food Distribution</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Food Production</fullName>
+        <default>false</default>
+        <label>Food Production</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Gaming</fullName>
+        <default>false</default>
+        <label>Gaming</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Government</fullName>
+        <default>false</default>
+        <label>Government</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hardware</fullName>
+        <default>false</default>
+        <label>Hardware</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Healthcare Services</fullName>
+        <default>false</default>
+        <label>Healthcare Services</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hospitality</fullName>
+        <default>false</default>
+        <label>Hospitality</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hospitals &amp; Medical Practices</fullName>
+        <default>false</default>
+        <label>Hospitals &amp; Medical Practices</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Human Resources</fullName>
+        <default>false</default>
+        <label>Human Resources</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Insurance</fullName>
+        <default>false</default>
+        <label>Insurance</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Internet </fullName>
+        <default>false</default>
+        <label>Internet </label>
+    </standardValue>
+    <standardValue>
+        <fullName>Law Enforcement</fullName>
+        <default>false</default>
+        <label>Law Enforcement</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Legal</fullName>
+        <default>false</default>
+        <label>Legal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Life Sciences</fullName>
+        <default>false</default>
+        <label>Life Sciences</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Logistics, Shipping &amp; Supply Chain</fullName>
+        <default>false</default>
+        <label>Logistics, Shipping &amp; Supply Chain</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Machinery</fullName>
+        <default>false</default>
+        <label>Machinery</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Manufacturing</fullName>
+        <default>false</default>
+        <label>Manufacturing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Marketing &amp; Advertising</fullName>
+        <default>false</default>
+        <label>Marketing &amp; Advertising</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Media</fullName>
+        <default>false</default>
+        <label>Media</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Medical Devices</fullName>
+        <default>false</default>
+        <label>Medical Devices</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Military &amp; Defense</fullName>
+        <default>false</default>
+        <label>Military &amp; Defense</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mining</fullName>
+        <default>false</default>
+        <label>Mining</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Networking</fullName>
+        <default>false</default>
+        <label>Networking</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Network Security</fullName>
+        <default>false</default>
+        <label>Network Security</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Nonprofit</fullName>
+        <default>false</default>
+        <label>Nonprofit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Oil, Gas, &amp; Energy</fullName>
+        <default>false</default>
+        <label>Oil, Gas, &amp; Energy</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Organizations</fullName>
+        <default>false</default>
+        <label>Organizations</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Outsourcing /Offshoring</fullName>
+        <default>false</default>
+        <label>Outsourcing /Offshoring</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pharmaceuticals</fullName>
+        <default>false</default>
+        <label>Pharmaceuticals</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Professional Services</fullName>
+        <default>false</default>
+        <label>Professional Services</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Publishing</fullName>
+        <default>false</default>
+        <label>Publishing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Real Estate</fullName>
+        <default>false</default>
+        <label>Real Estate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Restaurants</fullName>
+        <default>false</default>
+        <label>Restaurants</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Retail</fullName>
+        <default>false</default>
+        <label>Retail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SAAS</fullName>
+        <default>false</default>
+        <label>SAAS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Security</fullName>
+        <default>false</default>
+        <label>Security</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Software</fullName>
+        <default>false</default>
+        <label>Software</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sports</fullName>
+        <default>false</default>
+        <label>Sports</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Staffing &amp; Recruiting</fullName>
+        <default>false</default>
+        <label>Staffing &amp; Recruiting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Technology</fullName>
+        <default>false</default>
+        <label>Technology</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Telecommunications</fullName>
+        <default>false</default>
+        <label>Telecommunications</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Transportation</fullName>
+        <default>false</default>
+        <label>Transportation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Utilities</fullName>
+        <default>false</default>
+        <label>Utilities</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Venture Capital</fullName>
+        <default>false</default>
+        <label>Venture Capital</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Veterinary</fullName>
+        <default>false</default>
+        <label>Veterinary</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Wholesale</fullName>
+        <default>false</default>
+        <label>Wholesale</label>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_records_do_you_migrate_per_data_load</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK(Typically_how_many_records_do_you_mi__c )</errorConditionFormula>
+    <errorDisplayField>Typically_how_many_records_do_you_mi__c</errorDisplayField>
+    <errorMessage>Please enter No.of records do you migrate per data load</errorMessage>
+</ValidationRule>

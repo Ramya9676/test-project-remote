@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X3_My_ABM_Not_Engaged_Contacts</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND (6 OR (7 AND 8))</booleanFilter>
+    <columns>Contact_Rating__c</columns>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_Type__c</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>Contact_Status__c</columns>
+    <columns>Contact_Stage__c</columns>
+    <columns>Lost_Reason__c</columns>
+    <columns>CONTACT.ADDRESS2_COUNTRY_CODE</columns>
+    <columns>CONTACT.LAST_ACTIVITY</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Account.Account_Type__c</field>
+        <operation>equals</operation>
+        <value>ABM</value>
+    </filters>
+    <filters>
+        <field>Contact_Rating__c</field>
+        <operation>equals</operation>
+        <value>Cold,Not Ready</value>
+    </filters>
+    <filters>
+        <field>Current_Sequence_Name__c</field>
+        <operation>equals</operation>
+        <value>,None</value>
+    </filters>
+    <filters>
+        <field>Contact_Status__c</field>
+        <operation>equals</operation>
+        <value>1-Lead,2-Subscriber,3-Prospect,4-MQL</value>
+    </filters>
+    <filters>
+        <field>CONTACT.EMAIL_OPT_OUT</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Contact_Stage__c</field>
+        <operation>equals</operation>
+        <value>Open</value>
+    </filters>
+    <filters>
+        <field>Contact_Stage__c</field>
+        <operation>equals</operation>
+        <value>Lost</value>
+    </filters>
+    <filters>
+        <field>Lost_Reason__c</field>
+        <operation>equals</operation>
+        <value>Bad Phone</value>
+    </filters>
+    <label>3. My ABM Not Engaged Contacts</label>
+</ListView>

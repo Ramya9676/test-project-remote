@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Capture data + attachment size of each environment. --></help>
+    <label><!-- Environments brought in for PoC --></label>
+    <name>Environments_brought_in_for_PoC__c</name>
+</CustomFieldTranslation>

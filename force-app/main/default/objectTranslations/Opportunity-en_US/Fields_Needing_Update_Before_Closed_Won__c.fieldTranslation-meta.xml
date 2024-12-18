@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If this field is blank, the fields required for Closed Won stage have been populated. --></help>
+    <label><!-- Fields to Update Before Closed Won --></label>
+    <name>Fields_Needing_Update_Before_Closed_Won__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Referral_Percentage__c</fullName>
+    <description>Partner Contractual Referral Percentage</description>
+    <inlineHelpText>Partner Contractual Referral Percentage</inlineHelpText>
+    <label>Referral Percentage</label>
+    <precision>6</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

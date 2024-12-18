@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SFDC_Validation_Status__c</fullName>
+    <inlineHelpText>Status helps the need for data enrichment.</inlineHelpText>
+    <label>SFDC Validation Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>SFDC_Validation_Status</valueSetName>
+    </valueSet>
+</CustomField>

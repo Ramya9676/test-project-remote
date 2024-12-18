@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_SDR_Change_Date__c</fullName>
+    <description>This field results from a meeting on 5/20/2022 where operations decided to audit Owner and SDR Owner updates that do not result in the leads and contacts updating because the lead or contact record has the last activity date in the last 7 days. It will be set by before update on AccountTrigger2</description>
+    <label>Last SDR Change Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

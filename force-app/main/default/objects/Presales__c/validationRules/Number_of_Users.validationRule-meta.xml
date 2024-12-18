@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_Users</fullName>
+    <active>false</active>
+    <description>Mandate &quot;# of  Users&quot; field when the Product is &quot;ARM&quot;.</description>
+    <errorConditionFormula>CONTAINS(TEXT(Product__c), &quot;ARM&quot;) &amp;&amp;  
+ISBLANK(  Users__c )</errorConditionFormula>
+    <errorMessage>&quot;# of Users&quot; is required when the Product is &quot;ARM&quot;.</errorMessage>
+</ValidationRule>

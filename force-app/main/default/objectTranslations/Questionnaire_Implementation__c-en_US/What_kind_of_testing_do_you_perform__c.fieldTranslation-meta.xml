@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- What kind of testing do you perform? --></label>
+    <name>What_kind_of_testing_do_you_perform__c</name>
+    <picklistValues>
+        <masterLabel>Apex only</masterLabel>
+        <translation><!-- Apex only --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Automation</masterLabel>
+        <translation><!-- Automation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manual</masterLabel>
+        <translation><!-- Manual --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

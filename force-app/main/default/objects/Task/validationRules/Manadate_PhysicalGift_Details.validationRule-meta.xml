@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manadate_PhysicalGift_Details</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(  ISPICKVAL( Gift_Type__c , &apos;Physical Gift&apos;) ,
+OR
+(
+ISBLANK( Contact_Mailing_Address__c ) ,
+ISBLANK( Gift_URL__c )
+)
+)</errorConditionFormula>
+    <errorDisplayField>Contact_Mailing_Address__c</errorDisplayField>
+    <errorMessage>&apos;Contact Mailing Address&apos;, and &apos;Gift URL&apos; are mandatory when Gift Type is &apos;Physical Gift&apos;.</errorMessage>
+</ValidationRule>

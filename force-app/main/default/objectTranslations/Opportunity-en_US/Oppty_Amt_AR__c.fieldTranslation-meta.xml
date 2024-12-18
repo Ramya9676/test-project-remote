@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Calculates AR related line items total amount --></help>
+    <label><!-- Oppty Amt (AR) --></label>
+    <name>Oppty_Amt_AR__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Customized close date field which can display date in the format DD-MM-YYYY --></help>
+    <label><!-- Custom Close date --></label>
+    <name>Custom_Close_date__c</name>
+</CustomFieldTranslation>

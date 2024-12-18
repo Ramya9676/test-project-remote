@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CSM_Notes__c</fullName>
+    <inlineHelpText>CSM Notes when the Customer Health Status is &apos;Red&apos; or Yellow&apos;.
+Meeting Minutes.
+CSM Pulse.</inlineHelpText>
+    <label>CSM Notes</label>
+    <length>131072</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

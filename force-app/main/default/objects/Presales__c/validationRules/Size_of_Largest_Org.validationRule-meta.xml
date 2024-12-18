@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Size_of_Largest_Org</fullName>
+    <active>true</active>
+    <description>Mandate &quot;Size of Largest Org&quot; field when the Product is &quot;Vault&quot;.</description>
+    <errorConditionFormula>CONTAINS(TEXT(Product__c), &quot;Vault&quot;) &amp;&amp;  
+LEN( Size_of_Largest_Org__c ) &lt;= 0</errorConditionFormula>
+    <errorDisplayField>Size_of_Largest_Org__c</errorDisplayField>
+    <errorMessage>&quot;Size of Largest Org&quot; is required when the Product is &quot;Vault&quot;.</errorMessage>
+</ValidationRule>

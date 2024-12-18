@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>Install Base EAE</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Install Base EAE</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>AVP_Enterprise_Account</parentRole>
+</Role>

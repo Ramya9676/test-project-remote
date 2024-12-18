@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pipeline_ARR_Value__c</fullName>
+    <description>This field was created at Bennett&apos;s request. AE&apos;s wanted a place to record what they think the upsell/downsell amount will be.</description>
+    <inlineHelpText>Enter the ARR upsell or downsell amount expected when this opportunity is won.</inlineHelpText>
+    <label>Pipeline ARR Value</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Currency</type>
+</CustomField>

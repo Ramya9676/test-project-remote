@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Yoga --></label>
+    <name>Yoga__c</name>
+    <picklistValues>
+        <masterLabel>Beginning</masterLabel>
+        <translation><!-- Beginning --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Professional</masterLabel>
+        <translation><!-- Professional --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>intermediate</masterLabel>
+        <translation><!-- intermediate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>none</masterLabel>
+        <translation><!-- none --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

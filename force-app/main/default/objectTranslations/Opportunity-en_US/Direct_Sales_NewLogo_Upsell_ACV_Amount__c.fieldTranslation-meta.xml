@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- We are using this to forecast New Logo or Upsell ACV/ARR amount. --></help>
+    <label><!-- Direct Sales NewLogo/Upsell ACV Amount --></label>
+    <name>Direct_Sales_NewLogo_Upsell_ACV_Amount__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Owner_Matches_Account__c</fullName>
+    <description>Used to identify records that need the owner updated on either the opportunity or account</description>
+    <formula>OwnerId  =  Account.OwnerId</formula>
+    <label>Owner Matches Account</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

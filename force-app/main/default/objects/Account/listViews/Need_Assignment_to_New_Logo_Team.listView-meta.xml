@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Need_Assignment_to_New_Logo_Team</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Customer_Status__c</columns>
+    <columns>Account_Type__c</columns>
+    <columns>Region__c</columns>
+    <columns>ACCOUNT.ADDRESS1_COUNTRY_CODE</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE_CODE</columns>
+    <columns>Last_Owner__c</columns>
+    <columns>Last_Owner_Change_Date__c</columns>
+    <columns>Suggested_Owner_Team__c</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>ACCOUNT.EMPLOYEES</columns>
+    <columns>ACCOUNT.INDUSTRY</columns>
+    <columns>SDR_Owner__c</columns>
+    <columns>of_Open_Opportunities__c</columns>
+    <columns>Most_Recent_Intro_Call__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.FIRST_NAME</field>
+        <operation>equals</operation>
+        <value>Kris</value>
+    </filters>
+    <filters>
+        <field>of_Open_Opportunities__c</field>
+        <operation>greaterThan</operation>
+        <value>0</value>
+    </filters>
+    <label>Need Assignment to New Logo Team</label>
+    <sharedTo>
+        <role>VP_of_Sales</role>
+    </sharedTo>
+</ListView>

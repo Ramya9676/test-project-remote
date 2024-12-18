@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_Repositories</fullName>
+    <active>true</active>
+    <description>Mandate &quot;# of Repositories&quot; field when the Product is &quot;ARM&quot; or &quot;Mulesoft&quot;.</description>
+    <errorConditionFormula>(CONTAINS(TEXT(Product__c), &quot;ARM&quot;) || CONTAINS(TEXT(Product__c), &quot;Mulesoft&quot;)) &amp;&amp;  
+ISBLANK( Repositories__c )</errorConditionFormula>
+    <errorDisplayField>Repositories__c</errorDisplayField>
+    <errorMessage>&quot;# of Repositories&quot; is required when the Product is &quot;ARM&quot; or &quot;Mulesoft&quot;.</errorMessage>
+</ValidationRule>

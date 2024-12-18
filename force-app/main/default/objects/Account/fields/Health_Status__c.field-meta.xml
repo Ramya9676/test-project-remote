@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Health_Status__c</fullName>
+    <inlineHelpText>Red - Mission critical, no usage and/or support engagement - this in combination with no response to CSM for engagement, unresolved escalations. Customer has already communicated that they will not be renewing.
+Yellow - Usage trending down, multiple support tickets + escalations. BUT we have issues we think we can fix.</inlineHelpText>
+    <label>Health Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Green</fullName>
+                <color>#78C953</color>
+                <default>true</default>
+                <label>Green</label>
+            </value>
+            <value>
+                <fullName>Red</fullName>
+                <color>#FF0000</color>
+                <default>false</default>
+                <label>Red</label>
+            </value>
+            <value>
+                <fullName>Testing</fullName>
+                <default>false</default>
+                <label>Testing</label>
+            </value>
+            <value>
+                <fullName>Yellow</fullName>
+                <color>#F3D904</color>
+                <default>false</default>
+                <label>Yellow</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

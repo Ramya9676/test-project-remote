@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Products__c</fullName>
+    <label>Products</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ARM</fullName>
+                <default>false</default>
+                <label>ARM</label>
+            </value>
+            <value>
+                <fullName>Implementation Services</fullName>
+                <default>false</default>
+                <label>Implementation Services</label>
+            </value>
+            <value>
+                <fullName>Managed Services</fullName>
+                <default>false</default>
+                <label>Managed Services</label>
+            </value>
+            <value>
+                <fullName>Professional Services</fullName>
+                <default>false</default>
+                <label>Professional Services</label>
+            </value>
+            <value>
+                <fullName>Vault</fullName>
+                <default>false</default>
+                <label>Vault</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

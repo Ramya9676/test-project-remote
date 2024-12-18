@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Created_this_month</fullName>
+    <columns>NAME</columns>
+    <columns>Subject__c</columns>
+    <columns>Status__c</columns>
+    <columns>Created_Time__c</columns>
+    <columns>Created_Time_D_Format__c</columns>
+    <columns>Closed_Time_D_Fomat__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Ticket_Closed_Time__c</columns>
+    <columns>Ticket_Resolved_Date__c</columns>
+    <columns>Resolution_Time_in_Days__c</columns>
+    <columns>Customer_Response_D_Format__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>THIS_YEAR</value>
+    </filters>
+    <filters>
+        <field>CREATEDBY_USER</field>
+        <operation>equals</operation>
+        <value>Vignesh,David,Amit N,Peter S,Shreya</value>
+    </filters>
+    <label>Tickets Created This Year</label>
+</ListView>

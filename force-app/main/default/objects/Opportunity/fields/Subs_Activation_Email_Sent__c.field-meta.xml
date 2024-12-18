@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subs_Activation_Email_Sent__c</fullName>
+    <description>Date time the subs activation email was sent. Will be blank if before 8/26/2021</description>
+    <label>Subs Activation Email Sent</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

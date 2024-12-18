@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Log_a_Ticket_with__c</fullName>
+    <label>Log a Ticket with</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>IT Help Desk</fullName>
+                <default>false</default>
+                <label>IT Help Desk</label>
+            </value>
+            <value>
+                <fullName>PMT</fullName>
+                <default>false</default>
+                <label>PMT</label>
+            </value>
+            <value>
+                <fullName>Support</fullName>
+                <default>false</default>
+                <label>Support</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

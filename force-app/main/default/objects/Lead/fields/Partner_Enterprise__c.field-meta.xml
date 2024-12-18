@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Enterprise__c</fullName>
+    <label>Account Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>CodeScan: AR Compete</fullName>
+                <default>false</default>
+                <label>CodeScan: AR Compete</label>
+            </value>
+            <value>
+                <fullName>Corporate Sales</fullName>
+                <default>false</default>
+                <label>Corporate Sales</label>
+            </value>
+            <value>
+                <fullName>Emerging Market</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Emerging Market</label>
+            </value>
+            <value>
+                <fullName>Enterprise</fullName>
+                <default>false</default>
+                <label>Enterprise</label>
+            </value>
+            <value>
+                <fullName>Government</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Government</label>
+            </value>
+            <value>
+                <fullName>Mid-market</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Mid-market</label>
+            </value>
+            <value>
+                <fullName>Non-profit</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Non-profit</label>
+            </value>
+            <value>
+                <fullName>Partner</fullName>
+                <default>false</default>
+                <label>Partner</label>
+            </value>
+            <value>
+                <fullName>Partner Prospect</fullName>
+                <default>false</default>
+                <label>Partner Prospect</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

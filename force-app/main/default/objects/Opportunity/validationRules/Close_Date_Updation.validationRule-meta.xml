@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_Date_Updation</fullName>
+    <active>false</active>
+    <description>Close Date is mandate since the opportunity is in &apos;Procurement&apos;, &apos;Closed Won&apos;, &apos;Closed Won Implementation&apos;, &apos;Closed Lost&apos;</description>
+    <errorConditionFormula>AND ( 
+ISPICKVAL(StageName ,&apos;Procurement&apos;),
+ISPICKVAL(StageName ,&apos;Closed Won&apos;),
+ISPICKVAL(StageName ,&apos;Closed Won Implementation&apos;),
+ISPICKVAL(StageName,&apos;Closed Lost&apos;), 
+ISBLANK(&apos;CloseDate&apos;)
+)</errorConditionFormula>
+    <errorDisplayField>CloseDate</errorDisplayField>
+    <errorMessage>Close Date is mandate during this sales stage</errorMessage>
+</ValidationRule>

@@ -1,0 +1,3455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customLabels>
+        <label><!-- ACLT11 --></label>
+        <name>ACLT11</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AR_customlabel --></label>
+        <name>AR_customlabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Aclt111 --></label>
+        <name>Aclt111</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AssignBtn --></label>
+        <name>AssignBtn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AssignSuccessSummary --></label>
+        <name>AssignSuccessSummary</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AssignSuccessTitle --></label>
+        <name>AssignSuccessTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AssignToBtn --></label>
+        <name>AssignToBtn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AssigningBtn --></label>
+        <name>AssigningBtn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Automatic Opportunity Owner id --></label>
+        <name>Automatic_Opportunity_Owner_id</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CLabel1 --></label>
+        <name>CLabel1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CloseDateCriteriaLabel --></label>
+        <name>CloseDateCriteriaLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CriteriaSearchSection --></label>
+        <name>CriteriaSearchSection</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Complete Job Path --></label>
+        <name>DOZISF__Complete_Job_Path</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Create Bulk Export Run Path --></label>
+        <name>DOZISF__Create_Bulk_Export_Run_Path</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DOZI Production UI Base URL --></label>
+        <name>DOZISF__DOZI_Production_UI_Base_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Develop Base URL --></label>
+        <name>DOZISF__Develop_Base_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Develop Bulk Export Base URL --></label>
+        <name>DOZISF__Develop_Bulk_Export_Base_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Develop Enrich Base URL --></label>
+        <name>DOZISF__Develop_Enrich_Base_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Develop UI Base URL --></label>
+        <name>DOZISF__Develop_UI_Base_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Get Find Duplicate Queries Path --></label>
+        <name>DOZISF__Get_Find_Duplicate_Queries_Path</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Get Find Relation Queries Path --></label>
+        <name>DOZISF__Get_Find_Relation_Queries_Path</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Get Intel Export Run Path --></label>
+        <name>DOZISF__Get_Intel_Export_Run_Path</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Get Intel Records For Upsert Path --></label>
+        <name>DOZISF__Get_Intel_Records_For_Upsert_Path</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Get Next Run Path --></label>
+        <name>DOZISF__Get_Next_Run_Path</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Get Queries For Upsert Path --></label>
+        <name>DOZISF__Get_Queries_For_Upsert_Path</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Get Records For Sa Flow Path --></label>
+        <name>DOZISF__Get_Records_For_Sa_Flow_Path</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Get Records For Upsert Path --></label>
+        <name>DOZISF__Get_Records_For_Upsert_Path</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Get Relation Records For Insert Path --></label>
+        <name>DOZISF__Get_Relation_Records_For_Insert_Path</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Log Failed Pages Path --></label>
+        <name>DOZISF__Log_Failed_Pages</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PR Base URL --></label>
+        <name>DOZISF__PR_Base_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PR UI Base URL --></label>
+        <name>DOZISF__PR_UI_Base_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Parse Find Duplicate Results Path --></label>
+        <name>DOZISF__Parse_Find_Duplicate_Results_Path</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Parse Find Duplicate Results Path --></label>
+        <name>DOZISF__Parse_Find_Relation_Results_Path</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Parse Intel Export Results Path --></label>
+        <name>DOZISF__Parse_Intel_Export_Upsert_Results_Path</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Parse Upsert Results Path --></label>
+        <name>DOZISF__Parse_Upsert_Results_Path</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pre Production UI Base URL --></label>
+        <name>DOZISF__Pre_Production_UI_Base_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Production Base URL --></label>
+        <name>DOZISF__Production_Base_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Production Bulk Export Base URL --></label>
+        <name>DOZISF__Production_Bulk_Export_Base_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Production Enrich Base URL --></label>
+        <name>DOZISF__Production_Enrich_Base_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Production UI Base URL --></label>
+        <name>DOZISF__Production_UI_Base_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Regression Base URL --></label>
+        <name>DOZISF__Regression_UI_Base_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Run After Select Duplicates Path --></label>
+        <name>DOZISF__Run_After_Select_Duplicates_Path</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Run After Select Relation Path --></label>
+        <name>DOZISF__Run_After_Select_Relation_Path</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Send Insert Relation Results Path --></label>
+        <name>DOZISF__Send_Insert_Relation_Results_Path</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Send Insert Sa Flow Results --></label>
+        <name>DOZISF__Send_Insert_Sa_Flow_Results</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Staging Base URL --></label>
+        <name>DOZISF__Staging_Base_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Staging Bulk Export Base URL --></label>
+        <name>DOZISF__Staging_Bulk_Export_Base_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Staging Enrich Base URL --></label>
+        <name>DOZISF__Staging_Enrich_Base_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Staging UI Base URL --></label>
+        <name>DOZISF__Staging_UI_Base_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Get Next Run Path --></label>
+        <name>DOZISF__Start_Next_Run_Path</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Update Bulk Export Run Status Path --></label>
+        <name>DOZISF__Update_Bulk_Export_Run_Status_Path</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Update Intel Export Run Status Path --></label>
+        <name>DOZISF__Update_Intel_Export_Run_Status_Path</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DisplayViewLabel --></label>
+        <name>DisplayViewLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EmailID For GA and Jira --></label>
+        <name>EmailID_For_GA_and_Jira</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- phone number entry --></label>
+        <name>Error_Message_Invalid_Input</name>
+    </customLabels>
+    <customLabels>
+        <label>Enter valid mobile number.</label>
+        <name>Error_Message_Invalid_Mobile</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Expense_Notification --></label>
+        <name>Expense_Notification</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AUTH AFTER USER AUTHENTICATION --></label>
+        <name>G2Crowd__G2_AUTH_AFTER_USER_AUTHENTICATION</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AUTH AUTHENTICATED TO SYS ADMIN USER --></label>
+        <name>G2Crowd__G2_AUTH_AUTHENTICATED_TO_SYS_ADMIN_USER</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2_AUTH_CHOOSEN_TO_INTEGRATED_USER --></label>
+        <name>G2Crowd__G2_AUTH_CHOOSEN_TO_INTEGRATED_USER</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AUTH CONFIRM INTEGRATED USER --></label>
+        <name>G2Crowd__G2_AUTH_CONFIRM_INTEGRATED_USER</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 AUTH CONNECTED SYSTEM ADMIN STATUS --></label>
+        <name>G2Crowd__G2_AUTH_CONNECTED_SYSTEM_ADMIN_STATUS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AUTH CONTINUE --></label>
+        <name>G2Crowd__G2_AUTH_CONTINUE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AUTH CONTINUE TO SYS ADMIN USER --></label>
+        <name>G2Crowd__G2_AUTH_CONTINUE_TO_SYS_ADMIN_USER</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AUTH CONTINUE WITH INTEGRATED USER --></label>
+        <name>G2Crowd__G2_AUTH_CONTINUE_WITH_INTEGRATED_USER</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AUTH CONTINUE WITH SYS ADMIN --></label>
+        <name>G2Crowd__G2_AUTH_CONTINUE_WITH_SYS_ADMIN</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message to Indicate user is deactivated --></label>
+        <name>G2Crowd__G2_AUTH_DEACTIVATED_USER_STATUS_INFO</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- To show deactivated user status issue --></label>
+        <name>G2Crowd__G2_AUTH_DEACTIVATED_USER_STATUS_ISSUE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AUTH NOT AUTHENTICATED TO ANY USER --></label>
+        <name>G2Crowd__G2_AUTH_NOT_AUTHENTICATED_TO_ANY_USER</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AUTH NOT AUTHENTICATED TO INTEGRATED USER --></label>
+        <name>G2Crowd__G2_AUTH_NOT_AUTHENTICATED_TO_INTEGRATED_USER</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AUTH NOT CHANGED INTEGRATED USER STATUS INFO --></label>
+        <name>G2Crowd__G2_AUTH_NOT_CHANGED_INTEGRATED_USER_STATUS_INFO</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AUTH NOT CHANGED INTEGRATED USER STATUS ISSUE --></label>
+        <name>G2Crowd__G2_AUTH_NOT_CHANGED_INTEGRATED_USER_STATUS_ISSUE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- User Not Authenticated By G2 --></label>
+        <name>G2Crowd__G2_AUTH_NO_USER_STATUS_INFO</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Auth User Isuue --></label>
+        <name>G2Crowd__G2_AUTH_NO_USER_STATUS_ISSUE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AUTH PASSWORD --></label>
+        <name>G2Crowd__G2_AUTH_PASSWORD</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AUTH PROCESS STEP1 --></label>
+        <name>G2Crowd__G2_AUTH_PROCESS_STEP1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AUTH PROCESS STEP2 --></label>
+        <name>G2Crowd__G2_AUTH_PROCESS_STEP2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AUTH PROCESS STEP3 --></label>
+        <name>G2Crowd__G2_AUTH_PROCESS_STEP3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AUTH PROCESS STEP4 --></label>
+        <name>G2Crowd__G2_AUTH_PROCESS_STEP4</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AUTH RECOMMEND DEDICATED INTEGRATED USER --></label>
+        <name>G2Crowd__G2_AUTH_RECOMMEND_DEDICATED_INTEGRATED_USER</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AUTH RECOMMEND INTEGRATED USER --></label>
+        <name>G2Crowd__G2_AUTH_RECOMMEND_INTEGRATED_USER</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AUTH REQUEST FOR USER TO ACTIVE --></label>
+        <name>G2Crowd__G2_AUTH_REQUEST_FOR_USER_TO_ACTIVE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AUTH SELECTED TO SYS ADMIN USER --></label>
+        <name>G2Crowd__G2_AUTH_SELECTED_TO_SYS_ADMIN_USER</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 AUTH STATUS --></label>
+        <name>G2Crowd__G2_AUTH_STATUS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AUTH STEPS TO COMPLETE --></label>
+        <name>G2Crowd__G2_AUTH_STEPS_TO_COMPLETE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AUTH STEPS TO COMPLETE FOR INTEGRATED USER --></label>
+        <name>G2Crowd__G2_AUTH_STEPS_TO_COMPLETE_FOR_INTEGRATED_USER</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AUTH USER NAME --></label>
+        <name>G2Crowd__G2_AUTH_USER_NAME</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 AUTH VERIFY CONNECTION --></label>
+        <name>G2Crowd__G2_AUTH_VERIFY_CONNECTION</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 BI SAVE FILTER HEADER --></label>
+        <name>G2Crowd__G2_BI_SAVE_FILTER_HEADER</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 BI SAVE FILTER INFO --></label>
+        <name>G2Crowd__G2_BI_SAVE_FILTER_INFO</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 BI VIEW SAVED FILTER HEADER --></label>
+        <name>G2Crowd__G2_BI_VIEW_SAVED_FILTER_HEADER</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 BI VIEW SAVED FILTER INFO --></label>
+        <name>G2Crowd__G2_BI_VIEW_SAVED_FILTER_INFO</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 CONFIG ACCESS ASK ADMIN INFO --></label>
+        <name>G2Crowd__G2_CONFIG_ACCESS_ASK_ADMIN_INFO</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 CONFIG ACCESS NOT HAVE ACCESS --></label>
+        <name>G2Crowd__G2_CONFIG_ACCESS_NOT_HAVE_ACCESS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 CONFIG ACCESS STATUS --></label>
+        <name>G2Crowd__G2_CONFIG_ACCESS_STATUS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 CONFIG ACCESS STATUS INFO --></label>
+        <name>G2Crowd__G2_CONFIG_ACCESS_STATUS_INFO</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 EMAIL BODY --></label>
+        <name>G2Crowd__G2_EMAIL_BODY</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 EMAIL CONNECTOR INFO --></label>
+        <name>G2Crowd__G2_EMAIL_CONNECTOR_INFO</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 EMAIL INFO AUTO SYSTEM --></label>
+        <name>G2Crowd__G2_EMAIL_INFO_AUTO_SYSTEM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EMAIL RECIPIENTS --></label>
+        <name>G2Crowd__G2_EMAIL_RECIPIENTS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 EMAIL SUBJECT --></label>
+        <name>G2Crowd__G2_EMAIL_SUBJECT</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 ERROR MODAL CONNECT IF ANY ISSUES --></label>
+        <name>G2Crowd__G2_ERROR_MODAL_CONNECT_IF_ANY_ISSUES</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 ERROR MODAL FULL ASSESS NOT ASSIGNED --></label>
+        <name>G2Crowd__G2_ERROR_MODAL_FULL_ASSESS_NOT_ASSIGNED</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 ERROR MODAL HERDER VERIFY ACTIVE USER --></label>
+        <name>G2Crowd__G2_ERROR_MODAL_HERDER_VERIFY_ACTIVE_USER</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 ERROR MODAL HERDER VERIFY API TOKEN --></label>
+        <name>G2Crowd__G2_ERROR_MODAL_HERDER_VERIFY_API_TOKEN</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 ERROR MODAL HERDER VERIFY AUTH --></label>
+        <name>G2Crowd__G2_ERROR_MODAL_HERDER_VERIFY_AUTH</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 ERROR MODAL HERDER VERIFY INTEGRATION USER --></label>
+        <name>G2Crowd__G2_ERROR_MODAL_HERDER_VERIFY_INTEGRATION_USER</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 ERROR MODAL HERDER VERIFY LICENSE --></label>
+        <name>G2Crowd__G2_ERROR_MODAL_HERDER_VERIFY_LICENSE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 ERROR MODAL HERDER VERIFY MANUAL PERMISSION SET --></label>
+        <name>G2Crowd__G2_ERROR_MODAL_HERDER_VERIFY_MANUAL_PERMISSION_SET</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 INACTIVE USER CHECK ACCOUNT SETTINGS --></label>
+        <name>G2Crowd__G2_INACTIVE_USER_CHECK_ACCOUNT_SETTINGS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 INACTIVE USER PROCESS CONTINUE --></label>
+        <name>G2Crowd__G2_INACTIVE_USER_PROCESS_CONTINUE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 INACTIVE USER PROCESS STEP1 --></label>
+        <name>G2Crowd__G2_INACTIVE_USER_PROCESS_STEP1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 INACTIVE USER REACTIVATE PROCESS --></label>
+        <name>G2Crowd__G2_INACTIVE_USER_REACTIVATE_PROCESS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 INACTIVE USER STATUS WITH NAME --></label>
+        <name>G2Crowd__G2_INACTIVE_USER_STATUS_WITH_NAME</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 INACTIVE USER STEP1 --></label>
+        <name>G2Crowd__G2_INACTIVE_USER_STEP1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 INACTIVE USER STEP2 --></label>
+        <name>G2Crowd__G2_INACTIVE_USER_STEP2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 INACTIVE USER STEP3 --></label>
+        <name>G2Crowd__G2_INACTIVE_USER_STEP3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 INACTIVE USER STEP4 --></label>
+        <name>G2Crowd__G2_INACTIVE_USER_STEP4</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 INACTIVE USER STEP5 --></label>
+        <name>G2Crowd__G2_INACTIVE_USER_STEP5</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 LICENSE AFTER LICENSE ASSIGNED --></label>
+        <name>G2Crowd__G2_LICENSE_AFTER_LICENSE_ASSIGNED</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 LICENSE ASSIGNMENT ISSUE --></label>
+        <name>G2Crowd__G2_LICENSE_ASSIGNMENT_ISSUE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 LICENSE ASSIGN FINAL STEP --></label>
+        <name>G2Crowd__G2_LICENSE_ASSIGN_FINAL_STEP</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 LICENSE ASSIGN PROCESS STEP1 --></label>
+        <name>G2Crowd__G2_LICENSE_ASSIGN_PROCESS_STEP1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 LICENSE ASSIGN PROCESS STEP2 --></label>
+        <name>G2Crowd__G2_LICENSE_ASSIGN_PROCESS_STEP2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LICENSE ASSIGN STEP1 --></label>
+        <name>G2Crowd__G2_LICENSE_ASSIGN_STEP1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LICENSE ASSIGN STEP2 --></label>
+        <name>G2Crowd__G2_LICENSE_ASSIGN_STEP2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LICENSE ASSIGN STEP3 --></label>
+        <name>G2Crowd__G2_LICENSE_ASSIGN_STEP3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LICENSE ASSIGN STEP4 --></label>
+        <name>G2Crowd__G2_LICENSE_ASSIGN_STEP4</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LICENSE AUTO ASSIGN --></label>
+        <name>G2Crowd__G2_LICENSE_AUTO_ASSIGN</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LICENSE CONTINUE AFTER LICENSE ASSIGNED --></label>
+        <name>G2Crowd__G2_LICENSE_CONTINUE_AFTER_LICENSE_ASSIGNED</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LICINFO AFTER LICENSE ASSIGNED --></label>
+        <name>G2Crowd__G2_LICENSE_INFO_AFTER_LICENSE_ASSIGNED</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LICENSE MANUAL ASSIGN --></label>
+        <name>G2Crowd__G2_LICENSE_MANUAL_ASSIGN</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LICENSE NOT ASSIGNED --></label>
+        <name>G2Crowd__G2_LICENSE_NOT_ASSIGNED</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LICENSE NOT ASSIGNMENT INFO --></label>
+        <name>G2Crowd__G2_LICENSE_NOT_ASSIGNMENT_INFO</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LICENSE RECOMMEND SYS ADMIN --></label>
+        <name>G2Crowd__G2_LICENSE_RECOMMEND_SYS_ADMIN</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 LICENSE STATUS --></label>
+        <name>G2Crowd__G2_LICENSE_STATUS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LICENSE UNASSIGNED --></label>
+        <name>G2Crowd__G2_LICENSE_UNASSIGNED</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 MODAL HEADER CONFIRM INTEGRATION USER --></label>
+        <name>G2Crowd__G2_MODAL_HEADER_CONFIRM_INTEGRATION_USER</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 MODAL HEADER CONFIRM MANUAL PERMISSION SET --></label>
+        <name>G2Crowd__G2_MODAL_HEADER_CONFIRM_MANUAL_PERMISSION_SET</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 MODAL HEADER CONFIRM SYS USER --></label>
+        <name>G2Crowd__G2_MODAL_HEADER_CONFIRM_SYS_USER</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 MODAL HEADER EMAIL SUCCESS --></label>
+        <name>G2Crowd__G2_MODAL_HEADER_EMAIL_SUCCESS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 MODAL HEADER EMAIL SUPPORT --></label>
+        <name>G2Crowd__G2_MODAL_HEADER_EMAIL_SUPPORT</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 MODAL SYS ADMIN CONFIRM INFO --></label>
+        <name>G2Crowd__G2_MODAL_SYS_ADMIN_CONFIRM_INFO</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 MODAL SYS ADMIN PLEASE CONFIRM --></label>
+        <name>G2Crowd__G2_MODAL_SYS_ADMIN_PLEASE_CONFIRM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PERMISSION ASSIGNMENT INFO --></label>
+        <name>G2Crowd__G2_PERMISSION_ASSIGNMENT_INFO</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PERMISSION ASSIGNMENT ISSUE --></label>
+        <name>G2Crowd__G2_PERMISSION_ASSIGNMENT_ISSUE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PERMISSION AUTO SELECT --></label>
+        <name>G2Crowd__G2_PERMISSION_AUTO_SELECT</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PERMISSION MANUAL SELECT --></label>
+        <name>G2Crowd__G2_PERMISSION_MANUAL_SELECT</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PERMISSION PROCESS MANUAL SELECTION --></label>
+        <name>G2Crowd__G2_PERMISSION_PROCESS_MANUAL_SELECTION</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET ACCOUNT SOQL --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_ACCOUNT_SOQL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET API ENABLED PROCESS STEP1 --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_API_ENABLED_PROCESS_STEP1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET API ENABLED PROCESS STEP2 --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_API_ENABLED_PROCESS_STEP2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET API ENABLED STEP1 --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_API_ENABLED_STEP1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET API ENABLED STEP2 --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_API_ENABLED_STEP2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET API ENABLED STEP3 --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_API_ENABLED_STEP3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET API ENABLED STEP4 --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_API_ENABLED_STEP4</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET API ENABLED STEP5 --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_API_ENABLED_STEP5</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET API ENABLED STEP6 --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_API_ENABLED_STEP6</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PERMISSION SET ASSIGNMENT INFO --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_ASSIGNMENT_INFO</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PERMISSION SET ASSIGNMENT STEPS --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_ASSIGNMENT_STEPS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET ASSIGN TWO PERMISSION SETS --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_ASSIGN_TWO_PERMISSION_SETS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET CHOOSE OPTION --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_CHOOSE_OPTION</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PERMISSION SET CONTINUE TO ASSIGN AUTO OR MANUAL --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_CONTINUE_TO_ASSIGN_AUTO_OR_MANUAL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET DETAILED INFO SYS ADMIN --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_DETAILED_INFO_SYS_ADMIN</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET DETECTED ISSUES --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_DETECTED_ISSUES</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET FULL ACCESS INFO --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_FULL_ACCESS_INFO</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PERMISSION SET FULL ACCESS NOT ASSIGNED --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_FULL_ACCESS_NOT_ASSIGNED</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET LABEL NAME --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_LABEL_NAME</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET LEAD SOQL --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_LEAD_SOQL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET MANUALLY ASSIGN PROCESS STEP1 --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_MANUALLY_ASSIGN_PROCESS_STEP1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET MANUALLY ASSIGN PROCESS STEP2 --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_MANUALLY_ASSIGN_PROCESS_STEP2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET MANUALLY ASSIGN STEP1 --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_MANUALLY_ASSIGN_STEP1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET MANUALLY ASSIGN STEP2 --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_MANUALLY_ASSIGN_STEP2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET MANUALLY ASSIGN STEP3 --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_MANUALLY_ASSIGN_STEP3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET MANUALLY ASSIGN STEP4 --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_MANUALLY_ASSIGN_STEP4</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET MANUALLY ASSIGN STEP5 --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_MANUALLY_ASSIGN_STEP5</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET MANUALLY ASSIGN STEP6 --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_MANUALLY_ASSIGN_STEP6</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET MANUALLY ASSIGN STEPS --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_MANUALLY_ASSIGN_STEPS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PERMISSION SET MANUAL ASSIGNMENT CONDITION --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_MANUAL_ASSIGNMENT_CONDITION</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PERMISSION SET MANUAL ASSIGNMENT CONTINUE --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_MANUAL_ASSIGNMENT_CONTINUE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PERMISSION SET MANUAL ASSIGNMENT INFO --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_MANUAL_ASSIGNMENT_INFO</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET NON SYS MANUALLY ASSIGNED INFO --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_NON_SYS_MANUALLY_ASSIGNED_INFO</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET NON SYS SELECTED MANUALLY --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_NON_SYS_SELECTED_MANUALLY</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PERMISSION SET NOT ASSIGNED --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_NOT_ASSIGNED</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET PROCESS FOR API ENABLED --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_PROCESS_FOR_API_ENABLED</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET SELECTED MANUALLY --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_SELECTED_MANUALLY</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET SOQL DETAILS --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_SOQL_DETAILS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET STATUS --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_STATUS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET SYS ADMIN CONTINUE --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_SYS_ADMIN_CONTINUE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET SYS ADMIN PROCESS STEP1 --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_SYS_ADMIN_PROCESS_STEP1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET SYS ADMIN PROCESS STEP2 --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_SYS_ADMIN_PROCESS_STEP2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET SYS ADMIN STEP1 --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_SYS_ADMIN_STEP1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET SYS ADMIN STEP2 --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_SYS_ADMIN_STEP2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET SYS ADMIN STEP3 --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_SYS_ADMIN_STEP3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET SYS ADMIN STEP4 --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_SYS_ADMIN_STEP4</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET SYS ADMIN STEP5 --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_SYS_ADMIN_STEP5</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET SYS ADMIN STEP6 --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_SYS_ADMIN_STEP6</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET TO CREATED PROCESS --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_TO_CREATED_PROCESS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PERMISSION SET USER AUTHENTICATED --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_USER_AUTHENTICATED</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 PERMISSION SET WILL NOT ACCESS PERSONAL DATA --></label>
+        <name>G2Crowd__G2_PERMISSION_SET_WILL_NOT_ACCESS_PERSONAL_DATA</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 Products do not exist --></label>
+        <name>G2Crowd__G2_PRODUCTS_DO_NOT_EXIST</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 SETTING HEADER --></label>
+        <name>G2Crowd__G2_SETTING_HEADER</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SETTING LEAD TRIGGER ENABLE --></label>
+        <name>G2Crowd__G2_SETTING_LEAD_TRIGGER_ENABLE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SETTING LICENSE EXPIRY DETAILS --></label>
+        <name>G2Crowd__G2_SETTING_LICENSE_EXPIRY_DETAILS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 SETTING SUB HEADER --></label>
+        <name>G2Crowd__G2_SETTING_SUB_HEADER</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 SETTING UPDATE API TOKENS --></label>
+        <name>G2Crowd__G2_SETTING_UPDATE_API_TOKENS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- STATUS ADDITIONAL USER --></label>
+        <name>G2Crowd__G2_STATUS_ADDITIONAL_USER</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- STATUS AUTHENTICATED USER --></label>
+        <name>G2Crowd__G2_STATUS_AUTHENTICATED_USER</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 STATUS CONFIG REVOKED --></label>
+        <name>G2Crowd__G2_STATUS_CONFIG_REVOKED</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 STATUS CONFIG REVOKED INFO --></label>
+        <name>G2Crowd__G2_STATUS_CONFIG_REVOKED_INFO</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- STATUS CONFIG STATUS --></label>
+        <name>G2Crowd__G2_STATUS_CONFIG_STATUS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- STATUS CONTACT CSM RENEW LICENCE --></label>
+        <name>G2Crowd__G2_STATUS_CONTACT_CSM_RENEW_LICENCE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 STATUS CONTACT CSM TO ACTIVATE --></label>
+        <name>G2Crowd__G2_STATUS_CONTACT_CSM_TO_ACTIVATE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 STATUS CONTACT G2 ANY QUESTIONS --></label>
+        <name>G2Crowd__G2_STATUS_CONTACT_G2_ANY_QUESTIONS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- STATUS CONTACT G2 CSM --></label>
+        <name>G2Crowd__G2_STATUS_CONTACT_G2_CSM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- STATUS COUNT PRODUCT --></label>
+        <name>G2Crowd__G2_STATUS_COUNT_PRODUCT</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- STATUS END DATE --></label>
+        <name>G2Crowd__G2_STATUS_END_DATE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- STATUS END DATE EXPIRED --></label>
+        <name>G2Crowd__G2_STATUS_END_DATE_EXPIRED</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- STATUS NO DATA FLOW --></label>
+        <name>G2Crowd__G2_STATUS_NO_DATA_FLOW</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- STATUS REQUEST WAIT TIME --></label>
+        <name>G2Crowd__G2_STATUS_REQUEST_WAIT_TIME</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 STATUS SHARING RULE BOTH ACCOUNT LEAD --></label>
+        <name>G2Crowd__G2_STATUS_SHARING_RULE_BOTH_ACCOUNT_LEAD</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 STATUS SHARING RULE ERROR STATUS --></label>
+        <name>G2Crowd__G2_STATUS_SHARING_RULE_ERROR_STATUS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 STATUS SHARING RULE ONLY ACCOUNT --></label>
+        <name>G2Crowd__G2_STATUS_SHARING_RULE_ONLY_ACCOUNT</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- STATUS SUCCESS MSG --></label>
+        <name>G2Crowd__G2_STATUS_SUCCESS_MSG</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 STATUS WITHOUT SHARING RULES PLACE --></label>
+        <name>G2Crowd__G2_STATUS_WITHOUT_SHARING_RULES_PLACE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SUCCESS EMAIL MSG --></label>
+        <name>G2Crowd__G2_SUCCESS_EMAIL_MSG</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SUCCESS LICENSE INFO --></label>
+        <name>G2Crowd__G2_SUCCESS_LICENSE_INFO</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 SUPPORT EMAIL ID --></label>
+        <name>G2Crowd__G2_SUPPORT_EMAIL_ID</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TOKEN CONFIG REQUIRED INFO --></label>
+        <name>G2Crowd__G2_TOKEN_CONFIG_REQUIRED_INFO</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TOKEN DATA VALIDATION DETAILS --></label>
+        <name>G2Crowd__G2_TOKEN_DATA_VALIDATION_DETAILS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TOKEN DATA VALIDATION ISSUE --></label>
+        <name>G2Crowd__G2_TOKEN_DATA_VALIDATION_ISSUE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TOKEN END POINT URL --></label>
+        <name>G2Crowd__G2_TOKEN_END_POINT_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TOKEN END POINT URL INFO --></label>
+        <name>G2Crowd__G2_TOKEN_END_POINT_URL_INFO</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TOKEN ENTER AND CONTINUE --></label>
+        <name>G2Crowd__G2_TOKEN_ENTER_AND_CONTINUE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TOKEN ENTER DETAILS --></label>
+        <name>G2Crowd__G2_TOKEN_ENTER_DETAILS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 TOKEN INTO TO CONTINUE --></label>
+        <name>G2Crowd__G2_TOKEN_INTO_TO_CONTINUE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TOKEN INVALID INFO --></label>
+        <name>G2Crowd__G2_TOKEN_INVALID_INFO</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TOKEN INVALID ISSUE --></label>
+        <name>G2Crowd__G2_TOKEN_INVALID_ISSUE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TOKEN NOT VALIDATED --></label>
+        <name>G2Crowd__G2_TOKEN_NOT_VALIDATED</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TOKEN PERMISSION SET ASSIGNED --></label>
+        <name>G2Crowd__G2_TOKEN_PERMISSION_SET_ASSIGNED</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TOKEN SUMOLOGIC RECOMMEND INFO --></label>
+        <name>G2Crowd__G2_TOKEN_SUMOLOGIC_RECOMMEND_INFO</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VALIDATED INTO --></label>
+        <name>G2Crowd__G2_VALIDATED_INTO</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VALIDATED WAIT TO COMPLETE --></label>
+        <name>G2Crowd__G2_VALIDATED_WAIT_TO_COMPLETE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- WELCOME CONFIG BEST PRACTICE --></label>
+        <name>G2Crowd__G2_WELCOME_CONFIG_BEST_PRACTICE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- WELCOME CONFIG DETAILS --></label>
+        <name>G2Crowd__G2_WELCOME_CONFIG_DETAILS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 WELCOME CONFIG MANAGEMENT --></label>
+        <name>G2Crowd__G2_WELCOME_CONFIG_MANAGEMENT</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- WELCOME CONFIRM --></label>
+        <name>G2Crowd__G2_WELCOME_CONFIRM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- WELCOME GUIDE --></label>
+        <name>G2Crowd__G2_WELCOME_GUIDE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 WELCOME LOGGED IN SYS ADMIN --></label>
+        <name>G2Crowd__G2_WELCOME_LOGGED_IN_SYS_ADMIN</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- WELCOME MSG --></label>
+        <name>G2Crowd__G2_WELCOME_MSG</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- WELCOME RECOMMENDED INFO --></label>
+        <name>G2Crowd__G2_WELCOME_RECOMMENDED_INFO</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- G2 WELCOME REQUIRED CHECKBOX TO CHECK --></label>
+        <name>G2Crowd__G2_WELCOME_REQUIRED_CHECKBOX_TO_CHECK</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- WELCOME RECOMMENDED INFO --></label>
+        <name>G2Crowd__G2_WELCOME_STRONGLY_RECOMMENDED_INFO</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Security error field not insertable --></label>
+        <name>G2Crowd__SECURITY_ERROR_FIELDNOTINSERTABLE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Security error field not updateable --></label>
+        <name>G2Crowd__SECURITY_ERROR_FIELDNOTUPDATEABLE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Security error object not deleteable --></label>
+        <name>G2Crowd__SECURITY_ERROR_OBJECTNOTDELETABLE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Security error object not insertable --></label>
+        <name>G2Crowd__SECURITY_ERROR_OBJECTNOTINSERTABLE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Security error object not updateable --></label>
+        <name>G2Crowd__SECURITY_ERROR_OBJECTNOTUPDATEABLE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HeaderText --></label>
+        <name>HeaderText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- JiraCallout Password --></label>
+        <name>JiraCallout_Password</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- JiraCallout UserName --></label>
+        <name>JiraCallout_UserName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CL50 --></label>
+        <name>L51</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- activate --></label>
+        <name>LID__activate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- activateJob --></label>
+        <name>LID__activateJob</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- cancel --></label>
+        <name>LID__cancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- companyProfileStep_1_description --></label>
+        <name>LID__companyProfileStep_1_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- companyProfileStep_1_title --></label>
+        <name>LID__companyProfileStep_1_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- companyProfileStep_2_description --></label>
+        <name>LID__companyProfileStep_2_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- companyProfileStep_2_title --></label>
+        <name>LID__companyProfileStep_2_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- companyProfileStep_3_description --></label>
+        <name>LID__companyProfileStep_3_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- companyProfileStep_3_title --></label>
+        <name>LID__companyProfileStep_3_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- companyProfileStep_4_description --></label>
+        <name>LID__companyProfileStep_4_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- companyProfileStep_4_title --></label>
+        <name>LID__companyProfileStep_4_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- companyProfileStep_stepDescription --></label>
+        <name>LID__companyProfileStep_stepDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- companyProfileStep_stepHeader --></label>
+        <name>LID__companyProfileStep_stepHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- companyProfileStep_stepSubHeader --></label>
+        <name>LID__companyProfileStep_stepSubHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- componentDragDropStep_a1_description --></label>
+        <name>LID__componentDragDropStep_a1_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- componentDragDropStep_a1_titleStart --></label>
+        <name>LID__componentDragDropStep_a1_titleStart</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- componentDragDropStep_b2_description --></label>
+        <name>LID__componentDragDropStep_b2_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- componentDragDropStep_b2_title --></label>
+        <name>LID__componentDragDropStep_b2_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- componentDragDropStep_c3_description --></label>
+        <name>LID__componentDragDropStep_c3_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- componentDragDropStep_d4_description --></label>
+        <name>LID__componentDragDropStep_d4_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- componentDragDropStep_stepDescription --></label>
+        <name>LID__componentDragDropStep_stepDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- componentDragDropStep_stepHeader --></label>
+        <name>LID__componentDragDropStep_stepHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- deactivate --></label>
+        <name>LID__deactivate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- deactivateJob --></label>
+        <name>LID__deactivateJob</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- disable --></label>
+        <name>LID__disable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- dvss_activateConfirm --></label>
+        <name>LID__dvss_activateConfirm</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- dvss_activateConfirmWithDay --></label>
+        <name>LID__dvss_activateConfirmWithDay</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- dvss_deactivateConfirm --></label>
+        <name>LID__dvss_deactivateConfirm</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- dvss_deactivateConfirmWithDay --></label>
+        <name>LID__dvss_deactivateConfirmWithDay</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- dvss_disableDVFeature --></label>
+        <name>LID__dvss_disableDVFeature</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- dvss_disableDVFeatureConfirmation --></label>
+        <name>LID__dvss_disableDVFeatureConfirmation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- dvss_enterpriseDisabled --></label>
+        <name>LID__dvss_enterpriseDisabled</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- dvss_jobFrequency_1 --></label>
+        <name>LID__dvss_jobFrequency_1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- dvss_jobFrequency_2 --></label>
+        <name>LID__dvss_jobFrequency_2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- dvss_jobFrequency_3 --></label>
+        <name>LID__dvss_jobFrequency_3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- dvss_jobFrequency_4 --></label>
+        <name>LID__dvss_jobFrequency_4</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- dvss_jobName --></label>
+        <name>LID__dvss_jobName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- dvss_jobStartDay --></label>
+        <name>LID__dvss_jobStartDay</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- dvss_jobStartTime --></label>
+        <name>LID__dvss_jobStartTime</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- dvss_linkedinReportsFolder --></label>
+        <name>LID__dvss_linkedinReportsFolder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- dvss_nextRunTime --></label>
+        <name>LID__dvss_nextRunTime</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- dvss_noScheduledJobs --></label>
+        <name>LID__dvss_noScheduledJobs</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- dvss_onceDaily --></label>
+        <name>LID__dvss_onceDaily</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- dvss_onceWeekly --></label>
+        <name>LID__dvss_onceWeekly</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- dvss_otherScheduledJobs --></label>
+        <name>LID__dvss_otherScheduledJobs</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- dvss_otherScheduledJobsHeader --></label>
+        <name>LID__dvss_otherScheduledJobsHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- dvss_stepDescription_1 --></label>
+        <name>LID__dvss_stepDescription_1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- dvss_stepDescription_2 --></label>
+        <name>LID__dvss_stepDescription_2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- dvss_stepDescription_3 --></label>
+        <name>LID__dvss_stepDescription_3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- dvss_stepDescription_4 --></label>
+        <name>LID__dvss_stepDescription_4</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- dvss_stepDescription_5 --></label>
+        <name>LID__dvss_stepDescription_5</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- dvss_stepHeader --></label>
+        <name>LID__dvss_stepHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- dvss_viewCompletedReports --></label>
+        <name>LID__dvss_viewCompletedReports</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- finish --></label>
+        <name>LID__finish</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- friday --></label>
+        <name>LID__friday</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- landing_LDV --></label>
+        <name>LID__landing_LDV</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- landing_crmSync --></label>
+        <name>LID__landing_crmSync</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- landing_desc --></label>
+        <name>LID__landing_desc</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- landing_disableEnterpriseConfirmation --></label>
+        <name>LID__landing_disableEnterpriseConfirmation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- landing_disableEnterpriseTitle --></label>
+        <name>LID__landing_disableEnterpriseTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- landing_embeddedProfile --></label>
+        <name>LID__landing_embeddedProfile</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- landing_enable --></label>
+        <name>LID__landing_enable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- landing_enterprise --></label>
+        <name>LID__landing_enterprise</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- landing_features --></label>
+        <name>LID__landing_features</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- landing_getStarted --></label>
+        <name>LID__landing_getStarted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- landing_header --></label>
+        <name>LID__landing_header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- landing_helpCenter_1 --></label>
+        <name>LID__landing_helpCenter_1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- landing_helpCenter_2 --></label>
+        <name>LID__landing_helpCenter_2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- landing_helpCenter_3 --></label>
+        <name>LID__landing_helpCenter_3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- landing_helpCenter_contactUs --></label>
+        <name>LID__landing_helpCenter_contactUs</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- landing_helpYou --></label>
+        <name>LID__landing_helpYou</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- landing_helpfulLink --></label>
+        <name>LID__landing_helpfulLink</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- landing_learnMoreCrmSync --></label>
+        <name>LID__landing_learnMoreCrmSync</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- landing_learnMoreEmbeddedProfile --></label>
+        <name>LID__landing_learnMoreEmbeddedProfile</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- landing_learnMoreLDV --></label>
+        <name>LID__landing_learnMoreLDV</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- landing_needHelp --></label>
+        <name>LID__landing_needHelp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- landing_packageVersion --></label>
+        <name>LID__landing_packageVersion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- lightningAppBuilder --></label>
+        <name>LID__lightningAppBuilder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- loadingPleaseWait --></label>
+        <name>LID__loadingPleaseWait</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- monday --></label>
+        <name>LID__monday</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- mps_1_description --></label>
+        <name>LID__mps_1_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- mps_1_title --></label>
+        <name>LID__mps_1_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- mps_2_description --></label>
+        <name>LID__mps_2_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- mps_2_title --></label>
+        <name>LID__mps_2_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- mps_3_description --></label>
+        <name>LID__mps_3_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- mps_3_title --></label>
+        <name>LID__mps_3_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- mps_4_description --></label>
+        <name>LID__mps_4_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- mps_4_title --></label>
+        <name>LID__mps_4_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- mps_5_description --></label>
+        <name>LID__mps_5_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- mps_5_title --></label>
+        <name>LID__mps_5_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- mps_6_description --></label>
+        <name>LID__mps_6_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- mps_6_title --></label>
+        <name>LID__mps_6_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- mps_instructionsSubHeader --></label>
+        <name>LID__mps_instructionsSubHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- mps_stepDescription --></label>
+        <name>LID__mps_stepDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- mps_stepHeader --></label>
+        <name>LID__mps_stepHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- next --></label>
+        <name>LID__next</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oas_1_description --></label>
+        <name>LID__oas_1_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oas_1_title --></label>
+        <name>LID__oas_1_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oas_2_description --></label>
+        <name>LID__oas_2_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oas_2_learnMore --></label>
+        <name>LID__oas_2_learnMore</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oas_2_title --></label>
+        <name>LID__oas_2_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oas_3_description --></label>
+        <name>LID__oas_3_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oas_3_learnMore --></label>
+        <name>LID__oas_3_learnMore</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oas_3_title --></label>
+        <name>LID__oas_3_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oas_4_description --></label>
+        <name>LID__oas_4_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oas_4_title --></label>
+        <name>LID__oas_4_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oas_instructionsSubHeader --></label>
+        <name>LID__oas_instructionsSubHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oas_stepDescription --></label>
+        <name>LID__oas_stepDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- oas_stepHeader --></label>
+        <name>LID__oas_stepHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- picklist_completeFieldError --></label>
+        <name>LID__picklist_completeFieldError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- picklist_noResultsFound --></label>
+        <name>LID__picklist_noResultsFound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- picklist_selectOption --></label>
+        <name>LID__picklist_selectOption</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- saturday --></label>
+        <name>LID__saturday</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- saveChanges --></label>
+        <name>LID__saveChanges</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- selectADay --></label>
+        <name>LID__selectADay</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- selectATime --></label>
+        <name>LID__selectATime</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- setup_sec1_description --></label>
+        <name>LID__setup_sec1_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- setup_sec1_title --></label>
+        <name>LID__setup_sec1_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- setup_sec2_description --></label>
+        <name>LID__setup_sec2_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- setup_sec2_title --></label>
+        <name>LID__setup_sec2_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- signIn --></label>
+        <name>LID__signIn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sunday --></label>
+        <name>LID__sunday</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- thursday --></label>
+        <name>LID__thursday</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- tuesday --></label>
+        <name>LID__tuesday</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- user --></label>
+        <name>LID__user</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- wednesday --></label>
+        <name>LID__wednesday</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- wizard_exitConfirmHeader --></label>
+        <name>LID__wizard_exitConfirmHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- wizard_exitConfirmWarning --></label>
+        <name>LID__wizard_exitConfirmWarning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LT1 --></label>
+        <name>LT1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label Nikhil --></label>
+        <name>Label_Nikhil</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NewViewLinkLabel --></label>
+        <name>NewViewLinkLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NoResultSummary --></label>
+        <name>NoResultSummary</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NoResultTitle --></label>
+        <name>NoResultTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NoViewSelection --></label>
+        <name>NoViewSelection</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prerequisites and Conditions for ARM --></label>
+        <name>Prerequisites_and_Conditions_for_ARM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prerequisites and conditions for Vault --></label>
+        <name>Prerequisites_and_conditions_for_Vault</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResultBlockTitle --></label>
+        <name>ResultBlockTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sample --></label>
+        <name>Sample</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SearchBlockTitle --></label>
+        <name>SearchBlockTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SearchBtn --></label>
+        <name>SearchBtn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SearchingBtn --></label>
+        <name>SearchingBtn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sprint Number --></label>
+        <name>Sprint_Number</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Stipend Error --></label>
+        <name>Stipend_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TestByLeela --></label>
+        <name>TestByLeela</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TestPenfed --></label>
+        <name>TestPenfed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Token Endpoint for GoogleAnalytics --></label>
+        <name>Token_Endpoint_for_GoogleAnalytics</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TooManyRowsError --></label>
+        <name>TooManyRowsError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TooManyRowsSummary --></label>
+        <name>TooManyRowsSummary</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TooManyRowsTitle --></label>
+        <name>TooManyRowsTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TotalFooterLabel --></label>
+        <name>TotalFooterLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- URL to get the GAData --></label>
+        <name>URL_to_get_the_GAData</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Upsell Recordtype Id --></label>
+        <name>Upsell_Recordtype_Id</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ViewSearchSection --></label>
+        <name>ViewSearchSection</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Zoho Tickets Start Date --></label>
+        <name>Zoho_Tickets_Start_Date</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alternative Answer Header --></label>
+        <name>avnio__AlternativeAnswerHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_AddCommentPlaceholder --></label>
+        <name>avnio__AnsweringUI_AddCommentPlaceholder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_AllLabel --></label>
+        <name>avnio__AnsweringUI_AllLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_AnswerLabel --></label>
+        <name>avnio__AnsweringUI_AnswerLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_AnsweredLabel --></label>
+        <name>avnio__AnsweringUI_AnsweredLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_ApproveBtn --></label>
+        <name>avnio__AnsweringUI_ApproveBtn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_ApprovePopupTitle --></label>
+        <name>avnio__AnsweringUI_ApprovePopupTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_AssignedToLabel --></label>
+        <name>avnio__AnsweringUI_AssignedToLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_AutoSaveMsgLabel --></label>
+        <name>avnio__AnsweringUI_AutoSaveMsgLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_ComplianceValidationLabel --></label>
+        <name>avnio__AnsweringUI_ComplianceValidationLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_ConfirmSaveAfterComplete --></label>
+        <name>avnio__AnsweringUI_ConfirmSaveAfterComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_CopyToClipboard --></label>
+        <name>avnio__AnsweringUI_CopyToClipboard</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_FileSizeLabel --></label>
+        <name>avnio__AnsweringUI_FileSizeLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_FileTitleLabel --></label>
+        <name>avnio__AnsweringUI_FileTitleLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_FileTypeLabel --></label>
+        <name>avnio__AnsweringUI_FileTypeLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_FilterAnswerStatusLabel --></label>
+        <name>avnio__AnsweringUI_FilterAnswerStatusLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_FilterAnsweredLabel --></label>
+        <name>avnio__AnsweringUI_FilterAnsweredLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_FilterAssignedToLabel --></label>
+        <name>avnio__AnsweringUI_FilterAssignedToLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_FilterByLabel --></label>
+        <name>avnio__AnsweringUI_FilterByLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_FilterCategoriesLabel --></label>
+        <name>avnio__AnsweringUI_FilterCategoriesLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_FilterLibSyncLabel --></label>
+        <name>avnio__AnsweringUI_FilterLibSyncLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_FilterResetLabel --></label>
+        <name>avnio__AnsweringUI_FilterResetLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_FilterScoreLabel --></label>
+        <name>avnio__AnsweringUI_FilterScoreLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_FilterSourceFile --></label>
+        <name>avnio__AnsweringUI_FilterSourceFile</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_FlagAsRiskLabel --></label>
+        <name>avnio__AnsweringUI_FlagAsRiskLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_GoToProjectLabel --></label>
+        <name>avnio__AnsweringUI_GoToProjectLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_GoToProjectTabLabel --></label>
+        <name>avnio__AnsweringUI_GoToProjectTabLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_GotoNextResponse --></label>
+        <name>avnio__AnsweringUI_GotoNextResponse</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_GotoPrevResponse --></label>
+        <name>avnio__AnsweringUI_GotoPrevResponse</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_GridViewLabel --></label>
+        <name>avnio__AnsweringUI_GridViewLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_HelpPopoverButtonAltText --></label>
+        <name>avnio__AnsweringUI_HelpPopoverButtonAltText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_HelpPopoverClose --></label>
+        <name>avnio__AnsweringUI_HelpPopoverClose</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_HelpPopoverText --></label>
+        <name>avnio__AnsweringUI_HelpPopoverText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_HelpPopoverTitle --></label>
+        <name>avnio__AnsweringUI_HelpPopoverTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_Insert --></label>
+        <name>avnio__AnsweringUI_Insert</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_LastUsedDateLabel --></label>
+        <name>avnio__AnsweringUI_LastUsedDateLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_Left_Sidebar_Tab_Label_1 --></label>
+        <name>avnio__AnsweringUI_Left_Sidebar_Tab_Label_1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_Left_Sidebar_Tab_Label_2 --></label>
+        <name>avnio__AnsweringUI_Left_Sidebar_Tab_Label_2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_Left_Sidebar_Tab_Label_3 --></label>
+        <name>avnio__AnsweringUI_Left_Sidebar_Tab_Label_3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_MarkAsCompleteBtn --></label>
+        <name>avnio__AnsweringUI_MarkAsCompleteBtn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_NoActionMessage --></label>
+        <name>avnio__AnsweringUI_NoActionMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_NoKBResultLabel --></label>
+        <name>avnio__AnsweringUI_NoKBResultLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_NoKBResultLable --></label>
+        <name>avnio__AnsweringUI_NoKBResultLable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_NoTimeUsed --></label>
+        <name>avnio__AnsweringUI_NoTimeUsed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_OpenQuestionLabel --></label>
+        <name>avnio__AnsweringUI_OpenQuestionLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_OriginalReviewerMessage --></label>
+        <name>avnio__AnsweringUI_OriginalReviewerMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_OwnerIdLabel --></label>
+        <name>avnio__AnsweringUI_OwnerIdLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_PeopleLabel --></label>
+        <name>avnio__AnsweringUI_PeopleLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_PopoverCancelBtn --></label>
+        <name>avnio__AnsweringUI_PopoverCancelBtn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_ProjectLabel --></label>
+        <name>avnio__AnsweringUI_ProjectLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_QuestionLabel --></label>
+        <name>avnio__AnsweringUI_QuestionLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_QuestionSearchLabel --></label>
+        <name>avnio__AnsweringUI_QuestionSearchLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_QueueMenuLabel --></label>
+        <name>avnio__AnsweringUI_QueueMenuLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_QueuePlaceHolderLabel --></label>
+        <name>avnio__AnsweringUI_QueuePlaceHolderLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_RecallBtn --></label>
+        <name>avnio__AnsweringUI_RecallBtn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_RecallPopupTitle --></label>
+        <name>avnio__AnsweringUI_RecallPopupTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_RefreshDataLabel --></label>
+        <name>avnio__AnsweringUI_RefreshDataLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_RemoveButtonLabel --></label>
+        <name>avnio__AnsweringUI_RemoveButtonLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_RemoveSuggestion --></label>
+        <name>avnio__AnsweringUI_RemoveSuggestion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_SaveErrorTitleLabel --></label>
+        <name>avnio__AnsweringUI_SaveErrorTitleLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_SaveResponseLabel --></label>
+        <name>avnio__AnsweringUI_SaveResponseLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_SaveSubmitErrorMessageLabel --></label>
+        <name>avnio__AnsweringUI_SaveSubmitErrorMessageLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_SaveSuccessMsgLabel --></label>
+        <name>avnio__AnsweringUI_SaveSuccessMsgLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_SaveSuccessTitleLabel --></label>
+        <name>avnio__AnsweringUI_SaveSuccessTitleLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_ScoreLabel --></label>
+        <name>avnio__AnsweringUI_ScoreLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_SearchKBLabel --></label>
+        <name>avnio__AnsweringUI_SearchKBLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_SearchPlaceholderLabel --></label>
+        <name>avnio__AnsweringUI_SearchPlaceholderLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_SendBackBtn --></label>
+        <name>avnio__AnsweringUI_SendBackBtn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_SendBackPopupTitle --></label>
+        <name>avnio__AnsweringUI_SendBackPopupTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_ShowFilterLabel --></label>
+        <name>avnio__AnsweringUI_ShowFilterLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_ShowLessLabel --></label>
+        <name>avnio__AnsweringUI_ShowLessLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_ShowMoreLabel --></label>
+        <name>avnio__AnsweringUI_ShowMoreLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_SourceLabel --></label>
+        <name>avnio__AnsweringUI_SourceLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_SubmitBtn --></label>
+        <name>avnio__AnsweringUI_SubmitBtn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_SubmitPopupTitle --></label>
+        <name>avnio__AnsweringUI_SubmitPopupTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_SuggestToLibrary --></label>
+        <name>avnio__AnsweringUI_SuggestToLibrary</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_SuggestedForYouLabel --></label>
+        <name>avnio__AnsweringUI_SuggestedForYouLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_SuggestedToLibrary --></label>
+        <name>avnio__AnsweringUI_SuggestedToLibrary</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_SupportingDocumentsLabel --></label>
+        <name>avnio__AnsweringUI_SupportingDocumentsLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_TableViewLabel --></label>
+        <name>avnio__AnsweringUI_TableViewLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_TotalAnsweredLabel --></label>
+        <name>avnio__AnsweringUI_TotalAnsweredLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_TotalUnansweredLabel --></label>
+        <name>avnio__AnsweringUI_TotalUnansweredLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_UnansweredLabel --></label>
+        <name>avnio__AnsweringUI_UnansweredLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_UploadFiles --></label>
+        <name>avnio__AnsweringUI_UploadFiles</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_UserFilterOptionsLabel1 --></label>
+        <name>avnio__AnsweringUI_UserFilterOptionsLabel1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_UserFilterOptionsLabel2 --></label>
+        <name>avnio__AnsweringUI_UserFilterOptionsLabel2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_UserMenuLabel --></label>
+        <name>avnio__AnsweringUI_UserMenuLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_UserPlaceHolderLabel --></label>
+        <name>avnio__AnsweringUI_UserPlaceHolderLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_ValidFromLabel --></label>
+        <name>avnio__AnsweringUI_ValidFromLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_ValidToLabel --></label>
+        <name>avnio__AnsweringUI_ValidToLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_WarningMessage --></label>
+        <name>avnio__AnsweringUI_WarningMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_WarningTitle --></label>
+        <name>avnio__AnsweringUI_WarningTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_approveRecordErr --></label>
+        <name>avnio__AnsweringUI_approveRecordErr</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_completeRecordErr --></label>
+        <name>avnio__AnsweringUI_completeRecordErr</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_infoMessage --></label>
+        <name>avnio__AnsweringUI_infoMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_infoTitle --></label>
+        <name>avnio__AnsweringUI_infoTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_noQuestionResultFound --></label>
+        <name>avnio__AnsweringUI_noQuestionResultFound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_perAnsweredLabel --></label>
+        <name>avnio__AnsweringUI_perAnsweredLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_sendBackRecordErr --></label>
+        <name>avnio__AnsweringUI_sendBackRecordErr</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_submitRecordErr --></label>
+        <name>avnio__AnsweringUI_submitRecordErr</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AnsweringUI_updateRecordErr --></label>
+        <name>avnio__AnsweringUI_updateRecordErr</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AvnioDocumentLabel --></label>
+        <name>avnio__AvnioDocumentLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Breadcrumb_Import --></label>
+        <name>avnio__Breadcrumb_Import</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Breadcrumb_LibraryImports --></label>
+        <name>avnio__Breadcrumb_LibraryImports</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Breadcrumb_LibrarySyncRequests --></label>
+        <name>avnio__Breadcrumb_LibrarySyncRequests</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Breadcrumb_Responses --></label>
+        <name>avnio__Breadcrumb_Responses</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Config_AvnioConfigurationLabel --></label>
+        <name>avnio__Config_AvnioConfigurationLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Config_LibraryConfigSettingLabel --></label>
+        <name>avnio__Config_LibraryConfigSettingLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Config_LibraryUpdateSuccessLabel --></label>
+        <name>avnio__Config_LibraryUpdateSuccessLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cycle Review Submit Comment --></label>
+        <name>avnio__CycleReview_SubmitComment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Draft Version Exist --></label>
+        <name>avnio__DraftVersionExist</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email_AttachmentsLabel --></label>
+        <name>avnio__Email_AttachmentsLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email_BccLabel --></label>
+        <name>avnio__Email_BccLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email_CancelLabel --></label>
+        <name>avnio__Email_CancelLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email_CcLabel --></label>
+        <name>avnio__Email_CcLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email_EmailErrorLabel --></label>
+        <name>avnio__Email_EmailErrorLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email_EmailSuccessLabel --></label>
+        <name>avnio__Email_EmailSuccessLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email_EmailValidationLabel --></label>
+        <name>avnio__Email_EmailValidationLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email_FileSizeLabel --></label>
+        <name>avnio__Email_FileSizeLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email_FileTypeLabel --></label>
+        <name>avnio__Email_FileTypeLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email_FolderLabel --></label>
+        <name>avnio__Email_FolderLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email_InternalReviewLoadingLabel --></label>
+        <name>avnio__Email_InternalReviewLoadingLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email_InternalReviewTitleLabel --></label>
+        <name>avnio__Email_InternalReviewTitleLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email_SendEmailBtnLabel --></label>
+        <name>avnio__Email_SendEmailBtnLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email_SendEmailLabel --></label>
+        <name>avnio__Email_SendEmailLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email_SendLabel --></label>
+        <name>avnio__Email_SendLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email_SubjectLabel --></label>
+        <name>avnio__Email_SubjectLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email_TemplatePlaceholderLabel --></label>
+        <name>avnio__Email_TemplatePlaceholderLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email_TitleLabel --></label>
+        <name>avnio__Email_TitleLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email_ToLabel --></label>
+        <name>avnio__Email_ToLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message when delete Active Response Version --></label>
+        <name>avnio__ErrorOnActiveVersionDelete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message when delete Archived Response Version --></label>
+        <name>avnio__ErrorOnArchivedVersionDelete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message on delete from header --></label>
+        <name>avnio__ErrorOnDeleteFromHeaderAltAnswer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message on delete from header --></label>
+        <name>avnio__ErrorOnDeleteFromHeaderAltQuestion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message on insert from header --></label>
+        <name>avnio__ErrorOnInsertFromHeaderAltAnswer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message on insert from header --></label>
+        <name>avnio__ErrorOnInsertFromHeaderAltQuestion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message on update from header --></label>
+        <name>avnio__ErrorOnUpdateFromHeaderAltAnswer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message on update from header --></label>
+        <name>avnio__ErrorOnUpdateFromHeaderAltQuestion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ExcelImportCustomResource --></label>
+        <name>avnio__ExcelImportCustomResource</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ExcelImportMaxAllowedColumns --></label>
+        <name>avnio__ExcelImportMaxAllowedColumns</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Generate_Separator_AC --></label>
+        <name>avnio__Generate_Separator_AC</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Generate_Separator_CC --></label>
+        <name>avnio__Generate_Separator_CC</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Generate_Separator_QA --></label>
+        <name>avnio__Generate_Separator_QA</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Generate_Separator_QC --></label>
+        <name>avnio__Generate_Separator_QC</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HeaderTitle_LibraryImport --></label>
+        <name>avnio__HeaderTitle_LibraryImport</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HeaderTitle_ViewQuestions --></label>
+        <name>avnio__HeaderTitle_ViewQuestions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- In Review Response Exist --></label>
+        <name>avnio__InReview_ResponseExist</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Initiate_ReindexLibrary --></label>
+        <name>avnio__Initiate_ReindexLibrary</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Initiate_ReindexLibrarySuccessLabel --></label>
+        <name>avnio__Initiate_ReindexLibrarySuccessLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LibrarySearchFilter_CategorySearchPlaceholder --></label>
+        <name>avnio__LibrarySearchFilter_CategorySearchPlaceholder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LibrarySearchFilter_CategoryTabName --></label>
+        <name>avnio__LibrarySearchFilter_CategoryTabName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LibrarySearchFilter_ClearAllLabel --></label>
+        <name>avnio__LibrarySearchFilter_ClearAllLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LibrarySearchFilter_ExactMatchHelpText --></label>
+        <name>avnio__LibrarySearchFilter_ExactMatchHelpText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LibrarySearchFilter_ExactMatchLabel --></label>
+        <name>avnio__LibrarySearchFilter_ExactMatchLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LibrarySearchFilter_FilterAppliedLabel --></label>
+        <name>avnio__LibrarySearchFilter_FilterAppliedLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LibrarySearchFilter_SearchSettingTitle --></label>
+        <name>avnio__LibrarySearchFilter_SearchSettingTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LibrarySearchFilter_SearchTypeAILabel --></label>
+        <name>avnio__LibrarySearchFilter_SearchTypeAILabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LibrarySearchFilter_SearchTypeHelpText --></label>
+        <name>avnio__LibrarySearchFilter_SearchTypeHelpText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LibrarySearchFilter_SearchTypeKSLabel --></label>
+        <name>avnio__LibrarySearchFilter_SearchTypeKSLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LibrarySearchFilter_SearchTypeLabel --></label>
+        <name>avnio__LibrarySearchFilter_SearchTypeLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LibrarySearchFilter_SelectAllLabel --></label>
+        <name>avnio__LibrarySearchFilter_SelectAllLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LibrarySearchFilter_TagSearchPlaceholder --></label>
+        <name>avnio__LibrarySearchFilter_TagSearchPlaceholder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LibrarySearchFilter_TagTabName --></label>
+        <name>avnio__LibrarySearchFilter_TagTabName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LibrarySearch_InitialLoadTitle --></label>
+        <name>avnio__LibrarySearch_InitialLoadTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LibrarySearch_NoResultMsg --></label>
+        <name>avnio__LibrarySearch_NoResultMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LibrarySearch_NoResultTitle --></label>
+        <name>avnio__LibrarySearch_NoResultTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MassApproveReject_NoRecordMsg --></label>
+        <name>avnio__MassApproveReject_NoRecordMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MassApproveReject_PartialWarning --></label>
+        <name>avnio__MassApproveReject_PartialWarning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MMassApproveReject_SuccessMsg --></label>
+        <name>avnio__MassApproveReject_SuccessMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MassDelete_10KWarningLabel --></label>
+        <name>avnio__MassDelete_10KWarningLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MassDelete_CancelBtnLabel --></label>
+        <name>avnio__MassDelete_CancelBtnLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MassDelete_ConfirmMsgLabel --></label>
+        <name>avnio__MassDelete_ConfirmMsgLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MassDelete_DeleteBtnLabel --></label>
+        <name>avnio__MassDelete_DeleteBtnLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MassDelete_NoRecordsLabel --></label>
+        <name>avnio__MassDelete_NoRecordsLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MassDelete_SuccessMsgLabel --></label>
+        <name>avnio__MassDelete_SuccessMsgLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MassDelete_TitleLabel --></label>
+        <name>avnio__MassDelete_TitleLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MassMarkCompleteApp_AllValid --></label>
+        <name>avnio__MassMarkCompleteApp_AllValid</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MassMarkCompleteApp_ErrorMsg --></label>
+        <name>avnio__MassMarkCompleteApp_ErrorMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MassMarkCompleteApp_NoRecordMsg --></label>
+        <name>avnio__MassMarkCompleteApp_NoRecordMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MassMarkCompleteApp_PartialWarning --></label>
+        <name>avnio__MassMarkCompleteApp_PartialWarning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MassMarkCompleteApp_SuccessMsg --></label>
+        <name>avnio__MassMarkCompleteApp_SuccessMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MassMarkCompleteApp_WarningMsg --></label>
+        <name>avnio__MassMarkCompleteApp_WarningMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MassSubmitApp_ErrorMsg --></label>
+        <name>avnio__MassSubmitApp_ErrorMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MassSubmitApp_NoRecordMsg --></label>
+        <name>avnio__MassSubmitApp_NoRecordMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MassSubmitApp_PartialWarning --></label>
+        <name>avnio__MassSubmitApp_PartialWarning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MassSubmitApp_SuccessMsg --></label>
+        <name>avnio__MassSubmitApp_SuccessMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MassSubmitApp_WarningMsg --></label>
+        <name>avnio__MassSubmitApp_WarningMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Active Response Version --></label>
+        <name>avnio__NoActiveResponseVersion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NoCategoriesLabel --></label>
+        <name>avnio__NoCategoriesLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NoPublishLibraryAccessLabel --></label>
+        <name>avnio__NoPublishLibraryAccessLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NoTagsLabel --></label>
+        <name>avnio__NoTagsLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OA_10KWarningLabel --></label>
+        <name>avnio__OA_10KWarningLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OA_AssignBtnLabel --></label>
+        <name>avnio__OA_AssignBtnLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OA_AssignmentNALabel --></label>
+        <name>avnio__OA_AssignmentNALabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OA_CancelBtnLabel --></label>
+        <name>avnio__OA_CancelBtnLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OA_NoRecordsLabel --></label>
+        <name>avnio__OA_NoRecordsLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OA_SelectOwnerLabel --></label>
+        <name>avnio__OA_SelectOwnerLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OA_SuccessMsgLabel --></label>
+        <name>avnio__OA_SuccessMsgLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OA_TitleLabel --></label>
+        <name>avnio__OA_TitleLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PQLStatus_Completed --></label>
+        <name>avnio__PQLStatus_Completed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PQLStatus_Draft --></label>
+        <name>avnio__PQLStatus_Draft</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PQLStatus_InReview --></label>
+        <name>avnio__PQLStatus_InReview</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PQLStatus_NotStarted --></label>
+        <name>avnio__PQLStatus_NotStarted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PQLStatus_ReadyToComplete --></label>
+        <name>avnio__PQLStatus_ReadyToComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PQLStatus_Reviewed --></label>
+        <name>avnio__PQLStatus_Reviewed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PQLStatus_SentBack --></label>
+        <name>avnio__PQLStatus_SentBack</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PQLStatus_Submitted --></label>
+        <name>avnio__PQLStatus_Submitted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PQL_ApprovalProcessesMessage --></label>
+        <name>avnio__PQL_ApprovalProcessesMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PQL_DefaultApproveComment --></label>
+        <name>avnio__PQL_DefaultApproveComment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PQL_DefaultRecallComment --></label>
+        <name>avnio__PQL_DefaultRecallComment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PQL_DefaultRejectComment --></label>
+        <name>avnio__PQL_DefaultRejectComment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PQL_DefaultSubmitComment --></label>
+        <name>avnio__PQL_DefaultSubmitComment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProjectAction_ConfigureProject --></label>
+        <name>avnio__ProjectAction_ConfigureProject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProjectAction_Generate --></label>
+        <name>avnio__ProjectAction_Generate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProjectAction_LibrarySync --></label>
+        <name>avnio__ProjectAction_LibrarySync</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProjectAction_RetrieveAnswers --></label>
+        <name>avnio__ProjectAction_RetrieveAnswers</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProjectAction_SendEmail --></label>
+        <name>avnio__ProjectAction_SendEmail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProjectAction_ViewQuestions --></label>
+        <name>avnio__ProjectAction_ViewQuestions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProjectMigration_ConfirmationDesc --></label>
+        <name>avnio__ProjectMigration_ConfirmationDesc</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProjectMigration_ConfirmationTitle --></label>
+        <name>avnio__ProjectMigration_ConfirmationTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProjectReviewAutoSyncLabel --></label>
+        <name>avnio__ProjectReviewAutoSyncLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProjectSetting_CancelBtn --></label>
+        <name>avnio__ProjectSetting_CancelBtn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProjectSetting_EnableReview --></label>
+        <name>avnio__ProjectSetting_EnableReview</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProjectSetting_EnableReviewHelp --></label>
+        <name>avnio__ProjectSetting_EnableReviewHelp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProjectSetting_ErrorMessage --></label>
+        <name>avnio__ProjectSetting_ErrorMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProjectSetting_ModalTitle --></label>
+        <name>avnio__ProjectSetting_ModalTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProjectSetting_ReviewType --></label>
+        <name>avnio__ProjectSetting_ReviewType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProjectSetting_ReviewTypeHelp --></label>
+        <name>avnio__ProjectSetting_ReviewTypeHelp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProjectSetting_SaveBtn --></label>
+        <name>avnio__ProjectSetting_SaveBtn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProjectSetting_SuccessMessage --></label>
+        <name>avnio__ProjectSetting_SuccessMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProjectSetting_ToastTile --></label>
+        <name>avnio__ProjectSetting_ToastTile</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProjectSetting_ValidationMsg --></label>
+        <name>avnio__ProjectSetting_ValidationMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProjectSetting_allowReviewerToComplete --></label>
+        <name>avnio__ProjectSetting_allowReviewerToComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProjectSetting_allowReviewerToCompleteHelp --></label>
+        <name>avnio__ProjectSetting_allowReviewerToCompleteHelp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProjectSetting_allowReviewerToEdit --></label>
+        <name>avnio__ProjectSetting_allowReviewerToEdit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProjectSetting_allowReviewerToEditHelp --></label>
+        <name>avnio__ProjectSetting_allowReviewerToEditHelp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProjectSetting_assigneeToComplete --></label>
+        <name>avnio__ProjectSetting_assigneeToComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProjectSetting_assigneeToCompleteHelp --></label>
+        <name>avnio__ProjectSetting_assigneeToCompleteHelp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProjectSetting_projectOwnerAsAssignee --></label>
+        <name>avnio__ProjectSetting_projectOwnerAsAssignee</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProjectSetting_projectOwnerAsAssigneeHelp --></label>
+        <name>avnio__ProjectSetting_projectOwnerAsAssigneeHelp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProjectSetting_projectOwnerAsReviewer --></label>
+        <name>avnio__ProjectSetting_projectOwnerAsReviewer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProjectSetting_projectOwnerAsReviewerHelp --></label>
+        <name>avnio__ProjectSetting_projectOwnerAsReviewerHelp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProjectSetting_readOnlyCompletedQuestion --></label>
+        <name>avnio__ProjectSetting_readOnlyCompletedQuestion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProjectSetting_readOnlyCompletedQuestionHelp --></label>
+        <name>avnio__ProjectSetting_readOnlyCompletedQuestionHelp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RFx_Documentation_Link --></label>
+        <name>avnio__RFx_Documentation_Link</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ready for Publish Exist --></label>
+        <name>avnio__ReadyforPublishExist</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReindexLibaryInProgressMsg --></label>
+        <name>avnio__ReindexLibaryInProgressMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReindexLibary_InProgress --></label>
+        <name>avnio__ReindexLibary_InProgress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseActionSyncCmp_AllRecordMsg --></label>
+        <name>avnio__ResponseActionSyncCmp_AllRecordMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseActionSyncCmp_NoRecordMsg --></label>
+        <name>avnio__ResponseActionSyncCmp_NoRecordMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseActionSyncCmp_PartialRecordMsg --></label>
+        <name>avnio__ResponseActionSyncCmp_PartialRecordMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseAction_Approve --></label>
+        <name>avnio__ResponseAction_Approve</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseAction_ApproveSuccessMsg --></label>
+        <name>avnio__ResponseAction_ApproveSuccessMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseAction_Archive --></label>
+        <name>avnio__ResponseAction_Archive</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseAction_CancelReview --></label>
+        <name>avnio__ResponseAction_CancelReview</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseAction_CancelReviewSuccessMsg --></label>
+        <name>avnio__ResponseAction_CancelReviewSuccessMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseAction_CommonSuccessMsg --></label>
+        <name>avnio__ResponseAction_CommonSuccessMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseAction_Compare --></label>
+        <name>avnio__ResponseAction_Compare</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseAction_CompleteReview --></label>
+        <name>avnio__ResponseAction_CompleteReview</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseAction_Delete --></label>
+        <name>avnio__ResponseAction_Delete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseAction_EditAsDraft --></label>
+        <name>avnio__ResponseAction_EditAsDraft</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseAction_Ignore --></label>
+        <name>avnio__ResponseAction_Ignore</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseAction_MemberAssignment --></label>
+        <name>avnio__ResponseAction_MemberAssignment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseAction_Merge --></label>
+        <name>avnio__ResponseAction_Merge</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseAction_Publish --></label>
+        <name>avnio__ResponseAction_Publish</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseAction_RecallReview --></label>
+        <name>avnio__ResponseAction_RecallReview</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseAction_RecallReviewSuccessMsg --></label>
+        <name>avnio__ResponseAction_RecallReviewSuccessMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseAction_Reject --></label>
+        <name>avnio__ResponseAction_Reject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseAction_RejectSuccessMsg --></label>
+        <name>avnio__ResponseAction_RejectSuccessMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseAction_SendBack --></label>
+        <name>avnio__ResponseAction_SendBack</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseAction_Submit --></label>
+        <name>avnio__ResponseAction_Submit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseAction_SubmitForReview --></label>
+        <name>avnio__ResponseAction_SubmitForReview</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseAction_SubmitForReviewSuccessMsg --></label>
+        <name>avnio__ResponseAction_SubmitForReviewSuccessMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseAction_SubmitSuccessMsg --></label>
+        <name>avnio__ResponseAction_SubmitSuccessMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseAction_Sync --></label>
+        <name>avnio__ResponseAction_Sync</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseArchive_ConfirmLabel --></label>
+        <name>avnio__ResponseArchive_ConfirmLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseBulkDel_SuccessLabel --></label>
+        <name>avnio__ResponseBulkDel_SuccessLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseCmp_AllPublishedMsgPartialRecord --></label>
+        <name>avnio__ResponseCmp_AllPublishedMsgPartialRecord</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseCmp_AllRecordMsg --></label>
+        <name>avnio__ResponseCmp_AllRecordMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseCmp_AllRecordMsgWithAllPublished --></label>
+        <name>avnio__ResponseCmp_AllRecordMsgWithAllPublished</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseCmp_AllRecordMsgWithMixPublished --></label>
+        <name>avnio__ResponseCmp_AllRecordMsgWithMixPublished</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseCmp_NoRecordMsg --></label>
+        <name>avnio__ResponseCmp_NoRecordMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseCmp_PartialRecordMsg --></label>
+        <name>avnio__ResponseCmp_PartialRecordMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseCmp_PartialRecordMsgWithAllPublished --></label>
+        <name>avnio__ResponseCmp_PartialRecordMsgWithAllPublished</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseCmp_PartialRecordMsgWithPartialPublished --></label>
+        <name>avnio__ResponseCmp_PartialRecordMsgWithPartialPublished</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseCmp_SubmitCycleReviewWarningMsg --></label>
+        <name>avnio__ResponseCmp_SubmitCycleReviewWarningMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseCmp_SubmitSingleCycleReviewWarningMsg --></label>
+        <name>avnio__ResponseCmp_SubmitSingleCycleReviewWarningMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseCmp_SuccessMsg --></label>
+        <name>avnio__ResponseCmp_SuccessMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseDel_ConfirmLabel --></label>
+        <name>avnio__ResponseDel_ConfirmLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseDel_SuccessLabel --></label>
+        <name>avnio__ResponseDel_SuccessLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseDetailsCmp_AdditionalSectionHeadingTitle --></label>
+        <name>avnio__ResponseDetailsCmp_AdditionalSectionHeadingTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseDetailsCmp_CancelButtonLabel --></label>
+        <name>avnio__ResponseDetailsCmp_CancelButtonLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseDetailsCmp_EditButtonLabel --></label>
+        <name>avnio__ResponseDetailsCmp_EditButtonLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseDetailsCmp_SaveButtonLabel --></label>
+        <name>avnio__ResponseDetailsCmp_SaveButtonLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseDetailsCmp_SectionHeadingTitle --></label>
+        <name>avnio__ResponseDetailsCmp_SectionHeadingTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseDetailsCmp_SuccessSaveMsgLabel --></label>
+        <name>avnio__ResponseDetailsCmp_SuccessSaveMsgLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseDetailsCmp_SuccessSaveTitleLabel --></label>
+        <name>avnio__ResponseDetailsCmp_SuccessSaveTitleLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseDetailsCmp_SuccessUpdateMsgLabel --></label>
+        <name>avnio__ResponseDetailsCmp_SuccessUpdateMsgLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseDetailsCmp_SuccessUpdateTitleLabel --></label>
+        <name>avnio__ResponseDetailsCmp_SuccessUpdateTitleLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseEditorSaveLabel --></label>
+        <name>avnio__ResponseEditorSaveLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseEditorSuccessLabel --></label>
+        <name>avnio__ResponseEditorSuccessLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseEditorToastTitleLabel --></label>
+        <name>avnio__ResponseEditorToastTitleLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseHeader_LibrarySyncRequestTitle --></label>
+        <name>avnio__ResponseHeader_LibrarySyncRequestTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseHeader_OwnerList --></label>
+        <name>avnio__ResponseHeader_OwnerList</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseHeader_ResponseTitle --></label>
+        <name>avnio__ResponseHeader_ResponseTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseHeader_ResponseVersionTitle --></label>
+        <name>avnio__ResponseHeader_ResponseVersionTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseHeader_ReviewerList --></label>
+        <name>avnio__ResponseHeader_ReviewerList</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseMemberAssignment_MaxReviewerSupportNote --></label>
+        <name>avnio__ResponseMemberAssignment_MaxReviewerSupportNote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseMemberAssignment_OutOfCycleReviewDisabled --></label>
+        <name>avnio__ResponseMemberAssignment_OutOfCycleReviewDisabled</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseMember Duplicate Member Error Message --></label>
+        <name>avnio__ResponseMember_DuplicateMemberErrorMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseMember Reviewers Update Validation Error Message --></label>
+        <name>avnio__ResponseMember_ReviewersValidationErrorMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseMember Version Reviewers Update Validation Error Message --></label>
+        <name>avnio__ResponseMember_VersionReviewersValidationErrorMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseSettingsCmp_SuccessMsgLabel --></label>
+        <name>avnio__ResponseSettingsCmp_SuccessMsgLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseSettingsCmp_SuccessTitleLabel --></label>
+        <name>avnio__ResponseSettingsCmp_SuccessTitleLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseVersionsCmp_CreatedByColumnLabel --></label>
+        <name>avnio__ResponseVersionsCmp_CreatedByColumnLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseVersionsCmp_CreatedDateColumnLabel --></label>
+        <name>avnio__ResponseVersionsCmp_CreatedDateColumnLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseVersionsCmp_CurrentRecordLabel --></label>
+        <name>avnio__ResponseVersionsCmp_CurrentRecordLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseVersionsCmp_HeaderTitle --></label>
+        <name>avnio__ResponseVersionsCmp_HeaderTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseVersionsCmp_VersionColumnLabel --></label>
+        <name>avnio__ResponseVersionsCmp_VersionColumnLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ResponseVersionsCmp_ViewAllButtonLabel --></label>
+        <name>avnio__ResponseVersionsCmp_ViewAllButtonLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Response_CategoryHeaderLabel --></label>
+        <name>avnio__Response_CategoryHeaderLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Response_CategorySuccessLabel --></label>
+        <name>avnio__Response_CategorySuccessLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Response_SelectCategoryLabel --></label>
+        <name>avnio__Response_SelectCategoryLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Response_SelectTagLabel --></label>
+        <name>avnio__Response_SelectTagLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Response_TagHeaderLabel --></label>
+        <name>avnio__Response_TagHeaderLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Response_TagSuccessLabel --></label>
+        <name>avnio__Response_TagSuccessLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RetrieveAns_CategoryInputLabel --></label>
+        <name>avnio__RetrieveAns_CategoryInputLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RetrieveAns_DefaultFilterValue --></label>
+        <name>avnio__RetrieveAns_DefaultFilterValue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RetrieveAns_InitialMsgLabel --></label>
+        <name>avnio__RetrieveAns_InitialMsgLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LearnMore --></label>
+        <name>avnio__RetrieveAns_LearnMore</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RetrieveAns_ModalTitleLabel --></label>
+        <name>avnio__RetrieveAns_ModalTitleLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RetrieveAns_NoRecordsToProcess --></label>
+        <name>avnio__RetrieveAns_NoRecordsToProcess</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RetrieveAns_RetrievingAnswers --></label>
+        <name>avnio__RetrieveAns_RetrievingAnswers</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Score Threshold --></label>
+        <name>avnio__RetrieveAns_ScoreThreshold</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ScoreThresholdHelpText --></label>
+        <name>avnio__RetrieveAns_ScoreThresholdHelpText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RetrieveAns_SuccessMsgLabel --></label>
+        <name>avnio__RetrieveAns_SuccessMsgLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RetrieveAns_SuccessfullyRetrieved --></label>
+        <name>avnio__RetrieveAns_SuccessfullyRetrieved</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RetrieveAns_ToastTitleLabel --></label>
+        <name>avnio__RetrieveAns_ToastTitleLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RetrieveAns_WarningForAssignee --></label>
+        <name>avnio__RetrieveAns_WarningForAssignee</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RetrieveAns_WarningForNonProjectTeamMember --></label>
+        <name>avnio__RetrieveAns_WarningForNonProjectTeamMember</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RetrieveEligibleAns_InitialMsgLabel --></label>
+        <name>avnio__RetrieveEligibleAns_InitialMsgLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RetrieveNotEligibleAns_InitialMsgLabel --></label>
+        <name>avnio__RetrieveNotEligibleAns_InitialMsgLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewAssignCmp_AssignBtn --></label>
+        <name>avnio__ReviewAssignCmp_AssignBtn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewAssignCmp_AssignTo --></label>
+        <name>avnio__ReviewAssignCmp_AssignTo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewAssignCmp_AssignmentComment --></label>
+        <name>avnio__ReviewAssignCmp_AssignmentComment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewAssignCmp_AssignmentDueDate --></label>
+        <name>avnio__ReviewAssignCmp_AssignmentDueDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewAssignCmp_CancelBtn --></label>
+        <name>avnio__ReviewAssignCmp_CancelBtn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewAssignCmp_EligibleRecordsWarningMsg --></label>
+        <name>avnio__ReviewAssignCmp_EligibleRecordsWarningMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewAssignCmp_ErrorMessage --></label>
+        <name>avnio__ReviewAssignCmp_ErrorMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewAssignCmp_ExchangeReviewerOrders --></label>
+        <name>avnio__ReviewAssignCmp_ExchangeReviewerOrders</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewAssignCmp_NoEligibleRecordsMsg --></label>
+        <name>avnio__ReviewAssignCmp_NoEligibleRecordsMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewAssignCmp_NoReviewer_Title --></label>
+        <name>avnio__ReviewAssignCmp_NoReviewer_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewAssignCmp_NotifyNow --></label>
+        <name>avnio__ReviewAssignCmp_NotifyNow</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewAssignCmp_NotifyNowApplicableHelp --></label>
+        <name>avnio__ReviewAssignCmp_NotifyNowApplicableHelp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewAssignCmp_NotifyNowHelp --></label>
+        <name>avnio__ReviewAssignCmp_NotifyNowHelp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewAssignCmp_NotifyNowNoneApplicableHelp --></label>
+        <name>avnio__ReviewAssignCmp_NotifyNowNoneApplicableHelp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewAssignCmp_QuesSelectedLabel --></label>
+        <name>avnio__ReviewAssignCmp_QuesSelectedLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewAssignCmp_RemoveReviewer --></label>
+        <name>avnio__ReviewAssignCmp_RemoveReviewer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewAssignCmp_ReviewComments --></label>
+        <name>avnio__ReviewAssignCmp_ReviewComments</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewAssignCmp_ReviewDueDate --></label>
+        <name>avnio__ReviewAssignCmp_ReviewDueDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewAssignCmp_Reviewer --></label>
+        <name>avnio__ReviewAssignCmp_Reviewer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewAssignCmp_SaveErrorMessage --></label>
+        <name>avnio__ReviewAssignCmp_SaveErrorMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewAssignCmp_Select1QuestionMessage --></label>
+        <name>avnio__ReviewAssignCmp_Select1QuestionMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewAssignCmp_SuccessMessage --></label>
+        <name>avnio__ReviewAssignCmp_SuccessMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewAssignCmp_SuggestedAssignees --></label>
+        <name>avnio__ReviewAssignCmp_SuggestedAssignees</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewAssignCmp_SuggestedAssigneesHelp --></label>
+        <name>avnio__ReviewAssignCmp_SuggestedAssigneesHelp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewAssignCmp_Title --></label>
+        <name>avnio__ReviewAssignCmp_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_AddAlternativeAnswerLabel --></label>
+        <name>avnio__ReviewUI_AddAlternativeAnswerLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_AlternativeAnswerCheckboxFieldLabel --></label>
+        <name>avnio__ReviewUI_AlternativeAnswerCheckboxFieldLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_AlternativeAnswerTitleFieldLabel --></label>
+        <name>avnio__ReviewUI_AlternativeAnswerTitleFieldLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_AlternativeAnswerTitleFieldPlaceholder --></label>
+        <name>avnio__ReviewUI_AlternativeAnswerTitleFieldPlaceholder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_AnswerFieldLabel --></label>
+        <name>avnio__ReviewUI_AnswerFieldLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_CategoriesTabLabel --></label>
+        <name>avnio__ReviewUI_CategoriesTabLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_CreateNewHelpLabel --></label>
+        <name>avnio__ReviewUI_CreateNewHelpLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_CreateNewLabel --></label>
+        <name>avnio__ReviewUI_CreateNewLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_ErrorAnswerFieldLabel --></label>
+        <name>avnio__ReviewUI_ErrorAnswerFieldLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_ErrorMessageLabel --></label>
+        <name>avnio__ReviewUI_ErrorMessageLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_ErrorMessageTitleLabel --></label>
+        <name>avnio__ReviewUI_ErrorMessageTitleLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_ErrorQuestionAnswerFieldLabel --></label>
+        <name>avnio__ReviewUI_ErrorQuestionAnswerFieldLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_ErrorQuestionFieldLabel --></label>
+        <name>avnio__ReviewUI_ErrorQuestionFieldLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_ErrorSelectFieldLabel --></label>
+        <name>avnio__ReviewUI_ErrorSelectFieldLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_IgnoreLabel --></label>
+        <name>avnio__ReviewUI_IgnoreLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_IgnoredHoveredLabel --></label>
+        <name>avnio__ReviewUI_IgnoredHoveredLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_IgnoredLabel --></label>
+        <name>avnio__ReviewUI_IgnoredLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_IgnoredMessageLabel --></label>
+        <name>avnio__ReviewUI_IgnoredMessageLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_LibraryUpdatedLabel --></label>
+        <name>avnio__ReviewUI_LibraryUpdatedLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_MessageTitleLabel --></label>
+        <name>avnio__ReviewUI_MessageTitleLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_NoActionDueToLSR --></label>
+        <name>avnio__ReviewUI_NoActionDueToLSR</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_OtherFieldsTabLabel --></label>
+        <name>avnio__ReviewUI_OtherFieldsTabLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_QuestionFieldLabel --></label>
+        <name>avnio__ReviewUI_QuestionFieldLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_SearchCategoryLabel --></label>
+        <name>avnio__ReviewUI_SearchCategoryLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_SearchTagLabel --></label>
+        <name>avnio__ReviewUI_SearchTagLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_SelectResponseLabel --></label>
+        <name>avnio__ReviewUI_SelectResponseLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_SkippedMessageLabel --></label>
+        <name>avnio__ReviewUI_SkippedMessageLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_SkippedStatusLabel --></label>
+        <name>avnio__ReviewUI_SkippedStatusLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_SuccessMessageLabel --></label>
+        <name>avnio__ReviewUI_SuccessMessageLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_SummaryLabel --></label>
+        <name>avnio__ReviewUI_SummaryLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_SyncActionAlternativeAnswer --></label>
+        <name>avnio__ReviewUI_SyncActionAlternativeAnswer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_SyncActionAnswer --></label>
+        <name>avnio__ReviewUI_SyncActionAnswer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_SyncActionAnswerEdited --></label>
+        <name>avnio__ReviewUI_SyncActionAnswerEdited</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_SyncActionQuestion --></label>
+        <name>avnio__ReviewUI_SyncActionQuestion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_SyncActionQuestionEdited --></label>
+        <name>avnio__ReviewUI_SyncActionQuestionEdited</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_TagTabLabel --></label>
+        <name>avnio__ReviewUI_TagTabLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_UpdateAlternativeAnswerLabel --></label>
+        <name>avnio__ReviewUI_UpdateAlternativeAnswerLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_UpdateExistingHelpLabel --></label>
+        <name>avnio__ReviewUI_UpdateExistingHelpLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReviewUI_UpdateExistingLabel --></label>
+        <name>avnio__ReviewUI_UpdateExistingLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select answer to promote --></label>
+        <name>avnio__SelectAnswerToPromote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SendEmail_BodyValidationMsg --></label>
+        <name>avnio__SendEmail_BodyValidationMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SendEmail_SendBtn --></label>
+        <name>avnio__SendEmail_SendBtn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SendEmail_SuccessMsg --></label>
+        <name>avnio__SendEmail_SuccessMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SendEmail_Title --></label>
+        <name>avnio__SendEmail_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SendEmail_ToAddValidationMsg --></label>
+        <name>avnio__SendEmail_ToAddValidationMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Name to use when user does not have permission to view another user info --></label>
+        <name>avnio__UnknownUser_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Update_Existing_Button_Info --></label>
+        <name>avnio__Update_Existing_Button_Info</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Libary Search Placeholder --></label>
+        <name>avnio__librarySearchPlaceHolder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Search results for --></label>
+        <name>avnio__librarySearchResult</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- responseLibrarySyncIgnoreCmp_AllRecordMsg --></label>
+        <name>avnio__responseLibrarySyncIgnoreCmp_AllRecordMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- responseLibrarySyncIgnoreCmp_NoRecordMsg --></label>
+        <name>avnio__responseLibrarySyncIgnoreCmp_NoRecordMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- responseLibrarySyncIgnoreCmp_PartialRecordMsg --></label>
+        <name>avnio__responseLibrarySyncIgnoreCmp_PartialRecordMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Content Version Id of the review template --></label>
+        <name>avnio__reviewTemplateId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- error_numbers --></label>
+        <name>error_numbers</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pardot Production Api Base Url --></label>
+        <name>pi__Pardot_Production_Api_Base_Url</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pardot Production Api Base Url --></label>
+        <name>pi__Pardot_Production_Base_Url</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CommonErrorMsg --></label>
+        <name>tables__CommonErrorMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DuplicateViewErrorMsg --></label>
+        <name>tables__DuplicateViewErrorMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FeatureUniqueViewDevNameEnabled --></label>
+        <name>tables__FeatureUniqueViewDevNameEnabled</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when record limit exceeds for performing Mass Update. --></label>
+        <name>tables__MassUpdateLimitExceedMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Package Namespace --></label>
+        <name>tables__PackageNameSpace</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PublisherApplicationDeleteErrorMsg --></label>
+        <name>tables__PublisherApplicationDeleteErrorMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PublisherObjectDeleteErrorMsg --></label>
+        <name>tables__PublisherObjectDeleteErrorMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PublisherViewUpdateErrorMsg --></label>
+        <name>tables__PublisherViewUpdateErrorMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SingleQuote --></label>
+        <name>tables__SingleQuote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SystemViewDeleteErrorMsg --></label>
+        <name>tables__SystemViewDeleteErrorMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SystemViewUpdateErrorMsg --></label>
+        <name>tables__SystemViewUpdateErrorMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TableContainerCSS --></label>
+        <name>tables__TableContainerCSS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tables Inaccessible Error Message - Due to Package Licensing --></label>
+        <name>tables__TablesInaccessibleErrorMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tables Inaccessible Error Sub Message - Due to Package Licensing --></label>
+        <name>tables__TablesInaccessibleErrorSubMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TablesMinHeight --></label>
+        <name>tables__TablesMinHeight</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ViewPortBufferHeightWithHeader --></label>
+        <name>tables__ViewPortBufferHeightWithHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ViewPortBufferHeightWithoutHeader --></label>
+        <name>tables__ViewPortBufferHeightWithoutHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Page Detection Apex Class --></label>
+        <name>terminus_mktg__Page_Detection_Apex_Class</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Page Detection find both old or new --></label>
+        <name>terminus_mktg__Page_Detection_Both</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Page Detection Custom Field --></label>
+        <name>terminus_mktg__Page_Detection_Custom_Field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Page Detection find only new --></label>
+        <name>terminus_mktg__Page_Detection_New_Only</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Page Detection find neither old or new --></label>
+        <name>terminus_mktg__Page_Detection_None</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Page Detection find only old --></label>
+        <name>terminus_mktg__Page_Detection_Old_Only</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Page Detection Static Resource --></label>
+        <name>terminus_mktg__Page_Detection_Static_Resource</name>
+    </customLabels>
+</Translations>

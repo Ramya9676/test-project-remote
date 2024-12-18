@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Enter VCS Authentication when the VCS Authentication selected is &quot;Other&quot;. --></help>
+    <label><!-- Other VCS Authentication --></label>
+    <name>Other_VCS_Authentication__c</name>
+</CustomFieldTranslation>

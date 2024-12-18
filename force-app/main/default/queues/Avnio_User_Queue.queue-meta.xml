@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Avnio User Queue</name>
+    <queueMembers>
+        <users>
+            <user>divya.t@autorabit.com</user>
+            <user>peter.s.ar@autorabit.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>avnio__ProjectQuestion__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>avnio__Project__c</sobjectType>
+    </queueSobject>
+</Queue>

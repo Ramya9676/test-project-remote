@@ -1,0 +1,125 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div style="margin: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; vertical-align: baseline;"><font style="" size="2" face="Verdana, Helvetica, sans-serif"><span style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; vertical-align: baseline; color: inherit; background-color: rgb(255, 255, 255);"><span style="white-space:pre">	</span>Hi {!Opportunity.OwnerFullName},</span><br style=""><br style=""><span style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; vertical-align: baseline; color: inherit; background-color: rgb(255, 255, 255);">Your upcoming Renewal '{!Opportunity.Name}</span><span style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; vertical-align: baseline; color: inherit; background-color: rgb(255, 255, 255);">' has been auto created in CRM for your reference and further action.</span></font></div><div style="margin: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; vertical-align: baseline;"><font size="2" face="Verdana, Helvetica, sans-serif"><br></font></div><div style="margin: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; vertical-align: baseline;"><table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="643" style="width:482.25pt;margin-left:6.75pt;background:white;border-collapse:
+ collapse;mso-yfti-tbllook:1184">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:15.4pt">
+  <td width="222" style="width:166.35pt;border:solid windowtext 1.0pt;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;line-height:normal"><font size="2"><span style="font-family: Verdana, sans-serif; border: 1pt none windowtext; padding: 0cm;">&nbsp;Oppty Type</span><o:p></o:p></font></p>
+  </td>
+  <td width="421" style="width:315.9pt;border:solid windowtext 1.0pt;border-left:
+  none;padding:0cm 5.4pt 0cm 5.4pt;height:15.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;text-align:justify;line-height:
+  normal"><font size="2"><span style="font-family: Verdana, sans-serif; border: 1pt none windowtext; padding: 0cm;">&nbsp;{!Opportunity.Opportunity_Type_New_Renewal_Upsell__c}</span><o:p></o:p></font></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:1;height:16.9pt">
+  <td width="222" style="width:166.35pt;border:solid windowtext 1.0pt;border-top:
+  none;background:#E7E6E6;padding:0cm 5.4pt 0cm 5.4pt;height:16.9pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;line-height:normal"><span style="font-family: Verdana, sans-serif; border: 1pt none windowtext; padding: 0cm;"><font size="2">&nbsp;Account
+  ID<span style="white-space:pre">	</span></font></span></p>
+  </td>
+  <td width="421" style="width:315.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#E7E6E6;padding:0cm 5.4pt 0cm 5.4pt;height:16.9pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;text-align:justify;line-height:
+  normal"><font size="2"><span style="font-family: Verdana, sans-serif;">&nbsp;{!Account.AccountID__c}</span><o:p></o:p></font></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:2;height:17.9pt">
+  <td width="222" style="width:166.35pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt;height:17.9pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;text-align:justify;line-height:
+  normal"><font size="2"><span style="font-family: Verdana, sans-serif; border: 1pt none windowtext; padding: 0cm;">&nbsp;Account Name</span><o:p></o:p></font></p>
+  </td>
+  <td width="421" style="width:315.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:17.9pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;text-align:justify;line-height:
+  normal"><font size="2"><span style="font-family: Verdana, sans-serif; border: 1pt none windowtext; padding: 0cm;">&nbsp;{!Opportunity.Account}</span><o:p></o:p></font></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:3;height:15.65pt">
+  <td width="222" style="width:166.35pt;border:solid windowtext 1.0pt;border-top:
+  none;background:#E7E6E6;padding:0cm 5.4pt 0cm 5.4pt;height:15.65pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;line-height:normal"><font size="2"><span style="font-family: Verdana, sans-serif; border: 1pt none windowtext; padding: 0cm;">&nbsp;Opportunity
+  Name</span><o:p></o:p></font></p>
+  </td>
+  <td width="421" style="width:315.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#E7E6E6;padding:0cm 5.4pt 0cm 5.4pt;height:15.65pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;text-align:justify;line-height:
+  normal"><font size="2"><span style="font-family: Verdana, sans-serif; border: 1pt none windowtext; padding: 0cm;">&nbsp;{!Opportunity.Name}</span><o:p></o:p></font></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:4;height:16.15pt">
+  <td width="222" style="width:166.35pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt;height:16.15pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;text-align:justify;line-height:
+  normal"><font size="2"><span style="font-family: Verdana, sans-serif; border: 1pt none windowtext; padding: 0cm;">&nbsp;Opp ID</span><o:p></o:p></font></p>
+  </td>
+  <td width="421" style="width:315.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:16.15pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;line-height:normal"><font size="2"><span style="font-family: Verdana, sans-serif; border: 1pt none windowtext; padding: 0cm;">&nbsp;{!Opportunity.ID__c}</span><o:p></o:p></font></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:5;height:16.15pt">
+  <td width="222" style="width:166.35pt;border:solid windowtext 1.0pt;border-top:
+  none;background:#E7E6E6;padding:0cm 5.4pt 0cm 5.4pt;height:16.15pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;text-align:justify;line-height:
+  normal"><font size="2"><span style="font-family: Verdana, sans-serif; border: 1pt none windowtext; padding: 0cm;">&nbsp;Opp Amount</span><o:p></o:p></font></p>
+  </td>
+  <td width="421" style="width:315.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#E7E6E6;padding:0cm 5.4pt 0cm 5.4pt;height:16.15pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;text-align:justify;line-height:
+  normal"><font size="2"><span style="font-family: Verdana, sans-serif; border: 1pt none windowtext; padding: 0cm;">&nbsp;{!Opportunity.Opportunity_Amount__c}</span><o:p></o:p></font></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:6;height:16.4pt">
+  <td width="222" style="width:166.35pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt;height:16.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;line-height:normal"><font size="2"><span style="font-family: Verdana, sans-serif;">&nbsp;Stage Name</span><o:p></o:p></font></p>
+  </td>
+  <td width="421" style="width:315.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:16.4pt"><font size="2">&nbsp;&nbsp;{!Opportunity.StageName}</font></td>
+ </tr>
+ <tr style="mso-yfti-irow:7;height:17.55pt">
+  <td width="222" style="width:166.35pt;border:solid windowtext 1.0pt;border-top:
+  none;background:#E7E6E6;padding:0cm 5.4pt 0cm 5.4pt;height:17.55pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;text-align:justify;line-height:
+  normal"><font size="2"><span style="font-family: Verdana, sans-serif; border: 1pt none windowtext; padding: 0cm;">&nbsp;Products</span><o:p></o:p></font></p>
+  </td>
+  <td width="421" style="width:315.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#E7E6E6;padding:0cm 5.4pt 0cm 5.4pt;height:17.55pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;text-align:justify;line-height:
+  normal"><font size="2"><span style="font-family: Verdana, sans-serif; border: 1pt none windowtext; padding: 0cm;">&nbsp;</span><font face="Verdana, sans-serif"><o:p></o:p></font></font><font face="Verdana, sans-serif" size="2">{!Opportunity.Products__c}</font></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:8;height:13.9pt">
+  <td width="222" style="width:166.35pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt;height:13.9pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;text-align:justify;line-height:
+  normal"><font size="2"><span style="font-family: Verdana, sans-serif; border: 1pt none windowtext; padding: 0cm;">&nbsp;Opportunity Source</span><o:p></o:p></font></p>
+  </td>
+  <td width="421" style="width:315.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:13.9pt"><font size="2">&nbsp; {!Opportunity.Partner_Sourced__c}</font></td>
+ </tr>
+ <tr style="mso-yfti-irow:9;mso-yfti-lastrow:yes;height:16.4pt">
+  <td width="222" style="width:166.35pt;border:solid windowtext 1.0pt;border-top:
+  none;background:#E7E6E6;padding:0cm 5.4pt 0cm 5.4pt;height:16.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;text-align:justify;line-height:
+  normal"><font size="2"><span style="font-family: Verdana, sans-serif; border: 1pt none windowtext; padding: 0cm;">&nbsp;SDR</span><o:p></o:p></font></p>
+  </td>
+  <td width="421" style="width:315.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#E7E6E6;padding:0cm 5.4pt 0cm 5.4pt;height:16.4pt"><font size="2">&nbsp;&nbsp;{!Opportunity.SDR__c}</font></td>
+ </tr>
+</tbody></table></div><div style="margin: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; vertical-align: baseline;"><font style="" size="2" face="Verdana, Helvetica, sans-serif">&nbsp;</font></div><div style="margin: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; vertical-align: baseline;"><font style="" size="2" face="Verdana, Helvetica, sans-serif"><a href="{!Opportunity.Link}">Click here to open the renewal opportunity in Salesforce</a><br><br style=""><span style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; vertical-align: baseline; color: inherit; background-color: rgb(255, 255, 255);">In case of any clarifications, please reach out to CRMhelpdesk@autorabit.com</span></font></div><div style="margin: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; vertical-align: baseline;"><font style="" size="2" face="Verdana, Helvetica, sans-serif"><br style=""><br style=""><span style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; vertical-align: baseline; color: inherit; background-color: rgb(255, 255, 255);">Kind regards,</span><br style=""><span style="background-color: rgb(255, 255, 255);">CRM helpdesk</span></font></div><div style="margin: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; vertical-align: baseline;"><br></div>]]></td>
+</tr>
+</table>

@@ -1,0 +1,391 @@
+<messaging:emailTemplate subject="{!RelatedTo.Account.Name} - Subs Activation Request for {!RelatedTo.Name}" recipientType="User" relatedToType="Opportunity">
+
+  <messaging:htmlEmailBody >
+    <html>
+     <style>
+            table, th, td {
+               border: 1px solid black;
+               border-collapse: collapse;
+               text-align: left;
+                           }
+      </style> 
+      <body>
+           <apex:variable value="{!0}" var="ProfServ"/>
+           <apex:variable value="{!0}" var="PremSup"/>
+             <apex:repeat value="{!RelatedTo.OpportunityLineItems}" var="lineItem2">
+               <apex:variable var="ProfServ" value="{!ProfServ + IF(CONTAINS(lineItem2.Product2.Family,"Professional Services"),1,0)}"/>
+               <apex:variable var="PremSup" value="{!PremSup + IF(lineItem2.Product2.Name="Success Package II",1,0)}"/>
+             </apex:repeat>
+             <apex:variable value="{!0}" var="PresalesCount"/>
+              <apex:repeat value="{!RelatedTo.Presales_Opportunity__r}" var="Presales">
+                  <apex:variable var="PresalesCount" value="{!PresalesCount + 1}"/>
+               </apex:repeat>
+        <p>Team,
+        <br />
+        <br />
+        Request you to activate the subscriptions for the&nbsp;
+        <strong> {!RelatedTo.Name}&nbsp; </strong> Opportunity.        
+        <br />
+        <br />
+        
+        To view the opportunity record in Salesforce, click <a href="https://autorabit.lightning.force.com/lightning/r/Opportunity/{!RelatedTo.id}/view"> here</a>.
+        <br />
+        <br />
+        Below are the details for your reference.
+        </p>
+
+        <p style="text-decoration:underline;"> <strong> Opportunity Details: </strong></p>
+        <table>
+            <thead>
+          <tr>
+            <th>
+              Field
+            </th>
+            <th>
+              Value
+            </th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+           <td>
+             Opportunity Type
+           </td>
+           <td>
+             {!RelatedTo.Opportunity_Type_New_Renewal_Upsell__c}
+           </td>
+         </tr>
+         <tr style="background-color: #e7e6e6;">
+           <td>
+             Account ID
+           </td>
+           <td>
+             {!RelatedTo.Account.AccountID__c}
+           </td>
+         </tr>
+         <tr>
+           <td>
+             Account Name
+           </td>
+           <td>
+             {!RelatedTo.Account.Name}
+           </td>
+         </tr>
+         <tr style="background-color: #e7e6e6;">
+           <td>
+             Opportunity ID
+           </td>
+           <td>
+             {!RelatedTo.OpportunityID__c}<br />
+             {!IF(RelatedTo.CodeScan_Org_Id__c<>null,"Original CodeScan SF Id " + RelatedTo.CodeScan_Org_Id__c,"")}
+           </td>
+         </tr>
+         <tr>
+           <td>
+             Opportunity Name
+           </td>
+           <td>
+             {!RelatedTo.Name}
+           </td>
+         </tr>
+         <tr style="background-color: #e7e6e6;">
+           <td>
+             Opportunity Amount
+           </td>
+           <td>
+             <apex:outputText value="{0, number, Currency}">
+               <apex:param value="{!RelatedTo.Opportunity_Amount__c}" />
+             </apex:outputText>
+           </td>
+         </tr>
+         <tr>
+           <td>
+             Close Date
+           </td>
+           <td>
+             <apex:outputText value="{0,date,MM/dd/yyyy}">
+               <apex:param value="{!RelatedTo.CloseDate}" />
+             </apex:outputText>
+           </td>
+         </tr>         
+         <tr style="background-color: #e7e6e6;">
+           <td>
+             Premium Support(Y/N)
+           </td>
+           <td>
+             {!IF(PremSup>0,"Y","N")}
+           </td>
+         </tr>
+         <tr>
+           <td>
+             Professional Services (Y/N)
+           </td>
+           <td>
+             {!IF(ProfServ>0,"Y","N")}
+           </td>
+         </tr>
+         <tr style="background-color: #e7e6e6;">
+           <td>
+             Contract Period (Months)
+           </td>
+           <td>
+             {!RelatedTo.of_Months_for_Subs_Activation__c}
+           </td>
+         </tr>
+         <tr>
+           <td>
+             Activation Date
+           </td>
+           <td>
+             <apex:outputText value="{0,date,MM/dd/yyyy}">
+               <apex:param value="{!RelatedTo.Subscription_Start_Date__c}" />
+             </apex:outputText>
+           </td>
+         </tr>
+         <tr style="background-color: #e7e6e6;">
+           <td>
+             Hosting Type
+           </td>
+           <td>
+             {!RelatedTo.Hosting_Type__c}
+           </td>
+         </tr>
+         <tr>
+           <td>
+             Type(Std., Prof., Ent.)
+           </td>
+           <td>
+             {!RelatedTo.Plan_Details__c}
+           </td>
+         </tr>
+         <tr style="background-color: #e7e6e6;">
+           <td>
+             Time Zone
+           </td>
+           <td>
+             {!RelatedTo.Primary_Time_Zone__c}
+           </td>
+         </tr>
+         <tr>
+           <td>
+             Address
+           </td>
+           <td>
+             {!RelatedTo.Account.BillingStreet}<br />
+             {!RelatedTo.Account.BillingCity} 
+             {!RelatedTo.Account.BillingState} 
+             {!RelatedTo.Account.BillingPostalCode}<br />
+             {!RelatedTo.Billing_Country__c}
+           </td>
+         </tr>
+         <tr style="background-color: #e7e6e6;">
+           <td>
+             Subscription Start Date
+           </td>
+           <td>
+             <apex:outputText value="{0,date,MM/dd/yyyy}">
+               <apex:param value="{!RelatedTo.Subscription_Start_Date__c}" />
+             </apex:outputText>
+           </td>
+         </tr>
+         <tr>
+           <td>
+             Subscription End Date
+           </td>
+           <td>
+             <apex:outputText value="{0,date,MM/dd/yyyy}">
+               <apex:param value="{!RelatedTo.Subscription_End_Date__c}" />
+             </apex:outputText>
+           </td>
+         </tr>
+         <tr style="background-color: #e7e6e6;">
+           <td>
+             Opt Out Available Until
+           </td>
+           <td>
+             <apex:outputText value="{0,date,MM/dd/yyyy}">
+               <apex:param value="{!RelatedTo.Opt_Out_Available_Until__c}" />
+             </apex:outputText>
+           </td>
+         </tr>
+         <tr>
+           <td>
+             Comments
+           </td>
+           <td>
+             {!RelatedTo.Any_commitments_from_AR__c}
+           </td>
+         </tr>
+         </tbody>
+       </table>
+              
+       <p style="text-decoration:underline;"> <strong> Opportunity Contact Roles: </strong></p>
+       <table>
+          <tr>
+            <th>
+              Contact Role
+            </th>
+            <th>
+              Contact Name
+            </th>
+            <th>
+              Contact Title
+            </th>
+            <th>
+              Contact Email
+            </th>
+            <th>
+              Contact Phone
+            </th>
+            <th>
+              Primary Contact?
+            </th>
+            </tr>
+          <apex:repeat value="{!RelatedTo.OpportunityContactRoles}" var="ContactRoles">
+            <tr>
+            <td>
+                {!ContactRoles.Role}
+              </td>
+            <td>
+                {!ContactRoles.Contact.Name}
+              </td>             
+              <td>
+                {!ContactRoles.Contact.Title}
+              </td>              
+              <td>
+                {!ContactRoles.Contact.Email}
+              </td>
+              <td>
+                {!ContactRoles.Contact.Phone}
+              </td>
+              <td>
+                {!ContactRoles.IsPrimary}
+              </td>
+             </tr>
+          </apex:repeat>
+        </table>
+        <p style="text-decoration:underline;"> <strong> Opportunity Line Items: </strong></p>
+        <table>
+          <tr>
+            <th>
+              Product
+            </th>
+            <th>
+              Quantity
+            </th>
+            <th>
+              Product Family
+            </th>
+            <th>
+              Product Category
+            </th>
+            <th>
+              Recurring Revenue
+            </th>
+            <th>
+              # of Months
+            </th>
+            <th>
+              Description
+            </th>
+            <th>
+              Amount
+            </th>
+            <th>
+              Start Date
+            </th>
+            <th>
+              End Date
+            </th>
+          </tr>
+          <apex:repeat value="{!RelatedTo.OpportunityLineItems}" var="lineItem">
+            <tr>
+              <td>
+                {!lineItem.Product2.Name}
+              </td>
+              <td>
+              <apex:outputText value="{0, number, 0}">
+                <apex:param value="{!lineItem.Quantity}" />
+              </apex:outputText>
+              </td>
+              <td>
+                {!lineItem.Product2.Family}
+              </td>
+              <td>
+                {!lineItem.Product2.Product_Category__c}
+              </td>
+              <td>
+                {!lineItem.Recurring_Revenue__c}
+              </td>
+              <td>
+              <apex:outputText value="{0, number, 0}">
+                <apex:param value="{!lineItem.of_Months__c}" />
+              </apex:outputText>
+              </td>
+              <td>
+                {!lineItem.Description}
+              </td>
+              <td>
+              <apex:outputText value="{0, number, Currency}">
+                <apex:param value="{!lineItem.Total_Price__c}" />
+              </apex:outputText>
+              </td>
+              <td>
+                <apex:outputText value="{0,date,MM/dd/yyyy}">
+                    <apex:param value="{!IF(lineItem.Item_Start_Date__c<>NULL,lineItem.Item_Start_Date__c,RelatedTo.Subscription_Start_Date__c)}" />
+                </apex:outputText>
+              </td>
+              <td>
+              <apex:outputText value="{0,date,MM/dd/yyyy}">
+                <apex:param value="{!lineItem.Item_End_Date__c}" />
+              </apex:outputText>
+              </td>
+            </tr>
+          </apex:repeat>
+        </table>
+               
+        <p style="text-decoration:underline;"> <strong> Account Products on Subscription Start Date &nbsp; <apex:outputText value="{0,date,MM/dd/yyyy}"><apex:param value="{!RelatedTo.Subscription_Start_Date__c}" /> </apex:outputText> </strong></p>
+        <c:AccountProducts theAcctId="{!RelatedTo.AccountId}" theDateToCheck="{!RelatedTo.Subscription_Start_Date__c}"/>
+        
+        <p style="text-decoration:underline;"> <strong> Account Products on Subscription End Date &nbsp; <apex:outputText value="{0,date,MM/dd/yyyy}"><apex:param value="{!RelatedTo.Subscription_End_Date__c}" /> </apex:outputText> </strong></p>
+        <c:AccountProducts theAcctId="{!RelatedTo.AccountId}" theDateToCheck="{!RelatedTo.Subscription_End_Date__c}"/>
+     
+        <Div style="{!IF(PresalesCount=0, 'display:none','display:inline')}" >                
+       <p style="text-decoration:underline;"> <strong> Technical Discovery Details: </strong></p>  
+        <table style="{!IF(PresalesCount=0, 'display:none','display:table')}">                                        
+          <tr>            
+            <th>
+             ID # 
+            </th>
+            <th>
+              Solutions Architect
+            </th>
+            <th>
+              Presales Product
+            </th>
+            <th>
+            Technical Discovery 
+            </th> 
+         </tr>  
+         <apex:repeat value="{!RelatedTo.Presales_Opportunity__r}" var="Presales">        
+         <tr>
+            <td>
+             {!Presales.Name}
+            </td>
+            <td>
+             {!Presales.Solutions_Architect__r.Name}
+            </td>
+            <td>
+             {!Presales.Product__c}
+            </td>
+            <td>
+              <a href="https://autorabit.lightning.force.com/lightning/r/Opportunity/{!relatedTo.Id}/related/Presales_Opportunity__r/view"> Link </a>
+            </td>
+            </tr>
+            </apex:repeat>                          
+         </table> 
+        </div>
+      </body>      
+    </html>
+  </messaging:htmlEmailBody>  
+</messaging:emailTemplate>

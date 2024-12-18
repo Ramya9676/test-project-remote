@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_SF_Developers</fullName>
+    <active>true</active>
+    <description>Mandate &quot;# SF Developers&quot; field when the Product is &quot;CodeScan&quot;.</description>
+    <errorConditionFormula>CONTAINS(TEXT(Product__c), &quot;CodeScan&quot;) &amp;&amp;  
+ISBLANK( SF_Developers__c )</errorConditionFormula>
+    <errorDisplayField>SF_Developers__c</errorDisplayField>
+    <errorMessage>&quot;# SF Developers&quot; is required when the Product is &quot;CodeScan&quot;.</errorMessage>
+</ValidationRule>

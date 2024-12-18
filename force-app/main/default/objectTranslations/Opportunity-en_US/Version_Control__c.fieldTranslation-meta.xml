@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Version Control --></label>
+    <name>Version_Control__c</name>
+    <picklistValues>
+        <masterLabel>Azure DevOps (VSTS)</masterLabel>
+        <translation><!-- Azure DevOps (VSTS) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bitbucket</masterLabel>
+        <translation><!-- Bitbucket --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GitHub</masterLabel>
+        <translation><!-- GitHub --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gitlab</masterLabel>
+        <translation><!-- Gitlab --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Subversion (SVN)</masterLabel>
+        <translation><!-- Subversion (SVN) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Team Foundation Server (TFS)</masterLabel>
+        <translation><!-- Team Foundation Server (TFS) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

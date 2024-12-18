@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ramble__Ramble_Chat_URL__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Ramble Chat URL</description>
+    <label>Ramble Chat URL</label>
+    <required>false</required>
+    <type>Url</type>
+</CustomField>

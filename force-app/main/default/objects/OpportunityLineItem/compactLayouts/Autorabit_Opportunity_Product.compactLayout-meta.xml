@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Autorabit_Opportunity_Product</fullName>
+    <fields>Name</fields>
+    <fields>Product2Id</fields>
+    <fields>UnitPrice</fields>
+    <fields>Quantity</fields>
+    <fields>of_Months__c</fields>
+    <fields>Total_Price__c</fields>
+    <label>Autorabit Opportunity Product</label>
+</CompactLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Payroll Slip</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Payroll Slips</value>
+    </caseValues>
+    <recordTypes>
+        <description><!-- Months or Years --></description>
+        <label><!-- Frequency --></label>
+        <name>Frequency</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

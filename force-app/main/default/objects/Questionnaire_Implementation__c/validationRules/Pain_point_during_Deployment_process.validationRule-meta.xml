@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pain_point_during_Deployment_process</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK(What_are_the_pain_points_during_the_d__c)</errorConditionFormula>
+    <errorDisplayField>What_are_the_pain_points_during_the_d__c</errorDisplayField>
+    <errorMessage>Please Enter Pain point during Deployment process</errorMessage>
+</ValidationRule>

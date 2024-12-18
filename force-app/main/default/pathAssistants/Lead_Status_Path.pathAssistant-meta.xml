@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Lead</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Lead Status Path</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;b&gt;&lt;u&gt;Entry Criteria&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 15.2px;&quot;&gt;Outbound​ &lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 15.2px;&quot;&gt;Inbound​&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 15.2px;&quot;&gt;Not responded via an email, chat, phone&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Exit Criteria&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 15.2px;&quot;&gt;Subscribes​&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 15.2px;&quot;&gt;Downloads content​&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 15.2px;&quot;&gt;Not responded via an email, chat, phone&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>1-Lead</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;b&gt;&lt;u&gt;Entry Criteria&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 15.2px;&quot;&gt;Subscribed to email marketing​&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 15.2px;&quot;&gt;Registered for webinar&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Exit Criteria&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 15.2px;&quot;&gt;Responded to an email​&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 15.2px;&quot;&gt;Attended webinar&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>2-Subscriber</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;b&gt;&lt;u&gt;Entry Criteria&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 15.2px;&quot;&gt;Filled out Form (Raised Their Hand)​&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 15.2px;&quot;&gt;Grade/Score &amp;gt;50&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Exit Criteria&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 15.2px;&quot;&gt;Intro Call Scheduled&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>4-MQL</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;b&gt;&lt;u&gt;Entry Criteria&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 15.2px;&quot;&gt;Activity Created for Intro Call&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Exit Criteria&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 15.2px;&quot;&gt;Intro Call Held​&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>5-Intro Call Scheduled</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;b&gt;&lt;u&gt;Entry Criteria&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 15.2px;&quot;&gt;Activity Updated for Intro Held (AE creates the Activity)&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Exit Criteria&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 15.2px;&quot;&gt;Intro Call Held​&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 15.2px;&quot;&gt;Discovery Call Scheduled​&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 15.2px;&quot;&gt;Demo Call Scheduled​&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>6-Intro Call Held</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;b&gt;&lt;u&gt;Entry Criteria&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 15.2px;&quot;&gt;Intro Call Held​&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 15.2px;&quot;&gt;Discovery Call Scheduled​&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 15.2px;&quot;&gt;Demo Call Scheduled​&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Exit Criteria&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Convert Lead&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>7-SAL</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

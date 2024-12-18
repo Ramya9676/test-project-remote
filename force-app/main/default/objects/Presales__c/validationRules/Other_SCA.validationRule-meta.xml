@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_SCA</fullName>
+    <active>true</active>
+    <description>Mandate &quot;Other SCA&quot; field when SCA is selected as &quot;Other&quot;.</description>
+    <errorConditionFormula>ISPICKVAL(   SCA__c  , &quot;Other&quot;) &amp;&amp;  
+ISBLANK(   Other_SCA__c    )</errorConditionFormula>
+    <errorDisplayField>Other_SCA__c</errorDisplayField>
+    <errorMessage>Please enter &quot;Other SCA&quot; since the SCA is selected as &quot;Other&quot;.</errorMessage>
+</ValidationRule>

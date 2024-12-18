@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gift_Request_Tasks</fullName>
+    <columns>TASK.TYPE</columns>
+    <columns>TASK.SUBJECT</columns>
+    <columns>TASK.WHAT_NAME</columns>
+    <columns>TASK.WHO_NAME</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>TASK.CREATED_DATE</columns>
+    <columns>TASK.DUE_DATE</columns>
+    <columns>TASK.PRIORITY</columns>
+    <columns>TASK.STATUS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>TASK.TYPE</field>
+        <operation>equals</operation>
+        <value>Gift</value>
+    </filters>
+    <label>Gift Request Tasks</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>Queue_Manager</group>
+    </sharedTo>
+</ListView>

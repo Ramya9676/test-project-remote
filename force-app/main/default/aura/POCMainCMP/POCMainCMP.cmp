@@ -1,0 +1,78 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+	<aura:attribute name="Showmain" type="Boolean" default="true" />
+    <aura:attribute name="ShowAR" type="Boolean" default="false" />
+    <aura:attribute name="ShowVault" type="Boolean" default="false" />
+    <aura:attribute name="showSpinner" type="Boolean" default="false" />
+    <aura:if isTrue="{!v.showSpinner}">
+        <lightning:spinner />
+    </aura:if> 
+    
+     <aura:if isTrue="{!v.Showmain}">
+    
+    <lightning:layout>
+           
+            <lightning:layoutItem size="6" >
+                 
+                	
+    			<span>
+                <div class="slds-box slds-var-m-around_xxx-small " >
+              <p><img src="{!$Resource.ARLOGO}" width="325" height="400" /></p>
+                    <div class="slds-float_right">
+                   <lightning:button variant="brand" type="button" name="Next" label="Select ARM" onclick="{!c.ClickAR}" />
+               
+                    </div><br/>
+                    </div>
+                   
+            
+            
+        		</span>
+                       
+
+        </lightning:layoutItem>
+        <lightning:layoutItem size="6" >
+                 
+                	
+    			<span>
+                <div class="slds-box slds-var-m-around_xxx-small" >
+              <p><img src="{!$Resource.vaultlogo}" width="300" height="400"/></p>
+                   <div class="slds-float_right">
+                   <lightning:button variant="brand" type="button" name="Next" label="Select Vault" onclick="{!c.ClickVault}" />
+              
+               
+                    </div><br/>
+                </div>
+        		</span>
+                      
+                
+                
+            </lightning:layoutItem>
+        </lightning:layout>
+   
+    </aura:if>
+    
+      <aura:if isTrue="{!v.ShowAR}" >
+        <lightning:layout>
+           
+            <lightning:layoutItem size="12">
+                 <div class="slds-box ">
+                		
+                    	<c:AutoRABITMainCMP1/>
+                </div>
+                 
+            </lightning:layoutItem>
+        </lightning:layout>
+        </aura:if>
+    
+    <aura:if isTrue="{!v.ShowVault}" >
+        <lightning:layout>
+           
+            <lightning:layoutItem size="12">
+                 <div class="slds-box ">
+                		
+                    	<c:VaultMainCMP/>
+                </div>
+                 
+            </lightning:layoutItem>
+        </lightning:layout>
+        </aura:if>
+</aura:component>

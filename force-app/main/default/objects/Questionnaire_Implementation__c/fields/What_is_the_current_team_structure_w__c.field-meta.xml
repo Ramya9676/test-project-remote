@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>What_is_the_current_team_structure_w__c</fullName>
+    <label>Current team structure w/  their roles</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>#Developers</fullName>
+                <default>false</default>
+                <label>#Developers</label>
+            </value>
+            <value>
+                <fullName>#Admins</fullName>
+                <default>false</default>
+                <label>#Admins</label>
+            </value>
+            <value>
+                <fullName>#Release Managers/Architects</fullName>
+                <default>false</default>
+                <label>#Release Managers/Architects</label>
+            </value>
+            <value>
+                <fullName>Who are your primary SI Partners (if any)?</fullName>
+                <default>false</default>
+                <label>Who are your primary SI Partners (if any)?</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

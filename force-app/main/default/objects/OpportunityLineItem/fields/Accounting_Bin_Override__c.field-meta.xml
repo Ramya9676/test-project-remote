@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accounting_Bin_Override__c</fullName>
+    <description>Fill in if a value different than the Product2 Value is needed. This is usually necessary for the One Time Discount Product.</description>
+    <inlineHelpText>Fill in if a value different than the Product2 Value is needed. This is usually necessary for the One Time Discount Product.</inlineHelpText>
+    <label>Accounting Bin Override</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>CodeScan</fullName>
+                <default>false</default>
+                <label>CodeScan</label>
+            </value>
+            <value>
+                <fullName>Implementation Revenue</fullName>
+                <default>false</default>
+                <label>Implementation Revenue</label>
+            </value>
+            <value>
+                <fullName>Record Migrator</fullName>
+                <default>false</default>
+                <label>Record Migrator</label>
+            </value>
+            <value>
+                <fullName>Subscriptions</fullName>
+                <default>false</default>
+                <label>Subscriptions</label>
+            </value>
+            <value>
+                <fullName>Support</fullName>
+                <default>false</default>
+                <label>Support</label>
+            </value>
+            <value>
+                <fullName>Vault</fullName>
+                <default>false</default>
+                <label>Vault</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

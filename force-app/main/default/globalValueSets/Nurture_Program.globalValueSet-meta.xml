@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ARM</fullName>
+        <default>false</default>
+        <label>ARM</label>
+    </customValue>
+    <customValue>
+        <fullName>Codescan</fullName>
+        <default>false</default>
+        <label>Codescan</label>
+    </customValue>
+    <customValue>
+        <fullName>Platform</fullName>
+        <default>false</default>
+        <label>Platform</label>
+    </customValue>
+    <customValue>
+        <fullName>Record Migration</fullName>
+        <default>false</default>
+        <label>Record Migration</label>
+    </customValue>
+    <customValue>
+        <fullName>Vault</fullName>
+        <default>false</default>
+        <label>Vault</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Applicable</fullName>
+        <default>false</default>
+        <label>Not Applicable</label>
+    </customValue>
+    <masterLabel>Nurture Program</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

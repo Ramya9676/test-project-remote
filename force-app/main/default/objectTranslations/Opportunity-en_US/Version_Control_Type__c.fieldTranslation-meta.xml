@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Version Control Type --></label>
+    <name>Version_Control_Type__c</name>
+    <picklistValues>
+        <masterLabel>BitBucket</masterLabel>
+        <translation><!-- BitBucket --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GitHub</masterLabel>
+        <translation><!-- GitHub --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GitLab</masterLabel>
+        <translation><!-- GitLab --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Perforce</masterLabel>
+        <translation><!-- Perforce --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SVN</masterLabel>
+        <translation><!-- SVN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TFS</masterLabel>
+        <translation><!-- TFS --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

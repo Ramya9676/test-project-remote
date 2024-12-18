@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accounting_Bin_Quantity_Count__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check this box if items listed here should count toward the quantity for the accounting bin. For example ARM license count toward the Subscriptions count, but other Subscriptions products do not.</description>
+    <inlineHelpText>Check this box if items listed here should count toward the quantity for the accounting bin. For example ARM license count toward the Subscriptions count, but other Subscriptions products do not.</inlineHelpText>
+    <label>Accounting Bin Quantity Count</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

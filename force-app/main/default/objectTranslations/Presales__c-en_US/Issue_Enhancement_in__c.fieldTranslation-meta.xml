@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Issue/Enhancement in --></label>
+    <name>Issue_Enhancement_in__c</name>
+    <picklistValues>
+        <masterLabel>ARM</masterLabel>
+        <translation><!-- ARM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CodeScan</masterLabel>
+        <translation><!-- CodeScan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IT</masterLabel>
+        <translation><!-- IT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mulesoft</masterLabel>
+        <translation><!-- Mulesoft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RBM</masterLabel>
+        <translation><!-- RBM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vault</masterLabel>
+        <translation><!-- Vault --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Select use cases evaluate_VC --></label>
+    <name>Select_use_VC__c</name>
+    <picklistValues>
+        <masterLabel>Check-in Code/Declarative Changes to Version Control</masterLabel>
+        <translation><!-- Check-in Code/Declarative Changes to Version Control --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Integrate work streams for GIT (Merge complete branches)</masterLabel>
+        <translation><!-- Integrate work streams for GIT (Merge complete branches) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>None</masterLabel>
+        <translation><!-- None --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Set up Production Baseline</masterLabel>
+        <translation><!-- Set up Production Baseline --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

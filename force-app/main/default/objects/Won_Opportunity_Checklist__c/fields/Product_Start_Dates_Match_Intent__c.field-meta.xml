@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Start_Dates_Match_Intent__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If products have start dates or different durations that don&apos;t match the opp, check that what&apos;s there follow&apos;s the intent of the opportunity. The purpose of this is to not have upsell or downsell unnecessarily. For example, if a customer will have one number of seats for the first six months of an opp, and one more seat starting in month 7, there needs to be a start date on a product to show the upsell. They can&apos;t all start on day one for a big upsell and then downsell to no products before the subscription end date.</description>
+    <inlineHelpText>If products have start dates or different durations that don&apos;t match the opp, check that what&apos;s there follow&apos;s the intent of the opportunity. The purpose is to not have upsell or downsell unnecessarily. For example, if a customer will have one number of seats for the first six months of an opp, and one more seat starting in month 7, there needs to be a start date on a product to show the upsell. They can&apos;t all start on day one for a big upsell and then downsell to no products before the subscription end.</inlineHelpText>
+    <label>Product Start Dates Match Intent</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

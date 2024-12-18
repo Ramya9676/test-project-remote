@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Quota__c</columns>
+    <columns>Band_1_Pct__c</columns>
+    <columns>Band_2_Pct__c</columns>
+    <columns>Band_3_Pct__c</columns>
+    <columns>Multi_Year_Pct__c</columns>
+    <columns>Multi_Year_Paid_Upfront_Pct__c</columns>
+    <columns>Band_1_Max__c</columns>
+    <columns>Band_2_Max__c</columns>
+    <columns>Year__c</columns>
+    <columns>User__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Records</label>
+</ListView>

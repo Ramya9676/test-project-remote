@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>algnlta__Geography_Match__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Geography Match</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Exact Match on Country</fullName>
+                <default>false</default>
+                <label>Exact Match on Country</label>
+            </value>
+            <value>
+                <fullName>Exact Match on Country and State</fullName>
+                <default>false</default>
+                <label>Exact Match on Country and State</label>
+            </value>
+            <value>
+                <fullName>Exact match on Country, State, and City</fullName>
+                <default>false</default>
+                <label>Exact match on Country, State, and City</label>
+            </value>
+            <value>
+                <fullName>Exact Match on Postal Code</fullName>
+                <default>false</default>
+                <label>Exact Match on Postal Code</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

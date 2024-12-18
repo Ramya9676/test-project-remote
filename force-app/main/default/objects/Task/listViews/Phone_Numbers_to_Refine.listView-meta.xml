@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phone_Numbers_to_Refine</fullName>
+    <columns>TYPE</columns>
+    <columns>SUBJECT</columns>
+    <columns>WHO_NAME</columns>
+    <columns>WHAT_NAME</columns>
+    <columns>DUE_DATE</columns>
+    <columns>CALLDISPOSITION</columns>
+    <columns>Call_Disposition__c</columns>
+    <columns>SDR_Notes__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>PRIORITY</columns>
+    <columns>STATUS</columns>
+    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CALLDISPOSITION</field>
+        <operation>equals</operation>
+        <value>Bad Phone</value>
+    </filters>
+    <label># Bad Phones to Enrich</label>
+    <sharedTo>
+        <group>Market_Analysts_Group</group>
+        <group>Queue_Manager</group>
+    </sharedTo>
+</ListView>

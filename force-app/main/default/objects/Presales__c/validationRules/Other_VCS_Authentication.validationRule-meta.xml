@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_VCS_Authentication</fullName>
+    <active>true</active>
+    <description>Mandate &quot;Other VCS Authentication&quot; field when VCS Authentication is selected as &quot;Other&quot;.</description>
+    <errorConditionFormula>ISPICKVAL(VCS_Authentication__c , &quot;Other&quot;) &amp;&amp;   ISBLANK(Other_VCS_Authentication__c )</errorConditionFormula>
+    <errorDisplayField>Other_VCS_Authentication__c</errorDisplayField>
+    <errorMessage>Please enter &quot;Other VCS Authentication&quot; since the VCS Authentication is selected as &quot;Other&quot;.</errorMessage>
+</ValidationRule>

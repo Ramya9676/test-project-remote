@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X7_PPC_LinkedIn_G2_Leads</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>Current_Sequence_Name__c</columns>
+    <columns>Lead_Stage__c</columns>
+    <columns>Lead_Type__c</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>Lead_Source_Type__c</columns>
+    <columns>LEAD.EMAIL_OPT_OUT</columns>
+    <columns>Matched_Account_G2_Title_By_Product__c</columns>
+    <columns>pi__campaign__c</columns>
+    <columns>pi__last_activity__c</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>LEAD.RATING</field>
+        <operation>equals</operation>
+        <value>Hot,Warm</value>
+    </filters>
+    <filters>
+        <field>Lead_Stage__c</field>
+        <operation>equals</operation>
+        <value>Open</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>1-Lead,2-Subscriber,3-Prospect,4-MQL</value>
+    </filters>
+    <filters>
+        <field>Lead_Source_Type__c</field>
+        <operation>equals</operation>
+        <value>G2,G2 - Form,G2 - Intent,LinkedIn</value>
+    </filters>
+    <label>Inbound PPC LinkedIn &amp; G2 Leads</label>
+    <queue>Inbound_Queue</queue>
+    <sharedTo>
+        <group>Queue_Manager</group>
+    </sharedTo>
+</ListView>

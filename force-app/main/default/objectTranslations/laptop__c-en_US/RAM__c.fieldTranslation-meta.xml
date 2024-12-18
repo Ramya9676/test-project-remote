@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- RAM --></label>
+    <name>RAM__c</name>
+    <picklistValues>
+        <masterLabel>12GB</masterLabel>
+        <translation><!-- 12GB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>12GB second</masterLabel>
+        <translation><!-- 12GB second --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>16GB</masterLabel>
+        <translation><!-- 16GB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>16GB second</masterLabel>
+        <translation><!-- 16GB second --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4GB</masterLabel>
+        <translation><!-- 4GB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4GB reloaded</masterLabel>
+        <translation><!-- 4GB reloaded --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4GB second</masterLabel>
+        <translation><!-- 4GB second --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8GB</masterLabel>
+        <translation><!-- 8GB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8GB second</masterLabel>
+        <translation><!-- 8GB second --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8Gb reloaded</masterLabel>
+        <translation><!-- 8Gb reloaded --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

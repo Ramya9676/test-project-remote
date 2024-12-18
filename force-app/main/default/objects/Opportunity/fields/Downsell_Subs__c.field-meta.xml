@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Downsell_Subs__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(INCLUDES(Opportunity_Type_New_Renewal_Upsell__c ,&quot;Downsell&quot;),
+(Number_of_Product_Subscriptions__c ),0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>It&apos;s a formulae Field where it picks up the No. of Product Subscriptions from current opportunity line item</inlineHelpText>
+    <label>Downsell Subs</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

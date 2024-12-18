@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Needs_Reassignment__c</fullName>
+    <description>Returns true for accounts that need the owner changed to an active user on the team fitting the account&apos;s status and region.</description>
+    <formula>if( Owner.IsActive = false ||  Suggested_Owner_Team__c != TEXT( Owner.Team__c ), true, false)</formula>
+    <inlineHelpText>Returns true for accounts that need the owner changed to an active user on the team fitting the account&apos;s status and region</inlineHelpText>
+    <label>Needs Reassignment</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

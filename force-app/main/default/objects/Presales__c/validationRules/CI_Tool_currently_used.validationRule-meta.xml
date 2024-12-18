@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CI_Tool_currently_used</fullName>
+    <active>true</active>
+    <description>Mandate &quot;CI Tool currently used&quot; field when the Product is &quot;CodeScan&quot;.</description>
+    <errorConditionFormula>CONTAINS(TEXT(Product__c) , &quot;CodeScan&quot;) &amp;&amp;  
+LEN( CI_Tool_currently_used__c ) &lt;= 0</errorConditionFormula>
+    <errorDisplayField>CI_Tool_currently_used__c</errorDisplayField>
+    <errorMessage>CI Tool currently used is required when the Product is &quot;CodeScan&quot;.</errorMessage>
+</ValidationRule>

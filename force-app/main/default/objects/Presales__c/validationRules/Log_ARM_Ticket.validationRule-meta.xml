@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Log_ARM_Ticket</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND ( ISPICKVAL(Log_a_Ticket_with__c, &apos;ARM Support&apos;), Bypass_Validation_Rule__c = False,
+OR(
+LEN ( Issue_Description__c ) = 0 ,
+ISBLANK( Product_Instance__c ) ,
+ISBLANK( Product_Version__c ),
+ISBLANK( Module__c ),
+ISBLANK( TEXT(Issue_Enhancement_in__c )),
+ISBLANK( TEXT( Priority__c ))
+)
+)</errorConditionFormula>
+    <errorMessage>Please make sure you have entered &apos;Issue/Enhancement in&apos;, &apos;Issue Description&apos;, &apos;Product Instance&apos;, &apos;Product Version&apos;, &apos;Module&apos;, and &apos;Priority&apos; to submit a ticket to ARM support.</errorMessage>
+</ValidationRule>

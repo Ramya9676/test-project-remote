@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bad_Phone_Contacts_to_Enrich</fullName>
+    <booleanFilter>1 OR 2</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_Type__c</columns>
+    <columns>Contact_Stage__c</columns>
+    <columns>Lost_Reason__c</columns>
+    <columns>Call_Disposition__c</columns>
+    <columns>Contact_Status__c</columns>
+    <columns>SDR_Notes__c</columns>
+    <columns>MA_Notes__c</columns>
+    <columns>MA_Review_Date__c</columns>
+    <columns>Current_Sequence_Name__c</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.EMAIL_OPT_OUT</columns>
+    <columns>CONTACT.CREATED_DATE</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Lost_Reason__c</field>
+        <operation>equals</operation>
+        <value>Bad Email &amp; Bad Phone,Bad Phone</value>
+    </filters>
+    <filters>
+        <field>Call_Disposition__c</field>
+        <operation>contains</operation>
+        <value>Bad Phone,Bad Mobile,No Number Present</value>
+    </filters>
+    <label># Bad Phone Contacts to Enrich</label>
+    <sharedTo>
+        <group>Market_Analysts_Group</group>
+        <group>Queue_Manager</group>
+        <role>VP_of_Sales</role>
+    </sharedTo>
+</ListView>

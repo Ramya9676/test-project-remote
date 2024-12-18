@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Permission sets included are Terminus Engagement and Termission Insights</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Terminus Engagement</label>
+    <permissionSets>terminus_mktg__Terminus_Engagement</permissionSets>
+    <permissionSets>terminus_mktg__Terminus_Insights</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

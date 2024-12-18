@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Geography__c</fullName>
+    <description>Geographic region classified as &apos;EMEA&apos;, &apos;APAC&apos;, North America&apos;, and &apos;South America&apos; based on the Contact Mailing Country.</description>
+    <externalId>false</externalId>
+    <formula>IF(CONTAINS(&quot;unclear::unknown::None&quot;, MailingCountry), &quot;Not Defined&quot;,
+IF(CONTAINS(&quot;Australia::Hong Kong::Malaysia::New Zealand::Singapore::China::Philippines::India::Nepal::Indonesia::Japan::Cambodia::Pakistan::Bangladesh::Thailand::Viet Nam::Korea::Maldives::Sri Lanka::Afganistan::Russia&quot; , MailingCountry ),&quot;APAC&quot;,
+IF(CONTAINS(&quot;Antigua and Barbuda::Barbados::Belize::Canada::Costa Rica::Cuba::Dominica::,Dominican Republic::El Salvador::Grenada::Guatemala::Haiti::Honduras::Jamaica::Mexico::Nicaragua::Panama::Saint Kitts and Nevis::Saint Lucia::Saint Vincent and the Grenadines::The Bahamas::Trinidad and Tobago::United States&quot;, MailingCountry), &quot;North America&quot;,
+IF(CONTAINS(&quot;Argentina::Bolivia::Norway::Brazil::Chile::Colombia::Ecuador::Falkland Islands::French Guiana::Guyana::Coat of arms of Paraguay.svg::Peru::South Georgia and the South Sandwich Islands::Suriname::Uruguay::Venezuela&quot;, MailingCountry ), &quot;South America&quot;,
+&quot;EMEA&quot;))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Geographic region based on the Contact Mailing Country.</inlineHelpText>
+    <label>Geography</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

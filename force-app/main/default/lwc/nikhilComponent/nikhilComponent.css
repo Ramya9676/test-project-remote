@@ -1,0 +1,57 @@
+.slds-box {
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    border: 2px solid #0070d2; /* Salesforce blue */
+    border-radius: 10px;
+    background: linear-gradient(145deg, #cfe7ff, #ffffff);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #0070d2; /* Salesforce blue */
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2e844a; /* Green color for count value */
+    margin: 0.5rem 0;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+lightning-button {
+    --slds-c-button-brand-background-color: #0070d2;
+    --slds-c-button-brand-hover-background-color: #005fb2;
+    --slds-c-button-brand-focus-background-color: #005fb2;
+    --slds-c-button-neutral-background-color: #d1e5ff;
+    --slds-c-button-neutral-hover-background-color: #c0d6f2;
+    --slds-c-button-neutral-focus-background-color: #c0d6f2;
+    --slds-c-button-text-color: black; /* Ensures text is always visible */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+lightning-button:nth-child(1) {
+    --slds-c-button-brand-background-color: #0070d2; /* Blue for Increase */
+    --slds-c-button-brand-text-color: white;
+}
+
+lightning-button:nth-child(2) {
+    --slds-c-button-brand-background-color: #ff9300; /* Orange for Decrease */
+    --slds-c-button-brand-text-color: white;
+}
+
+lightning-button:nth-child(3) {
+    --slds-c-button-brand-background-color: #e40046; /* Red for Reset */
+    --slds-c-button-brand-text-color: white;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>Permission_to_add_update_restricted_access_products</name>
+    </customPermissions>
+    <description>Permission to add or remove Restricted Access Products</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Add Or Update Restricted Access Products</label>
+</PermissionSet>

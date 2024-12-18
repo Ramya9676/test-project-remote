@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Days_in_2_Subscriber_Status__c</fullName>
+    <description>Created for Reporting Purpose.</description>
+    <externalId>false</externalId>
+    <formula>IF(TEXT( Status) = &quot;2-Subscriber&quot;, Now() - X2_Subscriber_Status_In__c, X2_Subscriber_Status_Out__c - X2_Subscriber_Status_In__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Number of days lead in 2-Subscriber status.</inlineHelpText>
+    <label>Days in 2-Subscriber Status</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

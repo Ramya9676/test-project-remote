@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Renewal_Opp_Needed__c</fullName>
+    <description>If there is not an open or lost opportunity starting after the end of the last won opportunity, we need to create a renewal opp on this account.</description>
+    <formula>IF((Max_Won_Subscription_End_Date__c &gt; Max_Not_Won_Start_Date__c) ||
+(!ISBLANK(Max_Won_Subscription_End_Date__c)  &amp;&amp;  ISBLANK(Max_Not_Won_Start_Date__c))
+, true, false)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>If there is not an open or lost opportunity starting after the end of the last won opportunity, we need to create a renewal opp on this account.</inlineHelpText>
+    <label>Renewal Opp Needed</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

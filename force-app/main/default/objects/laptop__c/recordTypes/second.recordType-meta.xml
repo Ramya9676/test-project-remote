@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>second</fullName>
+    <active>true</active>
+    <label>second</label>
+    <picklistValues>
+        <picklist>Operating_system__c</picklist>
+        <values>
+            <fullName>linux second</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>mac second</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>windows reloaded</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>RAM__c</picklist>
+        <values>
+            <fullName>12GB second</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>16GB second</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4GB second</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8GB second</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

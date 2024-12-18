@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SDR__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(isBlank(Contact__c),if(isBlank(Lead_1__c),Null, Lead_1__r.SDR__c ),IF ( INCLUDES ( Contact__r.SDR__c  , &quot;Arvind&quot; ), &quot;Arvind Tripathy&quot;,IF ( INCLUDES ( Contact__r.SDR__c  , &quot;Nick Garcia&quot; ), &quot;Nick Garcia&quot;,IF ( INCLUDES ( Contact__r.SDR__c  , &quot;Sherdah Moca&quot; ), &quot;Sherdah Moca&quot;,IF ( INCLUDES ( Contact__r.SDR__c  , &quot;Shiva Kumar Gatla&quot; ), &quot;Shiva Kumar Gatla&quot;,IF ( INCLUDES ( Contact__r.SDR__c  , &quot;Venkatesh T&quot; ), &quot;Venkatesh Thadanola&quot;,IF ( INCLUDES ( Contact__r.SDR__c  , &quot;Christina Blanco&quot; ), &quot;Christina Blanco&quot;,IF ( INCLUDES ( Contact__r.SDR__c  , &quot;Krishna Chaitanya&quot; ), &quot;Krishna Chaitanya&quot;,IF ( INCLUDES ( Contact__r.SDR__c  , &quot;KC&quot; ),&quot;Krishna Chaitanya&quot;,IF ( INCLUDES ( Contact__r.SDR__c  , &quot;Belinda&quot; ),&quot;Belinda&quot;,IF ( INCLUDES ( Contact__r.SDR__c  , &quot;Kainaz&quot; ),&quot;Kainaz&quot;,IF ( INCLUDES ( Contact__r.SDR__c  , &quot;Amrit&quot; ),&quot;Amrita&quot;,IF ( INCLUDES ( Contact__r.SDR__c  , &quot;Matt&quot; ),&quot;Matt&quot;,IF ( INCLUDES ( Contact__r.SDR__c  , &quot;Mukesh&quot; ),&quot;Mukesh&quot;,NULL))))))))))))))</formula>
+    <label>SDR</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

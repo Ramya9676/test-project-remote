@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>trends</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>trends</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- Male --></label>
+        <name>Male</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- female --></label>
+        <name>female</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

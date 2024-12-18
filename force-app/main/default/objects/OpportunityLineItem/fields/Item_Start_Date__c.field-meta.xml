@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Item_Start_Date__c</fullName>
+    <description>Start date of this opportunity line item if it differs from the start date of the full opportunity, or if the number of months for this product differs from the full opportunity. This only applies for recurring products.</description>
+    <inlineHelpText>Start date of this opportunity line item if it differs from the start date of the full opportunity, or if the number of months for this product differs from the full opportunity. This only applies for recurring products.</inlineHelpText>
+    <label>Item Start Date</label>
+    <required>false</required>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Bad Email</fullName>
+        <default>false</default>
+        <label>Bad Email</label>
+    </customValue>
+    <customValue>
+        <fullName>Bad Email &amp; Bad Phone</fullName>
+        <default>false</default>
+        <label>Bad Email &amp; Bad Phone</label>
+    </customValue>
+    <customValue>
+        <fullName>Bad Phone</fullName>
+        <default>false</default>
+        <label>Bad Phone</label>
+    </customValue>
+    <customValue>
+        <fullName>Changed Organization</fullName>
+        <default>false</default>
+        <label>Changed Organization</label>
+    </customValue>
+    <customValue>
+        <fullName>Competitor</fullName>
+        <default>false</default>
+        <label>Competitor</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Interested</fullName>
+        <default>false</default>
+        <label>Not Interested</label>
+    </customValue>
+    <customValue>
+        <fullName>Not SFDC</fullName>
+        <default>false</default>
+        <label>Not SFDC</label>
+    </customValue>
+    <customValue>
+        <fullName>Unqualified</fullName>
+        <default>false</default>
+        <label>Unqualified</label>
+    </customValue>
+    <customValue>
+        <fullName>Looking for Job/Student</fullName>
+        <default>false</default>
+        <label>Looking for Job/Student</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Applicable</fullName>
+        <default>false</default>
+        <label>Not Applicable</label>
+    </customValue>
+    <masterLabel>Lost Reason</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

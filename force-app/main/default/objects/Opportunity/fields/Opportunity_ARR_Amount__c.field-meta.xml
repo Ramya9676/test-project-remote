@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_ARR_Amount__c</fullName>
+    <description>Some products have a duration that is part of the subscription period. This formula recognizes the ARR across the subscription period evenly. For example if it&apos;s a 24 month duration with one product for 12 months and a different product for 12 months, we cannot count both products ARR for all 12 months. We have to find the Average ARR across the subscription and arrive at the ARR multiplying by 12.</description>
+    <formula>(Total_Price_of_Recurring_Products__c/IF(Value(of_Months_for_Subs_Activation__c)&gt;0,Value(of_Months_for_Subs_Activation__c),12))*12
+* IF(ISBLANK( Opt_Out_Date__c ),1,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>ARR Amount Monthly Average</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

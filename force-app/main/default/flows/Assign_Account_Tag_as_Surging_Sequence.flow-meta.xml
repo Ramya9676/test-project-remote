@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
+    <assignments>
+        <name>Update_Account_Tag</name>
+        <label>Update Account Tag</label>
+        <locationX>50</locationX>
+        <locationY>575</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Tag__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Surging Sequence</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Update_Account_Tag_0</name>
+        <label>Update Account Tag</label>
+        <locationX>754</locationX>
+        <locationY>695</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Tag__c</assignToReference>
+            <operator>Assign</operator>
+        </assignmentItems>
+    </assignments>
+    <decisions>
+        <name>Account_Tag</name>
+        <label>Account Tag</label>
+        <locationX>358</locationX>
+        <locationY>455</locationY>
+        <defaultConnector>
+            <targetReference>Account_Tag_is_Surging</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No contact is in Surging Sequence</defaultConnectorLabel>
+        <rules>
+            <name>Not_a_Surging_Sequence_and_atleast_one_contact_is_in_Surging_Sequence</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Tag__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Surging Sequence</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Get_Contacts.Current_Sequence_Name__c</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>2022 Terminus/G2/ZI</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Account_Tag</targetReference>
+            </connector>
+            <label>Not a Surging Sequence and atleast one contact is in Surging Sequence</label>
+        </rules>
+        <rules>
+            <name>Surging_Sequence_and_atleast_one_Contact_is_in_Surging_Sequence</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Tag__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Surging Sequence</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Get_Contacts.Current_Sequence_Name__c</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>2022 Terminus/G2/ZI</stringValue>
+                </rightValue>
+            </conditions>
+            <label>Surging Sequence and atleast one Contact is in Surging Sequence</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Account_Tag_is_Surging</name>
+        <label>Account Tag is Surging</label>
+        <locationX>666</locationX>
+        <locationY>575</locationY>
+        <defaultConnector>
+            <targetReference>Update_Account_Tag_0</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Yes</defaultConnectorLabel>
+        <rules>
+            <name>No</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Tag__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Surging Sequence</stringValue>
+                </rightValue>
+            </conditions>
+            <label>No</label>
+        </rules>
+    </decisions>
+    <description>Assign Account Tag as Surging Sequence if at least one of the contact&apos;s Current Sequence Name contains &quot; 2022 Terminus/G2/ZI&quot;</description>
+    <environments>Default</environments>
+    <interviewLabel>Assign Account Tag as Surging {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Assign Account Tag as Surging Sequence</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Contacts</name>
+        <label>Get Contacts</label>
+        <locationX>358</locationX>
+        <locationY>335</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Account_Tag</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>AccountId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>AccountID</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Current_Sequence_Name__c</field>
+            <operator>Contains</operator>
+            <value>
+                <stringValue>2022 Terminus/G2/ZI</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Contact</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>232</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Contacts</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Account_Type__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Outbound</stringValue>
+            </value>
+        </filters>
+        <object>Account</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>AccountID</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <elementReference>$Record.Id</elementReference>
+        </value>
+    </variables>
+    <variables>
+        <name>CountofRecords</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <scale>0</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+</Flow>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Use_Cases__c</fullName>
+    <label>Use Cases</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Product__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Account Management</fullName>
+                <default>false</default>
+                <label>Account Management</label>
+            </value>
+            <value>
+                <fullName>Archival</fullName>
+                <default>false</default>
+                <label>Archival</label>
+            </value>
+            <value>
+                <fullName>Auto-Deploy Properties</fullName>
+                <default>false</default>
+                <label>Auto-Deploy Properties</label>
+            </value>
+            <value>
+                <fullName>Backup</fullName>
+                <default>false</default>
+                <label>Backup</label>
+            </value>
+            <value>
+                <fullName>Build Maven Jobs</fullName>
+                <default>false</default>
+                <label>Build Maven Jobs</label>
+            </value>
+            <value>
+                <fullName>CI Jobs</fullName>
+                <default>false</default>
+                <label>CI Jobs</label>
+            </value>
+            <value>
+                <fullName>Compare</fullName>
+                <default>false</default>
+                <label>Compare</label>
+            </value>
+            <value>
+                <fullName>Dataloader</fullName>
+                <default>false</default>
+                <label>Dataloader</label>
+            </value>
+            <value>
+                <fullName>Environment Provisioning</fullName>
+                <default>false</default>
+                <label>Environment Provisioning</label>
+            </value>
+            <value>
+                <fullName>Environment Registrations</fullName>
+                <default>false</default>
+                <label>Environment Registrations</label>
+            </value>
+            <value>
+                <fullName>GDPR</fullName>
+                <default>false</default>
+                <label>GDPR</label>
+            </value>
+            <value>
+                <fullName>Identify Issues</fullName>
+                <default>false</default>
+                <label>Identify Issues</label>
+            </value>
+            <value>
+                <fullName>Manage Environment Properties</fullName>
+                <default>false</default>
+                <label>Manage Environment Properties</label>
+            </value>
+            <value>
+                <fullName>Monitoring</fullName>
+                <default>false</default>
+                <label>Monitoring</label>
+            </value>
+            <value>
+                <fullName>nCino</fullName>
+                <default>false</default>
+                <label>nCino</label>
+            </value>
+            <value>
+                <fullName>Org Synchronization</fullName>
+                <default>false</default>
+                <label>Org Synchronization</label>
+            </value>
+            <value>
+                <fullName>Profile Manager</fullName>
+                <default>false</default>
+                <label>Profile Manager</label>
+            </value>
+            <value>
+                <fullName>Replicate</fullName>
+                <default>false</default>
+                <label>Replicate</label>
+            </value>
+            <value>
+                <fullName>Reporting</fullName>
+                <default>false</default>
+                <label>Reporting</label>
+            </value>
+            <value>
+                <fullName>Restore</fullName>
+                <default>false</default>
+                <label>Restore</label>
+            </value>
+            <value>
+                <fullName>SalesforceDX</fullName>
+                <default>false</default>
+                <label>SalesforceDX</label>
+            </value>
+            <value>
+                <fullName>Security Compliance</fullName>
+                <default>false</default>
+                <label>Security Compliance</label>
+            </value>
+            <value>
+                <fullName>Selective Deployment</fullName>
+                <default>false</default>
+                <label>Selective Deployment</label>
+            </value>
+            <value>
+                <fullName>Template Configuration</fullName>
+                <default>false</default>
+                <label>Template Configuration</label>
+            </value>
+            <value>
+                <fullName>Template Deployment</fullName>
+                <default>false</default>
+                <label>Template Deployment</label>
+            </value>
+            <value>
+                <fullName>Test Execution</fullName>
+                <default>false</default>
+                <label>Test Execution</label>
+            </value>
+            <value>
+                <fullName>Testing</fullName>
+                <default>false</default>
+                <label>Testing</label>
+            </value>
+            <value>
+                <fullName>Version Control</fullName>
+                <default>false</default>
+                <label>Version Control</label>
+            </value>
+            <value>
+                <fullName>Vlocity</fullName>
+                <default>false</default>
+                <label>Vlocity</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>ARM</controllingFieldValue>
+            <controllingFieldValue>Vault</controllingFieldValue>
+            <controllingFieldValue>CodeScan</controllingFieldValue>
+            <controllingFieldValue>RBM</controllingFieldValue>
+            <controllingFieldValue>Mulesoft</controllingFieldValue>
+            <valueName>Account Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ARM</controllingFieldValue>
+            <valueName>CI Jobs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ARM</controllingFieldValue>
+            <valueName>Dataloader</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ARM</controllingFieldValue>
+            <valueName>Environment Provisioning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ARM</controllingFieldValue>
+            <controllingFieldValue>Vault</controllingFieldValue>
+            <controllingFieldValue>CodeScan</controllingFieldValue>
+            <controllingFieldValue>RBM</controllingFieldValue>
+            <valueName>Environment Registrations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ARM</controllingFieldValue>
+            <valueName>nCino</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ARM</controllingFieldValue>
+            <valueName>Org Synchronization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ARM</controllingFieldValue>
+            <valueName>Profile Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ARM</controllingFieldValue>
+            <valueName>SalesforceDX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ARM</controllingFieldValue>
+            <valueName>Selective Deployment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ARM</controllingFieldValue>
+            <valueName>Testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ARM</controllingFieldValue>
+            <valueName>Version Control</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ARM</controllingFieldValue>
+            <valueName>Vlocity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vault</controllingFieldValue>
+            <valueName>Archival</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vault</controllingFieldValue>
+            <valueName>Backup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vault</controllingFieldValue>
+            <valueName>Compare</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vault</controllingFieldValue>
+            <valueName>GDPR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vault</controllingFieldValue>
+            <valueName>Monitoring</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vault</controllingFieldValue>
+            <valueName>Replicate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vault</controllingFieldValue>
+            <valueName>Restore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CodeScan</controllingFieldValue>
+            <valueName>Identify Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CodeScan</controllingFieldValue>
+            <valueName>Security Compliance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RBM</controllingFieldValue>
+            <valueName>Template Configuration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RBM</controllingFieldValue>
+            <valueName>Template Deployment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mulesoft</controllingFieldValue>
+            <valueName>Auto-Deploy Properties</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mulesoft</controllingFieldValue>
+            <valueName>Build Maven Jobs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mulesoft</controllingFieldValue>
+            <valueName>Manage Environment Properties</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mulesoft</controllingFieldValue>
+            <valueName>Test Execution</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

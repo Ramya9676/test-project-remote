@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>G2_Title_by_Product__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>G2 Title by Product from G2 Event.</inlineHelpText>
+    <label>G2 Title by Product</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

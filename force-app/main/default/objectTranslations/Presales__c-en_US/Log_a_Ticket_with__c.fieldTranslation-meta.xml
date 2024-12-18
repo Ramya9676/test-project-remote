@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Log a Ticket with --></label>
+    <name>Log_a_Ticket_with__c</name>
+    <picklistValues>
+        <masterLabel>IT Help Desk</masterLabel>
+        <translation><!-- IT Help Desk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PMT</masterLabel>
+        <translation><!-- PMT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Support</masterLabel>
+        <translation><!-- Support --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MA_Notes__c</fullName>
+    <description>Additional Information from Market Analysts.</description>
+    <inlineHelpText>Additional Information from Market Analysts.</inlineHelpText>
+    <label>MA Notes</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

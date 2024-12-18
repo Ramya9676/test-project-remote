@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nurture_Program__c</fullName>
+    <label>Nurture Program</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Contact_Stage__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Nurture_Program</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Nurture</controllingFieldValue>
+            <valueName>ARM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nurture</controllingFieldValue>
+            <valueName>Codescan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nurture</controllingFieldValue>
+            <valueName>Platform</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nurture</controllingFieldValue>
+            <valueName>Record Migration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nurture</controllingFieldValue>
+            <valueName>Vault</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lost</controllingFieldValue>
+            <controllingFieldValue>Open</controllingFieldValue>
+            <valueName>Not Applicable</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

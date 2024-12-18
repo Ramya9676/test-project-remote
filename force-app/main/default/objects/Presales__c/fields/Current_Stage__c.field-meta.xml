@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Stage__c</fullName>
+    <label>Current Stage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Discovery Call</fullName>
+                <default>true</default>
+                <label>Discovery Call</label>
+            </value>
+            <value>
+                <fullName>Demo</fullName>
+                <default>false</default>
+                <label>Demo</label>
+            </value>
+            <value>
+                <fullName>Staged POC</fullName>
+                <default>false</default>
+                <label>Staged POC</label>
+            </value>
+            <value>
+                <fullName>Custom POC</fullName>
+                <default>false</default>
+                <label>Custom POC</label>
+            </value>
+            <value>
+                <fullName>Pilot/Implementation</fullName>
+                <default>false</default>
+                <label>Pilot/Implementation</label>
+            </value>
+            <value>
+                <fullName>TAM</fullName>
+                <default>false</default>
+                <label>TAM</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>AR1</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>AR1</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- AR record type --></label>
+        <name>AR_record_type</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

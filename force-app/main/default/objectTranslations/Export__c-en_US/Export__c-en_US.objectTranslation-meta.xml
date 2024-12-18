@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Export</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Export</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- International --></label>
+        <name>International</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please enter address --></errorMessage>
+        <name>Address_empty</name>
+    </validationRules>
+</CustomObjectTranslation>

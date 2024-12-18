@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Source_Control</fullName>
+    <active>true</active>
+    <description>Mandate &quot;Source Control&quot; field when the Product is &quot;ARM&quot; or &quot;CodeScan&quot; or &quot;Mulesoft.</description>
+    <errorConditionFormula>OR(
+CONTAINS(TEXT(Product__c) , &quot;ARM&quot;), CONTAINS(TEXT(Product__c) , &quot;CodeScan&quot;), CONTAINS(TEXT(Product__c) , &quot;Mulesoft&quot;)) &amp;&amp;  
+ISBLANK( TEXT(   Source_Control__c  ) )</errorConditionFormula>
+    <errorDisplayField>Source_Control__c</errorDisplayField>
+    <errorMessage>Source Control is required when the Product is &quot;ARM&quot; or &quot;CodeScan&quot; or &quot;Mulesoft&quot;.</errorMessage>
+</ValidationRule>

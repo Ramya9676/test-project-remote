@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- In Scope --></label>
+    <name>Scope__c</name>
+    <picklistValues>
+        <masterLabel>Automated Deployment</masterLabel>
+        <translation><!-- Automated Deployment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Data Loader</masterLabel>
+        <translation><!-- Data Loader --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Selective Deployment</masterLabel>
+        <translation><!-- Selective Deployment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sync Orgs</masterLabel>
+        <translation><!-- Sync Orgs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Test Automation</masterLabel>
+        <translation><!-- Test Automation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Version Control -EZ Commits</masterLabel>
+        <translation><!-- Version Control -EZ Commits --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

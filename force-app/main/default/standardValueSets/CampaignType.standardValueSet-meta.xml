@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>AR Academy</fullName>
+        <default>false</default>
+        <label>AR Academy</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Blog</fullName>
+        <default>false</default>
+        <label>Blog</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Call Campaign (ABM)</fullName>
+        <default>false</default>
+        <label>Call Campaign (ABM)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Call Campaign (Outbound)</fullName>
+        <default>false</default>
+        <label>Call Campaign (Outbound)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Certifications</fullName>
+        <default>false</default>
+        <label>Certifications</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Click to Call</fullName>
+        <default>false</default>
+        <label>Click to Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Commercial Insight</fullName>
+        <default>false</default>
+        <label>Commercial Insight</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Conference</fullName>
+        <default>false</default>
+        <label>Conference</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Email Marketing</fullName>
+        <default>false</default>
+        <label>Customer Email Marketing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Direct Mail (ABM)</fullName>
+        <default>false</default>
+        <label>Direct Mail (ABM)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Direct Mail (Other)</fullName>
+        <default>false</default>
+        <label>Direct Mail (Other)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Direct Mail (Outbound)</fullName>
+        <default>false</default>
+        <label>Direct Mail (Outbound)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email Campaign (ABM)</fullName>
+        <default>false</default>
+        <label>Email Campaign (ABM)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email Campaign (Outbound)</fullName>
+        <default>false</default>
+        <label>Email Campaign (Outbound)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email Marketing</fullName>
+        <default>false</default>
+        <label>Email Marketing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Engagement Email</fullName>
+        <default>false</default>
+        <label>Engagement Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Events &amp; Programs</fullName>
+        <default>false</default>
+        <label>Events &amp; Programs</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Forums (ex. Reddit, Discord)</fullName>
+        <default>false</default>
+        <label>Forums (ex. Reddit, Discord)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Google Ads (GADS)</fullName>
+        <default>false</default>
+        <label>Google Ads (GADS)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Google Ads (GADS - ABM)</fullName>
+        <default>false</default>
+        <label>Google Ads (GADS - ABM)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Google Ads (GADS - Outbound)</fullName>
+        <default>false</default>
+        <label>Google Ads (GADS - Outbound)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Industry</fullName>
+        <default>false</default>
+        <label>Industry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Landing Page</fullName>
+        <default>false</default>
+        <label>Landing Page</label>
+    </standardValue>
+    <standardValue>
+        <fullName>List Email</fullName>
+        <default>false</default>
+        <label>List Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Networking</fullName>
+        <default>false</default>
+        <label>Networking</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New Product Launch</fullName>
+        <default>false</default>
+        <label>New Product Launch</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Newsletter</fullName>
+        <default>false</default>
+        <label>Newsletter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Nurture</fullName>
+        <default>false</default>
+        <label>Nurture</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Objective</fullName>
+        <default>false</default>
+        <label>Objective</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Onboarding</fullName>
+        <default>false</default>
+        <label>Onboarding</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PPC</fullName>
+        <default>false</default>
+        <label>PPC</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PPC (ABM)</fullName>
+        <default>false</default>
+        <label>PPC (ABM)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PPC (Outbound)</fullName>
+        <default>false</default>
+        <label>PPC (Outbound)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Public Relations</fullName>
+        <default>false</default>
+        <label>Public Relations</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Region</fullName>
+        <default>false</default>
+        <label>Region</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Scoring</fullName>
+        <default>false</default>
+        <label>Scoring</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SEO</fullName>
+        <default>false</default>
+        <label>SEO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Social Media</fullName>
+        <default>false</default>
+        <label>Social Media</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Teminus Display Ads (ABM)</fullName>
+        <default>false</default>
+        <label>Teminus Display Ads (ABM)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Terminus_Chat</fullName>
+        <default>false</default>
+        <label>Terminus Chat</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Training</fullName>
+        <default>false</default>
+        <label>Training</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Webinar</fullName>
+        <default>false</default>
+        <label>Webinar</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Workshop</fullName>
+        <default>false</default>
+        <label>Workshop</label>
+    </standardValue>
+</StandardValueSet>

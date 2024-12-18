@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_state__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISPICKVAL( StageName ,&apos;Closed Won-Implementation Incomplete&apos;) ,&quot;Onboarding&quot;,
+IF(ISPICKVAL( StageName ,&apos;Closed Won - Implementation Completed&apos;) &amp;&amp; ADDMONTHS(Today(),3)== Contract_End_Date__c,&quot;Stable &quot;,
+IF(Contract_End_Date__c==Today(),&quot;Renewal&quot;,
+IF(Number_of_Product_Subscriptions__c&lt;&gt;0.00 &amp;&amp; Account.Previous_Max_Subs__c &lt;= Number_of_Product_Subscriptions__c ,&quot;Upsell&quot;,
+IF(Number_of_Product_Subscriptions__c&lt;&gt;0.00 &amp;&amp; Account.Previous_Max_Subs__c &gt; Number_of_Product_Subscriptions__c  , &quot;Down sell&quot;,&apos;&apos;
+)))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Opportunity_state</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

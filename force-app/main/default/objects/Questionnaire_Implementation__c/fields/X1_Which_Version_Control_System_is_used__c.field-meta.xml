@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X1_Which_Version_Control_System_is_used__c</fullName>
+    <label>Which Version Control System is used ?</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>GIT</fullName>
+                <default>false</default>
+                <label>GIT</label>
+            </value>
+            <value>
+                <fullName>SVN</fullName>
+                <default>false</default>
+                <label>SVN</label>
+            </value>
+            <value>
+                <fullName>TFS</fullName>
+                <default>false</default>
+                <label>TFS</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

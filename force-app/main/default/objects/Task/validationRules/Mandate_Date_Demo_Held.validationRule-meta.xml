@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mandate_Date_Demo_Held</fullName>
+    <active>false</active>
+    <description>&apos;Date Demo Held&apos; is required when Task Status is &apos;Complete&apos;</description>
+    <errorConditionFormula>AND( ISPICKVAL( Type , &apos;Demo&apos;), 
+ISPICKVAL( Status , &apos;Complete&apos;),  
+ISBLANK(TEXT( Date_Demo_Held__c ))  
+)</errorConditionFormula>
+    <errorMessage>Please enter &apos;Date Demo Held&apos; to save the record.</errorMessage>
+</ValidationRule>

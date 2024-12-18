@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Current team structure w/  their roles --></label>
+    <name>What_is_the_current_team_structure_w__c</name>
+    <picklistValues>
+        <masterLabel>#Admins</masterLabel>
+        <translation><!-- #Admins --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>#Developers</masterLabel>
+        <translation><!-- #Developers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>#Release Managers/Architects</masterLabel>
+        <translation><!-- #Release Managers/Architects --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Who are your primary SI Partners (if any)?</masterLabel>
+        <translation><!-- Who are your primary SI Partners (if any)? --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

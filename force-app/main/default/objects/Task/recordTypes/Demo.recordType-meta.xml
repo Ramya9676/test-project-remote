@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Demo</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Task_Layout</compactLayoutAssignment>
+    <description>To Schedule and Complete Demo</description>
+    <label>Demo</label>
+    <picklistValues>
+        <picklist>Call_Status__c</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requested Callback later</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wrong Number</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Gift_Type__c</picklist>
+        <values>
+            <fullName>Physical Gift</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eGift</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Meeting_Type__c</picklist>
+        <values>
+            <fullName>Customer Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solution Architect Meeting</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Next_Step__c</picklist>
+        <values>
+            <fullName>AE_to_Reschedule</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Back to the Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opportunity Created</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partnership In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Self Gen Prospect - Rep to Nurture</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Outreach_Task_Type__c</picklist>
+        <values>
+            <fullName>LinkedIn%3A Interact with Post</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LinkedIn%3A Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LinkedIn%3A Send Connection Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LinkedIn%3A Send Message</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LinkedIn%3A View a Profile</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Normal</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Type__c</picklist>
+        <values>
+            <fullName>ARM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ARM and Vault</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CodeScan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vault</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ramble__Ramble_Chat_Type__c</picklist>
+        <values>
+            <fullName>Answered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason__c</picklist>
+        <values>
+            <fullName>Needs Nurturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No BANT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Product Fit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Show</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reschedule</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unresponsive</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Cancel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scheduled</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subject</picklist>
+        <values>
+            <fullName>Demo Schedueld</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Demo</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>

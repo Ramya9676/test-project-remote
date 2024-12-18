@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Subscriptions count of Recurring Revenue on Upsell --></help>
+    <label><!-- Upsell Subs --></label>
+    <name>Upsell_Subs2__c</name>
+</CustomFieldTranslation>

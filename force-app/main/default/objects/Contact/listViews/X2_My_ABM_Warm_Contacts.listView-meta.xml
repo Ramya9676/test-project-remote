@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X2_My_ABM_Warm_Contacts</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND ( 6 OR (7 AND 8))</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_Type__c</columns>
+    <columns>Contact_Status__c</columns>
+    <columns>Contact_Stage__c</columns>
+    <columns>Lost_Reason__c</columns>
+    <columns>CONTACT.ADDRESS2_COUNTRY_CODE</columns>
+    <columns>CONTACT.LAST_ACTIVITY</columns>
+    <columns>pi__last_activity__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Account.Account_Type__c</field>
+        <operation>equals</operation>
+        <value>ABM</value>
+    </filters>
+    <filters>
+        <field>Contact_Rating__c</field>
+        <operation>equals</operation>
+        <value>Warm</value>
+    </filters>
+    <filters>
+        <field>Current_Sequence_Name__c</field>
+        <operation>equals</operation>
+        <value>,None</value>
+    </filters>
+    <filters>
+        <field>Contact_Status__c</field>
+        <operation>equals</operation>
+        <value>1-Lead,2-Subscriber,3-Prospect,4-MQL</value>
+    </filters>
+    <filters>
+        <field>CONTACT.EMAIL_OPT_OUT</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Contact_Stage__c</field>
+        <operation>equals</operation>
+        <value>Open</value>
+    </filters>
+    <filters>
+        <field>Contact_Stage__c</field>
+        <operation>equals</operation>
+        <value>Lost</value>
+    </filters>
+    <filters>
+        <field>Lost_Reason__c</field>
+        <operation>equals</operation>
+        <value>Bad Phone</value>
+    </filters>
+    <label>2. My ABM Warm Contacts</label>
+</ListView>

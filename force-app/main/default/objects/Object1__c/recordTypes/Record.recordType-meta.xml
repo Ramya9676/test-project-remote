@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Record</fullName>
+    <active>true</active>
+    <label>Record</label>
+    <picklistValues>
+        <picklist>Field__c</picklist>
+        <values>
+            <fullName>English</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hindhi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maths</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telugu</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

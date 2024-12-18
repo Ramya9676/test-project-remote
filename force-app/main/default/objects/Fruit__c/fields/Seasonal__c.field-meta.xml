@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Seasonal__c</fullName>
+    <label>Seasonal</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Mango</fullName>
+                <default>false</default>
+                <label>Mango</label>
+            </value>
+            <value>
+                <fullName>Apple</fullName>
+                <default>false</default>
+                <label>Apple</label>
+            </value>
+            <value>
+                <fullName>Guava</fullName>
+                <default>false</default>
+                <label>Guava</label>
+            </value>
+            <value>
+                <fullName>Grapes</fullName>
+                <default>false</default>
+                <label>Grapes</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Unit__c</fullName>
+    <label>Business_Unit</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AutoRABIT</fullName>
+                <default>false</default>
+                <label>AutoRABIT</label>
+            </value>
+            <value>
+                <fullName>BPM Services</fullName>
+                <default>false</default>
+                <label>BPM Services</label>
+            </value>
+            <value>
+                <fullName>Consulting</fullName>
+                <default>false</default>
+                <label>Consulting</label>
+            </value>
+            <value>
+                <fullName>Migile</fullName>
+                <default>false</default>
+                <label>Migile</label>
+            </value>
+            <value>
+                <fullName>Social Champ</fullName>
+                <default>false</default>
+                <label>Social Champ</label>
+            </value>
+            <value>
+                <fullName>Emerging Technologies</fullName>
+                <default>false</default>
+                <label>Emerging Technologies</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

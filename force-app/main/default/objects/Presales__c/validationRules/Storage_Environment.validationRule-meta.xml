@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Storage_Environment</fullName>
+    <active>true</active>
+    <description>Mandate &quot;Storage Environment&quot; field when the Product is &quot;Vault&quot;.</description>
+    <errorConditionFormula>CONTAINS(TEXT(Product__c) , &quot;Vault&quot;) &amp;&amp;  
+ISBLANK( TEXT( Storage_Environment__c ) )</errorConditionFormula>
+    <errorDisplayField>Storage_Environment__c</errorDisplayField>
+    <errorMessage>&quot;Storage Environment&quot; is required when the Product is &quot;Vault&quot;.</errorMessage>
+</ValidationRule>

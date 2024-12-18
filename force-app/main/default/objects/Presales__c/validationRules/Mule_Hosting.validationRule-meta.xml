@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mule_Hosting</fullName>
+    <active>true</active>
+    <description>This field is required when the Product is &quot;Mulesoft&quot;.</description>
+    <errorConditionFormula>TEXT(Product__c) = &quot;Mulesoft&quot; &amp;&amp;  ISBLANK(TEXT(Mule_Hosting__c))</errorConditionFormula>
+    <errorDisplayField>Mule_Hosting__c</errorDisplayField>
+    <errorMessage>Mule Hosting is required when Product is &quot;Mulesoft&quot;</errorMessage>
+</ValidationRule>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AGS_Ownership_List</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Tag__c</columns>
+    <columns>Customer_Status__c</columns>
+    <columns>Account_Type__c</columns>
+    <columns>ABM_Tier__c</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>SDR_Owner__c</columns>
+    <columns>Region__c</columns>
+    <columns>ACCOUNT.ADDRESS1_COUNTRY_CODE</columns>
+    <columns>ACCOUNT.INDUSTRY</columns>
+    <columns>ACCOUNT.SALES</columns>
+    <columns>IT_Department_Spending__c</columns>
+    <columns>ACCOUNT.EMPLOYEES</columns>
+    <columns>Most_Recent_Intro_Call__c</columns>
+    <columns>ACCOUNT.RATING</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.General_Account</value>
+    </filters>
+    <filters>
+        <field>of_Open_Opportunities__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Account_Type__c</field>
+        <operation>notEqual</operation>
+        <value>ABM,Expand</value>
+    </filters>
+    <filters>
+        <field>Suggested_Owner_Team__c</field>
+        <operation>equals</operation>
+        <value>NA New Logo</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.INDUSTRY</field>
+        <operation>equals</operation>
+        <value>Banking,Financial Services</value>
+    </filters>
+    <label>Non ABM Accounts Ownership List</label>
+    <sharedTo>
+        <role>AVP_Enterprise_Account</role>
+        <role>VP_of_Sales</role>
+    </sharedTo>
+</ListView>

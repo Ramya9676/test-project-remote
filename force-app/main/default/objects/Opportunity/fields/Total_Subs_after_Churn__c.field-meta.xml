@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Subs_after_Churn__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(INCLUDES(Opportunity_Type_New_Renewal_Upsell__c ,&quot;Churn&quot;),
+( Churn_Subs__c ),0)
+/* Churn_Subs__c*/</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>It&apos;s a formulae field which picks up only Churn Subs as its Churn</inlineHelpText>
+    <label>Total Subs after Churn</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

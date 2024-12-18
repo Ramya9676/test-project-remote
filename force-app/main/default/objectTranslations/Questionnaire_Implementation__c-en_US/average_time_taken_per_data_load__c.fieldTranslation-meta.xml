@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- average time taken per data load? --></label>
+    <name>average_time_taken_per_data_load__c</name>
+</CustomFieldTranslation>

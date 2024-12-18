@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- SDR --></label>
+    <name>SDR__c</name>
+    <picklistValues>
+        <masterLabel>Amrita Sen</masterLabel>
+        <translation><!-- Amrita Sen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Andrew Boyles</masterLabel>
+        <translation><!-- Andrew Boyles --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anilreddy Chada</masterLabel>
+        <translation><!-- Anilreddy Chada --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arvind Tripathy</masterLabel>
+        <translation><!-- Arvind Tripathy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Belinda Trevor</masterLabel>
+        <translation><!-- Belinda Trevor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Breanne Mullen</masterLabel>
+        <translation><!-- Breanne Mullen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Daniel Cioffari</masterLabel>
+        <translation><!-- Daniel Cioffari --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Denchaline Ecaillat</masterLabel>
+        <translation><!-- Denchaline Ecaillat --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drew McMillan</masterLabel>
+        <translation><!-- Drew McMillan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hunter Traffica</masterLabel>
+        <translation><!-- Hunter Traffica --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kainaz Dara Patel</masterLabel>
+        <translation><!-- Kainaz Dara Patel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Krishna Chaitanya</masterLabel>
+        <translation><!-- Krishna Chaitanya --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Luke Cartwright</masterLabel>
+        <translation><!-- Luke Cartwright --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No SDR Involved</masterLabel>
+        <translation><!-- No SDR Involved --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Raynold Paul</masterLabel>
+        <translation><!-- Raynold Paul --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ryan Watson</masterLabel>
+        <translation><!-- Ryan Watson --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Susan Michael</masterLabel>
+        <translation><!-- Susan Michael --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Swati Gupta</masterLabel>
+        <translation><!-- Swati Gupta --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

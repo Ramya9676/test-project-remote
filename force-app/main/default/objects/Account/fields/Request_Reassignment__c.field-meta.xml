@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_Reassignment__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Testing field to control reassignment of accounts for Rich. 5/18/2022</description>
+    <inlineHelpText>Check this box to have the owner changed to someone else.</inlineHelpText>
+    <label>Request Reassignment</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

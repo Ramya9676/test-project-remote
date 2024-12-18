@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Which Version Control System is used ? --></label>
+    <name>X1_Which_Version_Control_System_is_used__c</name>
+    <picklistValues>
+        <masterLabel>GIT</masterLabel>
+        <translation><!-- GIT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SVN</masterLabel>
+        <translation><!-- SVN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TFS</masterLabel>
+        <translation><!-- TFS --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Add_to_Welcome_Email_2__c</fullName>
+    <label>Add to Welcome Email 2</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>salesforce</fullName>
+                <default>false</default>
+                <label>salesforce</label>
+            </value>
+            <value>
+                <fullName>general</fullName>
+                <default>false</default>
+                <label>general</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

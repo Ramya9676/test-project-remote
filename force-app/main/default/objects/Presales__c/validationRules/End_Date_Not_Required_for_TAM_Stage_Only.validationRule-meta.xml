@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>End_Date_Not_Required_for_TAM_Stage_Only</fullName>
+    <active>true</active>
+    <description>End Date is required for all Presales Stages except for TAM Stage.</description>
+    <errorConditionFormula>AND( 
+ISBLANK( End_Date__c ) ,
+NOT(TEXT( Current_Stage__c) = &apos;TAM&apos;))</errorConditionFormula>
+    <errorMessage>End Date is mandatory. Please enter &apos;End Date&apos; in order to save.</errorMessage>
+</ValidationRule>
