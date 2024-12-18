@@ -1,0 +1,52 @@
+{
+  "buckets": [
+    {
+      "objects": [
+        "LLC_BI__Spread_Statement_Row_Mapping__c",
+        "LLC_BI__Spread_Statement_Type__c",
+        "LLC_BI__Spread_Statement_View__c",
+        "LLC_BI__Spread_Statement_Record_Value__c",
+        "LLC_BI__Spread_Record_Total_Classification__c",
+        "LLC_BI__Spread__c",
+        "LLC_BI__Spread_Record_Classification__c",
+        "LLC_BI__Spread_Statement_Period__c",
+        "LLC_BI__Spread_Projections_Driver__c",
+        "LLC_BI__Spread_Statement_Record_Total__c",
+        "LLC_BI__Spread_Statement_Record__c",
+        "LLC_BI__Spread_Statement_Period_Total__c",
+        "LLC_BI__Spread_Projections_Template__c"
+      ],
+      "bucketNum": 1,
+      "clauseField": "nFORCE_lookupKey_c",
+      "entryObject": "LLC_BI__Spread_Statement_Row_Mapping__c",
+      "mandatoryObject": [
+        "LLC_BI__Data_Source_Item__c",
+        "LLC_BI__Classification__c",
+        "LLC_BI__Underwriting_Summary__c",
+        "LLC_BI__Underwriting_Bundle__c"
+      ],
+      "exclusionObject": [
+        {
+          "objectName": "Account",
+          "excluded": false
+        },
+        {
+          "objectName": "LLC_BI__Annual_Review__c",
+          "excluded": false
+        },
+        {
+          "objectName": "LLC_BI__Loan__c",
+          "excluded": false
+        },
+        {
+          "objectName": "LLC_BI__Risk_Grade_Template__c",
+          "excluded": false
+        },
+        {
+          "objectName": "LLC_BI__Debt_Schedule__c",
+          "excluded": false
+        }
+      ]
+    }
+  ]
+}

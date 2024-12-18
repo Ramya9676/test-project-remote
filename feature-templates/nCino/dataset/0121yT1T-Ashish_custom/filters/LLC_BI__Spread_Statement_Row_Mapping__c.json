@@ -1,0 +1,4 @@
+{
+  "name": "LLC_BI__Spread_Statement_Row_Mapping__c",
+  "query": "Select Id From LLC_BI__Spread_Statement_Row_Mapping__c Where LLC_BI__lookupKey__c !\u003d  null"
+}
