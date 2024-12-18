@@ -10,3 +10,10 @@ packageDirectories:
           versions:
             '1.0':
               modifiedDate: '2024-12-18 10:30:33'
+        01mKmQ1B-User Interface:
+          path: dataset/01mKmQ1B-User Interface
+          prefix: ncino
+          standardFeature: true
+          versions:
+            Fall 2023 Rel - v1:
+              modifiedDate: '2024-12-18 10:44:08'

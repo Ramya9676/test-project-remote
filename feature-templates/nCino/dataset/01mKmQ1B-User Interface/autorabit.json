@@ -1,0 +1,15 @@
+{
+  "prefix": "ncino",
+  "packageDirectories": {
+    "Fall 2023 Rel - v1": {
+      "metadata": {
+        "exclude": {
+          "CustomObject": []
+        }
+      },
+      "data": {
+        "exclude": {}
+      }
+    }
+  }
+}
