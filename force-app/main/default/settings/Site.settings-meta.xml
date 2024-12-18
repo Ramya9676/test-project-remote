@@ -2,5 +2,5 @@
 <SiteSettings xmlns="http://soap.sforce.com/2006/04/metadata">
     <enableEnhancedSitesAndContentPlatform>true</enableEnhancedSitesAndContentPlatform>
     <enableProxyLoginICHeader>true</enableProxyLoginICHeader>
-    <enableTopicsInSites>false</enableTopicsInSites>
+    <enableTopicsInSites>true</enableTopicsInSites>
 </SiteSettings>

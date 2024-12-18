@@ -8,5 +8,13 @@
         <plural>true</plural>
         <value>laptops</value>
     </caseValues>
+    <recordTypes>
+        <label><!-- first --></label>
+        <name>first</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- second --></label>
+        <name>second</name>
+    </recordTypes>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

@@ -61,12 +61,18 @@
     <tabs>school__c</tabs>
     <tabs>trends__c</tabs>
     <tabs>Institute__c</tabs>
-    <tabs>Sreekar_CI_Job_Test__c</tabs>
     <tabs>Object01__c</tabs>
     <tabs>Search_ASB_Yash__c</tabs>
     <tabs>AR1__c</tabs>
     <tabs>Custom_by_ramya__c</tabs>
     <tabs>Tutorial__c</tabs>
+    <tabs>laptop__c</tabs>
+    <tabs>Mobile__c</tabs>
+    <tabs>ProjectC__c</tabs>
+    <tabs>Education__c</tabs>
+    <tabs>VS_Auto__c</tabs>
+    <tabs>ClassV__c</tabs>
+    <tabs>Section__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>PreconfiguredLightningServiceConsole_UtilityBar</utilityBar>
     <workspaceConfig>
@@ -77,10 +83,16 @@
             <tab>CI_Job_Baseline__c</tab>
         </mappings>
         <mappings>
+            <tab>ClassV__c</tab>
+        </mappings>
+        <mappings>
             <tab>Custom_by_ramya__c</tab>
         </mappings>
         <mappings>
             <tab>DataloadJOb01__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Education__c</tab>
         </mappings>
         <mappings>
             <tab>Expense__c</tab>
@@ -107,7 +119,13 @@
             <tab>Intern__c</tab>
         </mappings>
         <mappings>
+            <tab>Mobile__c</tab>
+        </mappings>
+        <mappings>
             <tab>Object01__c</tab>
+        </mappings>
+        <mappings>
+            <tab>ProjectC__c</tab>
         </mappings>
         <mappings>
             <tab>Ramya_ARM_Objects__c</tab>
@@ -116,16 +134,22 @@
             <tab>Search_ASB_Yash__c</tab>
         </mappings>
         <mappings>
-            <tab>Sreekar_CI_Job_Test__c</tab>
+            <tab>Section__c</tab>
         </mappings>
         <mappings>
             <tab>Tutorial__c</tab>
+        </mappings>
+        <mappings>
+            <tab>VS_Auto__c</tab>
         </mappings>
         <mappings>
             <tab>arintern__c</tab>
         </mappings>
         <mappings>
             <tab>game__c</tab>
+        </mappings>
+        <mappings>
+            <tab>laptop__c</tab>
         </mappings>
         <mappings>
             <tab>school__c</tab>

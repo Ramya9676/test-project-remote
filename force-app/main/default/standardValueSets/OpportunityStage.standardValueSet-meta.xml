@@ -2,72 +2,64 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Prospecting</fullName>
+        <fullName>Qualify</fullName>
         <default>false</default>
-        <label>Prospecting</label>
+        <label>Qualify</label>
         <closed>false</closed>
         <forecastCategory>Pipeline</forecastCategory>
-        <probability>10</probability>
+        <probability>15</probability>
         <won>false</won>
     </standardValue>
     <standardValue>
-        <fullName>Qualification</fullName>
+        <fullName>Demo</fullName>
         <default>false</default>
-        <label>Qualification</label>
+        <description>Customer has been through a demo.</description>
+        <label>Demo</label>
         <closed>false</closed>
         <forecastCategory>Pipeline</forecastCategory>
-        <probability>10</probability>
+        <probability>25</probability>
         <won>false</won>
     </standardValue>
     <standardValue>
-        <fullName>Needs Analysis</fullName>
+        <fullName>Evaluate</fullName>
         <default>false</default>
-        <label>Needs Analysis</label>
+        <label>Evaluate</label>
         <closed>false</closed>
         <forecastCategory>Pipeline</forecastCategory>
-        <probability>20</probability>
+        <probability>30</probability>
         <won>false</won>
     </standardValue>
     <standardValue>
-        <fullName>Value Proposition</fullName>
+        <fullName>POC</fullName>
         <default>false</default>
-        <label>Value Proposition</label>
+        <label>POC</label>
         <closed>false</closed>
         <forecastCategory>Pipeline</forecastCategory>
         <probability>50</probability>
         <won>false</won>
     </standardValue>
     <standardValue>
-        <fullName>Id. Decision Makers</fullName>
+        <fullName>Propose</fullName>
         <default>false</default>
-        <label>Id. Decision Makers</label>
+        <label>Propose</label>
         <closed>false</closed>
-        <forecastCategory>Pipeline</forecastCategory>
+        <forecastCategory>BestCase</forecastCategory>
         <probability>60</probability>
         <won>false</won>
     </standardValue>
     <standardValue>
-        <fullName>Perception Analysis</fullName>
+        <fullName>Procurement</fullName>
         <default>false</default>
-        <label>Perception Analysis</label>
+        <label>Procurement</label>
         <closed>false</closed>
-        <forecastCategory>Pipeline</forecastCategory>
-        <probability>70</probability>
+        <forecastCategory>Forecast</forecastCategory>
+        <probability>80</probability>
         <won>false</won>
     </standardValue>
     <standardValue>
-        <fullName>Proposal/Price Quote</fullName>
+        <fullName>Review</fullName>
         <default>false</default>
-        <label>Proposal/Price Quote</label>
-        <closed>false</closed>
-        <forecastCategory>Pipeline</forecastCategory>
-        <probability>75</probability>
-        <won>false</won>
-    </standardValue>
-    <standardValue>
-        <fullName>Negotiation/Review</fullName>
-        <default>false</default>
-        <label>Negotiation/Review</label>
+        <label>Review</label>
         <closed>false</closed>
         <forecastCategory>Pipeline</forecastCategory>
         <probability>90</probability>

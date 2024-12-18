@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- location --></label>
+    <name>location__c</name>
+    <picklistValues>
+        <masterLabel>Bangalore</masterLabel>
+        <translation><!-- Bangalore --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delhi</masterLabel>
+        <translation><!-- Delhi --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hyd</masterLabel>
+        <translation><!-- Hyd --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kochi</masterLabel>
+        <translation><!-- Kochi --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Noida</masterLabel>
+        <translation><!-- Noida --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>chennai</masterLabel>
+        <translation><!-- chennai --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

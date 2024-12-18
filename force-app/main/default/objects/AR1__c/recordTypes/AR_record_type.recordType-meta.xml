@@ -13,9 +13,5 @@
             <fullName>Codescan</fullName>
             <default>false</default>
         </values>
-        <values>
-            <fullName>Vault</fullName>
-            <default>false</default>
-        </values>
     </picklistValues>
 </RecordType>

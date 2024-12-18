@@ -1,24 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <assignmentRule>
-        <fullName>Standard</fullName>
+        <fullName>Lead Assignment</fullName>
         <active>true</active>
         <ruleEntry>
-            <assignedTo>ramya@ar.com</assignedTo>
-            <assignedToType>User</assignedToType>
+            <assignedTo>Partner_Team_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>(1 OR 2) AND 3</booleanFilter>
             <criteriaItems>
-                <field>Lead.Country</field>
+                <field>Lead.Lead_Type__c</field>
                 <operation>equals</operation>
-                <value>US,USA,United States,United States of America</value>
+                <value>Partner</value>
             </criteriaItems>
+            <criteriaItems>
+                <field>Lead.pi__conversion_object_name__c</field>
+                <operation>contains</operation>
+                <value>Partner Portal</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Lead.CreatedDate</field>
+                <operation>equals</operation>
+                <value>TODAY</value>
+            </criteriaItems>
+            <template>unfiled$public/Email_Template_about_Partner_Lead</template>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>ramya@ar.com</assignedTo>
-            <assignedToType>User</assignedToType>
+            <assignedTo>Inbound_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>(1 OR 2 ) AND 3 AND 4</booleanFilter>
             <criteriaItems>
-                <field>Lead.Country</field>
+                <field>Lead.Lead_Type__c</field>
                 <operation>notEqual</operation>
-                <value>US,USA,United States,United States of America</value>
+                <value>Partner</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Lead.pi__conversion_object_name__c</field>
+                <operation>notContain</operation>
+                <value>Partner Portal</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Lead.LeadSource</field>
+                <operation>notEqual</operation>
+                <value>Market Analysts</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Lead.CreatedDate</field>
+                <operation>equals</operation>
+                <value>TODAY</value>
             </criteriaItems>
         </ruleEntry>
     </assignmentRule>

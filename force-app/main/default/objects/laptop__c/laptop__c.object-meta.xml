@@ -155,7 +155,7 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>laptop</label>
     <nameField>
-        <label>lenovo Name</label>
+        <label>Model Name</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>laptops</pluralLabel>

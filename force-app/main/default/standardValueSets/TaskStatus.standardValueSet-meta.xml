@@ -31,4 +31,34 @@
         <label>Deferred</label>
         <closed>false</closed>
     </standardValue>
+    <standardValue>
+        <fullName>Cancel</fullName>
+        <default>false</default>
+        <label>Cancel</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Scheduled</fullName>
+        <default>false</default>
+        <label>Scheduled</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Complete</fullName>
+        <default>false</default>
+        <label>Complete</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Approved</fullName>
+        <default>false</default>
+        <label>Approved</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Declined</fullName>
+        <default>false</default>
+        <label>Declined</label>
+        <closed>true</closed>
+    </standardValue>
 </StandardValueSet>

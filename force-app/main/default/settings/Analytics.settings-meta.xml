@@ -6,7 +6,7 @@
     <bundleCachingOptOut>false</bundleCachingOptOut>
     <canAccessAnalyticsViaAPI>false</canAccessAnalyticsViaAPI>
     <canAnnotateDashboards>false</canAnnotateDashboards>
-    <canEnableSavedView>true</canEnableSavedView>
+    <canEnableSavedView>false</canEnableSavedView>
     <canExploreDataConversationally>false</canExploreDataConversationally>
     <canShareAppsWithCommunities>false</canShareAppsWithCommunities>
     <canViewThumbnailAssets>false</canViewThumbnailAssets>
@@ -16,15 +16,12 @@
     <enableAutoCompleteCombo>true</enableAutoCompleteCombo>
     <enableAzureDLGen2OutputConnector>false</enableAzureDLGen2OutputConnector>
     <enableCreateLegacyDataflows>true</enableCreateLegacyDataflows>
-    <enableCrtSetupLightningUiPref>false</enableCrtSetupLightningUiPref>
-    <enableDashboardComponentSnapshot>false</enableDashboardComponentSnapshot>
+    <enableDashboardComponentSnapshot>true</enableDashboardComponentSnapshot>
     <enableDashboardFlexiTable>true</enableDashboardFlexiTable>
     <enableDataCloudReportingPref>true</enableDataCloudReportingPref>
-    <enableDateFieldMinMaxAggPref>false</enableDateFieldMinMaxAggPref>
     <enableEmailReportsToPortalUsers>false</enableEmailReportsToPortalUsers>
     <enableFirebirdEditor>false</enableFirebirdEditor>
     <enableFloatingReportHeaders>true</enableFloatingReportHeaders>
-    <enableIncludeDisclaimerMessage>false</enableIncludeDisclaimerMessage>
     <enableInsights>true</enableInsights>
     <enableLightningReportBuilder>false</enableLightningReportBuilder>
     <enableLotusNotesImages>false</enableLotusNotesImages>
@@ -33,18 +30,16 @@
     <enableNullDimension>false</enableNullDimension>
     <enableOrgCanSeeLivePreviews>false</enableOrgCanSeeLivePreviews>
     <enableOrgCanViewTableau>false</enableOrgCanViewTableau>
-    <enableOrgCanViewThumbnailForOA>true</enableOrgCanViewThumbnailForOA>
+    <enableOrgCanViewThumbnailForOA>false</enableOrgCanViewThumbnailForOA>
     <enableOrgHasMobileOfflineEnabled>true</enableOrgHasMobileOfflineEnabled>
     <enableOrgHasWatchlistEnabled>true</enableOrgHasWatchlistEnabled>
-    <enableQueryLiveConnectors>true</enableQueryLiveConnectors>
+    <enableQueryLiveConnectors>false</enableQueryLiveConnectors>
     <enableRemoveFooterForRepDisplay>false</enableRemoveFooterForRepDisplay>
     <enableRemoveFooterFromRepExp>false</enableRemoveFooterFromRepExp>
-    <enableReportCdnPref>true</enableReportCdnPref>
     <enableReportHideXlsExportPref>false</enableReportHideXlsExportPref>
     <enableReportInlineEditPref>true</enableReportInlineEditPref>
     <enableReportNotificationsEnable>true</enableReportNotificationsEnable>
     <enableReportSubOrgEmailPref>false</enableReportSubOrgEmailPref>
-    <enableReportingOnSDMPref>false</enableReportingOnSDMPref>
     <enableRequestPrioritySchdl>false</enableRequestPrioritySchdl>
     <enableS1AnalyticsEclairEnable>true</enableS1AnalyticsEclairEnable>
     <enableS3OutputConnector>false</enableS3OutputConnector>
@@ -59,7 +54,7 @@
     <enableWaveIndexMVDim>true</enableWaveIndexMVDim>
     <enableWaveIndexMVDimV2>false</enableWaveIndexMVDimV2>
     <enableWaveRecordNavigation>false</enableWaveRecordNavigation>
-    <enableWaveReplication>false</enableWaveReplication>
+    <enableWaveReplication>true</enableWaveReplication>
     <enableWaveSharingInheritance>false</enableWaveSharingInheritance>
     <enableWaveSqlCFIndexing>false</enableWaveSqlCFIndexing>
     <enableWaveTrendedDatasetCleanup>false</enableWaveTrendedDatasetCleanup>

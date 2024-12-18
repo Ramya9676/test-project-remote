@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Testing Type --></label>
+    <name>Testing_Type__c</name>
+    <picklistValues>
+        <masterLabel>Acceptance testing</masterLabel>
+        <translation><!-- Acceptance testing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Functional Testing</masterLabel>
+        <translation><!-- Functional Testing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Integration Testing</masterLabel>
+        <translation><!-- Integration Testing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regression Testing</masterLabel>
+        <translation><!-- Regression Testing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unit Testing</masterLabel>
+        <translation><!-- Unit Testing --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

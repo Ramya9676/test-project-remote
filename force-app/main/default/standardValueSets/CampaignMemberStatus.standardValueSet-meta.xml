@@ -2,14 +2,164 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>true</sorted>
     <standardValue>
-        <fullName>Planned</fullName>
+        <fullName>Absentee</fullName>
         <default>false</default>
-        <label>Planned</label>
+        <label>Absentee</label>
     </standardValue>
     <standardValue>
-        <fullName>Received</fullName>
+        <fullName>Attempted</fullName>
         <default>false</default>
-        <label>Received</label>
+        <label>Attempted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended</fullName>
+        <default>false</default>
+        <label>Attended</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended / Scanned</fullName>
+        <default>false</default>
+        <label>Attended / Scanned</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clicked</fullName>
+        <default>false</default>
+        <label>Clicked</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clicked / Connected</fullName>
+        <default>false</default>
+        <label>Clicked / Connected</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clicked CS Report</fullName>
+        <default>false</default>
+        <label>Clicked CS Report</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clicked Email</fullName>
+        <default>false</default>
+        <label>Clicked Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clicked Link</fullName>
+        <default>false</default>
+        <label>Clicked Link</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Connected</fullName>
+        <default>false</default>
+        <label>Connected</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Converted</fullName>
+        <default>false</default>
+        <label>Converted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Declined</fullName>
+        <default>false</default>
+        <label>Declined</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Demo Interest</fullName>
+        <default>false</default>
+        <label>Demo Interest</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Emailed</fullName>
+        <default>false</default>
+        <label>Emailed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Engaged</fullName>
+        <default>false</default>
+        <label>Engaged</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Invitation Sent</fullName>
+        <default>false</default>
+        <label>Invitation Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Invited</fullName>
+        <default>false</default>
+        <label>Invited</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Invited / Preshow</fullName>
+        <default>false</default>
+        <label>Invited / Preshow</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No Activity</fullName>
+        <default>false</default>
+        <label>No Activity</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No Show</fullName>
+        <default>false</default>
+        <label>No Show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No Status</fullName>
+        <default>false</default>
+        <label>No Status</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Contacted</fullName>
+        <default>false</default>
+        <label>Not Contacted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Engaged</fullName>
+        <default>false</default>
+        <label>Not Engaged</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Registered</fullName>
+        <default>false</default>
+        <label>Not Registered</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Sent</fullName>
+        <default>false</default>
+        <label>Not Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Sent / Attendee List</fullName>
+        <default>false</default>
+        <label>Not Sent / Attendee List</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Sent/No Activity</fullName>
+        <default>false</default>
+        <label>Not Sent/No Activity</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opened</fullName>
+        <default>false</default>
+        <label>Opened</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opened Email</fullName>
+        <default>false</default>
+        <label>Opened Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Posted</fullName>
+        <default>false</default>
+        <label>Posted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Reached</fullName>
+        <default>false</default>
+        <label>Reached</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered</fullName>
+        <default>false</default>
+        <label>Registered</label>
     </standardValue>
     <standardValue>
         <fullName>Responded</fullName>
@@ -20,5 +170,30 @@
         <fullName>Sent</fullName>
         <default>false</default>
         <label>Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent/Posted</fullName>
+        <default>false</default>
+        <label>Sent/Posted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent / Posted / Called</fullName>
+        <default>false</default>
+        <label>Sent / Posted / Called</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Targeted</fullName>
+        <default>false</default>
+        <label>Targeted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Unsubscribed</fullName>
+        <default>false</default>
+        <label>Unsubscribed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Visited</fullName>
+        <default>false</default>
+        <label>Visited</label>
     </standardValue>
 </StandardValueSet>

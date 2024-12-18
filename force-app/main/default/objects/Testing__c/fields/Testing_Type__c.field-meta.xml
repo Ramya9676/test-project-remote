@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Testing_Type__c</fullName>
+    <label>Testing Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Unit Testing</fullName>
+                <default>false</default>
+                <label>Unit Testing</label>
+            </value>
+            <value>
+                <fullName>Regression Testing</fullName>
+                <default>false</default>
+                <label>Regression Testing</label>
+            </value>
+            <value>
+                <fullName>Integration Testing</fullName>
+                <default>false</default>
+                <label>Integration Testing</label>
+            </value>
+            <value>
+                <fullName>Functional Testing</fullName>
+                <default>false</default>
+                <label>Functional Testing</label>
+            </value>
+            <value>
+                <fullName>Acceptance testing</fullName>
+                <default>false</default>
+                <label>Acceptance testing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

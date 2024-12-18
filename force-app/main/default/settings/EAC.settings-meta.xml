@@ -3,11 +3,12 @@
     <autoPopulateGoogleMeetLinks>false</autoPopulateGoogleMeetLinks>
     <dSThresholdNotification>false</dSThresholdNotification>
     <enableActivityAnalyticsPref>false</enableActivityAnalyticsPref>
+    <enableActivityCapture>false</enableActivityCapture>
     <enableEACForEveryonePref>false</enableEACForEveryonePref>
     <enableInboxActivitySharing>false</enableInboxActivitySharing>
     <enableInsightsInTimeline>true</enableInsightsInTimeline>
-    <enableInsightsInTimelineEacStd>false</enableInsightsInTimelineEacStd>
+    <enableInsightsInTimelineEacStd>true</enableInsightsInTimelineEacStd>
     <provisionProductivityFeatures>false</provisionProductivityFeatures>
-    <s2XSvcAccEmail>false</s2XSvcAccEmail>
-    <syncInternalEvents>true</syncInternalEvents>
+    <relationshipGraphPref>false</relationshipGraphPref>
+    <syncInternalEvents>false</syncInternalEvents>
 </EACSettings>

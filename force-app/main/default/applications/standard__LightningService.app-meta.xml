@@ -1,5 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Campaign_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Campaign</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Campaign_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Campaign</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Task_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Task</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Task_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Task</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Contact_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Contact</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Contact_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Contact</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Account_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Account_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Opportunity_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Opportunity_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+    </actionOverrides>
     <formFactors>Small</formFactors>
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
@@ -15,39 +105,328 @@
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-home</tabs>
-    <tabs>standard-Incident</tabs>
-    <tabs>standard-Problem</tabs>
-    <tabs>standard-ChangeRequest</tabs>
-    <tabs>Ramya_cus__c</tabs>
-    <tabs>Real_Estate_Management__c</tabs>
-    <tabs>Training__c</tabs>
-    <tabs>Healthcare__c</tabs>
-    <tabs>Event_Management__c</tabs>
-    <tabs>Manufacturing__c</tabs>
-    <tabs>Customer_Support__c</tabs>
+    <tabs>Google_Analytics__c</tabs>
+    <tabs>SDR_Metrics__c</tabs>
+    <tabs>Support__c</tabs>
+    <tabs>Engineering__c</tabs>
+    <tabs>Partner_Management__c</tabs>
+    <tabs>LeadConversionReportData__c</tabs>
+    <tabs>WeeklyLeadConversionReport__c</tabs>
+    <tabs>Zoho_Ticket__c</tabs>
+    <tabs>Jira_Issues__c</tabs>
+    <tabs>Presales__c</tabs>
+    <tabs>CodeScan_User__c</tabs>
+    <tabs>CodeScan_Organization__c</tabs>
+    <tabs>Self_Hosted_License__c</tabs>
+    <tabs>AutoRABIT_s_Everyone_Social</tabs>
+    <tabs>Knowledge__kav</tabs>
+    <tabs>Testing__c</tabs>
+    <tabs>Testing2__c</tabs>
+    <tabs>Testing3__c</tabs>
+    <tabs>Toys__c</tabs>
+    <tabs>Furniture__c</tabs>
+    <tabs>Itemslist__c</tabs>
+    <tabs>NB__c</tabs>
+    <tabs>Subjects__c</tabs>
+    <tabs>extra_curricular_activity__c</tabs>
+    <tabs>Parent__c</tabs>
+    <tabs>Student__c</tabs>
+    <tabs>Teacher__c</tabs>
+    <tabs>Mergetest__c</tabs>
+    <tabs>Property__c</tabs>
+    <tabs>Employee__c</tabs>
+    <tabs>Fruit__c</tabs>
+    <tabs>Loan_Amount__c</tabs>
+    <tabs>Issue_Tracker__c</tabs>
+    <tabs>Yash_ARM_Training__c</tabs>
+    <tabs>clothingbrand__c</tabs>
+    <tabs>Loan__c</tabs>
+    <tabs>Yash_CodeScan_Training__c</tabs>
+    <tabs>Charity_Donation__c</tabs>
+    <tabs>Store__c</tabs>
+    <tabs>CompProfTest__c</tabs>
+    <tabs>Company__c</tabs>
+    <tabs>Namely_Mrinal__c</tabs>
+    <tabs>Food_Products__c</tabs>
+    <tabs>Certification__c</tabs>
+    <tabs>test__c</tabs>
+    <tabs>Black_Panther__c</tabs>
+    <tabs>Green_Latern__c</tabs>
+    <tabs>Dependency_Analyzer_Test__c</tabs>
+    <tabs>BB_Object__c</tabs>
+    <tabs>ValidationTest__c</tabs>
+    <tabs>RL_Object__c</tabs>
+    <tabs>QObject1__c</tabs>
+    <tabs>Val_Dep_Test__c</tabs>
+    <tabs>AppDev__c</tabs>
+    <tabs>arintern__c</tabs>
+    <tabs>Expense__c</tabs>
+    <tabs>Instructor__c</tabs>
+    <tabs>game__c</tabs>
+    <tabs>vindyaobj__c</tabs>
+    <tabs>Export__c</tabs>
+    <tabs>Intern__c</tabs>
+    <tabs>Home__c</tabs>
+    <tabs>wire__c</tabs>
+    <tabs>DataloadJOb01__c</tabs>
+    <tabs>Ramya_ARM_Objects__c</tabs>
+    <tabs>Ganga_1__c</tabs>
+    <tabs>Fun__c</tabs>
+    <tabs>CI_Job_Baseline__c</tabs>
+    <tabs>school__c</tabs>
+    <tabs>trends__c</tabs>
+    <tabs>Institute__c</tabs>
+    <tabs>Object01__c</tabs>
+    <tabs>Search_ASB_Yash__c</tabs>
+    <tabs>AR1__c</tabs>
+    <tabs>Custom_by_ramya__c</tabs>
+    <tabs>Tutorial__c</tabs>
+    <tabs>laptop__c</tabs>
+    <tabs>Mobile__c</tabs>
+    <tabs>ProjectC__c</tabs>
+    <tabs>Education__c</tabs>
+    <tabs>VS_Auto__c</tabs>
+    <tabs>ClassV__c</tabs>
+    <tabs>Section__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningService_UtilityBar</utilityBar>
     <workspaceConfig>
         <mappings>
-            <tab>Customer_Support__c</tab>
+            <tab>AR1__c</tab>
         </mappings>
         <mappings>
-            <tab>Event_Management__c</tab>
+            <tab>AppDev__c</tab>
         </mappings>
         <mappings>
-            <tab>Healthcare__c</tab>
+            <tab>AutoRABIT_s_Everyone_Social</tab>
         </mappings>
         <mappings>
-            <tab>Manufacturing__c</tab>
+            <tab>BB_Object__c</tab>
         </mappings>
         <mappings>
-            <tab>Ramya_cus__c</tab>
+            <tab>Black_Panther__c</tab>
         </mappings>
         <mappings>
-            <tab>Real_Estate_Management__c</tab>
+            <tab>CI_Job_Baseline__c</tab>
         </mappings>
         <mappings>
-            <tab>Training__c</tab>
+            <tab>Certification__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Charity_Donation__c</tab>
+        </mappings>
+        <mappings>
+            <tab>ClassV__c</tab>
+        </mappings>
+        <mappings>
+            <tab>CodeScan_Organization__c</tab>
+        </mappings>
+        <mappings>
+            <tab>CodeScan_User__c</tab>
+        </mappings>
+        <mappings>
+            <tab>CompProfTest__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Company__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Custom_by_ramya__c</tab>
+        </mappings>
+        <mappings>
+            <tab>DataloadJOb01__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Dependency_Analyzer_Test__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Education__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Employee__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Engineering__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Expense__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Export__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Food_Products__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Fruit__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Fun__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Furniture__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Ganga_1__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Google_Analytics__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Green_Latern__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Home__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Institute__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Instructor__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Intern__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Issue_Tracker__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Itemslist__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Jira_Issues__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Knowledge__kav</tab>
+        </mappings>
+        <mappings>
+            <tab>LeadConversionReportData__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Loan_Amount__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Loan__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Mergetest__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Mobile__c</tab>
+        </mappings>
+        <mappings>
+            <tab>NB__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Namely_Mrinal__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Object01__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Parent__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Partner_Management__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Presales__c</tab>
+        </mappings>
+        <mappings>
+            <tab>ProjectC__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Property__c</tab>
+        </mappings>
+        <mappings>
+            <tab>QObject1__c</tab>
+        </mappings>
+        <mappings>
+            <tab>RL_Object__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Ramya_ARM_Objects__c</tab>
+        </mappings>
+        <mappings>
+            <tab>SDR_Metrics__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Search_ASB_Yash__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Section__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Self_Hosted_License__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Store__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Student__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Subjects__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Support__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Teacher__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Testing2__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Testing3__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Testing__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Toys__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Tutorial__c</tab>
+        </mappings>
+        <mappings>
+            <tab>VS_Auto__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Val_Dep_Test__c</tab>
+        </mappings>
+        <mappings>
+            <tab>ValidationTest__c</tab>
+        </mappings>
+        <mappings>
+            <tab>WeeklyLeadConversionReport__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Yash_ARM_Training__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Yash_CodeScan_Training__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Zoho_Ticket__c</tab>
+        </mappings>
+        <mappings>
+            <tab>arintern__c</tab>
+        </mappings>
+        <mappings>
+            <tab>clothingbrand__c</tab>
+        </mappings>
+        <mappings>
+            <tab>extra_curricular_activity__c</tab>
+        </mappings>
+        <mappings>
+            <tab>game__c</tab>
+        </mappings>
+        <mappings>
+            <tab>laptop__c</tab>
+        </mappings>
+        <mappings>
+            <tab>school__c</tab>
         </mappings>
         <mappings>
             <tab>standard-Account</tab>
@@ -56,25 +435,28 @@
             <tab>standard-Case</tab>
         </mappings>
         <mappings>
-            <tab>standard-ChangeRequest</tab>
-        </mappings>
-        <mappings>
             <tab>standard-Contact</tab>
         </mappings>
         <mappings>
             <tab>standard-Dashboard</tab>
         </mappings>
         <mappings>
-            <tab>standard-Incident</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-Problem</tab>
-        </mappings>
-        <mappings>
             <tab>standard-home</tab>
         </mappings>
         <mappings>
             <tab>standard-report</tab>
+        </mappings>
+        <mappings>
+            <tab>test__c</tab>
+        </mappings>
+        <mappings>
+            <tab>trends__c</tab>
+        </mappings>
+        <mappings>
+            <tab>vindyaobj__c</tab>
+        </mappings>
+        <mappings>
+            <tab>wire__c</tab>
         </mappings>
     </workspaceConfig>
 </CustomApplication>

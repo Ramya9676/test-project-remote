@@ -8,5 +8,9 @@
         <plural>true</plural>
         <value>AR1</value>
     </caseValues>
+    <recordTypes>
+        <label><!-- AR record type --></label>
+        <name>AR_record_type</name>
+    </recordTypes>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

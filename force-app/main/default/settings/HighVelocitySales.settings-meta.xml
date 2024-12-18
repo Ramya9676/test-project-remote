@@ -4,8 +4,10 @@
     <enableACChangeTargetAssignee>false</enableACChangeTargetAssignee>
     <enableACSkipWeekends>false</enableACSkipWeekends>
     <enableBusinessHours>false</enableBusinessHours>
+    <enableCadenceVariantTestingPref>false</enableCadenceVariantTestingPref>
     <enableChgTgtAssigneeUsrPermPref>false</enableChgTgtAssigneeUsrPermPref>
-    <enableEngagementWaveAnalyticsPref>false</enableEngagementWaveAnalyticsPref>
+    <enableEngagementWaveAnalyticsPref>true</enableEngagementWaveAnalyticsPref>
+    <enableHighVelocitySales>false</enableHighVelocitySales>
     <enableHighVelocitySalesSetup>false</enableHighVelocitySalesSetup>
     <enableLogACallForCTIPref>false</enableLogACallForCTIPref>
     <enableLogTasksForLinkedInPref>false</enableLogTasksForLinkedInPref>

@@ -6,8 +6,7 @@
     <embeddedVisualforcePages>false</embeddedVisualforcePages>
     <enableCommunityWorkspaces>true</enableCommunityWorkspaces>
     <enableCspContactVisibilityPref>false</enableCspContactVisibilityPref>
-    <enableCspNotesOnAccConPref>false</enableCspNotesOnAccConPref>
-    <enableEnablePRM>false</enableEnablePRM>
+    <enableCspNotesOnAccConPref>true</enableCspNotesOnAccConPref>
     <enableExternalAccHierPref>false</enableExternalAccHierPref>
     <enableGuestPermDisOptOutCruc>false</enableGuestPermDisOptOutCruc>
     <enableGuestRecordReassignOrgPref>true</enableGuestRecordReassignOrgPref>
@@ -21,6 +20,6 @@
     <enablePRMAccRelPref>false</enablePRMAccRelPref>
     <enablePowerCustomerCaseStatus>false</enablePowerCustomerCaseStatus>
     <enablePreventBadgeGuestAccess>true</enablePreventBadgeGuestAccess>
-    <enableRelaxPartnerAccountFieldPref>false</enableRelaxPartnerAccountFieldPref>
+    <enableRelaxPartnerAccountFieldPref>true</enableRelaxPartnerAccountFieldPref>
     <enableUnsupportedBrowserModalPref>true</enableUnsupportedBrowserModalPref>
 </CommunitiesSettings>

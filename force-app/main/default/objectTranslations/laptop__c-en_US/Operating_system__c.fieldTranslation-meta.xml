@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Operating system --></label>
+    <name>Operating_system__c</name>
+    <picklistValues>
+        <masterLabel>linux</masterLabel>
+        <translation><!-- linux --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>linux reloaded</masterLabel>
+        <translation><!-- linux reloaded --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>linux second</masterLabel>
+        <translation><!-- linux second --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>mac</masterLabel>
+        <translation><!-- mac --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>mac reloaded</masterLabel>
+        <translation><!-- mac reloaded --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>mac second</masterLabel>
+        <translation><!-- mac second --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>windows</masterLabel>
+        <translation><!-- windows --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>windows reloaded</masterLabel>
+        <translation><!-- windows reloaded --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>windows second</masterLabel>
+        <translation><!-- windows second --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

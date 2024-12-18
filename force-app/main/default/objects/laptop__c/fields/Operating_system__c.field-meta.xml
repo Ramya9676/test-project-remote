@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Operating_system__c</fullName>
+    <label>Operating system</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>windows</fullName>
+                <default>false</default>
+                <label>windows</label>
+            </value>
+            <value>
+                <fullName>windows second</fullName>
+                <default>false</default>
+                <label>windows second</label>
+            </value>
+            <value>
+                <fullName>mac</fullName>
+                <default>false</default>
+                <label>mac</label>
+            </value>
+            <value>
+                <fullName>mac second</fullName>
+                <default>false</default>
+                <label>mac second</label>
+            </value>
+            <value>
+                <fullName>linux</fullName>
+                <default>false</default>
+                <label>linux</label>
+            </value>
+            <value>
+                <fullName>linux second</fullName>
+                <default>false</default>
+                <label>linux second</label>
+            </value>
+            <value>
+                <fullName>windows reloaded</fullName>
+                <default>false</default>
+                <label>windows reloaded</label>
+            </value>
+            <value>
+                <fullName>mac reloaded</fullName>
+                <default>false</default>
+                <label>mac reloaded</label>
+            </value>
+            <value>
+                <fullName>linux reloaded</fullName>
+                <default>false</default>
+                <label>linux reloaded</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
