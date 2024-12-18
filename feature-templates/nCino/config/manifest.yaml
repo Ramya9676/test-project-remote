@@ -17,3 +17,10 @@ packageDirectories:
           versions:
             Fall 2023 Rel - v1:
               modifiedDate: '2024-12-18 10:44:08'
+        0121yT1T-Ramya-custom:
+          path: dataset/0121yT1T-Ramya-custom
+          prefix: ARnCino
+          standardFeature: false
+          versions:
+            '1.0':
+              modifiedDate: '2024-12-18 18:29:56'

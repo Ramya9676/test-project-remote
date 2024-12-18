@@ -1,0 +1,43 @@
+[
+  {
+    "name": "LLC_BI__Collateral_Type__c",
+    "lookupobjfieldmap": {
+      "LLC_BI__Collateral__c": "LLC_BI__Collateral_Type__c"
+    },
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid",
+      "ownerid"
+    ],
+    "objectsetnum": 0
+  },
+  {
+    "name": "LLC_BI__Collateral__c",
+    "lookupobjfieldmap": {
+      "LLC_BI__Collateral__c": "LLC_BI__Highest__c,LLC_BI__Parent_Collateral__c"
+    },
+    "recordtypeidmap": {
+      "Titled Aircraft": "0128c000002iDOEAA2",
+      "Group": "0128c000002iDOXAA2",
+      "Possessory Letter of Credit": "0128c000002iDO6AAM",
+      "Possessory Savings/CD": "0128c000002iDO9AAM",
+      "Possessory Life Insurance": "0128c000002iDO7AAM",
+      "Titled Mobile Home": "0128c000002iDOGAA2",
+      "Titled Vessel": "0128c000002iDOJAA2",
+      "Titled Motor Vehicle": "0128c000002iDOHAA2",
+      "Titled Boat": "0128c000002iDOFAA2",
+      "UCC": "0128c000002iDOKAA2",
+      "Possessory Other": "0128c000002iDO8AAM",
+      "Possessory Securities": "0128c000002iDOAAA2",
+      "Real Estate": "0128c000002iDODAA2",
+      "Government Contracts": "0128c000002iDO5AAM",
+      "Titled Trailer/Other": "0128c000002iDOIAA2"
+    },
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid",
+      "ownerid"
+    ],
+    "objectsetnum": 0
+  }
+]
