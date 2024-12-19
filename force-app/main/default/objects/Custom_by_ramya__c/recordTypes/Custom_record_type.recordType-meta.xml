@@ -6,6 +6,10 @@
     <picklistValues>
         <picklist>Time_period__c</picklist>
         <values>
+            <fullName>1 month</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>2 months</fullName>
             <default>false</default>
         </values>
