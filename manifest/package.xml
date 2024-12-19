@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>61.0</version>
     <types>
+        <members>Custom_by_ramya__c.Time_period__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
         <members>AR1__c.AR_record_type</members>
+        <members>Custom_by_ramya__c.Custom_record_type</members>
         <name>RecordType</name>
     </types>
 </Package>
