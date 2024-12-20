@@ -8759,6 +8759,8 @@
         <members>Case.Internal_Issue</members>
         <members>CollaborationGroup.ExpenseTracker_Record</members>
         <members>Custom_Employee__c.For_Cust_Employee</members>
+        <members>Education__c.Primary_record_type</members>
+        <members>Education__c.Secondary_record_type</members>
         <members>Expense__c.Corporate_Expense</members>
         <members>Expense__c.Personal_Expense</members>
         <members>Export__c.International</members>
