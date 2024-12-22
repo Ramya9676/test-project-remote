@@ -2,11 +2,30 @@
     <version>61.0</version>
     <types>
         <members>Custom_by_ramya__c.Time_period__c</members>
+        <members>Picklist_obj__c.Movies__c</members>
         <name>CustomField</name>
+    </types>
+    <types>
+        <members>Picklist_obj__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Picklist_obj__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Picklist_obj__c-Picklist obj Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Picklist_obj__c.All</members>
+        <name>ListView</name>
     </types>
     <types>
         <members>AR1__c.AR_record_type</members>
         <members>Custom_by_ramya__c.Custom_record_type</members>
+        <members>Picklist_obj__c.Primary_rec</members>
+        <members>Picklist_obj__c.Secondary_rec</members>
         <name>RecordType</name>
     </types>
 </Package>
