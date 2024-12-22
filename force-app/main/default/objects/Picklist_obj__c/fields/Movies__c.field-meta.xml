@@ -34,6 +34,16 @@
                 <default>false</default>
                 <label>Jawan</label>
             </value>
+            <value>
+                <fullName>GK</fullName>
+                <default>false</default>
+                <label>GK</label>
+            </value>
+            <value>
+                <fullName>BAN</fullName>
+                <default>false</default>
+                <label>BAN</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>
