@@ -2940,6 +2940,7 @@
         <members>PartyConsent.PrivacyConsentStatus</members>
         <members>Payroll_Slip__c.Months__c</members>
         <members>Pen__c.Price__c</members>
+        <members>Picklist_obj__c.Movies__c</members>
         <members>Presales_Enhancement_Ticket__c.Additional_Details__c</members>
         <members>Presales_Enhancement_Ticket__c.Customer_Name__c</members>
         <members>Presales_Enhancement_Ticket__c.Deal_Size__c</members>
@@ -4244,6 +4245,7 @@
         <members>Payroll_Slip__c</members>
         <members>Pen__c</members>
         <members>PendingServiceRouting</members>
+        <members>Picklist_obj__c</members>
         <members>Presales_Enhancement_Ticket__c</members>
         <members>Presales_IT_Ticket__c</members>
         <members>Presales_Support_Ticket__c</members>
@@ -4613,6 +4615,7 @@
         <members>Order__c</members>
         <members>Parent__c</members>
         <members>Partner_Management__c</members>
+        <members>Picklist_obj__c</members>
         <members>Presales__c</members>
         <members>Problem__c</members>
         <members>ProjectC__c</members>
@@ -5406,6 +5409,7 @@
         <members>PartyConsent-Party Consent Layout</members>
         <members>Payroll_Slip__c-Payroll Slip Layout</members>
         <members>Pen__c-Pen Layout</members>
+        <members>Picklist_obj__c-Picklist obj Layout</members>
         <members>Presales_Enhancement_Ticket__c-Presales Enhancement Ticket Layout</members>
         <members>Presales_IT_Ticket__c-Presales IT Ticket Layout</members>
         <members>Presales_Support_Ticket__c-Presales Support Tickets Layout</members>
@@ -5774,6 +5778,7 @@
         <members>Parent__c.All</members>
         <members>Partner_Management__c.All</members>
         <members>PartyConsent.All_PartyConsents</members>
+        <members>Picklist_obj__c.All</members>
         <members>Presales__c.All1</members>
         <members>Pricebook2.All_Price_Books</members>
         <members>Problem__c.All</members>
@@ -6408,6 +6413,8 @@
         <members>Object1__c.Record</members>
         <members>ObjectTwo__c.RecordTwo</members>
         <members>Payroll_Slip__c.Frequency</members>
+        <members>Picklist_obj__c.Primary_rec</members>
+        <members>Picklist_obj__c.Secondary_rec</members>
         <members>Questionnaire_Implementation__c.Lead_Questionnaire</members>
         <members>Questionnaire_Implementation__c.Opportunity_Questionnaire</members>
         <members>Task.Demo</members>
