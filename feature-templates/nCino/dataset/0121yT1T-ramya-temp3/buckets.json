@@ -1,0 +1,16 @@
+{
+  "buckets": [
+    {
+      "objects": [
+        "LLC_BI__Connection__c"
+      ],
+      "bucketNum": 1,
+      "clauseField": "nFORCE_lookupKey_c",
+      "entryObject": "LLC_BI__Connection__c",
+      "mandatoryObject": [
+        "Account"
+      ],
+      "exclusionObject": []
+    }
+  ]
+}

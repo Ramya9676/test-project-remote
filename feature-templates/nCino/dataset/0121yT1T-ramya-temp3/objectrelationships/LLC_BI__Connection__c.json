@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Account",
+    "lookupobjfieldmap": {
+      "LLC_BI__Connection__c": "LLC_BI__Connected_From__c,LLC_BI__Connected_To__c"
+    },
+    "recordtypeidmap": {
+      "Individual": "0128c000002iDO0AAM",
+      "Household": "0128c000002iDO2AAM",
+      "Person Account": "0128c000002wUmOAAU",
+      "Vendor": "0128c000002iDOLAA2",
+      "Business": "0128c000002iDO1AAM",
+      "Lender": "0128c000002iDOTAA2"
+    },
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid",
+      "ownerid"
+    ],
+    "objectsetnum": 0
+  },
+  {
+    "name": "LLC_BI__Connection__c",
+    "lookupobjfieldmap": {},
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid"
+    ],
+    "objectsetnum": 0
+  }
+]

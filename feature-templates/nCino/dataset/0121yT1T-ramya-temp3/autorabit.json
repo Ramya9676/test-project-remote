@@ -1,0 +1,15 @@
+{
+  "prefix": "ARnCino",
+  "packageDirectories": {
+    "1.0": {
+      "metadata": {
+        "exclude": {
+          "CustomObject": []
+        }
+      },
+      "data": {
+        "exclude": {}
+      }
+    }
+  }
+}
