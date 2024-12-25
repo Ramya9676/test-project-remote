@@ -1,0 +1,4 @@
+{
+  "name": "nFORCE__Answer__c",
+  "query": "Select Id From nFORCE__Answer__c Where Id !\u003d  null"
+}

@@ -1,0 +1,16 @@
+{
+  "buckets": [
+    {
+      "objects": [
+        "nFORCE__Answer__c"
+      ],
+      "bucketNum": 1,
+      "clauseField": "nFORCE_lookupKey_c",
+      "entryObject": "nFORCE__Answer__c",
+      "mandatoryObject": [
+        "nFORCE__Question__c"
+      ],
+      "exclusionObject": []
+    }
+  ]
+}

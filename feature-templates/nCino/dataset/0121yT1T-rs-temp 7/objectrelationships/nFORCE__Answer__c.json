@@ -1,0 +1,24 @@
+[
+  {
+    "name": "nFORCE__Question__c",
+    "lookupobjfieldmap": {
+      "nFORCE__Answer__c": "nFORCE__Question__c"
+    },
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid",
+      "ownerid"
+    ],
+    "objectsetnum": 0
+  },
+  {
+    "name": "nFORCE__Answer__c",
+    "lookupobjfieldmap": {},
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid",
+      "ownerid"
+    ],
+    "objectsetnum": 0
+  }
+]
