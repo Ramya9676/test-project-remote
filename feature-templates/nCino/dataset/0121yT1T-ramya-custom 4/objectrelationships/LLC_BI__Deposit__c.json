@@ -1,0 +1,13 @@
+[
+  {
+    "name": "LLC_BI__Deposit__c",
+    "lookupobjfieldmap": {},
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid",
+      "llc_bi__financial_institution_authorized_signer__c",
+      "ownerid"
+    ],
+    "objectsetnum": 0
+  }
+]

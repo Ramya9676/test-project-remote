@@ -1,0 +1,4 @@
+{
+  "name": "LLC_BI__Deposit__c",
+  "query": "Select Id From LLC_BI__Deposit__c Where AutorabitExtId__c !\u003d  null"
+}
