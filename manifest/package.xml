@@ -22,6 +22,10 @@
         <name>ListView</name>
     </types>
     <types>
+        <members>Ramya_custom</members>
+        <name>Profile</name>
+    </types>
+    <types>
         <members>Custom_by_ramya__c.Custom_record_type</members>
         <members>Picklist_obj__c.Primary_rec</members>
         <members>Picklist_obj__c.Secondary_rec</members>
