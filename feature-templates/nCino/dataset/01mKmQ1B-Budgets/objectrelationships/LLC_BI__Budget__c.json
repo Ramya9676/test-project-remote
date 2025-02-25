@@ -1,0 +1,23 @@
+[
+  {
+    "name": "LLC_BI__Budget__c",
+    "lookupobjfieldmap": {
+      "LLC_BI__Budget_Line_Item__c": "LLC_BI__Budget__c"
+    },
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid",
+      "ownerid"
+    ],
+    "objectsetnum": 0
+  },
+  {
+    "name": "LLC_BI__Budget_Line_Item__c",
+    "lookupobjfieldmap": {},
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid"
+    ],
+    "objectsetnum": 0
+  }
+]

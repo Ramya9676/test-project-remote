@@ -45,3 +45,10 @@ packageDirectories:
           versions:
             '1.0':
               modifiedDate: '2024-12-25 17:06:31'
+        01mKmQ1B-Budgets:
+          path: dataset/01mKmQ1B-Budgets
+          prefix: ncino
+          standardFeature: true
+          versions:
+            Fall 2023 Rel - v1:
+              modifiedDate: '2025-02-25 10:41:56'
