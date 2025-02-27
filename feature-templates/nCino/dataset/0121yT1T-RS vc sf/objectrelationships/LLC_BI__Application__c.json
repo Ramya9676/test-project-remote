@@ -1,0 +1,12 @@
+[
+  {
+    "name": "LLC_BI__Application__c",
+    "lookupobjfieldmap": {},
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid",
+      "ownerid"
+    ],
+    "objectsetnum": 0
+  }
+]

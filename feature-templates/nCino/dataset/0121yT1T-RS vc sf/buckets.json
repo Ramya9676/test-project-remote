@@ -1,0 +1,14 @@
+{
+  "buckets": [
+    {
+      "objects": [
+        "LLC_BI__Application__c"
+      ],
+      "bucketNum": 1,
+      "clauseField": "nFORCE_lookupKey_c",
+      "entryObject": "LLC_BI__Application__c",
+      "mandatoryObject": [],
+      "exclusionObject": []
+    }
+  ]
+}
