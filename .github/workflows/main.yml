@@ -18,6 +18,10 @@ jobs:
 
     steps:
 
+      - name: CodeScan Scanner
+        
+        uses: codescan-io/codescan-scanner-action@1.6
+
       - name: Checkout repository 
 
         uses: actions/checkout@v4
