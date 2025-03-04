@@ -50,7 +50,7 @@ jobs:
 
           organization: 'marveluniverse'
 
-          projectKey: 'githubactions'
+          projectKey: 'RSgithub'
 
           login: ${{ secrets.codescan_token }}
 
@@ -68,7 +68,7 @@ jobs:
 
           organization: 'marveluniverse'
 
-          projectKey: 'githubactions'
+          projectKey: 'RSgithub'
 
           login: ${{ secrets.codescan_token }}
 
