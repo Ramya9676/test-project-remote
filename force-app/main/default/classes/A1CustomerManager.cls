@@ -26,11 +26,5 @@ public class A1CustomerManager {
         customer.Email = newEmail;
         update customer;
     }
-
-    // Method to delete a customer record
-    public static void deleteCustomer(Id customerId) {
-        Contact customer = [SELECT Id FROM Contact WHERE Id = :customerId];
-        delete customer;
-    }
 }
 //demo class
