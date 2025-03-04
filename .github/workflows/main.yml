@@ -22,7 +22,7 @@ jobs:
         uses: codescan-io/codescan-scanner-action@1.6
         with:
           organization: marveluniverse
-          projectKey: Ramya123-ramya
+          projectKey: Ramya123
           login: ${{ secrets.codescan_token }}
           generateSarifFile: true
           failOnRedQualityGate: true
@@ -31,7 +31,7 @@ jobs:
         uses: codescan-io/codescan-scanner-action@1.6
         with:
           organization: marveluniverse
-          projectKey: Ramya123-ramya
+          projectKey: Ramya123
           login: ${{ secrets.codescan_token }}
           scanChangedFilesOnly: true
           generateSarifFile: true
