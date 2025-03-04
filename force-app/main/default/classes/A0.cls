@@ -11,7 +11,7 @@ return a01;
 
 }
     
-public static void anotherMethod() 
+//public static void anotherMethod() 
 {
 //testing ar 31176
 //Developer 2 JIRA User Story
