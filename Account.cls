@@ -38,8 +38,4 @@ public class Account {
         List<Account> accounts = new List<Account>();
         return accounts;
     }
-    public List<Contact> getContactsByRevenue(Double AnnualRevenue){
-        List<Contact> contacts = new List<Contact>();
-        return contacts;
-    }
 }
