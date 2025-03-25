@@ -21,18 +21,18 @@ jobs:
         if: github.event_name == 'push'
         uses: codescan-io/codescan-scanner-action@1.6
         with:
-          organization: internsdevops
-          projectKey: Ramya123
-          login: ${{ secrets.CODESCAN_TOKEN }}
+          organization: uat-es
+          projectKey: Ramya425
+          login: ${{ secrets.CODESCAN_TOKEN1 }}
           generateSarifFile: true
           failOnRedQualityGate: true
       - name: Run Codescan On PR
         if: github.event_name == 'pull_request'
         uses: codescan-io/codescan-scanner-action@1.6
         with:
-          organization: internsdevops
-          projectKey: Ramya123
-          login: ${{ secrets.CODESCAN_TOKEN }}
+          organization: uat-es
+          projectKey: Ramya425
+          login: ${{ secrets.CODESCAN_TOKEN1 }}
           scanChangedFilesOnly: true
           generateSarifFile: true
           failOnRedQualityGate: true
