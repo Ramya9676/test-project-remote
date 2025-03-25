@@ -24,7 +24,7 @@ jobs:
           codescanUrl: https://test.codescan.io
           organization: uat-es
           projectKey: Ramya425
-          login: ${{ secrets.CODESCAN_TOKEN1 }}
+          login: squ_a5989d4e4f92b28ea25e47c075dda2b742af9096
           generateSarifFile: true
           failOnRedQualityGate: true
       - name: Run Codescan On PR
@@ -34,7 +34,7 @@ jobs:
           codescanUrl: https://test.codescan.io
           organization: uat-es
           projectKey: Ramya425
-          login: ${{ secrets.CODESCAN_TOKEN1 }}
+          login: squ_a5989d4e4f92b28ea25e47c075dda2b742af9096
           scanChangedFilesOnly: true
           generateSarifFile: true
           failOnRedQualityGate: true
