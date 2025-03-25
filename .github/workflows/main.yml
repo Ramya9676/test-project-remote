@@ -21,6 +21,7 @@ jobs:
         if: github.event_name == 'push'
         uses: codescan-io/codescan-scanner-action@1.6
         with:
+          codescanUrl: https://test.codescan.io
           organization: uat-es
           projectKey: Ramya425
           login: ${{ secrets.CODESCAN_TOKEN1 }}
@@ -30,6 +31,7 @@ jobs:
         if: github.event_name == 'pull_request'
         uses: codescan-io/codescan-scanner-action@1.6
         with:
+          codescanUrl: https://test.codescan.io
           organization: uat-es
           projectKey: Ramya425
           login: ${{ secrets.CODESCAN_TOKEN1 }}
