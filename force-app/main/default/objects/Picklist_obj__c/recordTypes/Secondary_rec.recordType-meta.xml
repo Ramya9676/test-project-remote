@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Secondary_rec</fullName>
+    <active>true</active>
+    <label>Secondary rec</label>
+    <picklistValues>
+        <picklist>Movies__c</picklist>
+        <values>
+            <fullName>Mufasa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pushpa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RRR</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
