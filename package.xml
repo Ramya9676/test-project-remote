@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>63.0</version>
     <types>
+        <members>Account.Active__c</members>
         <members>Picklist_obj__c.Movies__c</members>
         <members>SBQQ__AttributeValue__c.SBQQ__FavoriteProduct__c</members>
-        <members>SBQQ__FavoriteProduct__c.Fav_email__c</members>
-        <members>SBQQ__FavoriteProduct__c.Fav_feedback__c</members>
         <name>CustomField</name>
     </types>
     <types>
