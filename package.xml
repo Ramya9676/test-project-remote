@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>61.0</version>
+    <version>63.0</version>
     <types>
-        <members>Custom_by_ramya__c.Time_period__c</members>
         <members>Picklist_obj__c.Movies__c</members>
+        <members>SBQQ__AttributeValue__c.SBQQ__FavoriteProduct__c</members>
+        <members>SBQQ__FavoriteProduct__c.Fav_email__c</members>
+        <members>SBQQ__FavoriteProduct__c.Fav_feedback__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -14,15 +16,10 @@
         <name>CustomTab</name>
     </types>
     <types>
-        <members>Custom_by_ramya__c-Custom by ramya Layout</members>
-        <name>Layout</name>
-    </types>
-    <types>
         <members>Picklist_obj__c.All</members>
         <name>ListView</name>
     </types>
     <types>
-        <members>Custom_by_ramya__c.Custom_record_type</members>
         <members>Picklist_obj__c.Primary_rec</members>
         <members>Picklist_obj__c.Secondary_rec</members>
         <name>RecordType</name>
