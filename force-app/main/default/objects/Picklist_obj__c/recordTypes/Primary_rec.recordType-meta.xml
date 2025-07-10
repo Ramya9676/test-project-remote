@@ -3,35 +3,4 @@
     <fullName>Primary_rec</fullName>
     <active>true</active>
     <label>Primary rec</label>
-    <picklistValues>
-        <picklist>Movies__c</picklist>
-        <values>
-            <fullName>Anand</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>BAN</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Fida</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>GK</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Jawan</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Leader</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>OG</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
 </RecordType>
