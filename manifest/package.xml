@@ -3,9 +3,8 @@
     <types>
         <members>Account.Active__c</members>
         <members>Account.Customer_Priority__c</members>
-        <members>Picklist_obj__c.Movies__c</members>
+        <members>Account.NumberofLocations__c</members>
         <members>SBQQ__AttributeValue__c.SBQQ__FavoriteProduct__c</members>
-        <members>SBQQ__FavoriteProduct__c.Fav_date__c</members>
         <name>CustomField</name>
     </types>
     <types>
